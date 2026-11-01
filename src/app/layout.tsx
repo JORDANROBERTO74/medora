@@ -3,13 +3,15 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { Inter as V0_Font_Inter } from 'next/font/google'
 
-// variable: define --font-inter en <html>, consumido por --font-sans en globals.css
-const _inter = V0_Font_Inter({ subsets: ['latin'], weight: ["100","200","300","400","500","600","700","800","900"], variable: '--font-inter' })
+// variable: defines --font-inter on <html>, consumed by --font-sans in globals.css
+const _inter = V0_Font_Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Milo — Learn at your pace',
-  description: 'A focused, friendly learning companion for building new skills.',
-  generator: 'v0.app',
+    title: {
+    default: 'Medora — Repasa mejor. Decide con confianza.',
+    template: '%s · Medora',
+  },
+  description: 'Resúmenes clínicos y quizzes breves para tu preparación médica. Cirugía, Ginecología, Medicina Interna y Pediatría, un tema a la vez.',
   icons: {
     icon: [
       {
@@ -32,7 +34,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   colorScheme: 'light',
   themeColor: '#f8fafc',
-  userScalable: false,
 }
 
 export default function RootLayout({
@@ -41,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={_inter.variable}>
+    <html lang="es" className={_inter.variable}>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

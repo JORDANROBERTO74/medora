@@ -65,7 +65,7 @@
 :root {
   color-scheme: light;
   --background: #ffffff;
-  --foreground: #333333;
+  --foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #333333;
   --popover: #ffffff;
@@ -81,7 +81,7 @@
   --destructive: #ef4444;
   --border: #e5e7eb;
   --input: #e5e7eb;
-  --ring: #3b82f6;
+  --ring: #ff5216;
   --chart-1: #3b82f6;
   --chart-2: #2563eb;
   --chart-3: #1d4ed8;
