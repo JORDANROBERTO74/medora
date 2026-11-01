@@ -3,3 +3,7 @@ pmOnFail: ignore
 minimumReleaseAgeExclude:
   - '@next/*'
   - next
+
+# unrs-resolver: napi-postinstall checks the platform binding, needed by eslint-plugin-import
+allowBuilds:
+  unrs-resolver: true
