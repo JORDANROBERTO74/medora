@@ -32,7 +32,7 @@ export function QuizView({ eyebrow }: { eyebrow: string }) {
         }
       />
       {finish ? (
-        <div className="rounded-3xl bg-slate-900 p-7 text-center text-white">
+        <div className="rounded-3xl bg-slate-900 p-6 text-center text-white">
           <div className="mx-auto flex size-16 items-center justify-center rounded-full bg-[#FF5216]">
             <Trophy className="size-8" />
           </div>

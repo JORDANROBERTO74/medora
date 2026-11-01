@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 function Stat({ value, label }: { value: string; label: string }) {
   return (
-    <div className="rounded-3xl border border-slate-100 bg-white p-4 text-center shadow-sm">
+    <div className="rounded-3xl border border-slate-100 bg-white p-5 text-center shadow-sm">
       <p className="text-2xl font-black">{value}</p>
       <p className="mt-1 text-[11px] font-bold text-muted-foreground">{label}</p>
     </div>

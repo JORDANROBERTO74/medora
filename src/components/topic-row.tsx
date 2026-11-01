@@ -6,7 +6,7 @@ export function TopicRow({ topic, index, href }: { topic: Topic; index: number; 
   return (
     <Link
       href={href}
-      className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-4 text-left shadow-sm"
+      className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
     >
       <span className="flex size-10 shrink-0 items-center justify-center rounded-2xl bg-orange-50 text-sm font-black text-[#FF5216]">
         {String(index + 1).padStart(2, '0')}

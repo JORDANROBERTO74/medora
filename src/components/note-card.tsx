@@ -23,7 +23,7 @@ type NoteCardProps = {
 export function NoteCard({ note, view, onEdit, onDelete }: NoteCardProps) {
   return (
     <article
-      className={`${view === 'grid' ? 'rounded-3xl p-5' : 'rounded-2xl border-l-4 p-4'} border border-slate-100 ${note.color} bg-white shadow-sm`}
+      className={`${view === 'grid' ? 'rounded-3xl p-5' : 'rounded-2xl border-l-4 p-5'} border border-slate-100 ${note.color} bg-white shadow-sm`}
     >
       <div className="flex items-center justify-between gap-3">
         <span className="rounded-full bg-orange-50 px-3 py-1 text-[11px] font-black text-[#FF5216]">
