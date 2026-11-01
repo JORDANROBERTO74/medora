@@ -1,13 +1,14 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
-import { Inter as V0_Font_Inter } from 'next/font/google'
+import { Inter as V0_Font_Inter, Source_Serif_4 as SourceSerif4 } from 'next/font/google'
 
-// variable: defines --font-inter on <html>, consumed by --font-sans in globals.css
+// variables consumed by --font-sans / --font-serif in globals.css
 const _inter = V0_Font_Inter({ subsets: ['latin'], variable: '--font-inter' })
+const _sourceSerif = SourceSerif4({ subsets: ['latin'], variable: '--font-source-serif' })
 
 export const metadata: Metadata = {
-    title: {
+  title: {
     default: 'Medora — Repasa mejor. Decide con confianza.',
     template: '%s · Medora',
   },
@@ -42,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className={_inter.variable}>
+    <html lang="es" className={`${_inter.variable} ${_sourceSerif.variable}`}>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
