@@ -57,18 +57,18 @@ export function BottomNav() {
   )
 }
 
-// flex-1 + min-w-0 + px-0.5: five labels must fit a 320px viewport.
+// Icon-only items: label stays as aria-label, flex-1 keeps equal tap targets.
 function NavItem({ entry, active }: { entry: NavEntry; active: boolean }) {
   return (
     <Link
       href={entry.href}
+      aria-label={entry.label}
       aria-current={active ? 'page' : undefined}
-      className={`flex min-w-0 flex-1 flex-col items-center gap-1 rounded-2xl px-0.5 py-2 text-[10px] font-extrabold transition ${
+      className={`flex min-w-0 flex-1 items-center justify-center rounded-2xl py-3 transition ${
         active ? 'bg-[#FF5216] text-white' : 'text-muted-foreground hover:bg-slate-50 hover:text-slate-700'
       }`}
     >
       <entry.icon className="size-5" />
-      <span className="w-full truncate text-center">{entry.label}</span>
     </Link>
   )
 }
