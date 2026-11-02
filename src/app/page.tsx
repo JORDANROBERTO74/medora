@@ -35,7 +35,7 @@ export default function LandingPage() {
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <Link
-              href="/onboarding"
+              href="/signup"
               className="rounded-full bg-[#FF5216] px-6 py-3.5 text-sm font-black text-white hover:bg-[#e94810]"
             >
               Empezar a repasar
