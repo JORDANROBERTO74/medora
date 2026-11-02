@@ -11,6 +11,9 @@ describe('Markdown', () => {
     expect(html).toContain('<strong')
     expect(html).toContain('<ul')
     expect(html).toContain('<table')
+    // Both the raw comment and its escaped form must be absent from the output.
     expect(html).not.toContain('<!-- p:2 -->')
+    expect(html).not.toContain('&lt;!--')
+    expect(html).not.toContain('p:2')
   })
 })
