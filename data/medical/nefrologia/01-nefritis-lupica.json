@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "nefrologia/nefritis-lupica",
+  "specialty": "nefrologia",
+  "slug": "nefritis-lupica",
+  "order": 1,
+  "title": "Nefritis lúpica",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la biopsia renal continúa siendo el patrón diagnóstico y clasifica la lesión con el esquema ISN/RPS en seis clases, acompañado de índices de actividad y de cronicidad que orientan la conducta. El cambio relevante de las guías vigentes no está en la clasificación, sino en el tratamiento: la inducción de la clase III/IV activa admite cuatro esquemas con glucocorticoides, y dos de ellos añaden un tercer fármaco: belimumab (con MPAA o ciclofosfamida) o un inhibidor de calcineurina (con MPAA). La inmunosupresión total (inducción más mantenimiento) de la nefritis proliferativa debe prolongarse al menos 36 meses."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la nefritis lúpica es la manifestación visceral más frecuente del lupus eritematoso sistémico y afecta a alrededor de la mitad de los pacientes, habitualmente en los primeros 6 a 36 meses desde el diagnóstico. En una cohorte prospectiva internacional de 1827 pacientes con lupus, el 38,3 % presentó nefritis. La distribución varía con el origen étnico: en Estados Unidos se describe en el 34-51 % de pacientes negros, el 31-43 % de hispanos y el 33-55 % de asiáticos, frente al 14-23 % de pacientes blancos. La clase V supone entre el 5 y el 10 % de todas las nefritis lúpicas. Entre el 10 y el 30 % de los pacientes con clase V acaba en insuficiencia renal, y ese riesgo se asocia a la magnitud de la proteinuria."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el daño renal deriva de una inflamación mediada por inmunocomplejos que puede conducir a lesión orgánica irreversible. Cada episodio de actividad destruye masa nefronal, de modo que la nefritis lúpica tiende a la pérdida progresiva de función renal incluso cuando el brote agudo se controla; por eso el manejo incluye, además de la inmunosupresión, medidas para frenar la progresión de la enfermedad renal crónica. La clasificación ISN/RPS se establece por microscopía óptica, y la microscopía electrónica ayuda a precisar el daño podocitario y la localización de los depósitos."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la presentación puede ser silenciosa durante un tiempo prolongado, por lo que el paciente con lupus requiere vigilancia activa y repetida. El estudio se activa ante proteinuria anormal (tira reactiva ≥ 2+), sedimento con acantocitos ≥ 5 %, cilindros hemáticos o leucocitarios, o descenso de la tasa de filtrado glomerular no atribuible a otra causa; el umbral propuesto para cuantificar y seguir es una proteinuria de 24 horas ≥ 500 mg/día. La proteinuria puede ser engañosamente discreta en nefritis graves, de manera que un valor bajo no descarta enfermedad activa. En la clase V la proteinuria puede alcanzar rango nefrótico y, a diferencia de la nefropatía membranosa primaria, no suele remitir de forma espontánea."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el esquema ISN/RPS distingue seis clases según la microscopía óptica: I (lesión mesangial mínima), II (proliferativa mesangial), III (proliferativa focal, con afectación de menos del 50 % de los glomérulos), IV (proliferativa difusa, con el 50 % o más de los glomérulos afectados), V (membranosa) y VI (esclerosante avanzada). La biopsia se informa además con los índices de actividad y cronicidad del NIH: un índice de cronicidad alto predice peor pronóstico renal, mientras que un índice de actividad alto refleja lesión inflamatoria aguda potencialmente reversible con inmunosupresión. Las clases I y II suelen cursar con función renal normal o, como máximo, proteinuria de bajo grado y a veces hematuria microscópica. La biopsia se repite cuando se sospecha brote en un paciente previamente en remisión o cuando la enfermedad renal persiste o empeora tras al menos 6 meses de tratamiento adecuado. El patrón de inmunofluorescencia no forma parte de los criterios de clase descritos por las fuentes consultadas, que definen la clasificación por microscopía óptica."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en la clase III/IV activa, con o sin componente membranoso, la recomendación es glucocorticoides más una de estas cuatro opciones, todas con gradación 1B: análogos del ácido micofenólico (MPAA); ciclofosfamida intravenosa a dosis baja; belimumab junto con MPAA o ciclofosfamida intravenosa a dosis baja; o MPAA con un inhibidor de calcineurina cuando la función renal no está gravemente comprometida (TFG estimada ≥ 45 ml/min por 1,73 m²). El esquema concreto incluye pulsos de metilprednisolona de 0,25-0,50 g/día durante 1-3 días seguidos de prednisona oral en torno a 0,35-1,0 mg/kg/día (sin superar 80 mg/día) con descenso gradual; MMF 1,0-1,5 g dos veces al día o micofenolato sódico 0,72-1,08 g dos veces al día; ciclofosfamida intravenosa 500 mg cada 2 semanas por 6 dosis o 0,5-1,0 g/m² mensual por 6 dosis; belimumab intravenoso 10 mg/kg cada 2 semanas (3 dosis) y luego cada 4 semanas; voclosporina 23,7 mg dos veces al día si la TFG estimada es mayor de 45 ml/min por 1,73 m²; o tacrolimus con valle en torno a 5,5 ng/ml. La duración descrita es de hasta 3 años para el inhibidor de calcineurina y de hasta 2,5 años para belimumab. Todos los pacientes con lupus, incluida la nefritis, deben recibir hidroxicloroquina o un antimalárico equivalente salvo contraindicación (recomendación 1C). En las clases I y II no se precisa inmunosupresión específica más allá de la del lupus extrarrenal, salvo que exista proteinuria nefrótica, escenario de podocitopatía lúpica que se maneja como una enfermedad por cambios mínimos. En la clase V pura con proteinuria de rango nefrótico se sugiere glucocorticoides con MPAA, inhibidor de calcineurina o ciclofosfamida, sin recomendación firme por falta de ensayos específicos. El mantenimiento de elección son los MPAA, y quienes reciben triple terapia pueden prolongarla en el tiempo. El tratamiento adjunto incluye inhibidores del sistema renina-angiotensina cuando se toleran, restricción de sodio, consideración de iSGLT2 en pacientes estables y control global del riesgo cardiovascular, óseo e infeccioso."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la nefritis lúpica condiciona morbimortalidad relevante, sobre todo en minorías étnicas. La incidencia acumulada de enfermedad renal terminal se estimó en 10,1 % a los 10 años del diagnóstico, y un metaanálisis mundial sitúa en 22 % global y en 44 % para la clase IV la progresión a enfermedad renal terminal a los 15 años. La proteinuria nefrótica de la clase V aumenta el riesgo de infecciones, morbilidad cardiovascular y trombosis. La prevención se apoya en control de la presión arterial, bloqueo del sistema renina-angiotensina, prevención de brotes y evitación de nefrotóxicos. En el embarazo no se recomienda voclosporina ni belimumab, y se sugiere tacrolimus como alternativa. La revisión de la ACR añade cribado de infecciones, vacunación y consejo reproductivo."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no indicar inmunosupresión específica en clase I/II sin podocitopatía; (2) no tranquilizarse con proteinurias bajas: la gravedad histológica no siempre se correlaciona con la clínica; (3) la biopsia no se sustituye por la serología, porque la clase y los índices de actividad/cronicidad cambian la conducta; (4) no retirar la inmunosupresión antes de 36 meses en la nefritis proliferativa; (5) usar inhibidores de calcineurina con cautela si la TFG estimada es inferior a 45 ml/min por 1,73 m² o hay fibrosis extensa; (6) belimumab rinde mejor con proteinuria inferior a 3 g/día, mientras que voclosporina mantiene eficacia en cualquier nivel de proteinuria."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

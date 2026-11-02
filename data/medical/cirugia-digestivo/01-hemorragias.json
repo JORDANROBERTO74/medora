@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cirugia-digestivo/hemorragias",
+  "specialty": "cirugia-digestivo",
+  "slug": "hemorragias",
+  "order": 1,
+  "title": "Hemorragias",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** en el paciente traumatizado la hemorragia exanguinante se aborda antes que cualquier otro problema, dentro de una secuencia C‑ABCDE en la que la «C» (control de hemorragia catastrófica) se adelanta. El objetivo operativo es acortar el tiempo entre la lesión y el control del sangrado, porque el retraso se asocia a más mortalidad. La reanimación moderna es **restrictiva** hasta que se logra el control definitivo, y se apoya en ácido tranexámico precoz y en proporciones fijas de hemoderivados."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el trauma representó alrededor del 8 % de las muertes anuales en el estudio de carga global de enfermedad citado por la guía europea, y las lesiones de tráfico son la primera causa de años de vida perdidos por discapacidad entre los 25 y los 49 años. Aproximadamente **un tercio** de los pacientes con trauma grave llega al hospital ya coagulopático, y la hemorragia postraumática con coagulopatía asociada sigue siendo una causa principal de muerte potencialmente prevenible. El shock hemorrágico se define en esos registros por una presión arterial sistólica inferior a 90 mmHg."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la coagulopatía del trauma se instala de forma temprana y agrava la hemorragia; su detección y manejo inmediatos mejoran el pronóstico. Sobre esa base, el abordaje sistematizado —diagnóstico y terapéutico— reduce las muertes evitables por lesión traumática. La guía europea insiste en que el manejo empírico solo debe aplicarse cuando no existe ningún método de monitorización de la coagulación disponible."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el material base describe bien la semiología por tipo de vaso (sangre rojo brillante y pulsátil en la arterial; rojo oscuro y continuo en la venosa). Conviene añadir que la valoración inicial no se limita a la herida: la guía NICE ordena registrar en la escena hemorragia catastrófica, vía aérea con inmovilización en línea, ventilación, circulación, estado neurológico y exposición, y anotar si el paciente mejora o empeora."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la activación del protocolo de hemorragia masiva debe basarse en **criterios fisiológicos** —situación hemodinámica y respuesta a la reposición inicial— y no en una herramienta de riesgo aplicada en un solo punto temporal. Una ecografía FAST negativa **no** excluye hemorragia intraperitoneal ni retroperitoneal. En el adulto con trauma cerrado grave y sospecha de lesiones múltiples se recomienda TC de cuerpo entero (vertex a tercio medio de muslo), sin reposicionar al paciente."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** compresión directa con apósitos simples para la hemorragia externa; torniquete si la compresión directa no controla una hemorragia potencialmente letal en una extremidad, y torniquete complementario en el ámbito prequirúrgico. Ácido tranexámico intravenoso lo antes posible en trauma grave con sangrado activo o sospechado, sin administrarlo más allá de las 3 horas de la lesión salvo evidencia de hiperfibrinólisis. En el hospital, evitar cristaloides en sangrado activo y usar una proporción de 1 unidad de plasma por 1 de hematíes en adultos (NICE NG39, recomendación 1.5.24), comenzando con un protocolo de ratio fijo y pasando a guía por laboratorio en cuanto sea posible. Reversión rápida de la anticoagulación: concentrado de complejo protrombínico para antagonistas de la vitamina K, sin plasma para ese fin, y consulta a hematología para el resto de anticoagulantes. Cirugía de control de daños si hay inestabilidad que no responde a volumen; cirugía definitiva si responde o si está estable. Radiología intervencionista en hemorragia arterial pélvica y, valorada, en hemorragia arterial de órgano sólido."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** prevenir la pérdida de calor es una recomendación explícita del manejo inicial. El torniquete mal colocado o prolongado puede producir parálisis nerviosa e isquemia de la extremidad, aunque estos efectos son infrecuentes; debe mantenerse hasta el control quirúrgico y retirarse lo antes posible. El uso prehospitalario de hemoderivados no tiene por ahora una recomendación clara a favor o en contra."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) resucitar «hasta presión normal» antes de controlar el sangrado empeora la hemorragia: la pauta es restrictiva y, en la escena, titulada a pulso central palpable; (2) no usar la FAST como cribado para decidir TC; (3) en trauma grave evitar la hipoxemia, no buscar la hiperoxia salvo exanguinación inminente, y ventilar con normoventilación (PaCO₂ objetivo 35–40 mmHg); (4) la elevación del miembro no figura entre las medidas recomendadas por las guías consultadas para el control de la hemorragia externa, que se apoyan en compresión y torniquete."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

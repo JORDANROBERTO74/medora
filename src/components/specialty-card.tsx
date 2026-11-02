@@ -1,13 +1,35 @@
 import Link from 'next/link'
 import type { LucideIcon } from 'lucide-react'
-import { BookOpen, ChevronRight, Clipboard, Stethoscope, Target } from 'lucide-react'
+import {
+  Activity,
+  Baby,
+  BookOpen,
+  Brain,
+  Bug,
+  Clipboard,
+  Droplets,
+  HeartPulse,
+  ScanLine,
+  Scissors,
+  Siren,
+  Wind,
+  ChevronRight,
+} from 'lucide-react'
 import type { Specialty, SpecialtySlug } from '@/lib/content'
 
 const icons: Record<SpecialtySlug, LucideIcon> = {
-  surgery: Stethoscope,
-  gynecology: Target,
-  'internal-medicine': Clipboard,
+  cardiology: HeartPulse,
+  'obstetrics-gynecology': Baby,
+  'gastrointestinal-surgery': Scissors,
+  pulmonology: Wind,
+  'infectious-diseases': Bug,
+  endocrinology: Activity,
+  nephrology: Droplets,
+  'emergency-medicine': Siren,
   pediatrics: BookOpen,
+  neurology: Brain,
+  radiology: ScanLine,
+  'internal-medicine': Clipboard,
 }
 
 export function SpecialtyCard({ specialty }: { specialty: Specialty }) {

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia",
+  "name": "Cardiología",
+  "slug": "cardiologia",
+  "order": 1,
+  "kind": "clinical",
+  "description": "Hipertensión, insuficiencia cardiaca, infarto, síncope y semiología cardiovascular.",
+  "topics": [
+    {
+      "id": "cardiologia/hipertension-arterial",
+      "slug": "hipertension-arterial",
+      "order": 1,
+      "title": "Hipertensión arterial",
+      "file": "01-hipertension-arterial.json"
+    },
+    {
+      "id": "cardiologia/insuficiencia-cardiaca",
+      "slug": "insuficiencia-cardiaca",
+      "order": 2,
+      "title": "Insuficiencia cardíaca",
+      "file": "02-insuficiencia-cardiaca.json"
+    },
+    {
+      "id": "cardiologia/infarto-agudo-de-miocardio",
+      "slug": "infarto-agudo-de-miocardio",
+      "order": 3,
+      "title": "Infarto agudo de miocardio",
+      "file": "03-infarto-agudo-de-miocardio.json"
+    },
+    {
+      "id": "cardiologia/sincope",
+      "slug": "sincope",
+      "order": 4,
+      "title": "Síncope",
+      "file": "04-sincope.json"
+    },
+    {
+      "id": "cardiologia/semiologia-cardiovascular",
+      "slug": "semiologia-cardiovascular",
+      "order": 5,
+      "title": "Semiología cardiovascular",
+      "file": "05-semiologia-cardiovascular.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

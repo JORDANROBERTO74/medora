@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "emergencias-shock",
+  "name": "Emergencias y Shock",
+  "slug": "emergencias-shock",
+  "order": 8,
+  "kind": "clinical",
+  "description": "Shock y flash cards de emergencias.",
+  "topics": [
+    {
+      "id": "emergencias-shock/shock",
+      "slug": "shock",
+      "order": 1,
+      "title": "Shock",
+      "file": "01-shock.json"
+    },
+    {
+      "id": "emergencias-shock/flash-cards",
+      "slug": "flash-cards",
+      "order": 2,
+      "title": "Flash cards de emergencias",
+      "file": "02-flash-cards.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

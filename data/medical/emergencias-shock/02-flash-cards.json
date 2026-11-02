@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "emergencias-shock/flash-cards",
+  "specialty": "emergencias-shock",
+  "slug": "flash-cards",
+  "order": 2,
+  "title": "Flash cards de emergencias",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la página base es una chuleta de dosis y secuencias, no un texto doctrinal; por eso su enriquecimiento debe consistir en **reconstruir cada algoritmo con su fuente vigente** y no en añadir matices. Dos cambios de versión afectan a la mayoría de las tarjetas: las guías de reanimación vigentes son las de **2025** (ILCOR/ERC, adaptadas por Resuscitation Council UK), que sustituyen a las de 2021 y entran en vigor en los cursos desde enero de 2026; y el abordaje de la sepsis en el adulto se rige por NICE NG253 (2025), que reemplaza parcialmente a NG51 de 2016."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el paro cardiaco intrahospitalario se estima en torno a 0,9 casos por 1000 ingresos, con supervivencia al alta del 26 % global (53 % si el ritmo inicial es fibrilación ventricular o taquicardia ventricular sin pulso, 17 % en actividad eléctrica sin pulso y 12 % en asistolia); en el paro extrahospitalario la supervivencia a 30 días es del 9–10 % global y en torno al 30 % en el grupo Utstein, con ritmo desfibrilable en el 15–22 % de los casos. **Estas cifras proceden de registros y no se pudieron verificar en la guía ALS consultada**; se mantienen como referencia aproximada. La anafilaxia es una reacción sistémica aguda potencialmente mortal en la que la adrenalina intramuscular precoz es el tratamiento de primera línea, y todos los pacientes con sospecha deben ser remitidos a una consulta de alergia."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** en el paro cardiaco, la prioridad fisiopatológica es mantener presión de perfusión coronaria y cerebral con compresiones de calidad y desfibrilación precoz; la enfermedad coronaria explica aproximadamente el 80 % de las muertes súbitas cardiacas, con miocardiopatías no isquémicas en el 10–15 % y, en jóvenes, cardiopatías hereditarias, anomalías congénitas, miocarditis y consumo de sustancias. En la anafilaxia, la liberación masiva de mediadores produce vasodilatación, aumento de la permeabilidad capilar y broncoespasmo, lo que explica que la adrenalina intramuscular sea el fármaco de primera línea y no un \"rescate\". En el síndrome coronario agudo, la oclusión trombótica determina el tiempo miocárdico salvageable y, por tanto, la lógica de la reperfusión precoz."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la base acierta al exigir reconocimiento rápido. En el paro cardiaco, la guía 2025 recomienda llamar al servicio de emergencias ante cualquier persona inconsciente **antes** de valorar la respiración, y que el operador guíe la RCP telefónica. La reanimación debe iniciarse con compresiones a 100–120/min, 5–6 cm de profundidad, interrupciones mínimas, y RCP solo con compresiones en reanimadores no entrenados. La prevención del paro intrahospitalario se apoya en escalas de alerta precoz, equipos de respuesta rápida y formación del personal."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** en el paro cardiaco, el diagnóstico es clínico y la decisión terapéutica depende del **ritmo**: desfibrilable (fibrilación ventricular o taquicardia ventricular sin pulso) frente a no desfibrilable (asistolia y actividad eléctrica sin pulso). En el dolor torácico con sospecha de infarto, el electrocardiograma es el eje: la guía NICE condiciona la estrategia a la presencia de elevación del ST y al tiempo de traslado, con angiografía y angioplastia primaria si el paciente se presenta en las primeras 12 horas y la angioplastia puede realizarse en 120 minutos desde el momento en que podría haberse dado fibrinólisis. En la sepsis, el diagnóstico operativo se basa en la sospecha de infección más la escala NEWS2 y un panel analítico que incluya lactato. En la anafilaxia, el diagnóstico es clínico y debe establecerse ante afectación de vía aérea, respiración o circulación; si hay duda, se administra adrenalina intramuscular en lugar de esperar a un antihistamínico."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en el paro cardiaco, la adrenalina se administra **lo antes posible** si el ritmo no es desfibrilable y **después del tercer choque** si es desfibrilable; se dan choques únicos seguidos de dos minutos de compresiones, con energía inicial de al menos 150 J en bifásico (130–150 J en bifásico pulsado) y escalado posterior. La colocación de parches de elección es anterolateral, con el parche lateral en la línea axilar media por debajo de la axila; tras tres choques fallidos en fibrilación refractaria puede cambiarse a posición anteroposterior, y la desfibrilación secuencial doble no se recomienda de rutina. La intubación solo debe intentarla quien tenga alta tasa de éxito (> 95 % en dos intentos) y con capnografía de onda continua. En la anafilaxia del adulto, la dosis es **500 microgramos de adrenalina por vía intramuscular**, repetible según algoritmo; la vía intravenosa se reserva para el paro cardiaco o para especialistas con experiencia en titulación. En el síndrome coronario agudo, se administra **aspirina 300 mg en dosis de carga** lo antes posible salvo alergia, y en el STEMI se oferta reperfusión (angioplastia primaria preferente, o fibrinólisis cuando la angioplastia no puede realizarse en ese plazo de 120 minutos). En la sepsis de riesgo alto, antibiótico intravenoso en la primera hora y cristaloide en bolos de 250 mL hasta 1000 mL."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** tras la recuperación de la circulación espontánea, la guía 2025 recomienda oxigenación controlada, normocapnia, presión sistólica > 100 mmHg o presión arterial media 60–65 mmHg, prevención de fiebre (≤ 37,5 °C) mantenida 36–72 horas, tratamiento de crisis epilépticas y pronóstico neurológico multimodal **no antes de las 72 horas**, separando la retirada del soporte vital de la propia pronosticación. La prevención del paro intrahospitalario se apoya en escalas de alerta precoz, equipos de respuesta rápida, formación del personal y sistemas que permitan a pacientes y familias solicitar revisión urgente. En anafilaxia, la prevención de la recidiva exige estudio alergológico, educación del paciente y prescripción de **dos autoinyectores** que debe llevar consigo, con adiestramiento en su uso. En el síndrome coronario agudo, la prevención secundaria (antiagregación, rehabilitación cardiaca, control de factores de riesgo) forma parte del estándar."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) en anafilaxia, la dosis de 300 microgramos corresponde al autoinyector de uso extrahospitalario, **no** a la pauta del profesional sanitario, que es de 500 microgramos intramusculares; (2) la adrenalina intravenosa en un paciente con circulación espontánea puede causar hipertensión grave, taquicardia y arritmias, y no es la vía de elección; (3) no retrasar la desfibrilación para canalizar una vía o intubar: cada minuto cuenta y la pausa peri-choque debe ser < 5 segundos; (4) una puntuación NEWS2 baja no descarta sepsis, y un único parámetro con 3 puntos obliga a revisión médica aunque la suma sea 4; (5) el electrocardiograma no debe retrasarse en el dolor torácico, y la elegibilidad para reperfusión no depende ni de la edad ni del nivel de conciencia tras un paro por sospecha de STEMI."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

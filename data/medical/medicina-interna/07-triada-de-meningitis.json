@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-meningitis",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-meningitis",
+  "order": 7,
+  "title": "Tríada de meningitis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** NICE (2024) no habla de tríada, sino de una «combinación de bandera roja» de cuatro elementos: fiebre, cefalea, rigidez de nuca y alteración del nivel de conciencia o de la cognición."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la meningitis bacteriana y la enfermedad meningocócica son procesos de evolución rápida, potencialmente mortales y difíciles de distinguir de otras infecciones; pueden presentarse con síntomas inespecíficos, sobre todo en lactantes y ancianos."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** infección bacteriana del sistema nervioso central. La guía subraya que la ausencia de vacunación frente a meningococo, neumococo o *Haemophilus influenzae* tipo b, así como la ausencia o disfunción esplénica, son factores de riesgo mayores."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** fiebre, cefalea, rigidez de nuca, fotofobia, convulsiones, déficit neurológico focal, vómitos y dolor corporal inexplicado; en la enfermedad meningocócica, exantema petequial o purpúrico que no desaparece a la presión, con lesiones mayores de 2 mm."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** se confirma con la clínica, los resultados de laboratorio y el líquido cefalorraquídeo. No se descarta la meningitis por una proteína C reactiva, una procalcitonina o un recuento leucocitario normales. La punción lumbar se realiza antes del antibiótico si es segura y no retrasa el tratamiento."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** los antibióticos deben iniciarse dentro de la primera hora de llegada al hospital. No se debe retrasar el traslado para administrar antibióticos; si el traslado se demora y la sospecha es alta, se administra ceftriaxona o bencilpenicilina por vía intravenosa o intramuscular fuera del hospital."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** sepsis, sordera, secuelas neurológicas y muerte; la prevención incluye la vacunación frente a meningococo, neumococo y *Haemophilus influenzae* tipo b."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** en el anciano la fiebre puede faltar y el delirium puede atribuirse a otra causa; en el joven la alteración de la conciencia puede confundirse con intoxicación alcohólica. La rigidez de nuca es menos frecuente y más difícil de valorar en lactantes y en pacientes con demencia o artrosis."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

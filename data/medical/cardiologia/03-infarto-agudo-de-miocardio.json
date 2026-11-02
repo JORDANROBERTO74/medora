@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia/infarto-agudo-de-miocardio",
+  "specialty": "cardiologia",
+  "slug": "infarto-agudo-de-miocardio",
+  "order": 3,
+  "title": "Infarto agudo de miocardio",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el síndrome coronario agudo es un continuo que se clasifica por electrocardiograma y troponina; la reperfusión precoz es el determinante principal del pronóstico; y el tratamiento antitrombótico actual ya no se limita a aspirina y clopidogrel."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el síndrome coronario agudo agrupa la angina inestable, el infarto sin elevación del ST y el infarto con elevación del ST, que se distinguen por la clínica, el electrocardiograma y la troponina. El infarto con coronarias no obstructivas (MINOCA) representa entre el 5 y el 6 % de los infartos estudiados con coronariografía. Hasta un tercio de los pacientes hospitalizados por infarto presenta algún grado de insuficiencia cardíaca."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la causa más frecuente es la disrupción de una placa aterosclerótica inestable con trombosis sobreañadida; la trombosis activa las plaquetas y la cascada de coagulación y ocluye total o parcialmente la arteria. Es importante recordar que placas con estenosis mínima también pueden romperse: en una gran cohorte de imagen, la mayoría de los pacientes que sufrieron infarto o muerte cardiovascular no tenía estenosis significativa al inicio. La trombólisis espontánea ocurre en hasta un cuarto de los casos, de modo que la oclusión completa se documenta en aproximadamente un tercio al día siguiente."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el síntoma cardinal es el malestar torácico, con o sin disnea, náuseas y diaforesis. La angina inestable se define por dolor en reposo prolongado (habitualmente más de 20 minutos), angina de novo de al menos clase 3 de la clasificación canadiense o angina que se intensifica en frecuencia, gravedad, duración o umbral. Los síntomas pueden solaparse entre los tres síndromes, que se separan por el electrocardiograma y la troponina."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** en la angina inestable la troponina es negativa, por definición inferior al percentil 99 del límite superior de referencia, con cambios electrocardiográficos transitorios. El infarto sin elevación del ST se define por necrosis con troponina ≥ percentil 99 sin elevación del ST que cumpla criterios de infarto con elevación. El infarto con elevación del ST se define por elevación del segmento ST que no revierte rápidamente con nitroglicerina, con troponina elevada y necrosis transmural; un bloqueo completo de rama izquierda nuevo, aislado, no se considera equivalente de elevación del ST. Ninguno de los dos tipos requiere ondas Q: pueden aparecer o no. La valoración inicial incluye electrocardiograma y biomarcadores de necrosis, y la troponina de alta sensibilidad es el marcador de referencia en las fuentes consultadas."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en el infarto con elevación del ST se ofrece angiografía con angioplastia primaria si la presentación ocurre dentro de las 12 horas y la intervención puede realizarse en los 120 minutos siguientes al momento en que podría haberse administrado fibrinólisis. Se administra una carga de 300 mg de aspirina lo antes posible, y doble antiagregación con prasugrel —preferido— o ticagrelor, o clopidogrel si el paciente ya toma anticoagulante oral; en mayores de 75 años conviene valorar el riesgo hemorrágico y pueden usarse ticagrelor o clopidogrel. Se usa heparina no fraccionada, se prefiere el acceso radial, se implanta stent farmacoactivo y, en enfermedad multivaso sin shock cardiogénico, se ofrece revascularización completa durante el ingreso. La fibrinólisis se reserva para quienes presentan dentro de las 12 horas cuando no puede garantizarse la angioplastia en 120 minutos, con control electrocardiográfico a los 60-90 minutos para detectar el fracaso de la reperfusión, sin repetir el fibrinolítico. En el infarto sin elevación del ST y la angina inestable se administra aspirina precoz y fondaparinux salvo alto riesgo hemorrágico o angiografía inmediata; la angiografía se considera dentro de las 72 horas en riesgo intermedio o alto y de forma inmediata si el paciente está inestable, reservando el manejo conservador para el bajo riesgo. La hiperglucemia se controla manteniendo la glucosa por debajo de 11,0 mmol/L y evitando la hipoglucemia. La función ventricular izquierda se evalúa en todos los pacientes antes del alta. El tratamiento posterior incluye manejo lipídico, betabloqueantes, doble antiagregación, rehabilitación cardíaca y control de factores de riesgo."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la disfunción ventricular, la insuficiencia cardíaca y el shock cardiogénico dependen de la masa miocárdica afectada; pueden aparecer arritmias, trastornos de conducción, insuficiencia mitral por afectación del músculo papilar, trombo mural, rotura de la pared y aneurisma ventricular. La prevención secundaria combina antiagregación, estatina, betabloqueante, rehabilitación y control de los factores de riesgo."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** el tiempo es músculo, pero la elegibilidad para reperfusión no depende del nivel de conciencia tras una parada cardíaca; no administrar inhibidores de la glucoproteína IIb/IIIa ni fibrinolíticos de rutina antes de llegar a la sala de hemodinámica si se planifica angioplastia primaria; no repetir fibrinólisis ante el fracaso reperfusor, sino pasar a angiografía; la elevación del ST que revierte con nitroglicerina no define infarto con elevación del ST."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia",
+  "name": "Ginecología y Obstetricia",
+  "slug": "gineco-obstetricia",
+  "order": 2,
+  "kind": "clinical",
+  "description": "Embarazo, hemorragias de la primera y segunda mitad, ectópico y puerperio.",
+  "topics": [
+    {
+      "id": "gineco-obstetricia/embarazo-datacion-control",
+      "slug": "embarazo-datacion-control",
+      "order": 1,
+      "title": "Embarazo: datación y control",
+      "file": "01-embarazo-datacion-control.json"
+    },
+    {
+      "id": "gineco-obstetricia/hemorragias-primera-mitad",
+      "slug": "hemorragias-primera-mitad",
+      "order": 2,
+      "title": "Hemorragias de la primera mitad del embarazo",
+      "file": "02-hemorragias-primera-mitad.json"
+    },
+    {
+      "id": "gineco-obstetricia/embarazo-ectopico",
+      "slug": "embarazo-ectopico",
+      "order": 3,
+      "title": "Embarazo ectópico",
+      "file": "03-embarazo-ectopico.json"
+    },
+    {
+      "id": "gineco-obstetricia/hemorragias-segunda-mitad",
+      "slug": "hemorragias-segunda-mitad",
+      "order": 4,
+      "title": "Hemorragias de la segunda mitad del embarazo",
+      "file": "04-hemorragias-segunda-mitad.json"
+    },
+    {
+      "id": "gineco-obstetricia/hemorragia-postparto",
+      "slug": "hemorragia-postparto",
+      "order": 5,
+      "title": "Hemorragia postparto",
+      "file": "05-hemorragia-postparto.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "endocrinologia",
+  "name": "Endocrinología y Metabolismo",
+  "slug": "endocrinologia",
+  "order": 6,
+  "kind": "clinical",
+  "description": "Pie diabético, insulina e hipoglucemia.",
+  "topics": [
+    {
+      "id": "endocrinologia/pie-diabetico",
+      "slug": "pie-diabetico",
+      "order": 1,
+      "title": "Pie diabético",
+      "file": "01-pie-diabetico.json"
+    },
+    {
+      "id": "endocrinologia/insulina",
+      "slug": "insulina",
+      "order": 2,
+      "title": "Insulina",
+      "file": "02-insulina.json"
+    },
+    {
+      "id": "endocrinologia/hipoglucemia",
+      "slug": "hipoglucemia",
+      "order": 3,
+      "title": "Hipoglucemia",
+      "file": "03-hipoglucemia.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

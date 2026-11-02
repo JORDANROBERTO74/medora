@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia/hemorragias-segunda-mitad",
+  "specialty": "gineco-obstetricia",
+  "slug": "hemorragias-segunda-mitad",
+  "order": 4,
+  "title": "Hemorragias de la segunda mitad del embarazo",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la hemorragia anteparto se define como sangrado procedente o hacia el tracto genital desde las 24+0 semanas y antes del nacimiento; complica el 3–5 % de los embarazos y sus causas más importantes —aunque no las más frecuentes— son la placenta previa y el desprendimiento placentario. El diagnóstico de placenta previa es ecográfico y su clasificación cambió: ya no se habla de \"completa, parcial, marginal o baja\". La vasa previa es rara pero letal si no se diagnostica antes del parto."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la prevalencia de placenta previa en la segunda mitad del embarazo se sitúa entre 1 por 50 y 1 por 500 gestaciones, según la edad gestacional al diagnóstico, el uso de ecografía transvaginal y la frecuencia de los factores de riesgo. La hemorragia anteparto en mujeres con placenta previa tiene una prevalencia agrupada del 51,6 %. El espectro de placenta accreta varía entre 1 por 100 y 1 por 10 000 embarazos por falta de criterios uniformes. La vasa previa aparece en 1 de cada 1200 a 1 de cada 5000 embarazos."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el antecedente de cesárea se asocia a placenta previa con una odds ratio de 1,74, y el riesgo crece con el número de cesáreas; la fecundación in vitro multiplica el riesgo (OR 3,76) y la endometriosis también lo eleva (OR 3,31). Otros factores: embarazo múltiple, tabaquismo (OR 1,42), fibromas (2,21), intervalo intergenésico menor de un año y edad materna avanzada. La mayoría de los casos de espectro accreta se originan en una placentación sobre un defecto de cicatriz de cesárea. La vasa previa se clasifica en tipo I, cuando el vaso se conecta a un cordón de inserción velamentosa, y tipo II, cuando conecta la placenta con un lóbulo succenturiado o accesorio."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la placenta previa se manifiesta con sangrado indoloro, y la hemorragia anteparto es más probable a medida que avanza la gestación. En la vasa previa los vasos fetales, sin protección de tejido placentario ni de la gelatina de Wharton, se rompen en el trabajo de parto activo o al realizar amniotomía, sobre todo si están cerca o sobre el cérvix bajo la presentación; puede detectarse al tacto como vasos pulsátiles en el orificio interno, o por sangrado rojo oscuro con compromiso fetal agudo tras la rotura de membranas."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la localización placentaria debe constar en la ecografía de cribado de anomalías de las 18+0 a 20+6 semanas. A partir de las 16 semanas, se informa **previa** si la placenta cubre total o parcialmente el orificio cervical interno, y **de inserción baja** si el borde placentario está a menos de 20 mm del orificio sin cubrirlo. Se recomienda ecografía de seguimiento a las 32 semanas, con transvaginal si hace falta, y otra a las 36 semanas para planificar el parto. Más del 90 % de las placentas catalogadas como de inserción baja a mitad de gestación dejan de serlo antes de las 37 semanas, y la ecografía transvaginal reclasifica hasta el 60 % de los casos. Una longitud cervical ≤ 30 mm entre las 28 y 34 semanas se asocia a sangrado antenatal, parto pretérmino y hemorragia postparto. En el espectro accreta, la resonancia magnética no se recomienda de forma rutinaria cuando existe experiencia ecográfica."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** se ofrecen corticosteroides entre las 24+0 y 34+6 semanas y sulfato de magnesio hasta las 30+0 cuando se prevé un parto pretérmino inminente. La tocólisis puede considerarse 48 horas para completar los corticoides, pero el cerclaje cervical no está recomendado. En la placenta previa no complicada, el nacimiento se planifica según los síntomas y no más tarde de las 37+6 semanas. En el espectro accreta de alta probabilidad, el parto planificado entre las 36+1 y 37+0 semanas ofrece el mejor equilibrio entre prematuridad y complicaciones. El nacimiento debe tener lugar en una unidad con banco de sangre y acceso a cuidados críticos, y la recuperación intraoperatoria de sangre es útil y segura. Si fallan los uterotónicos y el ácido tranexámico, se recurre al balón de taponamiento intrauterino y a las suturas de compresión uterina. En el espectro accreta no debe intentarse separar la placenta ni incidir a través de ella para extraer al feto, y si se deja in situ no se administra metotrexato adyuvante. En la vasa previa, el diagnóstico antenatal con cesárea planificada eleva la supervivencia por encima del 95 %, frente a una mortalidad fetal de al menos el 60 % cuando se diagnostica durante el parto."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la placenta previa conlleva alto riesgo de cesárea de urgencia, hemorragia intraoperatoria, hemorragia postparto y histerectomía, por lo que el parto debe programarse en un centro adecuado. La vasa previa no diagnosticada causa exanguinación fetal rápida. La morbilidad de ambas condiciones deriva de la hemorragia anteparto y del parto pretérmino."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no usar la clasificación antigua de placenta previa: la guía la considera más confusa y peor definitoria del riesgo que el criterio ecográfico de previa frente a inserción baja; (2) no hacer resonancia magnética de rutina en el espectro accreta si hay experiencia ecográfica; (3) no intentar desprender la placenta en el espectro accreta; (4) no tranquilizar con una placenta \"de inserción baja\" a mitad de gestación sin repetir ecografía: la mayoría migra; (5) en la vasa previa, el tacto que palpa vasos pulsátiles no debe repetirse: confirma el diagnóstico y puede desencadenar la rotura."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

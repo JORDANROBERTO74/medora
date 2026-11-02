@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neumologia/patrones-respiratorios",
+  "specialty": "neumologia",
+  "slug": "patrones-respiratorios",
+  "order": 4,
+  "title": "Patrones respiratorios",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el patrón se define por dos ejes: el cociente VEF1/FVC (obstrucción si está reducido) y la capacidad pulmonar total o la FVC (restricción si están reducidas). La guía NICE NG115 confirma que el diagnóstico de obstrucción requiere **espirometría posbroncodilatadora** y que la gravedad se gradúa por el VEF1 expresado como porcentaje del predicho; la tabla de referencia del Manual MSD resume las combinaciones de cociente, FVC y capacidad pulmonar total para los patrones obstructivo, restrictivo y mixto."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** no existe una guía específica de \"patrones respiratorios\" como entidad; el abordaje se apoya en las guías de interpretación espirométrica de las sociedades respiratorias y en textos de semiología. La guía NICE NG115, dedicada a la EPOC, dedica un apartado explícito a la espirometría y a la gradación de la obstrucción, que es el marco operativo más útil para el temario."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el patrón obstructivo se caracteriza por un cociente VEF1/FVC disminuido con FVC disminuida o normal y capacidad pulmonar total normal o aumentada; el restrictivo, por un cociente normal o aumentado con FVC disminuida y capacidad pulmonar total disminuida; el mixto, por un cociente disminuido con capacidad pulmonar total disminuida, normal o aumentada. Esta última precisión es importante: el patrón mixto no exige que la capacidad pulmonar total esté disminuida, a diferencia de lo que sugiere el material base."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la espirometría debe interpretarse con la historia clínica; la guía NG115 advierte que un cociente VEF1/FVC inferior a 0,7 en una persona mayor sin síntomas típicos de EPOC obliga a pensar en diagnósticos alternativos, y que un cociente superior a 0,7 no descarta EPOC en personas jóvenes con síntomas compatibles. Es decir, ni el número aislado confirma ni excluye."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** se confirma obstrucción con espirometría posbroncodilatadora y un cociente VEF1/FVC inferior a 0,7. La gravedad de la obstrucción se gradúa por el VEF1 posbroncodilatador: ≥ 80 % del predicho (leve), 50–79 % (moderada), 30–49 % (grave) y < 30 % (muy grave). La guía recomienda valores de referencia GLI 2012, reconociendo que no son aplicables a todos los grupos étnicos. La prueba de reversibilidad broncodilatadora no se considera rutinaria para el diagnóstico ni para planificar el tratamiento inicial, porque los cambios pueden ser fluctuantes y poco reproducibles, y porque la respuesta aguda no predice la respuesta al tratamiento crónico; un cambio superior a 400 mL en el VEF1 es el umbral que la guía considera relevante."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** no aplica a este tema, que es de interpretación funcional. La consecuencia práctica es que el tratamiento se decide por el patrón y la gravedad, y que la guía NG115 ordena no evaluar la eficacia de un broncodilatador solo con la función pulmonar, sino también con síntomas, actividades de la vida diaria, capacidad de ejercicio y rapidez del alivio."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** un patrón restrictivo obliga a completar el estudio con volúmenes pulmonares (capacidad pulmonar total) y difusión, porque la espirometría por sí sola no distingue la restricción verdadera de la seudorrestricción por atrapamiento aéreo o por mala técnica; la tabla del Manual MSD incluye la capacidad pulmonar total como criterio diferencial. La prevención de errores pasa por un control de calidad del procedimiento y por personal entrenado, exigencia que la guía NG115 recoge explícitamente."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no diagnosticar obstrucción con una espirometría prebroncodilatadora aislada; (2) no confundir \"cociente normal\" con \"función normal\": en la restricción el cociente puede ser normal o incluso elevado mientras la FVC y la capacidad pulmonar total están reducidas; (3) no etiquetar de mixto a todo paciente con cociente bajo y FVC baja sin medir la capacidad pulmonar total, que puede ser normal o alta; (4) recordar que la reversibilidad aguda no predice la respuesta al tratamiento crónico."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

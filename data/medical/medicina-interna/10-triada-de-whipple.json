@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-whipple",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-whipple",
+  "order": 10,
+  "title": "Tríada de Whipple",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada de Whipple, descrita por Allen O. Whipple, es el sello diagnóstico que establece la existencia de un trastorno hipoglucémico: síntomas o signos compatibles, glucosa plasmática baja medida en el momento de los síntomas y alivio al normalizar la glucemia."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** los insulinomas son tumores neuroendocrinos pancreáticos con una incidencia estimada de 0,7 a 4 casos por millón de habitantes y año; entre el 5 % y el 10 % se asocia a neoplasia endocrina múltiple tipo 1."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** en el hiperinsulinismo endógeno la secreción de insulina no desciende cuando la glucemia cae, de modo que insulina, péptido C y proinsulina permanecen inapropiadamente elevados durante la hipoglucemia."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** síntomas adrenérgicos (sudoración, palpitaciones, nerviosismo, hambre) y síntomas neuroglucopénicos (confusión, alteraciones visuales, convulsiones); hasta un 20 % de los pacientes refiere síntomas posprandiales. Los síntomas neuroglucopénicos pueden llevar a un diagnóstico psiquiátrico o neurológico erróneo."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** si la hipoglucemia no ocurre de forma espontánea se realiza una prueba de ayuno prolongado de 72 horas con extracción de insulina, proinsulina o péptido C cuando aparece la hipoglucemia. Los hallazgos críticos son glucosa plasmática en ayunas confirmada ≤ 55 mg/dL (3,0 mmol/L), con < 45 mg/dL (2,5 mmol/L) como criterio más específico, insulina de al menos 3 μU/mL (18 pmol/L), péptido C de al menos 0,6 ng/mL (0,2 nmol/L) y proinsulina de al menos 5,0 pmol/L."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la extirpación quirúrgica del insulinoma solitario es el tratamiento curativo de elección, con enucleación cuando la lesión es pequeña y está alejada de los conductos. Para controlar la hipoglucemia se emplean medidas dietéticas, diazóxido (300-900 mg/día repartidos cada 8 horas), análogos de somatostatina, everolimús y, en casos seleccionados, ablación por radiofrecuencia guiada por ultrasonido endoscópico."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** hipoglucemia grave con convulsiones, coma y muerte; el retraso diagnóstico es frecuente porque los síntomas se atribuyen a otras causas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la tríada exige medir la glucosa **en el momento** de los síntomas; una glucemia baja aislada, sin síntomas ni respuesta al tratamiento, no cumple la tríada. El epónimo «Whipple» se comparte con la duodenopancreatectomía y con la enfermedad de Whipple, de modo que conviene especificar «tríada de Whipple»."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

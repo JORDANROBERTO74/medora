@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-saint",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-saint",
+  "order": 14,
+  "title": "Tríada de Saint",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada de Saint agrupa tres hallazgos muy prevalentes (hernia hiatal, litiasis biliar y diverticulosis colónica) y no figura como criterio diagnóstico en las guías consultadas; su coexistencia puede ser casual."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la litiasis biliar afecta al 10-15 % de la población de Estados Unidos, casi 25 millones de personas; la diverticulosis está presente en más del 30 % de los adultos de 50-59 años y en más del 70 % de los mayores de 80 años."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la litiasis se forma cuando la bilis contiene demasiado colesterol o bilirrubina o pocas sales biliares; la diverticulosis consiste en la protrusión de la mucosa a través de puntos débiles de la pared del colon, sobre todo en el sigma. Son mecanismos independientes, sin vía fisiopatológica común conocida."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la litiasis suele ser asintomática («cálculos silenciosos») y, cuando obstruye, produce cólico biliar; la diverticulosis es mayoritariamente asintomática y solo una minoría desarrolla diverticulitis o sangrado."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no existe un criterio diagnóstico de «tríada de Saint»; cada componente se diagnostica por separado con ecografía para la litiasis y colonoscopía o tomografía para la diverticulosis."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el tratamiento es el de cada entidad: colecistectomía en la litiasis sintomática y manejo médico de la diverticulitis no complicada."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** colecistitis, colangitis y pancreatitis por litiasis; absceso, fístula, obstrucción y peritonitis por diverticulitis."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** atribuir síntomas digestivos inespecíficos a la «tríada de Saint» lleva a estudios y tratamientos innecesarios; con tres hallazgos tan frecuentes, la coexistencia es esperable por azar."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

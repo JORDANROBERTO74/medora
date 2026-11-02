@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "infectologia/arbovirosis",
+  "specialty": "infectologia",
+  "slug": "arbovirosis",
+  "order": 2,
+  "title": "Arbovirosis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** las tres arbovirosis comparten vector y un cuadro inicial indistinguible, de modo que el diagnóstico diferencial es clínico-epidemiológico y requiere confirmación de laboratorio. No existe antiviral específico para ninguna de las tres y el manejo es sintomático, con paracetamol como antipirético y analgésico de elección mientras no se descarte dengue. El dengue puede progresar a una fase crítica en torno a la defervescencia, entre el tercer y el séptimo día del inicio. La prevención se basa en el control de criaderos y la protección individual, y solo el dengue y el chikungunya cuentan con vacunas autorizadas en algunos países."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** cerca de la mitad de la población mundial está en riesgo de dengue, con una estimación de 100–400 millones de infecciones anuales y transmisión endémica en más de 100 países. En 2024 se notificaron a la OMS más de 14,6 millones de casos y más de 12 000 muertes, la cifra anual más alta registrada, con más de 13 millones de casos en la Región de las Américas; entre enero y julio de 2025 se habían notificado más de 4 millones de casos y más de 3000 muertes desde 97 países. El chikungunya se ha identificado en más de 110 países de Asia, África, Europa y las Américas. El Zika se ha documentado con transmisión vectorial en 92 países y territorios; los casos disminuyeron desde 2017, pero la transmisión persiste a bajo nivel en varios países de las Américas."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el dengue lo causa el virus DENV, con cuatro serotipos (DEN-1 a DEN-4); una segunda infección por un serotipo distinto aumenta el riesgo de dengue grave. El chikungunya es un virus ARN del género *Alphavirus*, familia *Togaviridae*. El Zika es un flavivirus con reacción cruzada serológica frente a otros flavivirus como el dengue, lo que condiciona la interpretación de las IgM. Los tres se transmiten por mosquitos *Aedes*, principalmente *Ae. aegypti* y también *Ae. albopictus*, con hábitos diurnos. En el mosquito, el período de incubación extrínseca del dengue es de unos 8–12 días a 25–28 °C, y la persona infectada es virémica durante 4–5 días, con un máximo descrito de 12. El Zika se transmite además por vía materno-fetal, sexual, transfusional y por exposición de laboratorio. La fisiopatología del dengue grave es una extravasación plasmática que puede llevar a choque y acumulación de líquido con dificultad respiratoria, junto con hemorragia grave y afectación orgánica grave."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el dengue tiene un período de incubación de 4–10 días y un cuadro de 2–7 días con fiebre alta (40 °C), cefalea intensa, dolor retroorbitario, mialgias y artralgias, náuseas, vómitos, adenopatías y exantema. La fase crítica aparece alrededor de los días 3 a 7 desde el primer signo, con descenso de la temperatura que no debe interpretarse como recuperación; en ella pueden aparecer dolor abdominal intenso, vómitos persistentes, sangrado de encías o nariz, respiración rápida, fatiga o inquietud, sangre en vómito o heces, sed intensa y piel pálida y fría. El chikungunya se manifiesta típicamente 4–8 días después de la picadura (rango 2–12) con fiebre de inicio abrupto y artralgia intensa, con frecuencia incapacitante, acompañada de hinchazón articular, mialgias, cefalea, náuseas, fatiga y exantema. El Zika produce síntomas en una minoría de infectados, entre 3 y 14 días después de la infección, con exantema, fiebre, conjuntivitis, mialgias y artralgias, malestar y cefalea, de 2 a 7 días de duración. El material base describe el inicio del Zika como gradual frente al inicio súbito del dengue y del chikungunya; las fuentes consultadas no formulan esa distinción."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** en la primera semana de enfermedad se usan métodos de detección directa —aislamiento viral, detección molecular de ácido nucleico o antigenemia, incluidas las pruebas rápidas— y después se recurre a la serología. Para el chikungunya, la RT-PCR detecta el virus en sangre durante la primera semana y la IgM ya es detectable en torno a esa primera semana y puede seguir detectándose unos dos meses. Para el Zika, la confirmación exige RT-PCR para ARN viral o detección de IgM, y en este último caso el resultado positivo debe diferenciarse de flavivirus relacionados como el dengue. El abanico de pruebas disponibles (NAAT, ELISA, pruebas rápidas) varía mucho en calidad y desempeño, y los algoritmos dependen de la capacidad de cada sistema nacional de laboratorio."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** no hay tratamiento específico para el dengue, el chikungunya ni el Zika. El manejo es sintomático: reposo, hidratación abundante y paracetamol para la fiebre y el dolor. Deben evitarse los antiinflamatorios no esteroideos y el ácido acetilsalicílico porque aumentan el riesgo de sangrado, y en el chikungunya el paracetamol se mantiene hasta que se descarte el dengue. En el Zika, si no se puede descartar el dengue, el paciente debe manejarse como si tuviera dengue, con la misma precaución sobre los AINE. El dengue grave requiere hospitalización con frecuencia; con reconocimiento precoz y atención adecuada, la letalidad del dengue grave se sitúa por debajo del 1 %."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** el dengue grave cursa con extravasación plasmática, choque, hemorragia grave y afectación orgánica grave, y puede ser mortal. El chikungunya deja con frecuencia artralgias que persisten semanas, meses o años y, en ocasiones, complicaciones oculares, cardiacas y neurológicas; los cuadros graves y las muertes son raros y se concentran en recién nacidos y en personas mayores con comorbilidades. El Zika se asocia a síndrome de Guillain-Barré, neuropatía y mielitis, y la infección en el embarazo causa el síndrome congénito del Zika —microcefalia, contracturas de miembros, hipertonía, alteraciones oculares y pérdida auditiva—; se estima que entre el 5 % y el 15 % de los niños nacidos de mujeres infectadas durante la gestación presenta complicaciones relacionadas. La prevención se basa en eliminar criaderos (vaciar y limpiar los recipientes de agua semanalmente), repelentes con DEET, IR3535 o icaridina, ropa que cubra la piel, mosquiteros tratados para quien duerme de día y mallas en ventanas y puertas. Existe una vacuna frente al dengue (QDenga, TAK-003), de dos dosis separadas tres meses, recomendada por la OMS en niños de 6 a 16 años en entornos de alta transmisión y no recomendada de forma programática por debajo de los 6 años; hay dos vacunas de chikungunya con autorización regulatoria en varios países, pero todavía no están ampliamente disponibles ni en uso extendido, y no hay vacuna frente al Zika. En el Zika, la prevención incluye el consejo reproductivo y las relaciones sexuales protegidas durante tres meses en hombres y dos meses en mujeres que regresan de zonas con transmisión activa."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) el descenso de la fiebre en el dengue no equivale a mejoría: es el momento en que puede aparecer la fase crítica; (2) no prescribir ibuprofeno, naproxeno ni aspirina hasta descartar dengue; (3) una IgM positiva para Zika no es diagnóstica por sí sola por la reacción cruzada con dengue, y requiere confirmación; (4) la artralgia intensa, con frecuencia incapacitante, que acompaña a una fiebre de inicio brusco orienta a chikungunya; (5) la prueba directa solo es útil en la primera semana; después hay que pasar a la serología."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

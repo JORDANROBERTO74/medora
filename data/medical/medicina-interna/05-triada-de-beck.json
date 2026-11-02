@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-beck",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-beck",
+  "order": 5,
+  "title": "Tríada de Beck",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** Beck describió en 1935 la combinación de hipotensión, aumento de la presión venosa y corazón «silencioso» en el taponamiento agudo; los estudios posteriores muestran que se observa en una minoría de los pacientes."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el taponamiento pericárdico es una emergencia por compresión cardíaca; tras cirugía cardíaca los derrames pericárdicos son muy frecuentes, aunque solo una minoría se vuelve hemodinámicamente significativa."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el aumento de la presión intrapericárdica supera la presión telediastólica ventricular, limita el llenado, reduce el volumen sistólico y desencadena un patrón de shock cardiogénico con taquicardia y vasoconstricción."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** shock con disnea, tos, molestia torácica, extremidades frías, cianosis periférica e ingurgitación yugular; el pulso paradójico puede faltar o ser difícil de detectar, y el signo de Kussmaul no es concluyente."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el ecocardiograma es el método de elección; los hallazgos clásicos incluyen colapso auricular derecho en sístole, colapso diastólico de la pared libre del ventrículo derecho, movimiento paradójico del tabique, corazón oscilante y vena cava inferior dilatada y no pulsátil. La tomografía, la resonancia y el cateterismo aportan información complementaria cuando la ecografía es dudosa."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** descompresión urgente mediante pericardiocentesis guiada por imagen o drenaje quirúrgico (toracotomía subxifoidea o reesternotomía)."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** colapso hemodinámico y muerte si se retrasa el drenaje; la prevención consiste en sospechar el cuadro ante cualquier deterioro tras cirugía cardíaca o trauma torácico."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** no hay que esperar la tríada ni el pulso paradójico; en el postoperatorio los signos clásicos y ecocardiográficos pueden estar ausentes y no por ello deja de haber taponamiento. La ficha del material base ubica esta tríada en pediatría, cuando corresponde a cardiología y emergencias."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

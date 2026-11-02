@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-hutchinson",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-hutchinson",
+  "order": 6,
+  "title": "Tríada de Hutchinson",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada reúne tres estigmas de la sífilis congénita: dientes de Hutchinson, queratitis intersticial y sordera neurosensorial."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la sífilis congénita ha reaparecido; en Estados Unidos se notificaron 1.870 casos en 2019, con 94 mortinatos y 34 muertes infantiles, y la tasa aumentó un **477 % (≈5,8 veces)** respecto a 2012."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** transmisión transplacentaria de *Treponema pallidum* a partir de una infección materna no tratada o tratada de forma inadecuada; el daño afecta hueso, hígado, piel, sistema nervioso, ojo y oído."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la tríada corresponde a estigmas de la sífilis congénita; en el recién nacido predominan hidropesía no inmune, ictericia colestásica, hepatoesplenomegalia, rinitis, exantema y pseudoparálisis de una extremidad. Los dientes de Hutchinson son incisivos centrales superiores en clavija, escotados y separados."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el diagnóstico neonatal es difícil porque la IgG materna atraviesa la placenta; se apoya en la serología materna, la adecuación del tratamiento, los hallazgos clínicos y radiológicos y la comparación de títulos no treponémicos maternos y del neonato con la misma prueba. Se recomienda analizar el líquido cefalorraquídeo, hemograma y radiografías de huesos largos en los casos con sospecha."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** penicilina G cristalina acuosa 100.000-150.000 unidades/kg/día por vía intravenosa (50.000 unidades/kg por dosis cada 12 horas durante los primeros 7 días y luego cada 8 horas) durante 10 días, o penicilina procaína 50.000 unidades/kg/día por vía intramuscular durante 10 días. Si se omite más de un día de tratamiento, se reinicia el esquema completo."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** muerte fetal, neurosífilis, sordera, ceguera y deformidades dentarias; la prevención se basa en el tamizaje serológico prenatal y en el tratamiento adecuado de la madre."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la tríada no sirve para el diagnóstico neonatal, porque los estigmas aparecen con el desarrollo dental y corneal; el diagnóstico y el tratamiento del recién nacido no deben esperar a que se complete. En caso de alergia a la penicilina, el paciente se desensibiliza y se trata con penicilina."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

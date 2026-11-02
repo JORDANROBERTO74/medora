@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { BookOpen, ChevronRight, Stethoscope, Zap } from 'lucide-react'
+import { clinicalCases } from '@/lib/cases'
 import { specialties } from '@/lib/content'
 
 type Mode = 'quiz' | 'cases'
@@ -111,22 +112,24 @@ export function QuizMenuView() {
             </div>
             <ChevronRight />
           </Link>
-          {specialties.map((specialty) => (
-            <Link
-              key={specialty.slug}
-              href={`/dashboard/quiz/cases/${specialty.slug}`}
-              className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
-            >
-              <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-100">
-                <Stethoscope className="size-5 text-[#FF5216]" />
-              </div>
-              <div className="flex-1">
-                <h2 className="font-black">Caso de {specialty.name}</h2>
-                <p className="mt-1 text-xs font-semibold text-muted-foreground">Viñeta clínica · 1 caso</p>
-              </div>
-              <ChevronRight className="text-slate-300" />
-            </Link>
-          ))}
+          {specialties
+            .filter((specialty) => clinicalCases.some((item) => item.specialtySlug === specialty.slug))
+            .map((specialty) => (
+              <Link
+                key={specialty.slug}
+                href={`/dashboard/quiz/cases/${specialty.slug}`}
+                className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
+              >
+                <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-100">
+                  <Stethoscope className="size-5 text-[#FF5216]" />
+                </div>
+                <div className="flex-1">
+                  <h2 className="font-black">Caso de {specialty.name}</h2>
+                  <p className="mt-1 text-xs font-semibold text-muted-foreground">Viñeta clínica · 1 caso</p>
+                </div>
+                <ChevronRight className="text-slate-300" />
+              </Link>
+            ))}
         </div>
       )}
     </div>

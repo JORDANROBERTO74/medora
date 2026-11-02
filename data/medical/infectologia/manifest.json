@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "infectologia",
+  "name": "Infectología",
+  "slug": "infectologia",
+  "order": 5,
+  "kind": "clinical",
+  "description": "Chagas, arbovirosis y meningitis.",
+  "topics": [
+    {
+      "id": "infectologia/chagas",
+      "slug": "chagas",
+      "order": 1,
+      "title": "Chagas",
+      "file": "01-chagas.json"
+    },
+    {
+      "id": "infectologia/arbovirosis",
+      "slug": "arbovirosis",
+      "order": 2,
+      "title": "Arbovirosis",
+      "file": "02-arbovirosis.json"
+    },
+    {
+      "id": "infectologia/meningitis",
+      "slug": "meningitis",
+      "order": 3,
+      "title": "Meningitis",
+      "file": "03-meningitis.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

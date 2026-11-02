@@ -20,7 +20,7 @@ export type ClinicalCase = {
 export const clinicalCases: ClinicalCase[] = [
   {
     id: 'acute-appendicitis',
-    specialtySlug: 'surgery',
+    specialtySlug: 'gastrointestinal-surgery',
     title: 'Dolor en fosa ilíaca derecha',
     history:
       'Varón de 24 años con dolor abdominal que inició en epigastrio y migró en 12 horas a la fosa ilíaca derecha. Anorexia, náuseas y un episodio de vómito. Sin diarrea ni disuria.',
@@ -42,7 +42,7 @@ export const clinicalCases: ClinicalCase[] = [
   },
   {
     id: 'ectopic-pregnancy',
-    specialtySlug: 'gynecology',
+    specialtySlug: 'obstetrics-gynecology',
     title: 'Dolor pélvico con amenorrea',
     history:
       'Mujer de 29 años con amenorrea de 7 semanas, dolor pélvico unilateral de inicio súbito y manchado vaginal escaso. Mareo al incorporarse.',
@@ -64,7 +64,7 @@ export const clinicalCases: ClinicalCase[] = [
   },
   {
     id: 'diabetic-ketoacidosis',
-    specialtySlug: 'internal-medicine',
+    specialtySlug: 'endocrinology',
     title: 'Poliuria y deshidratación',
     history:
       'Mujer de 31 años con poliuria, polidipsia y pérdida de 5 kg en tres semanas. Cuadro de 24 horas con náuseas y somnolencia creciente.',
@@ -91,7 +91,7 @@ export const clinicalCases: ClinicalCase[] = [
   },
   {
     id: 'bacterial-meningitis',
-    specialtySlug: 'pediatrics',
+    specialtySlug: 'infectious-diseases',
     title: 'Fiebre e irritabilidad en lactante',
     history:
       'Lactante de 4 meses con fiebre de 39 °C de 24 horas, irritabilidad que no cede al sostenerlo y rechazo de las tomas. La madre refiere menos actividad de lo habitual.',

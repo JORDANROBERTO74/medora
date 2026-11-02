@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia/embarazo-ectopico",
+  "specialty": "gineco-obstetricia",
+  "slug": "embarazo-ectopico",
+  "order": 3,
+  "title": "Embarazo ectópico",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el embarazo ectópico es cualquier gestación implantada fuera de la cavidad endometrial. La mayoría de las afectadas **no tiene ningún factor de riesgo identificable**, por lo que hay que descartarlo siempre que exista una prueba de embarazo positiva y síntomas compatibles. El diagnóstico es ecográfico y el tratamiento se elige según estabilidad, tamaño, latido y cifra de hCG."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** en el Reino Unido la incidencia ronda 11 por 1000 embarazos, con unos 11 000 diagnósticos anuales. Sigue habiendo muertes maternas por esta causa, aunque la letalidad ha descendido, lo que sugiere que el diagnóstico y el tratamiento más precoces han tenido impacto."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** los factores de riesgo establecidos son el daño tubárico por cirugía o infección, el tabaquismo y la fecundación in vitro. El material base añade enfermedad inflamatoria pélvica, clamidia y gonorrea, cirugías pélvicas, edad mayor de 35 años, antecedente de ectópico, técnicas de reproducción asistida, endometriosis, aborto previo, malformaciones tubáricas y DIU. De estos, la guía confirma el daño tubárico posquirúrgico o posinfeccioso, el tabaco y la reproducción asistida; el resto no se ha podido contrastar en el resumen accesible."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la presentación atípica es frecuente. Síntomas habituales: dolor abdominal o pélvico, amenorrea o falta de regla y sangrado vaginal con o sin coágulos. Otros descritos: sensibilidad mamaria, síntomas digestivos, mareo, síncope, dolor en la punta del hombro, síntomas urinarios, expulsión de tejido y tenesmo o dolor a la defecación. Signos más frecuentes: dolor pélvico, anexial y abdominal a la palpación; también dolor a la movilización cervical, defensa o signos peritoneales, palidez, distensión abdominal, útero aumentado, taquicardia mayor de 100 lpm, hipotensión por debajo de 100/60 mmHg, shock y hipotensión ortostática."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** ecografía transvaginal como primera prueba para localizar la gestación y valorar polo y latido. Signos que **indican** ectópico tubárico: masa anexial que se desplaza separada del ovario (signo del deslizamiento) con saco gestacional que contiene saco vitelino, o con saco y polo fetal con o sin latido. Signos de **alta probabilidad**: la misma masa con saco gestacional vacío (anillo tubárico o signo del bagel) o masa compleja inhomogénea que se desplaza separada del ovario. Signos de **posibilidad**: útero vacío o colección líquida intracavitaria (pseudosaco), que debe diferenciarse del saco intrauterino precoz por su situación excéntrica y el signo de doble decidua. Debe buscarse líquido libre moderado o abundante en el peritoneo o el fondo de saco de Douglas, que puede representar hemoperitoneo, y descartarse un embarazo heterotópico. La hCG no determina la localización; sirve para valorar la proliferación trofoblástica y orientar el manejo."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** tres opciones. (1) **Expectante**, ofrecida si la paciente está clínicamente estable y sin dolor, el ectópico mide menos de 35 mm sin latido y la hCG es ≤ 1000 UI/L, con posibilidad de seguimiento; se considera entre 1000 y 1500 UI/L. Se repite la hCG en los días 2, 4 y 7: si cae ≥ 15 % respecto al valor previo, se continúa semanalmente hasta negativizar (< 20 UI/L). (2) **Médico con metotrexato sistémico**, ofrecido si no hay dolor significativo, el ectópico es menor de 35 mm sin latido, la hCG es < 1500 UI/L, no hay embarazo intrauterino y es posible el seguimiento; solo con diagnóstico definitivo y exclusión de gestación intrauterina viable. Se miden dos hCG en la primera semana (días 4 y 7) y luego semanalmente hasta negativizar, revaluando si se meseta o asciende. (3) **Quirúrgico**, de primera línea si hay dolor significativo, masa ≥ 35 mm, latido visible, hCG ≥ 5000 UI/L o imposibilidad de seguimiento; entre 1500 y 5000 UI/L se ofrece elegir entre metotrexato y cirugía, advirtiendo que con metotrexato aumenta la probabilidad de necesitar otra intervención. La cirugía se realiza por laparoscopia siempre que sea posible; se ofrece salpingectomía salvo factores de infertilidad, y salpingotomía si existe daño tubárico contralateral, informando de que hasta 1 de cada 5 mujeres puede requerir tratamiento adicional. Tras salpingotomía se mide hCG a los 7 días y luego semanalmente; tras salpingectomía, prueba de embarazo en orina a las 3 semanas."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la rotura tubárica con hemoperitoneo es la complicación grave y explica la presentación con shock. La recurrencia y el impacto sobre la fertilidad justifican informar a la paciente y permitirle autoderivarse a una unidad de embarazo precoz en gestaciones futuras. La mortalidad se reduce con diagnóstico y tratamiento precoces."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no descartar el ectópico por ausencia de factores de riesgo: cerca de un tercio de las afectadas no los tiene; (2) no usar la hCG para localizar la gestación ni la progesterona sérica como adjuvante; (3) no indicar metotrexato sin diagnóstico definitivo y sin haber excluido un embarazo intrauterino viable; (4) recordar que el pseudosaco puede simular un saco gestacional y retrasar el diagnóstico; (5) no olvidar la posibilidad de embarazo heterotópico."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

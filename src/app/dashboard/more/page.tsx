@@ -77,6 +77,7 @@ export default async function MorePage() {
           <MoreLink href="/dashboard/notes" label="Mis notas" />
           <MoreLink href="/dashboard/progress" label="Mi progreso" />
           <MoreLink href="/dashboard/quiz" label="Quiz rápido" />
+          <MoreLink href="/dashboard/reading" label="Lectura larga" />
         </div>
       </section>
 

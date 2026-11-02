@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "pediatria/deshidratacion",
+  "specialty": "pediatria",
+  "slug": "deshidratacion",
+  "order": 3,
+  "title": "Deshidratación",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** en el terreno, la OMS clasifica la deshidratación por signos clínicos en tres categorías —grave, alguna y ninguna—, no por porcentaje de pérdida de peso. El núcleo del tratamiento es la solución de rehidratación oral (SRO) más zinc, y la vía intravenosa se reserva para la deshidratación grave o el shock. La guía NICE añade un marco operativo complementario: SRO de baja osmolaridad a 50 mL/kg en cuatro horas en la deshidratación clínica, y bolos de 10 mL/kg de suero salino al 0,9 % si hay shock."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la enfermedad diarreica es la tercera causa de muerte en niños de 1 a 59 meses; cada año causa unas 443 832 muertes en menores de 5 años y se registran cerca de 1700 millones de episodios infantiles. En el episodio diarreico se pierden agua y electrolitos —sodio, cloro, potasio y bicarbonato— por heces líquidas, vómito, sudor, orina y respiración; la deshidratación aparece cuando esas pérdidas no se reponen. La desnutrición y la inmunodepresión, incluida la infección por VIH, son los principales factores de riesgo de diarrea potencialmente letal."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** los virus más frecuentes en menores de 5 años son rotavirus, norovirus, adenovirus y astrovirus; entre las bacterias figuran *Escherichia coli*, *Salmonella* spp., *Shigella* spp. y *Campylobacter* spp.; y entre los parásitos, *Cryptosporidium*, *Giardia* y *Entamoeba*. Rotavirus y *E. coli* son los patógenos más comunes en todos los grupos de edad, mientras que los parásitos predominan entre los 3 y los 5 años. La infección se transmite por agua y alimentos contaminados y de persona a persona por higiene deficiente."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la clasificación operativa de la OMS se construye con cuatro signos. Se considera deshidratación grave si hay al menos dos de: letargia o inconsciencia, ojos hundidos, incapacidad para beber o bebida deficiente, y pliegue cutáneo que tarda dos segundos o más en desaparecer. Se considera \"alguna deshidratación\" si hay dos o más de: inquietud o irritabilidad, ojos hundidos y sed con ingesta ávida. Sin signos suficientes, no hay deshidratación. NICE añade banderas rojas que anticipan el deterioro —respuesta alterada, ojos hundidos, taquicardia, taquipnea y turgencia cutánea reducida— y una lista de factores de riesgo: menor de 1 año (sobre todo menor de 6 meses), bajo peso al nacer, más de cinco deposiciones en 24 horas, más de dos vómitos en 24 horas, ausencia de líquidos suplementarios, abandono de la lactancia durante el episodio y signos de desnutrición."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no se recomienda hacer bioquímica sanguínea de rutina; debe medirse sodio, potasio, urea, creatinina y glucosa si se va a usar fluidoterapia intravenosa o si hay signos que sugieran hipernatremia, y hay que valorar equilibrio ácido-base y cloro venosos si se sospecha o confirma shock. La hipernatremia se sospecha ante movimientos de sobresalto, aumento del tono muscular, hiperreflexia, convulsiones, somnolencia o coma. El material base conserva su tabla de porcentajes, útil como estimación docente del déficit, pero la decisión de clasificar y tratar se toma con los signos anteriores."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en la deshidratación clínica se usa SRO de baja osmolaridad (240-250 mOsm/L) a 50 mL/kg para reponer el déficit en cuatro horas, además del mantenimiento, en tomas pequeñas y frecuentes; si el niño no puede beber o vomita de forma persistente, puede administrarse por sonda nasogástrica. La vía intravenosa está indicada si hay shock, si un niño con banderas rojas se deteriora pese a la rehidratación oral o si vomita de forma persistente la SRO. El shock se trata con una infusión rápida de 10 mL/kg de cloruro sódico al 0,9 %, repetible una vez, y después se inicia la rehidratación con 50 mL/kg de déficit si no había shock o 100 mL/kg si lo hubo. En la deshidratación hipernatrémica el déficit se repone lentamente, en torno a 48 horas, con descenso del sodio inferior a 0,5 mmol/L por hora. La OMS confirma el zinc como tratamiento complementario durante 10 a 14 días: acorta la duración del episodio alrededor de un 25 % y reduce el volumen de las heces cerca de un 30 %. Se mantiene la lactancia y se reintroduce la alimentación normal tras la rehidratación. No deben usarse antidiarreicos y los antibióticos no son rutinarios."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la prevención primaria incluye agua segura, saneamiento, lavado de manos con jabón, lactancia materna exclusiva durante seis meses, higiene alimentaria y vacunación frente a rotavirus. En niños con riesgo aumentado de deshidratación recurrente puede darse 5 mL/kg de SRO después de cada deposición líquida abundante. Para evitar la transmisión se recomienda lavado de manos tras el cambio de pañal y antes de manipular alimentos, no compartir toallas, no acudir a la escuela hasta 48 horas después del último episodio y no nadar en piscinas durante dos semanas tras la última diarrea. La duración habitual es de 5 a 7 días para la diarrea y de 1 a 2 días para el vómito, y se debe consultar si no se resuelve en esos plazos."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no clasificar por porcentaje en la urgencia: el porcentaje se estima, los signos se observan; (2) no retrasar la vía intravenosa en un niño con banderas rojas que empeora pese a la SRO; (3) no corregir una hipernatremia rápidamente, por el riesgo de edema cerebral; (4) no usar antidiarreicos ni antibióticos de rutina; (5) reevaluar siempre después del periodo de rehidratación y ajustar el plan."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

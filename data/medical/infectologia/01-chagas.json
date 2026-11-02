@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "infectologia/chagas",
+  "specialty": "infectologia",
+  "slug": "chagas",
+  "order": 1,
+  "title": "Chagas",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la enfermedad de Chagas sigue siendo una zoonosis endémica de 21 países continentales de América Latina, con unos 8 millones de personas infectadas y más de 10 000 muertes anuales. La transmisión congénita se ha convertido en la principal vía a escala mundial, con más de 10 000 casos nuevos al año. El tratamiento antiparasitario es tanto más eficaz cuanto más temprano se administra, y en la fase crónica sigue estando indicado en grupos bien definidos. El diagnóstico de la fase crónica exige dos pruebas serológicas distintas; una sola no confirma la infección."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la OMS estima unos 8 millones de infectados en el mundo, más de 100 millones de personas en riesgo y más de 10 000 muertes anuales, con casos detectados ya en 44 países por efecto de la movilidad poblacional. La OPS maneja para la Región de las Américas 7,5 millones de infectados, más de 100 millones de expuestos y más de 1,5 millones de personas con cardiopatía chagásica. El Chagas es una de las 30 afecciones que la Iniciativa de Eliminación de la OPS se propone eliminar como problema de salud pública en 2030, y la hoja de ruta de enfermedades desatendidas de la OMS fija cinco metas verificables, entre ellas la interrupción de la transmisión domiciliaria, transfusional, por trasplante y congénita, y una cobertura del 75 % del tratamiento antiparasitario de la población elegible. La interrupción de la transmisión vectorial domiciliaria está verificada en todo el territorio de Chile, Paraguay y Uruguay, y en parte del territorio de Argentina, Brasil, Colombia, Perú y Bolivia."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** *Trypanosoma cruzi* se transmite por las heces y la orina de triatominos infectados, que penetran por la picadura, por otras soluciones de continuidad de la piel, por la conjuntiva o por la boca. Los vectores dominantes varían por región: *Triatoma infestans* en Argentina, Bolivia, Brasil, Chile, Paraguay, Uruguay y Perú; *Rhodnius prolixus* en Colombia, Venezuela y Centroamérica; *T. dimidiata* en Ecuador y Centroamérica, y *R. pallescens* en Panamá. La vía oral, por alimentos o bebidas contaminados con deyecciones del vector o con reservorios como la zarigüeya, suele producir brotes. En la fase crónica el parásito se aloja sobre todo en el músculo cardiaco y en el músculo liso digestivo, y el daño se expresa años después como arritmias, insuficiencia cardiaca progresiva y muerte súbita. La cardiopatía comienza con alteraciones de conducción —bloqueo de rama derecha y/o hemibloqueo anterior izquierdo— y evoluciona años después a miocardiopatía dilatada, con aneurisma apical y trombo en la pared."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la fase aguda dura alrededor de dos meses; la mayoría de los pacientes no tiene síntomas o estos son leves e inespecíficos (fiebre, cefalea, adenopatías, palidez, mialgias, disnea, dolor abdominal o torácico). El chagoma de inoculación es un nódulo subcutáneo con adenitis regional, y el signo de Romaña —edema bipalpebral unilateral con adenopatía satélite— aparece en cerca del 2 % de los casos agudos sintomáticos. Entre el 70 % y el 80 % de los infectados permanece asintomático toda la vida y entre el 20 % y el 30 % evoluciona a formas crónicas sintomáticas. Alrededor del 30 % desarrolla daño cardiaco y menos del 10 % dilatación de esófago o colon por trastornos motores. La OMS resume el pronóstico a largo plazo en dos cifras: hasta un tercio de los crónicos desarrolla alteraciones cardiacas y uno de cada diez, alteraciones digestivas, neurológicas o mixtas, una a tres décadas después de la infección."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el diagnóstico es siempre clínico, epidemiológico y de laboratorio. En la fase aguda, la parasitemia es alta y el diagnóstico se hace por métodos parasitológicos directos sobre sangre (examen en fresco y extendidos teñidos). En la fase crónica el diagnóstico es serológico y requiere el resultado positivo de al menos dos pruebas diferentes —ELISA, inmunofluorescencia indirecta o hemaglutinación indirecta— que detecten anticuerpos específicos. La OMS añade que la evaluación de pruebas rápidas, de quimioluminiscencia y de biología molecular, y de los algoritmos más costo-efectivos, es clave para aumentar la detección precoz. En los pacientes inmunodeprimidos el tratamiento se indica también cuando hay reactivación."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** las dos únicas moléculas disponibles son benznidazol y nifurtimox; ambas matan el parásito y son plenamente eficaces en la fase aguda, incluida la transmisión congénita, pero su eficacia disminuye cuanto más tiempo lleva la persona infectada y las reacciones adversas son más frecuentes y graves con la edad. Las indicaciones aceptadas son la fase aguda, la reactivación por inmunosupresión, la fase crónica reciente, las niñas y mujeres en edad fértil antes o después del embarazo y, en general, los adultos infectados, incluidos los asintomáticos. El CDC concreta: tratamiento en todos los casos agudos o reactivados y en la infección crónica de menores de 18 años; muy recomendado en adultos de hasta 50 años sin cardiopatía avanzada, y decisión individualizada por encima de esa edad. Las pautas pediátricas del CDC son benznidazol 5–8 mg/kg/día por vía oral en dos tomas durante 60 días (2–12 años) y nifurtimox 8–10 mg/kg/día en tres tomas durante 60 días si el peso es igual o superior a 41 kg, o 10–20 mg/kg/día si es inferior. Las reacciones adversas aparecen hasta en el 40 % de los adultos tratados: con benznidazol, dermatitis alérgica, neuropatía periférica, anorexia con pérdida de peso e insomnio; con nifurtimox, anorexia, polineuropatía, náuseas, vómitos, cefalea y mareo o vértigo. Está contraindicado en el embarazo y en la insuficiencia renal o hepática, y el nifurtimox lo está además en personas con antecedentes neurológicos o psiquiátricos; el CDC añade la lactancia. El tratamiento etiológico no revierte la cardiopatía dilatada ni el megaesófago ya establecidos, por lo que el seguimiento y el tratamiento sintomático son de por vida."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las complicaciones crónicas son arritmias auriculares y ventriculares, insuficiencia cardiaca progresiva, muerte súbita, aneurisma apical con trombo y megaesófago o megacolon. No existe vacuna. La prevención combina control químico del vector intradomiciliario y peridomiciliario, mejora y limpieza de la vivienda, tamizaje de donantes de sangre y de donantes y receptores de órganos, tamizaje de embarazadas con estudio del recién nacido y de los hermanos, y buenas prácticas de higiene en la preparación, transporte y almacenamiento de alimentos. El control vectorial ha sido el método más eficaz en América Latina, y el costo de la atención médica de las formas crónicas cardiacas, digestivas o neurológicas se ha calculado más de un 80 % superior al del rociado residual con insecticidas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) un bloqueo de rama derecha con hemibloqueo anterior izquierdo en un paciente joven de área endémica obliga a descartar cardiopatía chagásica, porque es la secuencia electrocardiográfica típica; (2) no iniciar tratamiento antiparasitario durante el embarazo: se difiere y se trata después, y el cribado de la gestante sirve para detectar al recién nacido; (3) no prometer reversión de la dilatación cardiaca ni del megaesófago con el antiparasitario; (4) no confirmar una infección crónica con una sola prueba serológica; (5) recordar que la vía congénita es hoy la principal ruta mundial y que puede pasar desapercibida durante décadas."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

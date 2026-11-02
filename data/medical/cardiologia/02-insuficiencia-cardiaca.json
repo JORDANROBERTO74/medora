@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia/insuficiencia-cardiaca",
+  "specialty": "cardiologia",
+  "slug": "insuficiencia-cardiaca",
+  "order": 2,
+  "title": "Insuficiencia cardíaca",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la insuficiencia cardíaca es un síndrome clínico, no un diagnóstico ecocardiográfico aislado; el fenotipo se define por la fracción de eyección; y el tratamiento de la fracción de eyección reducida se basa en cuatro clases de fármacos que se combinan de forma precoz."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** síndrome clínico en el que el corazón no cubre las demandas metabólicas por una anomalía estructural o funcional, con gasto cardíaco bajo, presiones de llenado elevadas o ambas cosas. Afecta a más de 64 millones de personas en el mundo; en Estados Unidos se calculan 6,7 millones de casos, cerca de un millón de diagnósticos anuales y 8,7 millones para 2030. Aproximadamente la mitad de los pacientes tiene fracción de eyección preservada, proporción que aumenta con la edad y con la diabetes."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la disfunción sistólica predomina en la cardiopatía isquémica, la miocarditis y la miocardiopatía dilatada, mientras que la disfunción diastólica predomina en la miocardiopatía hipertrófica, la hipertrofia ventricular por hipertensión o estenosis aórtica y la infiltración amiloide. En la insuficiencia con fracción de eyección preservada, comorbilidades como obesidad, hipertensión, diabetes y enfermedad renal crónica generan inflamación sistémica, disfunción endotelial y microvascular y, finalmente, fibrosis y rigidez miocárdica. El fallo izquierdo eleva la presión venosa pulmonar; el derecho produce congestión venosa sistémica con edemas y afectación hepática, intestinal y ascitis."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** en el fallo izquierdo dominan disnea y fatiga, con crepitantes basales que no se aclaran con la tos, tercer y cuarto ruido, refuerzo del componente pulmonar del segundo ruido, soplo pansistólico de insuficiencia mitral si el ventrículo está dilatado, ingurgitación yugular y, en la disfunción grave, pulso alternante. El fallo derecho se manifiesta por congestión sistémica: edemas con fóvea, hepatomegalia, ascitis y reflujo hepatoyugular. La ganancia de peso puede reflejar hipervolemia y una pérdida involuntaria superior al 5 % en doce meses sugiere caquexia cardíaca."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el péptido natriurético N-terminal (NT-proBNP) es la prueba inicial: valores >2000 ng/L obligan a valoración especializada y ecocardiograma en dos semanas; entre 400 y 2000 ng/L, en seis semanas; y <400 ng/L en un paciente sin tratar hacen improbable el diagnóstico, aunque la cifra no distingue entre fenotipos de fracción de eyección. Un BNP normal no excluye el diagnóstico, sobre todo en la fracción preservada y en obesidad, donde los valores pueden ser aproximadamente la mitad y hasta un 30 % de los casos agudos con fracción preservada queda por debajo de 100 pg/mL. La radiografía puede mostrar cardiomegalia, derrame pleural y líneas B de Kerley. El ecocardiograma establece la fracción de eyección y descarta valvulopatía. El fenotipo se define así: reducida ≤40 %, ligeramente reducida 41-49 %, preservada ≥50 % y mejorada cuando asciende más de 10 puntos absolutos y supera el 40 %. Un electrocardiograma anormal (infarto previo, hipertrofia, bloqueo de rama, taquiarritmia) aumenta la sospecha y orienta la causa."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en la fracción de eyección reducida se ofrece IECA + betabloqueante + antagonista del receptor mineralocorticoide + inhibidor de SGLT2. Si el paciente sigue sintomático con la dosis máxima tolerada de los cuatro, se considera sustituir el IECA por un ARNI (sacubitrilo/valsartán), dejando al menos 36 horas entre la última dosis de IECA y la primera de ARNI; ante síntomas de intolerancia al IECA distintos del angioedema se ofrece la combinación de ARNI con betabloqueante, ARM e iSGLT2, y tras un angioedema —o ante intolerancia al ARNI— se combinan betabloqueante, ARM e iSGLT2 considerando un ARA-II. En la fracción ligeramente reducida se consideran IECA o ARA-II + betabloqueante + ARM + iSGLT2; en la preservada, ARM + iSGLT2. Los diuréticos se usan para aliviar congestión, titulando a la dosis mínima eficaz. Debe valorarse el hierro intravenoso cuando, con hemoglobina <150 g/L, la saturación de transferrina es <20 % o la ferritina <100 ng/mL. Se evitan verapamilo, diltiazem y dihidropiridinas de acción corta en la fracción reducida. El betabloqueante exige electrocardiograma previo y no se ofrece en bloqueo auriculoventricular de segundo o tercer grado sin marcapasos ni con frecuencia <50 lpm. La función renal y el potasio se controlan al inicio, a las 1-2 semanas de cada ajuste y luego cada 3-6 meses, actuando si la creatinina sube más del 50 % o el potasio supera 5,5 mmol/L. No se restringe sal ni líquidos de rutina y se evitan los sustitutos de sal con potasio. Se recomienda vacunación antigripal anual y antineumocócica."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las hospitalizaciones por descompensación y la mortalidad cardiovascular son los desenlaces centrales que el tratamiento busca reducir. La prevención incluye tratar la causa, iniciar y titular precozmente los fármacos con evidencia, educación, autocuidado, rehabilitación cardíaca y vacunación."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** una fracción de eyección normal no descarta insuficiencia cardíaca; los péptidos natriuréticos pueden ser normales en obesos y en la fracción preservada; la cifra de péptido no permite clasificar el fenotipo; no debe retirarse un fármaco solo por elevación moderada de creatinina, sino seguir el protocolo local; la NYHA describe limitación funcional y no sustituye a la clasificación por fracción de eyección (comentario editorial, sin cita directa)."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

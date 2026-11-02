@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "pediatria",
+  "name": "Pediatría",
+  "slug": "pediatria",
+  "order": 9,
+  "kind": "clinical",
+  "description": "Crecimiento, cribado neonatal, deshidratación y PAI.",
+  "topics": [
+    {
+      "id": "pediatria/crecimiento-y-desarrollo",
+      "slug": "crecimiento-y-desarrollo",
+      "order": 1,
+      "title": "Crecimiento y desarrollo",
+      "file": "01-crecimiento-y-desarrollo.json"
+    },
+    {
+      "id": "pediatria/cribado-neonatal",
+      "slug": "cribado-neonatal",
+      "order": 2,
+      "title": "Cribado neonatal / prueba del talón",
+      "file": "02-cribado-neonatal.json"
+    },
+    {
+      "id": "pediatria/deshidratacion",
+      "slug": "deshidratacion",
+      "order": 3,
+      "title": "Deshidratación",
+      "file": "03-deshidratacion.json"
+    },
+    {
+      "id": "pediatria/pai",
+      "slug": "pai",
+      "order": 4,
+      "title": "PAI: calendario de inmunizaciones (Bolivia)",
+      "file": "04-pai.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

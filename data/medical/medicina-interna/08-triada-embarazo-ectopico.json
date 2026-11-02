@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-embarazo-ectopico",
+  "specialty": "medicina-interna",
+  "slug": "triada-embarazo-ectopico",
+  "order": 8,
+  "title": "Tríada clásica de embarazo ectópico",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** NICE confirma que los síntomas frecuentes son dolor abdominal o pélvico, amenorrea o falta de menstruación y sangrado vaginal, con o sin coágulos, pero advierte que la presentación atípica es habitual."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el embarazo ectópico es la implantación fuera de la cavidad uterina; cerca de un tercio de las mujeres afectadas no tiene ningún factor de riesgo conocido, por lo que la ausencia de factores no permite excluirlo."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el embarazo se implanta fuera del útero, con riesgo de rotura y hemorragia; entre los antecedentes se considera el embarazo ectópico previo como factor de riesgo."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** además de la tríada, pueden aparecer sensibilidad mamaria, síntomas digestivos, mareo o síncope, dolor en el hombro, síntomas urinarios, expulsión de tejido y tenesmo. Los signos incluyen dolor a la palpación abdominal, pélvica y anexial, dolor a la movilización cervical, defensa, palidez, distensión abdominal, taquicardia mayor de 100 lpm, hipotensión menor de 100/60 mmHg y shock."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** ante cualquier mujer en edad reproductiva con síntomas inespecíficos debe ofrecerse una prueba de embarazo. Con prueba positiva y dolor, sensibilidad abdominal, pélvica o a la movilización cervical, se deriva de inmediato a la unidad de embarazo precoz. La valoración definitiva se realiza en esa unidad."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la inestabilidad hemodinámica o la preocupación significativa por el dolor o el sangrado obligan a derivar directamente a urgencias. La elección entre manejo expectante, médico o quirúrgico se decide en la unidad especializada según la situación clínica."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** rotura tubárica, hemoperitoneo y shock; la prevención de la mortalidad depende del reconocimiento precoz y de la derivación oportuna."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** los síntomas y signos del embarazo ectópico se parecen a los de procesos digestivos o urinarios, por lo que la prueba de embarazo es obligatoria ante la duda. Un síntoma poco frecuente puede ser igualmente significativo."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

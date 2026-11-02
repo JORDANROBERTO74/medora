@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "radiologia/ecografia-ecogenicidad",
+  "specialty": "radiologia",
+  "slug": "ecografia-ecogenicidad",
+  "order": 2,
+  "title": "Ecografía: ecogenicidad",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:**\n  - La ecogenicidad **no es una propiedad absoluta del tejido**: se describe por comparación con el tejido vecino, tal como advierte el material base [P48]. Un mismo órgano puede ser hiperecoico frente al riñón e hipoecoico frente a la grasa, precisamente porque la escala es relativa [P48].\n  - El brillo depende de la **cantidad de ecos** que vuelven al transductor: a más ecos, más claro; a menos ecos, más oscuro [P48].\n  - La **sombra acústica** aparece porque el sonido no atraviesa bien ciertas estructuras: el hueso es el ejemplo clásico, y por eso la ecografía craneal solo es útil en lactantes a través de las fontanelas.\n  - El **gas y el hueso** interfieren con la imagen de las estructuras profundas; es una limitación física, no un defecto del operador.\n  - La ecografía es **tiempo real y sin radiación ionizante**, y eso explica su papel en la urgencia y en la cabecera del paciente.\n  - La distinción entre **contenido líquido (anecoico) y masa sólida** es una de las aplicaciones prácticas de la escala: permite separar quistes de masas sólidas en el riñón."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** La ecogenicidad es la intensidad con que un tejido devuelve el ultrasonido, expresada como brillo en la imagen de escala de grises [P48]. El material base la organiza en categorías (anecoico, hipoecoico, isoecoico, hiperecoico, «muy hiperecoico») y acierta en el punto capital: **la comparación es siempre relativa al tejido adyacente** [P48]. Las fuentes consultadas no manejan cifras poblacionales para este tema, que es semiológico y no epidemiológico; lo que aportan es la base física y las aplicaciones clínicas."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** El fundamento es físico. Los cristales piezoeléctricos del transductor convierten electricidad en ondas de alta frecuencia que se dirigen al cuerpo; los tejidos las dispersan, reflejan y absorben en distinta medida, y las ondas reflejadas —los ecos— se reconvierten en señales eléctricas que un computador transforma en imagen anatómica. Dos consecuencias explican la semiología:\n  - **Más interfaces reflectantes, más ecos:** los tejidos que el material base señala como hiperecoicos —grasa, seno renal, cálculos— devuelven mucho sonido y se ven brillantes [P48].\n  - **Más atenuación, menos señal detrás:** el hueso no deja pasar bien las ondas, y por eso se necesita una ventana sin hueso —la fontanela del lactante— para estudiar el encéfalo. Los tejidos profundos se debilitan además por la cantidad de tejido que atraviesan y por la distancia.\n  - Cuando una estructura refleja o absorbe casi todo el sonido, **detrás de ella no hay ecos**: eso es la sombra acústica posterior que el material base asocia a litiasis, hueso y aire [P48]."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** Este tema no tiene clínica propia: es una herramienta de lectura. Su traducción práctica está en las aplicaciones que las fuentes documentan. La ecografía de la vía biliar detecta cálculos y obstrucción; en el riñón sirve para distinguir quistes —habitualmente benignos— de masas sólidas, a menudo malignas; en obstetricia y ginecología valora el crecimiento fetal y la placenta, y en el punto de atención ayuda a estimar volumen, buscar la causa de una hipotensión o guiar un acceso vascular."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** No hay criterios numéricos; hay un método de lectura que conviene explicitar:\n  - **Elegir el referente:** se describe la lesión respecto al órgano vecino (hígado, riñón, grasa), nunca en abstracto [P48].\n  - **Recorrer la escala:** anecoico (sin ecos, negro), hipoecoico (menos ecos que el referente), isoecoico (ecos semejantes), hiperecoico (más ecos) [P48].\n  - **Buscar el artefacto que confirma:** sombra posterior detrás de un foco muy reflectante o muy atenuante (litiasis, hueso, gas) [P48].\n  - **Integrar el modo:** el modo B en dos dimensiones es el habitual; el Doppler añade dirección y velocidad del flujo y el color lo representa sobre la imagen en grises.\n  - **Reconocer los límites:** la exploración es muy sensible al movimiento, y en pacientes grandes la cantidad de tejido debilita las ondas; las heridas abiertas o las incisiones recientes pueden alterar el resultado."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** No aplica: el tema no tiene tratamiento. La conducta que se deriva de la escala es diagnóstica —decidir si un hallazgo es líquido, sólido o calcificado y si precisa estudio complementario—, y las fuentes consultadas no proponen intervención alguna sobre la ecogenicidad."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** Tampoco hay complicaciones clínicas. Las limitaciones que el docente debe anticipar son técnicas: dependencia del operador y del equipo, sensibilidad al movimiento, atenuación en pacientes con mucho tejido y pérdida de ventana por gas o hueso. La ecografía no utiliza radiación ionizante y se considera segura en el uso diagnóstico estándar."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:**\n  - **Describir sin referente.** Decir «lesión hipoecoica» sin nombrar el tejido de comparación no comunica nada; el material base lo advierte con claridad [P48].\n  - **Confundir «poco ecogénico» con «hipoecoico».** El original usa las dos expresiones para el lodo biliar [P49]; conviene unificarlas en «ecos finos de bajo nivel», que es lo que se observa.\n  - **Llamar hipoecoico al hígado normal.** El material base lo propone como ejemplo de hipoecogenicidad [P48], pero el hígado es el patrón de referencia habitual del abdomen; usarlo como ejemplo de «menos ecos» confunde al principiante. Mejor comparar corteza y seno renal, o hígado y riñón.\n  - **Creer que la sombra es un signo de brillo.** La sombra indica que el sonido no atraviesa la estructura; el hueso la produce sin ser necesariamente el elemento más brillante del corte.\n  - **Olvidar el gas.** El gas intestinal y pulmonar impide ver lo que hay detrás; es una causa habitual de exploración «no concluyente» en abdomen.\n  - **Confundir lodo con cálculo.** El lodo produce ecos finos sin sombra; el cálculo es hiperecoico y deja sombra posterior. El original lo recoge y es la perla más rentable del tema [P49]."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

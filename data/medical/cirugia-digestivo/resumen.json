@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "specialty": "cirugia-digestivo",
+  "kind": "summary",
+  "source": {
+    "file": "MEDIC-GRADO NUEVA 2026.pdf",
+    "title": "MEDIC-GRADO NUEVA 2026 — Cirugía / Traumatología",
+    "pages": 463,
+    "authors": "David Villa"
+  },
+  "chapters": [
+    {
+      "id": "cirugia-digestivo/resumen/abdomen-agudo",
+      "slug": "abdomen-agudo",
+      "order": 1,
+      "title": "Abdomen agudo",
+      "sourcePages": [
+        233,
+        234,
+        235,
+        236,
+        237
+      ],
+      "markdown": "<!-- p:233 -->\n\n### Definicion\n\n- Es un sindrome de inicio subito y progresivo\n\n- De etiologia multifactorial\n\n- Que cursa con dolor adominal intenso y compromiso del estado general.\n\n### Etiologia\n\nSegún el mecanismo de produccion (de christmann) inflamatoria: apendicitis, colecistitis, pancreatitis, EPI perforativo: ulceras perforadas, apendicitis perforada, diverticulitis obstructivo: bridas y adherencias, volvulo, íleo hemorragico: embarazo ectopico roto, aneurisma abdominal roto vascular: isquemia mesenterica (embolia e isquemia mesenterica, vasoespasmo)\n\nSegún la localizacion\n\n- Epigastrio: ulcera duodenal\n\n- Mesogastrio: pancreatitis, obstruccion intestinal\n\n- Hd: colecistitis aguda, abceso hepatico, neumonia basal derecha\n\n- Hi: ruptura esplenica, abceso subfrenico\n\n- Fosa iliaca derecha: apendicitis, salpingitis, torsion de quiste ovarico\n\n- Fosa iliaca izquierda: diverticulitis, ooforitis.\n\n![Figura 1](/resumen/cirugia-digestivo/p233-1.webp)\n\n<!-- p:234 -->\n\n- Según el manejo inicial\n\n1. Clinico\n\n2. Quirurgico\n\n3. Observativo---expectante\n\n### Dolor puede ser\n\nVisceral: -----------estimulado por el simpatico\n\n- Carácter sordo\n\n- Poco preciso\n\n- Acompañadopor sintomatologia vagal\n\nSomatico: dolor agudo, intenso y bien localizado, originado en el peritoneo y transmitidos por nervios perifericos. Referido: estimulo a la palpacion, genera dolor en zonas cercanas (ej: plexo solar causa dolor referido).\n\n![Figura 2](/resumen/cirugia-digestivo/p234-1.webp)\n\n<!-- p:235 -->\n\n- Para realizar anamnesis del dolor---alicia\n\n- Aparicion\n\n- Localizacion\n\n- Intensidad\n\n- Carácter\n\n- Irradiacion\n\n- Atenuantes/exacervantes/acompaña\n\n### Examen fisico\n\n1. Medir signos vitales\n\n- Inspeccion\n\n- Auscultacion\n\n- Percusion\n\n- Palpacion-------superficial y profunda:\n\nSigno de McBurney signo de Blumberg signo de Rovsing signo de summer signo del obturador signo de psoas signo de Murphy courvasier giordano\n\n- Tacto vaginal – eip (enfermedad inflamatoria pelvica)\n\n- Tacto rectal –------- impactacion fecal ---tumor\n\n<!-- p:236 -->\n\n### Laboratorio\n\nHemograma completo----ver leucocitosis quimica sanguinea: glucemia, proteinas, bilirrubina, fosfatasa alcalina, got, gpt. Coagulograma: tiempo de protrombina, tiempo de sangria, tiempo parcial de tromboplastina, fibrinogeno. Amilasa y lipasa (3x >vn: pancreatitis) examen general de orina\n\n- Gasometria\n\n- Imágenes\n\nRX de torax: descartar patologia pulmonar y neumoperitoneo RX de abdomen ecografia abdominal tomografia axial computarizada\n\nDiagnostico diferencial------torax\n\n- Pericarditis – IAM de cara diafragmatica –neumonia basal – empiema\n\n- Tratamiento y manejo inicial\n\n- Nada por via oral\n\n- Colocar via y plan de hidratacion parenteral, reposicion electrolitica\n\n- Sonda nasogastrica en casos de obstruccion intestinal\n\n- Sonda vesical-----control de liquidos\n\n- Analgesia + antibiotico---- con diagnostico\n\n<!-- p:237 -->\n\n- Tratamiento clinico: pancreatitis aguda, ITU, EPI, enfermedad acido peptica\n\n![Figura 3](/resumen/cirugia-digestivo/p237-1.webp)"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/apendicitis-aguda",
+      "slug": "apendicitis-aguda",
+      "order": 2,
+      "title": "Apendicitis aguda",
+      "sourcePages": [
+        238,
+        239,
+        240,
+        241,
+        242
+      ],
+      "markdown": "<!-- p:238 -->\n\n### Definicion\n\nInflamacion del apencice cecal, por obstruccion con cambios inflamatorios que llevan a la isquemia y necrosis de la pared.\n\n- Urgencia quirurgica-pricipal causa de abdomen no traumatico\n\n### Causas\n\n- Hiperplasia linfoidea (niños pequeños)\n\n- Fecalitos (germenes: anaerobio/E.coli/pseudomonas)\n\n- Tumores\n\n- Parasitos\n\n- Forma de presentacion:\n\nCatarral     distension +edema flegmonosa     inflamacion gangrenosa     necrosis perforativa     peritonitis\n\n![Figura 1](/resumen/cirugia-digestivo/p238-1.webp)\n\n<!-- p:239 -->\n\n### Clinica\n\n- Dolor abdominal de inicio visceral (periumbilical) y despues somatico en\n\nFosa iliaca derecha (irritacion peritoneal-defensa muscular-hiperestesia cutanea)\n\n- Fiebre/escalofrios\n\n- Anorexia\n\n- Nauseas y vomitos\n\n- Presentacion atipica: ancianos- embarazadas-niños\n\n### Signos\n\n- Blumberg (dolor al rebote)\n\n- Obturador (flexion y rotacion del muslo)\n\n- Dunphy (toser)\n\n- Rovsing (dolor al presionar fii y duele fid)\n\n- Lenander (temperatura >1 grado, temperatura axilar).                      -                        -\n\nMcBurney (dolor en punto de McBurney)\n\n### Diagnostico\n\n- Clinico---- escala de alvarado:\n\n- Nauseas/vomitos (1)\n\n- Anorexia (1)\n\n- Dolor con migracion a fid (1)\n\n- Descompresion de fid (1)\n\n- Fiebre (1)\n\n- Desvio a la izquierda (1)\n\n- Dolor a la palpacion de fid (2)\n\n- Leucositosis (2)\n\n<!-- p:240 -->\n\n- Conducta:\n\n- 0-3 puntos: improvable-----evaluar otras causas\n\n- 4-6 puntos: probable------observable 12 horas\n\n- > 7 puntos: muy probable------apendicectomia\n\n- Alta probabilidad----diagnostico clinico\n\n- Probabilidad intermedia---- duda (pediatrico/viejo/mujer)\n\n- Complicacion (abceso)\n\n- Tardio (>de 48 HRS): observacion+examen de imagen\n\n- Embarazada o pediatrico realizar:\n\nEcografia: si no concluye hacer rnm\n\n- Apendice > 7 MM\n\n- Señal del blanco o señal de la rueda de fuego (ecodoppler)\n\n- Engrozamiento de la pared- mas vascularizacion\n\n- Dificultad en la compresion con el transductor del ecografo.\n\n- Sexo masculino, no embarazada: hacer tomografia\n\n- Apendice >7 MM\n\n- Engrosamiento de la pared + borramiento de la grasa\n\n- Flemon/abceso/apendicolito\n\n<!-- p:241 -->\n\n- Observaciones importantes:\n\n1. Si la imagen es negativa con dolor persistente: observar de 8 a 12 horas.\n\n2. Si persiste el dolor, hacer laparoscopia-----se puede hacer incluso con peritonitis----\n\nEsta contraindicada en la inestabilidad hemodinamica.\n\n### Diagnostico diferencial\n\n- Enfermedad inflamatoria pelvica\n\n- Quiste de ovarico\n\n- Ruptura de folico ovarico\n\n- Ruptura de trompa\n\n- Gastroenteritis aguda\n\n- Litiasis urinaria\n\n- Infeccion urinaria\n\n- Apendagitis epiploica\n\n- Linfadenitis mesenterica\n\n### Tratamiento\n\n5 escenarios posibles\n\n1. Precoz (menos de 48 HRS) y no complicada: apendicectomia+ATB profilactico.\n\n2. Complicada (abceso):\n\nDrenaje+ ATB terapeutico (4 a 6 semanas despues colonoscopia----para ver necesidad de apendicectomia tardia. 3-tardia: (>48 HRS) no complicada, con flemon: solo antibiotico terapeuticocolonoscopia—evaluar apendicectomia tardia.\n\n4. Peritonitis difusa-------cirugia de urgencia+ hidrat venosa abundante+ ATB terapeutico.\n\n5. Abdomen agudo---por posibles diferenciales, hacer apendicectomia\n\n<!-- p:242 -->\n\n- Tipos de inscisiones u abordajes:\n\n- Rockey davies: transversal\n\n- McBurney: oblicua\n\n- Inscision de jalaguier: paramediana vertical.\n\n![Figura 2](/resumen/cirugia-digestivo/p242-1.webp)"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/colangitis-aguda",
+      "slug": "colangitis-aguda",
+      "order": 3,
+      "title": "Colangitis aguda",
+      "sourcePages": [
+        243,
+        244,
+        245
+      ],
+      "markdown": "<!-- p:243 -->\n\n### Concepto\n\nInfeccion bacteriana de las via de la via biliar principal, por obstruccion y ascension de bacterias.\n\n### Laboratorio\n\n- Aumento de bilirrubina directa\n\n- Aumento de fosfatasa alcalina\n\n- Aumento de ggt\n\n- Leucocitosis con desvio a la izquierda\n\n- Imagen:\n\n- Ecografia abdominal\n\n- Cpre\n\n### Clinica\n\n### Triada de charcot\n\n- Fiebre con escalofrio\n\n- Ictericia\n\n- Dolor abdominal\n\n- Pentada de reynolds: triada de charcot+ hipotension+ sensorio deprimido.\n\n### Etiologia\n\n:\n\n-\n\nCalculos (\n\nColedocolitiasis 60%)\n\nTumores\n\nInfeccion\n\n-\n\nDrenajes obstruidos (tubo en T de kerr)\n\nDilatacion biliar y etiologia\n\n-\n\nColangioresonancia\n\n<!-- p:244 -->\n\n- Diagnostico y conducta: tokio guideline\n\nClinica + laboratorio + imagen\n\n- Tokio 1 (leve)--------antibiotico con excelente respuesta----drenaje solo para\n\nRefractarios.\n\nTokio 2 (moderado)------ antibiotico + drenaje de urgencia\n\n### Si presenta\n\n- Leucocitosis >12000 o <4000/ fiebre/edad >75/hiperbilirrubinemia/hipoalbumina\n\nTokio 3 (grave)---------antibiotico + drenaje de emergencia-------con disfuncion organica\n\n- Organizando el tratamiento:\n\n1. Antibiotico-----amoxi/clavulanico/ceftriaxona-\n\nMetro/ampi+sulbactam/pipertazo/ticar-clavulanico.\n\n2. Drenaje biliar\n\n- Si charcot----electiva\n\n- Si reynolds--- inmediata\n\n![Figura 1](/resumen/cirugia-digestivo/p244-1.webp)\n\n<!-- p:245 -->\n\n### Desobtruccion de via biliar\n\n- Obstruccion baja: cpre + papilotomia endoscopica\n\n- Obstruccion alta: drenaje transhepatico percutaneo\n\n- Datos importantes doctores no se olviden:\n\nColelitiasis cronica: colico biliar <de 6 HRS colecistitis aguda-----dolor >6 HRS + fiebre+ Murphy coledocolitiasis----- ictericia intermitente colangitis aguda----charcot y reynolds colecistitis cronica-----vesicula en porcelana\n\n- Conducta para calculos residuales:\n\n1. Calculos en el coledoco con menos de 2 años de una colecistectomia---- hacer cpre +\n\nPapilotomia.\n\n2. Ictericia progresiva post instrumentacion de via biliar------ estenosis cicatrizal----\n\nColocacion de stent en la via biliar.\n\n- Si mas grave------derivacion biliodigestiva."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/colecistitis-aguda",
+      "slug": "colecistitis-aguda",
+      "order": 4,
+      "title": "Colecistitis aguda",
+      "sourcePages": [
+        246,
+        247,
+        248,
+        249
+      ],
+      "markdown": "<!-- p:246 -->\n\n### Concepto\n\nEs la obstruccion de la via biliar del conducto cistico, con impactacion por calculo, causando inflamacion/infeccion por germenes gram -.\n\n- Etiologia/ factor de riesgo:\n\n- Dieta\n\n- Sexo femenino\n\n- Multipara\n\n- Edad\n\n- Barro biliar/calculos\n\n### Clinica\n\nDolor abdominal de >de 6 a 18 horas +fiebre + señal de Murphy positiva.\n\n- Generalmente no presenta ictericia.\n\n### Laboratorio\n\n- Leucocitosis + bilirrubinas normales o levemente aumentadas +aumento de    enzimas\n\nDe colestasis. ------ggt/fosfata alcalina/ 5nucleotidasa\n\n### Imagen\n\n- Ecografia abdominal:\n\n- Calculo impactado\n\n- Distension vesicular\n\n- Liquido perivesicular\n\n- Pared >4 MM\n\n- Murphy ecografico\n\n<!-- p:247 -->\n\n- Cintilografia biliar: detecta obstrucciones, infiltraciones del conducto biliar y evalua\n\nEl funcionamiento de la vesicula.\n\n- Colangioresonancia: que se podria realizar tambien para estudio de la via biliar en\n\nGeneral\n\n### Diagnostico\n\nCriterios de tokio----clinica + laboratorio + imagen\n\nItem a: signos locales de inflamacion        -signo de Murphy\n\n- Masa palpable en cuadrante\n\nSuperior/dolor/sensibilidad\n\nItem B: signos sistemicos de inflamacion      -fiebre item C: imagen                                -PCR elevado\n\n- Leucocitosis\n\nHallazgos caracteristicos de colecistitis aguda\n\n### Diagnostico\n\n- Sospechoso: item a + item B.\n\n- Definitivo: un item a + item B + item C.\n\n- Gravedad:\n\n- Grave: tokio 3---- con disfuncion organica\n\n- Moderada: tokio 2\n\n![Figura 1](/resumen/cirugia-digestivo/p247-1.webp)\n\n<!-- p:248 -->\n\n### Con señales de alarma\n\n- Leucocitosis >18000\n\n- Masa palpable en cuadrante superior derecho\n\n- >72 HRS\n\n- Señales de complicacion local\n\n- Leve: tokio 1---- sin señales de alarma, sin disfuncion organica.\n\n- Conducta:\n\n- Tokio 1 (leve): -------colecistectomia laparoscopica\n\n- Tokio 2 (moderado)--------con señales de alarma—sin disfuncion organica.\n\nColecistectomia laparoscopica en centro especializado\n\n- Tokio 3 (grave)--------disfuncion organica\n\n- Tratamiento conservador y correcion de la disfuncion + colecistectomia\n\nLaparoscopica en centro especializado.\n\n- Casos graves sin condiciones de cirugia: colecistostomia percutanea\n\n- Conducta clinica:\n\n- Hidratacion parenteral\n\n- Nada por via oral\n\n- Analgesia (con diagnostico definitivo)\n\n- Antibioticos (cobertura para gram + y gram -) por 7 a 10 dias.\n\n- --esquemas: ceftriaxona+ metro-----ampi + sulbactam----cipro+ metronidazol)\n\n### Complicaciones\n\n1. Gangrena con necrosis de la pared + perforacion------libre genera peritonitis --\n\n- Cirugia de urgencia.\n\n2. Si bloqueada con abceso pericolecistico localizado----evaluar colecistectomia\n\n3. Colecistitis enfisematosa: predominio de anaerobios (Clostridium welchii).\n\n<!-- p:249 -->\n\n4. Empiema de vesicula: ------colecistectomia inmediata\n\n5. Colecistitis alitiasica: ----------pacientes graves\n\n- Estable: colecistectomia de urgencia.\n\n- Inestable: colecistostomia percutanea + ATB de amplio espectro"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/coledocolitiasis",
+      "slug": "coledocolitiasis",
+      "order": 5,
+      "title": "Coledocolitiasis",
+      "sourcePages": [
+        250,
+        251
+      ],
+      "markdown": "<!-- p:250 -->\n\n### Concepto\n\nPresencia de calculo en el coledoco\n\n### Etiologia\n\n- Primaria (10%):\n\nCalculo formado en el coledoco---café/negros.por parasitos o colangitis esclerosante\n\n- Secundaria (90%):\n\nCalculo se forma en la vesicula (amarillo).\n\n- Residual: aparece hasta 2 años despues de la colecistectomia.\n\n- Recurrente o primaria\n\n### Clinica\n\nAsintomatico en el 50%de los casos si hubiera\n\n### Clinica\n\n- Ictericia colestasica intermitente/fluctuante\n\n- Coluria\n\n- Aumento de fal y ggt\n\n- Vesicula no palpable\n\n### Diagnostico\n\n- Ecografia abdominal (inicial)----para calculos en la vesicula + coledoco >5mm.\n\n- Cpre\n\n- Colangioresonancia\n\n- Ecografia endoscopica\n\n### Tratamiento\n\nRealizar cpre + videolaparoscopia\n\n1. Papilotomia endoscopica\n\n2. Exploracion del coledoco via laparoscopica\n\n<!-- p:251 -->\n\n- --terapia que se realiza en caso de descubrir coledocolitiasis durante la colecistectomia.\n\n- Coledocotomia (colocacion de tubo en T de kerr).\n\n- Derivacion biliodigestiva: ------ y de roux (coledocoduodenostomia\n\nColedocoyeyunostomia).\n\n### Indicada\n\n- Coledoco muy dilatado\n\n- Mas de 6 calculos\n\n- Calculos intrahepaticos residuales\n\n- Coledocolitiasis primaria\n\n- Diverticulo duodenal\n\n- Dificultad para cateterizar la ampolla"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/diverticulosis-diverticulitis",
+      "slug": "diverticulosis-diverticulitis",
+      "order": 6,
+      "title": "Diverticulosis/diverticulitis",
+      "sourcePages": [
+        252
+      ],
+      "markdown": "<!-- p:252 -->\n\n### Concepto\n\nHerniacion de la mucosa/submucosa a traves de la capa de musculo liso del colon, en punto donde se encuentran las arterias rectas (falso diverticulo).\n\n### Factores de riesgo\n\n- Dieta pobre en fibra y rica en carbohidratos (exceso de gases en colon izq).\n\n- Ancianos-----aumento de presion del colon por los gases:\n\n- Constipacion\n\n- Sedentarismo\n\n- Obesidad\n\n- Sindrome de intestino irritable\n\n### Clinica\n\nPacientes asintomaticos/ o sintomas de flatulencia, distension abdominal\n\n### Diagnostico\n\n(mas frecuente en colon sigmoide)\n\n- Colonoscopia.\n\n- Enema opaco.\n\n### Complicaciones\n\n- Hemorragia (colon derecho---15%)\n\n- Diverticulitis (colon izquierdo---25%)\n\n- Obstruccion (menos frecuente)\n\n- Inflamacion (complicacion mas comun)\n\n![Figura 1](/resumen/cirugia-digestivo/p252-1.webp)"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/diverticulitis-aguda",
+      "slug": "diverticulitis-aguda",
+      "order": 7,
+      "title": "Diverticulitis aguda",
+      "sourcePages": [
+        253,
+        254
+      ],
+      "markdown": "<!-- p:253 -->\n\n### Fisiopatología\n\nObstrucción → isquemia → microperforaciones → formación de absceso pericólico (proliferación bacteriana: anaerobios y gramnegativos).\n\n### Clínica\n\n- Fiebre.\n- Dolor abdominal en fosa ilíaca izquierda, recurrente, de días de duración, que mejora y empeora.\n- Peritonitis.\n\n### Diagnóstico\n\nHistoria clínica + examen físico + tomografía con contraste (patrón de oro).\n\n### No realizar\n\n- Enema opaco ni colonoscopia por riesgo de perforación.\n- Hacer colonoscopia 4 a 6 semanas después para descartar neoplasia.\n\n### Clasificación\n\n| Hinchey | Kaiser | Conducta |\n|---|---|---|\n| 0 | Leve; engrosamiento | Antibiótico |\n| 1a | Flemón; densificación grasa | Antibiótico |\n| 1b | Absceso pericólico | Drenaje si >4 cm |\n| 2 | Absceso pélvico | Drenaje si >4 cm |\n\n<!-- p:254 -->\n\nMedic-grado                gas/colecciones    lavado 3 peritonitis purulenta                     laparoscopico\n\n4  peritonitis fecal       espesamiento del  hartmann peritoneo\n\n- Complicacion: abceso>4cm, peritonitis u obstruccion\n\n- No tiene-------tratamiento clinico\n\n1. Sintomas minimos: dieta liquida+ATB VO (ambulatorial)---7 a 10 dia\n\n2. Sintomas\n\nExuberantes: dieta cero + hidrat venosa+ATB EV (internacion).\n\n- Colonoscopia despues de 4 a 6 semanas.\n\n- Tiene complicacion + abceso >4 CM---estadio 1 y 2\n\n- Drenaje+ATB\n\n- Colonoscopia despues de 4 a 46 semanas\n\n- Cirugia electiva\n\n- Tiene complicacion + peritonitis----estadio 3 y 4\n\n- ATB+cirugia de urgencia------hartmann\n\nSi estadio 3: lavado laparoscopico\n\n- Cirugia electiva cuando:\n\n- Complicacion previa\n\n- Fistulas\n\n- Inmunodeprimidos.\n\n- Incapaz de excluir cancer.\n\n- Nota: el manejo clinico se puede realizar, independiente del numero de episodios de\n\nDiverticulitis aguda no complicada."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/hernias",
+      "slug": "hernias",
+      "order": 8,
+      "title": "Hernias",
+      "sourcePages": [
+        255,
+        256,
+        257,
+        258,
+        259
+      ],
+      "markdown": "<!-- p:255 -->\n\n### Concepto\n\nProtrusion anormal de un organo o tejido por un defecto en la pared muscular, donde la aponeurosis y fascia no son cubiertos por musculo estriado (fascie transversalis).\n\n- Lugares de aparicion de la hernia:\n\n- Region inguinal\n\n- Region femoral\n\n- Region umbilical\n\n- Linea alba\n\n- Anatomia:\n\nPiel---fascia de camper----fascia de scarpa----aponeurosis del musculo oblicuo externo (pared anterior del canal) ----canal inguinal (espacio virtual) -- musculo oblicuo intern-\n\n- --musculo transverso---fascia transversalis----peritoneo.\n\n- Canal inguinal formado por la superposicion de musculos:\n\n- Recto anterior\n\n- Oblicuo externo\n\n- Oblicuo interno\n\n- Musculo transverso\n\n![Figura 1](/resumen/cirugia-digestivo/p255-1.webp)\n\n<!-- p:256 -->\n\n- Contenido:\n\n- Cordon espermatico en el hombre (musc. Cremaster/conducto deferente/ vena y\n\nArteria espermatica/nervio genito femoral/conducto peritoneo vaginal/plexo pampiniforme\n\n- Ligamento redondo en la mujer\n\n- Que es el triangulo de hesselbach:\n\n- Punto por donde protruye hernia inguinal directa----debilidad de la fascia\n\nTransversalis.\n\n### Formado por\n\n- Vasos epigastricos inferiores\n\n- Borde del recto anterior\n\n- Ligamento inguinal\n\n- Quien forma el tendon conjunto?\n\n- Insercion del oblicuo interno e transverso.\n\n- Patogenia:\n\n- Factores predisponentes y desencadenantes\n\n- Hernia indirecta: defecto congenito---conducto peritoneo vaginal permeable.\n\n- Hernia directa: defecto adquirido---debilidad en la pared posterior.\n\n![Figura 2](/resumen/cirugia-digestivo/p256-1.webp)\n\n<!-- p:257 -->\n\n- Ocurre por:\n\n- Obesidad\n\n- Diabeticos\n\n- Desnutridos\n\n- Edad avanzada\n\n- Actividad fisica intensa\n\n- Enfermedad cronica debilitante\n\n- Clasificacion de hernias según la anatomia:\n\n1. Inguinal----mas frecuente la indirecta\n\n2. Femoral----mas frecuente en la mujer----tecnica de mcvay\n\n3. Umbilical\n\n4. Epigastrica\n\n5. Hipogastrica\n\n6. Lumbares----grynfelt (mas comun) y petit----mujeres atletas.\n\n7. Raras: amyand/ hernia en pantalon/spieguel/garengeot/littre/richter---borde\n\nAntimesenterico\n\n- Clasificacion clinica de las hernias:\n\n- Reductible---manual---espontanea\n\n- Irreductible----incarcerada—estrangulada---incohercible.\n\n- Inscisionales----evisceracion y eventracion\n\n### Cuadro clinico\n\n- Dolor leve, sensacion de peso en region inguinal.\n\n- Masa palpable o aunsente.\n\n- Parestesias en region de la masa.\n\n- Las que mas se incarceran o se estrangulan: indirecta y femoral---+canal menos\n\nElastico.\n\n<!-- p:258 -->\n\n### Diagnostico\n\n### Maniobra de valsalva\n\n- Punta del dedo: hernia inguinal indirecta.\n\n- Parte lateral del dedo: hernia inguinal directa.\n\n- Maniobra de landivar---- tapar el anillo interno + valsalva\n\n- Ecografia abdominal\n\n- TC de abdomen\n\n- Clasificacion de nyhuss\n\nTipo 1     hernia indirecta con anillo inguinal interno normal tipo 2     hernia indirectacon anillo inguinal alargado-preservado tipo 3     defecto en la pared posterior—directa-indirecta-femoral tipo 4     hernias recidivadas—directa-indirecta-femoral-mixta\n\n### Tratamiento\n\nSeñales de sufrimiento isquemico: - dolor intenso local\n\n- Fiebre y señales de sepsis\n\n- Inestabilidad hemodinamica\n\n- Peritonitis\n\n- Obstruccion intestinal\n\n- Tiempo de incarceracion de > de 6 a 8 horas.\n\n- Reductible: analgesia +maniobra de taxe +cirugia electiva\n\n<!-- p:259 -->\n\n- Incarcerada: reduccion manual + cirugia electiva----siempre que no tenga\n\nEstrangulamiento.\n\n- Estrangulada: cirugia de emergencia----por isquemia---inguinotomia\n\n### Tipos de cirugia\n\n- Anterior: convencional (piel tejido subcutaneo) ---herniorrafia anterior + refuerzo de\n\nLa pared anterior.\n\n- Tecnica: shouldice/lichstenstein (mas utilizada) / mcvay/bassini.\n\n- Posterior: laparoscopica----utiliza tela\n\n- Stoppa-----tela bilateral\n\n### Complicaciones\n\n- Hematoma/seroma/ infeccion.\n\n- Orquitis isquemica.\n\n- Dolor e hiperestesia de la bolsa escrotal o grandes labios.\n\n- Dolor especifico en la regon inguinal.\n\n- Parestesia del muslo cara externa."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/hiperplasia-prostatica-benigna",
+      "slug": "hiperplasia-prostatica-benigna",
+      "order": 9,
+      "title": "Hiperplasia prostatica benigna",
+      "sourcePages": [
+        260,
+        261,
+        262
+      ],
+      "markdown": "<!-- p:260 -->\n\n### Conceptos iniciales\n\nPeso de la prostata----20-30 gramos\n\n### Regiones\n\nZona central---periuretral zona periferica zona de transicion---- abraza la uretra prostatica---zona mas afectada por HPB\n\n- Funcion de la prostata: 10% de la composicion del semen—produce psa\n\n### Factores de riesgo\n\nEdad avanzada androgenos---mas receptores\n\n### Fisiopatologia\n\n*obstruccion uretral\n\n1. Hay crecimiento mecanico de la prostata—androgenos—comp.estatico\n\n2. Receptores alfa-1 adrenergicos—estiramiento cuello vesical—comp dinamico\n\n![Figura 1](/resumen/cirugia-digestivo/p260-1.webp)\n\n<!-- p:261 -->\n\n- Respuesta del detrusor a la obstruccion\n\n1. Hipertrofia de la musculatura---disminuye la complacencia.\n\n2. Desnervacion parasimpatica-----contracciones involuntarias---A. Colinergica.\n\n- 2 formas de crecimiento de la prostata\n\nDI-hidrotestosterona---por via de alfa 1 reductasa------dar finasteride estiramiento de fibras del cuello vesical----receptores alfa 1 adrenergico\n\n### Clinica\n\n### Sintomas obstructivos\n\n- Esfuerzo miccional\n\n- Goteo postmiccional\n\n- Vaciamiento incompleto\n\n- Chorro debil\n\n- Retencion urinaria\n\n### Sintoma irritativos\n\n- Urgencia miccional\n\n- Polaquiuria\n\n- Nicturia\n\n- Incontinencia de urgencia\n\n- Pequeños volumenes de miccion\n\n- Dolor suprapubico\n\n- Escala de ipss--- evalua la calidad de vida (de 0 a 35 puntos).\n\n- Sintomas leves----0-7---observacion y acompañamiento anual\n\n- Sintomas moderados---8-19-----terapia farmacologica\n\n- Sintomas graves----20-35----terapia farmacologica+opcion cirugia\n\n<!-- p:262 -->\n\n### Diagnostico\n\n- Ipss----definir intensidad de los sintomas\n\n- Tacto rectal----prostata aumentada de consistencia fibroelastica\n\n- Psa----puede estar elevado\n\n### Tratamiento\n\n1. Bloqueo alfa-1 adrenergico-----tamsulosina/doxazosina\n\n2. Inh. De 5 alfa reductasa-----finasteride\n\n3. Anticolinergico---oxibutinina-\n\nSolifenacina----opcion para sintomas irritativos graves\n\n- Tratamiento quirurgico: -----------refractarios-complicados\n\n1. Reseccion transuretral-- < 80 gramos\n\n2. Prostatectomia abierta--- > 80 gramos"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/obstruccion-intestinal",
+      "slug": "obstruccion-intestinal",
+      "order": 10,
+      "title": "Obstruccion intestinal",
+      "sourcePages": [
+        263,
+        264
+      ],
+      "markdown": "<!-- p:263 -->\n\n### Definicion\n\nEs la detenccion parcial o total del transito del contenido intestinal.\n\n### Epidemiologia\n\nEs una de las indicaciones mas frecuentes de cirugia de urgencia.\n\n- Causa mas frecuente de obstruccion del delgado: bridas y adherencias\n\n### Clasificacion\n\nSegún el nivel de obstruccion (valvula ileocecal)\n\n- Alta\n\n- Baja\n\nSegún la patogenia\n\n- Mecanico\n\n- Funcional\n\n### Según la evolucion\n\n- Aguda\n\n- Cronica\n\n- Causas de obstruccion intestinal mecanica:\n\nLuminal\n\n- Invaginacion intestinal (+ en la infancia)\n\n- Calculos biliares\n\n- Bezoares\n\n- Parasitos----ascaris lumbricoides.\n\n<!-- p:264 -->\n\nParietal\n\n- Neoplasia (colon)\n\n- Inflamatorias:\n\nColitis ulcerosa----enfermedad de crohm----diverticulitis----endometriosis\n\nExtraparietal: adherencia y bridas (delgado)----hernias-----mas extrinsecas-volvulo.\n\n### Cuadro clinico\n\n- Falta de eliminacion de heces y gases.\n\n- Diarrea paradoxal (obstruccion parcial).\n\n- Vomitos:\n\nAltos: precoces bajos: tardios\n\n- Dolor abdominal tipo colico + peristalsis de lucha-----timbre metalico\n\n- Distension abdominal\n\n- Obstruccion grave: oliguria, taquicardia, fiebre, leucocitosis (señal de isquemia).\n\n### Examen fisico\n\n1. Control de signos vitales\n\n2. Inspeccion/auscultacion/percusion/palpacion\n\n3. Tacto rectal---ampolla vacia: obstruccion total\n\n- --ampolla llena: obstruccion funcional\n\n### Laboratorio\n\n- Alcalosis metabolica hipocloremica----vomitos\n\n- Hipocalemia---act del sraa\n\n- Acidosis metabolica si isquemia.\n\n- RX de abdomen: ----siguiente si no es conclusivo TAC de abdomen\n\nHacer torax ap+ abdomen de pie + en decubito----rutina de abdomen agudo"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/adherencias-bridas",
+      "slug": "adherencias-bridas",
+      "order": 11,
+      "title": "Adherencias/bridas",
+      "sourcePages": [
+        265
+      ],
+      "markdown": "<!-- p:265 -->\n\n### Imágenes caracteristicas\n\n- Pila de monedas\n\n- Distension colonica\n\n- Grano de café\n\n### Tratamiento\n\n- Soporte:\n\n- Hidratacion EV\n\n- Correcion electrolitica\n\n- SNG\n\n- Antibiotico en caso de necrosis.\n\n- Observar:si obstruccion parcial o no complicada (24-48hrs).\n\n- Cirugia inmediata---estrangulamiento---isquemia---obstruccion total.\n\n- Obstruccion funcional del intestino----conservador. (compromiso de la funcion\n\nMotora).\n\n- Principal causa de obstruccion del delgado.\n\n### Factor de riesgo\n\nCirugia abdominal previa (independiente del tiempo).\n\n### Principales cirugias\n\nColorectal /ginecologica/ apendice /cesarea.\n\n### Pronostico\n\nObstruccion intestinal + cirugia previa: brida.\n\n### Tratamiento\n\n- No complicada: medidas de soporte (48 hr) + contraste con accion hiperosmolar."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/neoplasias",
+      "slug": "neoplasias",
+      "order": 12,
+      "title": "Neoplasias",
+      "sourcePages": [
+        266
+      ],
+      "markdown": "<!-- p:266 -->\n\n- Si el cuadro es refractario/ complicado:\n\n1. Plicatura\n\n2. Enterolisis\n\n- Segunda principal causa de obstruccion del delgado y principal causa de colon.\n\n- Principal causa: carcinomatosis peritoneal.\n\n- Cancer colorectal:\n\nDe 50 años + constipacion + adelgazamiento\n\nImagen: manzana mordida.\n\n- Obstruccion: colon y sigmoide.\n\n- Perforacion: ciego (>12 CM)\n\n- Valvula ileocecal: obstruccion en asa cerrada.\n\n### Tratamiento\n\nCirugia tipo hartmann + quimioterapia"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/volvulo",
+      "slug": "volvulo",
+      "order": 13,
+      "title": "Volvulo",
+      "sourcePages": [
+        266
+      ],
+      "markdown": "<!-- p:266 -->\n\n- Torsion del intestino sobre el propio eje.\n\n- Obstruccion en asa cerrada---2 puntos simultaneos—evolucion para isquemia y\n\nPerforacion. Lugar mas frecuente: sigmoide /ciego /gastrico.\n\n### Imagen\n\nImagen de u invertida-----grano de café.\n\n### Enema\n\nPico de pajaro."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/fecaloma",
+      "slug": "fecaloma",
+      "order": 14,
+      "title": "Fecaloma",
+      "sourcePages": [
+        267
+      ],
+      "markdown": "<!-- p:267 -->\n\n### Diagnostico\n\nClinica + imagen (RX/TC).\n\n### Tratamiento\n\n- - ciego----cirugia----cecostomia\n\n- -sigmoide---deobstruccion endoscopica cirugia (sigmoidectomia).\n\n- No complicada--- descompresion endoscopica.\n\n- Complicado----cirugia inmediata (sigmoidectomia/hartmann).\n\n### Concepto\n\nObstruccion de la ampolla rectal con heces------hacer tacto rectal. Perfil: ancianos, hospitalizados, Chagas, hirschprung.\n\n### Clinica\n\nConstipacion + dolor abdominal + diarrea paradoxal.\n\n### Diagnostico\n\nTacto rectal + examenes contrastados. Signo de gersuny: sensacion de crepitacion, masa moldable a la palpacion.\n\n### Tratamiento\n\nHidratacion/ laxante / lavado intestinal/ tacto rectal/enema de Murphy"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/ileo-paralitico",
+      "slug": "ileo-paralitico",
+      "order": 15,
+      "title": "Ileo paralitico",
+      "sourcePages": [
+        268
+      ],
+      "markdown": "<!-- p:268 -->\n\nCausas: post operatorio/ ileo metabolico.\n\n- Intestino: 24 HRS\n\n- Estomago: 48 HRS demora en recuperar la peristalsis\n\n- Colon: 72\n\nHRS.\n\n- Drogas: ----opioides, antagonista del canal de calcio.\n\n- Disturbios electroliticos----hipopotasemia: anciano con obstruccion.\n\n### Diagnostico\n\nPara de eliminacion de gases y heces, dolor y distension.\n\n- Aperistalsis + dilatacion difusa.\n\n### Tratamiento\n\n- Soporte (hidrat EV, SNG, correcion de electrolitos, suspender opioides.\n\n- Si postoperatorio transito intestinal volvera a la normalidad en 24 a 72 HRS."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/invaginacion-intestinal",
+      "slug": "invaginacion-intestinal",
+      "order": 16,
+      "title": "Invaginacion intestinal",
+      "sourcePages": [
+        268,
+        269
+      ],
+      "markdown": "<!-- p:268 -->\n\nObstruccion intestinal que ocurre entre los 3 meses y 6 años.\n\n### Causas\n\n- Idiopatica—en pediatricos\n\n- Polipos\n\n- Diverticulos\n\nTumores\n\n- Lugar mas frecuente: valvula ileocecal.\n\n<!-- p:269 -->\n\n### Clinica\n\nDolor abdominal paroxistico e intermitente + masa palpable+ heces en frambuesa paciente llorando constantemente.\n\n### Diagnostico\n\nClinica + examen de imagen (RX/ecografia/ enema).\n\n- Ecografia:\n\nSigno del blanco o del pseudoriñon\n\n- Enema:\n\nDiagnostico y terapeutico\n\n### Tratamiento\n\nEnema y si no resuelve-------hacer cirugia"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/preoperatorio",
+      "slug": "preoperatorio",
+      "order": 17,
+      "title": "Preoperatorio",
+      "sourcePages": [
+        270,
+        271,
+        272,
+        273,
+        274
+      ],
+      "markdown": "<!-- p:270 -->\n\n- Controlar los factores con impacto en la evolucion quirurgica\n\n### Realizar de forma ordenada\n\n- Evaluacion del riesgo quirurgico\n\n- Examenes preoperatorios\n\n- Medicaciones de uso cronico\n\n- Profilaxia antibiotica\n\n1. Evaluacion del riesgo quirurgico:\n\n### No operar con cardiopatia activa\n\nAngina inestable, ICC descompensada arritmia grave valvulopatia grave\n\n- Evaluacion cardiovascular indice cardiaco revisado\n\n1. Coronariopatia\n\n2. Insuficiencia cardiaca\n\n3. Enfermedad renal cronica\n\n4. Diabetes mellitus con insulina\n\n5. Enfermedad cerebrovascular----(avc/ait)\n\n6. Cirugia toracica, abdominal, o vascular suprainguinal.\n\n- 2 factores de riesgo con capacidad funcional > o igual 4 mets: cirugia\n\n- > o igual a 2 con capacidad funcional menor < 4 mets—realizar test de esfuerzo— si es\n\nNormal-----cirugia\n\n<!-- p:271 -->\n\n- Que son los mets?\n\nMiden la capacidad funcional, el gasto energetico diario del corazon\n\n- < de 4 mets (comer, vestir, anda alrededor de la casa).\n\n- 4 a 10 mets: subir escaleras, caminar rapido, trabajo domestico.\n\n- >de 10 mets: natacion, tenis, futbol.\n\n. La anestesia quirurgica demanda 4 mets, de esa forma < 4mets es igual a riesgo cardiovascular alto.\n\n- Resumen del estado clinico del paciente\n\nAsa 1: paciente saludable asa 2: enfermedad sistemica sin limitacion. (HTA controlada) asa 3: paciente limitado pero no incapacitado (HTA o diabetes no controlado, infarto previo) asa 4: limitado e incapacitado---- insuficiencia cardiaca descompensada asa 5: paciente moribundo asa 6: paciente en muerte cerebra L\n\n![Figura 1](/resumen/cirugia-digestivo/p271-1.webp)\n\n<!-- p:272 -->\n\nExamenes preoperatorios\n\n- Depende del paciente y del tipo de cirugia---para examen de grado pedir:\n\n- RX de torax /electrocardiograma.\n\n- Laboratorios:\n\n- Hemograma\n\n- Urea\n\n- Creatinina\n\n- Ionograma\n\n- Glucemia\n\n- Grupo sanguineo y factor rh\n\n- Serologias para VIH\n\n- Hepatitis B, C, Chagas, sifilis\n\nCoagulograma----si perdida mayor de 2 litros de sangre\n\n- Medicaciones de uso cronico\n\n- Hasta el dia de la cirugia:\n\nHidrocortisona antihipertensivos insulina antidiabetico oral----hasta el dia de la cirugia\n\nSe suspenden AINES—3 dias antes\n\nAntiagregantes----7- 10 dias, si coronariopatia mantener\n\nAnticoagulantes nuevos------2 a 3 dias antes de la cirugia (rivaroxaban/dabigatran) warfarina-----suspender 4 a 5 dias antes y mantener anticoagulacion con heparina hasta pocas horas antes de la cirugia (hnf: 6h / hbpm: 24 HRS).\n\n<!-- p:273 -->\n\n- Profilaxis antibiotica---evitar infeccion por S. aureus\n\nHeridas limpias: solo profilaxis en cirugia de huesos o protesis heridas limpia/contaminada: cefazolina contaminada: ---- inflamacion sin purulencia ----cefazolina infectada: ----inflamacion, supuracion-----esquema antibiotico\n\n- Se realiza 30 a 60 minutos antes de la inscision, solo se hace una dosis, para que dure el\n\nTiempo de la cirugia\n\n- Hacer mas de una dosis en cirugias prolongadas y sangramiento excesivo.\n\n- Tricotomia no debe ser realizada, si se hiciera solo en el momento de la cirugia\n\n- Ayuno:\n\n- Liquidos claros: 2 HRS\n\n- Leche materna: 4 horas\n\n- Leche no humana: 6 horas\n\n- Solidos: 6 a 8 hr\n\nComplicaciones de la cirugia\n\n- Fiebre\n\n- Infeccion preexistente\n\n- Reaccion a drogas o a transfusion\n\n- Hiperteremia maligna: hipermetabolismo\n\n- Atelectasia\n\n- Infeccion de la herida quirurgica\n\nDe 72 HRS del postoperatorio\n\n- Infeccion: infeccion urinaria, neumonia\n\n- TVP.\n\n<!-- p:274 -->\n\n- Complicaciones de la herida quirurgica\n\n- Seromas: colección de linfa en el subcutaneo\n\n- Hematoma: colección de sangre\n\n- Deshicencia aponeurotica: defecto musculo esqueletico por cirugia\n\n- Infeccion de herida operatoria: hasta 30 dias---o un año de la protesis, despues del\n\nProcedimiento"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/quemaduras",
+      "slug": "quemaduras",
+      "order": 18,
+      "title": "Quemaduras",
+      "sourcePages": [
+        275,
+        276,
+        277
+      ],
+      "markdown": "<!-- p:275 -->\n\n### Conceptos\n\n- El paciente gran quemado---tiene aumento de histamina y serotonina.\n\nCausando: aumento de la permeabilidad---shock\n\n- Hay hipermetabolismo-----indicar propanolol y oxandrolona\n\nCortisol/catecolaminas\n\n- Atencion prehospitalar:\n\n- Retirar de la fuente\n\n- Retirar ropa y joyas\n\n- Irrigar la zona de quemadura--- con agua tibia\n\n- Prevenir hipotermia----envolver al paciente en sabanas y cobertores secos\n\n- Indicar transferencia a centro de quemados:\n\n- Quemadura de 2do grado si fuese >10 %scq\n\n- Quemadura de 3er grado, independiente de scq\n\n- Quemadura electrica o quimica\n\n- Lesion por inhalacion\n\n- Lesiones articulares y extremidades\n\n- Lesiones en perine y genitalia\n\n- Trauma + quemadura\n\n- Atencion hospitalar --------revision primaria\n\n<!-- p:276 -->\n\nRealizar en quemaduras graves el ----a-B-C-D-e\n\nB *en la evaluar: ---lesiones inhalatorias\n\n1. Lesion termica supraglotica---estridor/ronquera\n\n2. Lesion termica subglotica---sibilancias/esputo carbonaceo\n\n3. Intoxicacion por monoxido de carbono---disminucion de consciencia\n\nC* -----reposicion de volumen:\n\n- Hacer regla de wallace----calcular scq\n\n- Calcular formula de parkland---2 ML/peso/scq---mitad en las primeras 8 horas y dar el\n\nResto en las siguientes 16 horas\n\nAnalgesia + antitetanica + profilaxia ATB\n\nD e *en la “ ” y la “ ” del\n\nTrauma--\n\n-\n\n+ curaciones de la herida + evaluar glasgow + evitar hipotermia.\n\n- Tipos de quemaduras:\n\nGrado 1-----quemadura solar profundidad: epidermis coloracion: eritema sensibilidad: dolor/ardor\n\n- No se calcula scq\n\n<!-- p:277 -->\n\nGrado 2\n\n- ---dermis superficial---papilas dermicas----empalidece a la compresion\n\n- ---dermis profunda---reticular---no empalidece\n\nColoracion: eritema y ampollas superficiales sensibilidad---muy dolorosas\n\nGrado 3---espesor total color: marron sensibilidad: dolor retraccion de la piel, peil dura, escara tratamiento ---escarectomia\n\nGrado 4-----electrica quemadura de dentro para afuera---quema el musculo\n\n- Lesion renal por rabdomiolisis: orina oscura + >CPK-----hidratacion EV agresiva\n\n- Sindrome compartimental:\n\nDolor intenso+palidez+ ausencia de pulso+reduccion de la temperatura+parestesia\n\n### Tratamiento\n\nGrado 1---limpieza+ analgesia + hidrantes grado 2 superficial---limpieza y desbridamiento +curativo oclusivo +ATB topico. Grado 2 profunda y 3er grado---limpieza y desbridamiento + injerto quemaduras quimicas---irrigar con agua 10 a 20 litros por 30 minutos\n\n### Complicaciones\n\n- Hemorragia digestiva por ulcera de curling\n\n- Neoplasia cutana maligna----carcinoma escamoso\n\n- Alteraciones en el movimiento de las articulaciones."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/trauma-de-abdomen",
+      "slug": "trauma-de-abdomen",
+      "order": 19,
+      "title": "Trauma de abdomen",
+      "sourcePages": [
+        278,
+        279,
+        280
+      ],
+      "markdown": "<!-- p:278 -->\n\nLesion en el continente y contenido de la cavidad abdominal, con lesion de viscera hueca y de organos solidos.\n\n### Mecanismo\n\n- Contusion\n\n- Cizallamiento\n\n- Desaceleracion\n\n- Lesiones mas comunes abdominales\n\n- Contuso (cerrado)-----bazo>higado>duodeno.\n\n- Penetrante (abierto).\n\n- Arma de fuego----delgado>colon>higado.\n\n- Arma blanca-----higado>delgado>diafragma.\n\n- Cinto de seguridad----delgado y mesenterio\n\n- Examenes utilizados:\n\n### Laboratorio\n\n- Hemograma\n\n- Urea\n\n- Creatinina\n\n- Ionograma\n\n- Glucemia\n\n- Coagulograma\n\n- Eab\n\n- Grupo sanguineo y factor rh.\n\n<!-- p:279 -->\n\n- Tomografia de abdomen:\n\nEvalua lesiones especificas y el retroperitoneo.\n\n- Exige de estabilidad hemodinamica.\n\n- Lavado peritoneal diagnostico:\n\n- Paciente inestable y trauma contuso.\n\n- Trauma penetrante sin indicacion de laparotomia inmediata\n\n- Procedimiento:\n\nInscision infra-abdominal, diseccion hasta el peritoneo y colocar cateter de dialisis.\n\n- Positivo: aspirado inicial: 10 ML de sangre o contenido gastrointestinal.\n\n- Post -lavado: gram + o hematies >100000 o leucocitos >500/mm3 o fibra alimentar\n\nO bilis.\n\n- Ecofast: paciente inestable---mas rapido.\n\n1. Espacio subxifoideo--------saco pericardico\n\n2. Espacio hepatorrenal-----morrison\n\n3. Espacio esplenorrenal\n\n4. Pelvis/fondo de saco (vejiga llena)\n\n5. ECO FAST extendido----evalua torax (pleuras-pneumoperitoneo)\n\n![Figura 1](/resumen/cirugia-digestivo/p279-1.webp)\n\n<!-- p:280 -->\n\n- Videolaparoscopia------paciente estable\n\nPara lesion del diafragma o transicion toraco abdominal.\n\n- Indicacion de laparotomia----abdomen agudo quirurgico\n\n- Trauma penetrante------shock/peritonitis o evisceracion.\n\n- Arma de fuego------laparotomia, lesion en dorso/flanco + paciente estable: tomografia\n\n- Arma blanca:\n\nPared anterior------------exploracion digital flanco y dorso----- si estable: tomografia de triple contraste\n\n- Evaluar hemodinamia:\n\nEstable: tomografia de abdomen con contraste---puede hacer un ecofast de seguridad antes.\n\n### Inestable\n\n- Laparotomia\n\n- ECO FAST y lpd +: laparotomia"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/sindrome-compartimental",
+      "slug": "sindrome-compartimental",
+      "order": 20,
+      "title": "Sindrome compartimental",
+      "sourcePages": [
+        281
+      ],
+      "markdown": "<!-- p:281 -->\n\nSi hubiese lesion /edema de organos dentro de un compartimento cerrado, el\n\n### Resultado seria\n\n- Perjudican el retorno venoso\n\n- Generan hipotension e hipertension intracraneal\n\n- Presion intra abdominal normal: 5- 7 mmhg\n\n- Hipertension abdominal: > o igual de 12 mantenida o repetida\n\n- Sindrome compartimental: >21 mmhg +señales y sintomas/lesion de organo.\n\n### Clasificacion\n\nPrimaria:  problema intra-abdominal\n\n- Trauma abdominal\n\n- Hemorragia\n\n- Ruptura de aneurisma\n\nSecundaria: ausencia de lesion intra abdominal\n\n- Quemaduras\n\n- Fracturas multiples\n\n- Shock septico\n\n- Tratamiento grado 3: ------- pia 21-25 mmhg.\n\n- Medidas conservadoras: paciente supino +cateter nasogastrico +reposicion volemica\n\nCautelosa+ + drenaje de colecciones intrabdominales.\n\n- Si paciente comienza con insuficiencia renal e insuficiencia respiratoria, hacer\n\nDescompresion----realizar laparotomia contenida (bolsa de bogota)\n\n- Tratamiento grado 4: --------pia >25 mmhg\n\nMedidas conservadoras +descompresion----peritoniostomia—bolsa de bogota\n\n-\n\nInsuficiencia renal\n\nAumento de presion\n\n-\n\nInsuficiencia respiratoria abdominal"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/trauma-de-higado",
+      "slug": "trauma-de-higado",
+      "order": 21,
+      "title": "Trauma de higado",
+      "sourcePages": [
+        282
+      ],
+      "markdown": "<!-- p:282 -->\n\n### Concepto\n\nLesión más común en el trauma penetrante.\n\n### Diagnóstico\n\n- FAST en el paciente inestable.\n- TC de abdomen con contraste en el paciente estable.\n\n| Grado | Laceración | Hematoma / lesión vascular |\n|---|---|---|\n| 1 | <1 | Subcapsular <10 % |\n| 2 | <3 | Subcapsular 50 %; intraparenquimatoso <10 % |\n| 3 | >3 | Subcapsular >50 %; intraparenquimatoso >10 % |\n| 4 | <75 % | — |\n| 5 | >75 % | Lesión vascular retrohepática; avulsión hepática |\n| 6 | — | — |\n\n### Tratamiento clínico: criterios obligatorios\n\n- Abdomen no quirúrgico.\n- Estabilidad hemodinámica.\n- Observación: UTI por 48 horas con examen físico y hemograma seriados.\n- Condiciones para intervención inmediata si es necesario: cirugía y angioembolización."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/trauma-de-bazo",
+      "slug": "trauma-de-bazo",
+      "order": 22,
+      "title": "Trauma de bazo",
+      "sourcePages": [
+        283,
+        284
+      ],
+      "markdown": "<!-- p:283 -->\n\n- Tratamiento quirurgico:\n\n- Lesion grado 5----si esta estable---arteriografia con angioembolizacion.\n\n- Sutura, clips quirurgico, electrocoagulacion, ligadura de vasos.\n\nPara sangrado: siempre despues de cirugia dejar drenaje.\n\n- Empaquetamiento hepatico----compresas y balon.\n\n- Maniobra de pringle---clampeo del ligamento hepatoduodenal de winslow-\n\n(coledoco, vena porta y arteria hepatica)\n\n- Continua sangrando lesion de vena cava   inferior.\n\n### Conceptos\n\n- Lesion mas comun del trauma contuso.\n\n- Tiene relacion con fractura de arcos costales.\n\n### Clinica\n\nSigno de kehr----dolor referido al hombro izquierdo signo de laffont----- dolor referido al hombro derecho.\n\n### Diagnostico\n\n- ECO FAST en paciente inestable.\n\nTC de abdomen con contraste-----patron de oro en paciente estable\n\n- Clasificacion aast---descripcion anatomica\n\nGrado    laceracion del parenquima hematoma 1      <1cm de profundidad     < 10% de la superficie 2     < 3cm de profundidad     <50% de la superficie <5 CM de extension 3     >3 CM de profundidad     >50% de superficie >5 CM de extension o    expansion\n\n<!-- p:284 -->\n\n- Conducta clinica\n\nLesiones grado 1, 2, 3 en la tomografia abdominal+criterios obligatorios.\n\n- Conducta quirurgica:\n\n- Lesion grado 4---devascularizacion >25% del bazo.\n\nSi estable -------angiombolizacion+blush arterial\n\n- Lesion grado 5------bazo pulverizado------esplenectomia"
+    },
+    {
+      "id": "cirugia-digestivo/resumen/trauma-de-torax",
+      "slug": "trauma-de-torax",
+      "order": 23,
+      "title": "Trauma de torax",
+      "sourcePages": [
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292
+      ],
+      "markdown": "<!-- p:285 -->\n\n### Definicion\n\nConjunto de alteraciones anatomicas y funcionales provocada por un agente traumatico sobre el torax, tanto en sus paredes, como en su contenido.\n\n### Clasificacion\n\n- Abierto: arma blanca y arma de fuego.\n\n- Cerrado: aplicación de energia en los tejidos, sin violar la integridad de los tejidos.\n\n### Fisiopatologia\n\n- Hipoxemia tisular-----por sangrado-----trastorno de la ventilacion/perfusion.\n\n- Hipercapnia-----hipoventilacion por ventilacion ineficaz\n\n- Acidosis------mal perfusion de tejidos\n\n- Evaluacion y manejo inicial:\n\n1. Revision primaria rapida:\n\nA----via aerea y control de columna cervical B----ventilacion (oxigeno) C----circulacion D----valoracion neurologica (escala de glasgow) e----exposicion/hipotermia.\n\n2. Revision secundaria detallada-----anamnesis/examen\n\nFisico/laboratorios/imagen.\n\n3. Considerar transferencia\n\n<!-- p:286 -->\n\n- Neumotorax simple:\n\nEntrada de aire al espacio pleural. Se clasifican en: trauma penetrante o trauma cerrado.\n\n- Según RX de torax:\n\n### Neumotorax grado 1\n\nFuera de la linea media clavicular (menos de 10 %) ---analgesia+ ejercicios tipo natacion.\n\n### Neumotorax grado 2\n\nCoincide con la linea media clavicular (10-60 %) ---- expectante---toracostomia en 4to a 5to espacio intercostal.\n\n### Neumotorax grado 3\n\nColapso pulmonar completo (mas de 60%) -------drenaje de torax (toracostomia), en el 4to a 5to espacio intercostal linea media clavicular.\n\n![Figura 1](/resumen/cirugia-digestivo/p286-1.webp)\n\n<!-- p:287 -->\n\n- Neumotorax a tension:\n\nAire en la pleura con mecanismo de valvula unidirecional.\n\n- Causa + comun: ventilacion con presion positiva\n\n- Complicacion:\n\nShock obstructivo, desvio del mediastino---con hipotension arterial.\n\n### Clinica\n\n- Disnea\n\n- Desvio contralateral de la traquea\n\n- Enfisema subcutaneo\n\n- Timpanismo\n\n- Ausencia o disminucion del murmullo vesicular.\n\n- Ingurgitacion yugular -hipotension\n\nO shock.\n\n### Diagnostico\n\nEs clinico + RX de torax\n\n- Conducta:\n\n### Inmediata\n\n- Toracocentesis en el 5to espacio linea media axilar y anterior. (si fuese pediatrico en el\n\n2do espacio intercostal hemiclavicular).\n\n- Toracostomia con drenaje de torax\n\n- ---5to espacio intercostal linea axilar media y anterior a trampa de agua\n\n- Neumotorax abierto:\n\n### Definicion\n\nEs una herida toracica aspirativa, con aumento de la presion positiva toracica, por lesion penetrante.\n\n- Tiene que haber un orificio mayor de 2/3 del diametro de la traquea.\n\n<!-- p:288 -->\n\n### Tratamiento\n\n- Curativo de 3 puntas----valvula unidireccional----tratamiento final\n\nToracostomia con drenaje en sello de agua+ cierre quirurgico de la lesion.\n\n- Cuando retirar el drenaje:\n\n- Liquido de drenaje <100ml /dia.\n\n- RX de torax con pulmon expandido.\n\n- Ausencia de burbujeo.\n\n- Hemotorax:\n\n- Sangrado por lesion de vaso intercostal, sangrado autolimitado.\n\n- Desvio de la traquea----si masivo.\n\n- Ausencia de yugulares.\n\n### Clinica\n\n- Matidez a la percusion\n\n- Murmullo vesicular disminuido\n\n- Hipotension\n\n- Desvio de traquea\n\n### Conducta\n\n- Iniciar cristaloides y sangre compatible.\n\n- Drenaje de torax---- 4, 5,6 espacio intercostal entre linea media axilar y linea axilar\n\nAnterior.\n\n- Autotransfusion de sangre.\n\n- Cuando realizar toracotomia:\n\nCuando no para el sangrado-------hemotorax masivo.\n\n- Mas de 1,5 litros de sangre\n\n- Drenaje de 200 a 300 ML/hora en las proximas 2 a 4 horas.\n\n- Necesidad persistente de transfusion.\n\n<!-- p:289 -->\n\n- Cuando el hemotorax es residual:\n\n- Empiema pleural-----fiebre /dolor pleuritico-----despues del hemotorax drenado.\n\n- Tratamiento-----hemotorax menor de 300 ML retenido---conducta expectante.\n\n- -----hemotorax residual mayor de 300 ML---videotoracoscopia\n\n- -----hemotorax voluminoso o con coleccion---------toracotomia.\n\n- -toracotomia de reanimacion----- trauma penetrante toracico—con ausencia de pulso\n\nCentral, con pupilas reactivas----toracotomia anterolateral.\n\n- Taponamiento cardiaco\n\n### Definicion\n\nLiquido inflamatorio o sangre de 100 a 200 ML en el espacio pericardico.\n\n### Clinica\n\n### Triada de beck\n\n- Ingurgitacion yugular/hipotension/ ruidos cardiacos hipofoneticos.\n\n- Pulso paradoxal---caida de 10 MM hg durante la inspiracion.\n\n- Signo de kussmaul----yugulares ingurgitadas.\n\n### Diagnostico\n\nClinica +ecofast/ ECO tranesofagico.\n\n![Figura 2](/resumen/cirugia-digestivo/p289-1.webp)\n\n<!-- p:290 -->\n\n### Tratamiento\n\n- Dar volumen.\n\n- Toracotomia---pericardiectomia/pericardiocentesis subxifoidea\n\n- Torax inestable\n\n- 2 o mas de 3 arcos costales fracturados en diferentes trazos de fractura.\n\n- Generalmente por accidente de automovil.\n\n- Clinica:\n\nDolor toracico + respiracion paradoxal---costilla golpea la pleura\n\n### Tratamiento\n\n- Analgesia----bloqueo intercostal + oxigeno\n\n- Evaluar distress respiratorio---insuficiencia respiratoria.\n\n- Contusion pulmonar\n\n- Asociada a fractura de arco costal.\n\n### Fisiopatologia\n\nSangre de vasos rotos pasan a los alveolos, intersticio e bronquios, causano infiltrados pulmonares en el RX de torax e hipoxemia.\n\n### Clinica\n\n- Disnea\n\n- Dificultad respiratoria\n\n- Taquipnea\n\n- Taquicardia\n\n### Diagnostico\n\nClinico + RX de torax con consolidaciones (despues de 24 a 48 HRS) + gasometria\n\n<!-- p:291 -->\n\n### Tratamiento\n\n- Analgesia\n\n- Oxigeno (si PAO2 menor de 60 y sat: <90%) ------ventilacion mecanica con presion positiva\n\nO intubacion\n\n- Contusion miocardica:\n\n- Sospechar en caso de trauma intenso en area miocardica\n\n- Lesion generalmente de ventriculo derecho que golpea la caja toracica.\n\n### Clinica\n\nLesion miocardica---puede generar insuficiencia cardiaca de vd/arritmias/bloqueo de rama derecha/ extrasistoles/ fibrilacion auricular + hipotension arterial\n\n### Diagnostico\n\nClinico + ecocardiograma (alteraciones de la motilidad-alt del vd).\n\n### Tratamiento\n\nObservacion por 24 a 48 horas---riesgo de arritmia si funcion del vd empeora dobutamina\n\n- Trauma de aorta:\n\nRuptura traumatica de aorta-----causa mas comun de muerte subita por:\n\n- Accidente automovilistico\n\n- Caidas de grandes alturas\n\n### Clinica\n\nPulsos normales en miembros superiores y reducidos en miembros inferiores.\n\n### Diagnostico\n\nClinica + RX de torax\n\nSi disponible: angiotac de torax o aortografia\n\n<!-- p:292 -->\n\n### Hallazgos\n\n- Ensanchamiento del mediastino\n\n- Hemotorax izquierdo\n\n- Fractura de primer y segundo arco costal\n\n- Perdida del contorno aortico\n\n### Tratamiento inicial y definitivo\n\n1. Estabilizacion clinica + evaluar lesiones asociadas.\n\n2. Betabloqueador---FC menor de 80 y pam de 60-70 hg\n\n3. Toracotomia izquierda o reparacion endovascular."
+    },
+    {
+      "id": "cirugia-digestivo/resumen/traumatismo-encefalocraneal",
+      "slug": "traumatismo-encefalocraneal",
+      "order": 24,
+      "title": "Traumatismo encefalocraneal",
+      "sourcePages": [
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299
+      ],
+      "markdown": "<!-- p:293 -->\n\n### Definicion\n\nDeterioro funcional del contenido craneal secundario a un intercambio brusco de energia mecanica.\n\n### Causando\n\nConcusion, contusion, hemorragia o laceracion del cerebro, cerebelo, tallo encefalico hasta nivel t1----paralisis de piernas y tronco.\n\n- Se considera traumatismo encefalico grave:\n\n- Escala de glasgow menor 9.\n\n- Anisocoria +deterioro del nivel de conciencia.\n\n- Defecto motor neurologico\n\n- Hipertension arterial + bradicardia\n\n- Convulsiones postraumaticas/status epileptico\n\n- Trauma penetrante craneal con glasgow menor de 13.\n\n- Clasificacion de tec:\n\n- Tec cerrado:\n\nSin rotura de capas meningeas\n\n- Tec abierto:\n\nCon rotura de capas meningeas con perdida de liquido cefalorraquideo (TAC).\n\n- Clasificacion internacional (escala de la glasgow) OMS\n\n<!-- p:294 -->\n\n### Factores de riesgo\n\nAntecedentes del accidente------- (mecanismo de alta energia) con sospecha de lesion penetrante de craneo\n\n- Edad > 65 años\n\n- Epilepsia\n\n- Tratamiento anticoagulante oral\n\n- Alcoholismo cronico\n\n- Elementos de la anamnesis\n\n- Perdida de consciencia de mas de 5 minutos\n\n- Cefalea intensa y progresiva\n\n- Vomitos explosivos\n\n- Presencia de convulsiones\n\n- Amnesia pre y postraumatica\n\n- Hallazgo del examen físico y neurológico\n\n• presencia de deficit neurologico • presencia de otorragia •presencia de rinorragia • signos de fractura de base de craneo • agitacion psicomotriz\n\n<!-- p:295 -->\n\n### A-lesiones cerebrales difusas\n\n- Diferencia entre concusion cerebral y lesion axonal difusa:\n\nConcusion cerebral                      lesion axonal difusa\n\nPerdida temporaria de la funcion        perdida subita de la conciencia neurologica, subita, menor de 6 horas.  -mayor de 6 horas\n\n- Puede ser reversible o irreversible\n\n- Con amnesia, confusion y convulsion    - TAC de cerebro sin\n\nAlteraciones\n\n- Conducta observacion\n\n- Lesiones cerebrales focales:\n\n- Hematoma extradural----arteria meningeas----agudo y grave.\n\n- Imagen de TAC:\n\nLente biconvexo---tiene intervalo lucido (50 a 60%).\n\n![Figura 1](/resumen/cirugia-digestivo/p295-1.webp)\n\n<!-- p:296 -->\n\n- Hematoma subdural------lesion de venas puentes----mas progresivo +mas frecuente.\n\n- Imagen en TAC:\n\nSemiluna----relacion con atrofia cortical.\n\n- Indicacion de TAC de cerebro:\n\nTec leve: observar tec moderado y grave realizar: tomografia axial\n\n- Tratamiento de la presion intracerebral\n\n- Inicialmente el a-B-C-D-e---mantener oxigeno/normotension/evitar hipotermia.\n\n### Tec grave\n\n- Medidas controversiales:\n\n![Figura 2](/resumen/cirugia-digestivo/p296-1.webp)\n\n<!-- p:297 -->\n\n- Medidas especificas:\n\n1. Elevacion de cabecera/collar cervical posicionado\n\n2. Evaluar anestesia y analgesia si dolor.\n\n3. Terapia con solucion salina o manitol\n\n4. Considerar hiperventilacion leve (PCO2 30 a 35 mmhg) --transitoria\n\n5. Considerar descompresion quirurgica\n\nTratamiento quirurgico de lesiones en el tec\n\n- Lesiones de cuero cabelludo----desbridar, hemostasia, sutura.\n\n- Fracturas con hundimiento -----mayor que el espesor de calota craneal.\n\n- Hematomas cerebrales----drenage del hematoma\n\n- Trauma cervical\n\n<!-- p:298 -->\n\n- RX de columna cervical\n\n- Pedir siempre ap y de perfil siempre.\n\n- Visualizar las 7 vertebras cervicales---- buena tecnica\n\n- Lesion de c4 ---- cuadriplejia---paralisis por debajo del cuello\n\n- Lesion de c6 (cuadriplejia) ----paralisis parcial de brazos y piernas\n\nLesion t6-----(paraplejia) ---debajo del torax\n\n- Lesion l1 ----(paraplejia) ---debajo de la cintura\n\n- Verificar alineamiento:\n\nAnterior al cuerpo vertebral posterior al cuerpo vertebral espinolaminar supraespinal\n\n- Principales fracturas:\n\n1. Luxacion atlantoaxial (c1) ----bebe sacudido\n\n2. Fractura de jefferson (atlas-c1) ---- explosion fractura en 4 partes,\n\nObjeto cayendo en la cabeza o zambullidas.\n\n3. Fractura de axis (c2) ----ahorcado---hiperextension cervical\n\n4. Fractura de chance------vertebra toracica---achatamiento del cuerpo vertebral causa\n\nAccidente por cinto de seguridad de 2 puntas\n\n- Dermatomos afectados:\n\n- C5: hombros\n\n- T2: axilas\n\n- T4: mamilos\n\n- T8: xifoides\n\n<!-- p:299 -->\n\n- T10: ombligo\n\n- T12: sinfisis pubica\n\n- L1-l5: miembros inferiores----l3: rodilla)\n\n- S4- s5: esfinteres/perianal\n\nDiferencia entre shock neurogenico y shock medular?\n\nShock neurogenico                            shock medular\n\nPresencia de hipotension arterial            contusion de la medula espinal\n\nY disminucion de la frecuencia               hay flacidez y arreflexia sin cardiaca.                                    Hipotension\n\nOcurre por arriba de t6. (pierde simpatico)."
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -8,7 +8,8 @@ Authentication is real (Supabase email/password with a protected dashboard). Stu
 
 - Landing page, signup, login, forgot/reset password
 - Protected dashboard with streak, next review and specialty cards
-- Topics and lesson screens per specialty (20 lessons, statically generated)
+- **12 clinical specialties and 51 topics** from the corpus, with a markdown lesson reader
+- **Reading library**: 95 chapters + 147 summaries + 17 review chapters, with figures
 - Quiz menu with questions and clinical cases (per specialty and random)
 - Notes screen with search, filters and grid/list views
 - Progress and More screens; More shows the session user, sign out and change password
@@ -42,6 +43,7 @@ Supabase project setup:
 3. Apply the migration in `supabase/migrations/` (canonical email uniqueness).
 
 Full auth contract: [docs/AUTH.md](docs/AUTH.md). Emails: [docs/EMAILS.md](docs/EMAILS.md).
+Content corpus and reading library: [docs/CONTENT.md](docs/CONTENT.md).
 Manual setup checklist (keys, deploy, hooks): [docs/MANUAL-STEPS.md](docs/MANUAL-STEPS.md).
 
 ## Deployment
@@ -67,15 +69,16 @@ Manual setup checklist (keys, deploy, hooks): [docs/MANUAL-STEPS.md](docs/MANUAL
 
 ```
 src/
-  app/            routes: landing, auth, dashboard (protected)
-  components/     shared UI: bottom-nav, back-header, auth-shell, note-card, ...
+  app/            routes: landing, auth, dashboard (protected), reading library
+  components/     shared UI: bottom-nav, back-header, auth-shell, markdown, ...
   emails/         React Email templates (welcome, reset, password changed)
   lib/auth/       zod schemas, server actions, rate limit, disposable domains
+  lib/content/    corpus loader, English slug map and types
   lib/email/      Resend sender and email link builders
   lib/supabase/   browser and server Supabase clients
   proxy.ts        session refresh + x-pathname (no route gating)
-supabase/
-  migrations/     canonical email identity table and triggers
+data/medical/     trimmed content corpus (JSON, not edited by hand)
+public/           reading figures under lectura/, resumen/ and repaso/
 ```
 
 Content lives in `src/lib/content.ts`: English slugs with Spanish display names. Quiz and

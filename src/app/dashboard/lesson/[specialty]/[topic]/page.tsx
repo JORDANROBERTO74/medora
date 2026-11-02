@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getSpecialty, getTopic, specialties } from "@/lib/content";
+import { getTopicContent } from "@/lib/content/corpus";
 import { LessonView } from "./lesson-view";
 
 export function generateStaticParams() {
@@ -29,6 +30,8 @@ export default async function LessonPage({
   const { specialty: slug, topic: topicSlug } = await params;
   const specialty = getSpecialty(slug);
   const topic = getTopic(slug, topicSlug);
-  if (!specialty || !topic) notFound();
-  return <LessonView specialty={specialty} topic={topic} />;
+  const content = getTopicContent(slug, topicSlug);
+
+  if (!specialty || !topic || !content) notFound();
+  return <LessonView specialty={specialty} topic={topic} content={content} />;
 }

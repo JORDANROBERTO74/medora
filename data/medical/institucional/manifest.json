@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "id": "institucional",
+  "name": "Institucional / Otros",
+  "slug": "institucional",
+  "order": 13,
+  "kind": "institutional",
+  "description": "Material motivacional y anuncios de cursos.",
+  "topics": [
+    {
+      "id": "institucional/material-institucional",
+      "slug": "material-institucional",
+      "order": 1,
+      "title": "Material institucional",
+      "file": "01-material-institucional.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

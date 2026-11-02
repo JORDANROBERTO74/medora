@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "cirugia-digestivo",
+  "name": "Cirugía / Traumatología",
+  "slug": "cirugia-digestivo",
+  "order": 3,
+  "kind": "clinical",
+  "description": "Hemorragias, vía biliar, apendicitis y funciones digestivas.",
+  "topics": [
+    {
+      "id": "cirugia-digestivo/hemorragias",
+      "slug": "hemorragias",
+      "order": 1,
+      "title": "Hemorragias",
+      "file": "01-hemorragias.json"
+    },
+    {
+      "id": "cirugia-digestivo/via-biliar",
+      "slug": "via-biliar",
+      "order": 2,
+      "title": "Vía biliar",
+      "file": "02-via-biliar.json"
+    },
+    {
+      "id": "cirugia-digestivo/apendicitis",
+      "slug": "apendicitis",
+      "order": 3,
+      "title": "Apendicitis",
+      "file": "03-apendicitis.json"
+    },
+    {
+      "id": "cirugia-digestivo/funciones-digestivas",
+      "slug": "funciones-digestivas",
+      "order": 4,
+      "title": "Funciones digestivas",
+      "file": "04-funciones-digestivas.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

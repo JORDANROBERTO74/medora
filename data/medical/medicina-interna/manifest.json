@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna",
+  "name": "Medicina Interna / Semiología",
+  "slug": "medicina-interna",
+  "order": 12,
+  "kind": "clinical",
+  "description": "Quince tríadas de medicina.",
+  "topics": [
+    {
+      "id": "medicina-interna/triada-de-cushing",
+      "slug": "triada-de-cushing",
+      "order": 1,
+      "title": "Tríada de Cushing",
+      "file": "01-triada-de-cushing.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-charcot-esclerosis-multiple",
+      "slug": "triada-de-charcot-esclerosis-multiple",
+      "order": 2,
+      "title": "Tríada de Charcot (esclerosis múltiple)",
+      "file": "02-triada-de-charcot-esclerosis-multiple.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-charcot-colangitis",
+      "slug": "triada-de-charcot-colangitis",
+      "order": 3,
+      "title": "Tríada de Charcot (colangitis)",
+      "file": "03-triada-de-charcot-colangitis.json"
+    },
+    {
+      "id": "medicina-interna/pentada-de-reynolds",
+      "slug": "pentada-de-reynolds",
+      "order": 4,
+      "title": "Pentada de Reynolds",
+      "file": "04-pentada-de-reynolds.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-beck",
+      "slug": "triada-de-beck",
+      "order": 5,
+      "title": "Tríada de Beck",
+      "file": "05-triada-de-beck.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-hutchinson",
+      "slug": "triada-de-hutchinson",
+      "order": 6,
+      "title": "Tríada de Hutchinson",
+      "file": "06-triada-de-hutchinson.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-meningitis",
+      "slug": "triada-de-meningitis",
+      "order": 7,
+      "title": "Tríada de meningitis",
+      "file": "07-triada-de-meningitis.json"
+    },
+    {
+      "id": "medicina-interna/triada-embarazo-ectopico",
+      "slug": "triada-embarazo-ectopico",
+      "order": 8,
+      "title": "Tríada clásica de embarazo ectópico",
+      "file": "08-triada-embarazo-ectopico.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-virchow",
+      "slug": "triada-de-virchow",
+      "order": 9,
+      "title": "Tríada de Virchow",
+      "file": "09-triada-de-virchow.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-whipple",
+      "slug": "triada-de-whipple",
+      "order": 10,
+      "title": "Tríada de Whipple",
+      "file": "10-triada-de-whipple.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-la-endocarditis-infecciosa",
+      "slug": "triada-de-la-endocarditis-infecciosa",
+      "order": 11,
+      "title": "Tríada de la endocarditis infecciosa",
+      "file": "11-triada-de-la-endocarditis-infecciosa.json"
+    },
+    {
+      "id": "medicina-interna/triada-clasica-del-cancer-renal",
+      "slug": "triada-clasica-del-cancer-renal",
+      "order": 12,
+      "title": "Tríada clásica del cáncer renal",
+      "file": "12-triada-clasica-del-cancer-renal.json"
+    },
+    {
+      "id": "medicina-interna/triada-letal-del-trauma",
+      "slug": "triada-letal-del-trauma",
+      "order": 13,
+      "title": "Tríada letal del trauma",
+      "file": "13-triada-letal-del-trauma.json"
+    },
+    {
+      "id": "medicina-interna/triada-de-saint",
+      "slug": "triada-de-saint",
+      "order": 14,
+      "title": "Tríada de Saint",
+      "file": "14-triada-de-saint.json"
+    },
+    {
+      "id": "medicina-interna/triada-torch",
+      "slug": "triada-torch",
+      "order": 15,
+      "title": "Tríada de TORCH (toxoplasmosis congénita)",
+      "file": "15-triada-torch.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

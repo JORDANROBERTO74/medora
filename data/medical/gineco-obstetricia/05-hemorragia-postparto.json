@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia/hemorragia-postparto",
+  "specialty": "gineco-obstetricia",
+  "slug": "hemorragia-postparto",
+  "order": 5,
+  "title": "Hemorragia postparto",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la hemorragia postparto sigue siendo una de las principales causas de muerte materna y causa cerca de 45 000 muertes al año en el mundo. En octubre de 2025 la OMS, la FIGO y la ICM publicaron la primera guía consolidada dedicada exclusivamente a esta entidad, con 51 recomendaciones que cubren prevención, diagnóstico y tratamiento. El cambio más relevante es diagnóstico: además del umbral clásico de 500 mL, se recomienda actuar cuando la pérdida alcanza 300 mL **y** se observan signos vitales anormales."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** se define como sangrado excesivo después del parto; afecta a millones de mujeres cada año y provoca cerca de 45 000 muertes, lo que la sitúa entre las primeras causas de mortalidad materna. Incluso cuando no es fatal, puede dejar secuelas físicas y psicológicas duraderas, desde daño orgánico mayor hasta histerectomía, ansiedad y trauma. Muchos casos ocurren **sin factores de riesgo identificables**, lo que hace crítico el reconocimiento precoz."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el marco de las \"4 T\" ordena las causas en tono (fallo contráctil), tejido (restos placentarios), trauma (lesiones del canal del parto) y trombina (coagulopatía), y es el que emplea el material base [P08]; las recomendaciones de 2025 se organizan por intervención más que por causa, pero comparten la lógica de corregir secuencialmente el factor desencadenante. La anemia es un factor modificable: aumenta la probabilidad de hemorragia y agrava el desenlace si ocurre."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el sangrado puede escalar con gran rapidez, de ahí la insistencia en la monitorización estrecha después del nacimiento y en la cuantificación objetiva de la pérdida. La hemorragia no siempre es predecible, por lo que la preparación del equipo y la respuesta inmediata forman parte del manejo."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** umbral clásico de 500 mL o más; criterio nuevo: actuar también a los 300 mL si hay signos vitales anormales. Para detectar la hemorragia de forma temprana se recomienda vigilar de cerca a la puérpera y usar campos graduados, dispositivos sencillos que recogen y cuantifican la sangre perdida, de modo que se actúe en cuanto se cumplen los criterios."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** una vez diagnosticada, se aplica de inmediato el paquete **MOTIVE**: masaje uterino, fármacos oxitócicos, ácido tranexámico, fluidos intravenosos, examen vaginal y del tracto genital, y escalada de cuidados si el sangrado persiste. En los casos raros en que el sangrado continúa, se recurre a cirugía o transfusión para estabilizar a la mujer hasta que haya tratamiento definitivo disponible. En el alumbramiento se recomienda administrar un uterotónico de calidad garantizada, preferiblemente oxitocina o carbetocina termoestable como alternativa; si no hay opciones intravenosas y la cadena de frío no es fiable, puede usarse misoprostol como último recurso. En la placenta previa, si fallan uterotónicos y ácido tranexámico, se inicia taponamiento con balón intrauterino y se consideran suturas de compresión."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las complicaciones incluyen histerectomía, daño orgánico y muerte, además de ansiedad y trauma. La prevención se apoya en un buen control prenatal y posnatal que corrija factores como la anemia: en gestantes anémicas se recomienda hierro oral y folato diarios, y hierro intravenoso cuando se necesita corrección rápida, incluida la situación poshemorragia o el fracaso del tratamiento oral. Se desaconsejan prácticas inseguras como la episiotomía rutinaria y se promueven técnicas preventivas como el masaje perineal al final del embarazo, para reducir el trauma y el sangrado grave."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no esperar a los 500 mL si los signos vitales ya son anormales: el criterio de 300 mL con alteración hemodinámica busca adelantar la intervención; (2) no confiar en la estimación visual de la pérdida: los campos graduados permiten cuantificarla; (3) no demorar la escalada: el paquete MOTIVE incluye explícitamente escalar si el sangrado persiste; (4) no usar misoprostol como primera opción profiláctica cuando se dispone de oxitocina o carbetocina; (5) recordar que la hemorragia puede aparecer sin factores de riesgo."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

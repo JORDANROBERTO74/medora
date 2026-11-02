@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neumologia/tuberculosis",
+  "specialty": "neumologia",
+  "slug": "tuberculosis",
+  "order": 2,
+  "title": "Tuberculosis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tuberculosis sigue siendo la principal causa de muerte por un único agente infeccioso a nivel mundial y, tras la pandemia, el número de casos incidentes se estabilizó y la mortalidad descendió en 2023. El diagnóstico debe iniciarse con pruebas moleculares rápidas, no con la baciloscopia, y el tratamiento de la enfermedad sensible a fármacos ya no es sinónimo de seis meses: existen esquemas de cuatro meses recomendados por la OMS."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** en 2024 se estimaron 10,7 millones de personas enfermas de tuberculosis (5,8 millones de hombres, 3,7 millones de mujeres y 1,2 millones de niños) y 1,23 millones de muertes, 150 000 de ellas en personas con VIH. Alrededor de una cuarta parte de la población mundial está infectada de forma latente; de ellas, un 5–10 % desarrollará enfermedad a lo largo de la vida. Más del 80 % de los casos y muertes ocurren en países de ingresos bajos y medios, y alrededor del 87 % de los casos nuevos se concentran en los 30 países de alta carga, con India (25 %), Indonesia (10 %) y Filipinas (6,8 %) a la cabeza. Los factores de riesgo destacados son diabetes, inmunosupresión (VIH), desnutrición, tabaquismo y consumo nocivo de alcohol. En 2024 solo alrededor de 2 de cada 5 personas con tuberculosis resistente accedieron a tratamiento, y en 2023 la tuberculosis volvió a ser probablemente la primera causa de muerte por un agente infeccioso único."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** *Mycobacterium tuberculosis* se transmite por vía aérea cuando una persona enferma tose, estornuda o escupe. La infección latente no es contagiosa y no produce síntomas; la enfermedad aparece cuando las bacterias se multiplican y afectan distintos órganos, con síntomas que dependen de la localización (pulmón, riñón, cerebro, columna, piel). Las personas con VIH tienen 12 veces más riesgo de enfermar y la tuberculosis es la principal causa de muerte en ese grupo. La forma cavitaria descrita en el material base es la de mayor carga bacilar y, por tanto, la más transmisible, lo que es coherente con la vía aérea descrita por la OMS."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** tos prolongada (a veces con sangre), dolor torácico, astenia, fatiga, pérdida de peso, fiebre y sudoración nocturna; los síntomas pueden ser leves durante meses y facilitar la transmisión antes del diagnóstico. Algunas personas con enfermedad no tienen síntomas y aun así pueden transmitirla, dato relevante porque el material base presenta la clínica como característica obligada."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la OMS recomienda pruebas diagnósticas rápidas como prueba inicial en toda persona con signos y síntomas de tuberculosis, incluidas pruebas moleculares y biomarcadores en el punto de atención, capaces de dar un resultado orientativo en 48 horas y de detectar resistencia. El diagnóstico de resistencia exige confirmación bacteriológica y pruebas de resistencia mediante métodos moleculares rápidos o cultivo. Para la infección latente se utilizan la prueba cutánea de tuberculina, el ensayo de liberación de interferón gamma o las nuevas pruebas cutáneas basadas en antígenos. El material base acierta al incluir el Xpert MTB/RIF, pero lo sitúa junto a la baciloscopia; la recomendación vigente prioriza lo molecular sobre la microscopía."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** los fármacos de primera línea siguen siendo rifampicina, isoniazida, pirazinamida y etambutol, con administración diaria durante 4–6 meses; interrumpir el tratamiento antes de tiempo favorece la resistencia. La guía consolidada de la OMS (módulo 4, 2022) incorporó dos recomendaciones nuevas: un esquema de **cuatro meses** con rifapentina, isoniazida, pirazinamida y moxifloxacino, y otro esquema de **cuatro meses** para niños con tuberculosis no grave; el esquema estándar de seis meses se mantiene como alternativa. Para la tuberculosis multirresistente, la OMS priorizó desde 2022 un esquema oral corto de seis meses (BPaLM/BPaL); en 2024 unos 34 000 pacientes iniciaron estos esquemas cortos, frente a 5653 en 2023. La tuberculosis sensible se cura y la enfermedad no tratada puede ser mortal."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la vacuna BCG, administrada a lactantes y niños pequeños en países con alta carga, previene muertes por tuberculosis y protege frente a las formas graves infantiles. El tratamiento preventivo evita que la infección progrese a enfermedad, y se recomienda cribado en personas con VIH o contacto domiciliario o laboral con enfermos. En el ámbito sanitario se recomiendan respiradores y ventilación adecuada, además de higiene respiratoria por parte del paciente. La tuberculosis multirresistente y la extremadamente resistente son la principal amenaza de salud pública, con opciones terapéuticas limitadas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no descartar tuberculosis por ausencia de síntomas típicos, ya que puede haber enfermedad subclínica transmisible; (2) no iniciar el estudio con baciloscopia cuando hay acceso a pruebas moleculares rápidas; (3) no asumir que todo paciente necesita seis meses: los esquemas de cuatro meses son recomendación OMS en población elegible; (4) recordar que la forma pleural del material base exige ADA y estudio del líquido, coherente con la recomendación SEPAR de solicitar ADA de rutina en el derrame tuberculoso."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

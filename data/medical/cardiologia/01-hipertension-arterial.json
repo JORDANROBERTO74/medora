@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia/hipertension-arterial",
+  "specialty": "cardiologia",
+  "slug": "hipertension-arterial",
+  "order": 1,
+  "title": "Hipertensión arterial",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la hipertensión es uno de los principales factores de riesgo modificables; el diagnóstico no se establece con una sola toma sino con confirmación fuera de la consulta; la meta tensional depende de la guía que se adopte; y la combinación de IECA con ARA-II está formalmente desaconsejada."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la OMS define hipertensión cuando la presión sistólica es ≥140 mmHg y/o la diastólica ≥90 mmHg en dos días distintos; el criterio ACC/AHA que usa el material es más bajo, ≥130/80 mmHg. En 2024 se estimaban 1400 millones de adultos de 30 a 79 años con hipertensión (33 % de ese grupo etario), dos tercios en países de ingresos bajos y medios; un 44 % no lo sabía y solo un 23 % estaba controlado. En Estados Unidos cerca de la mitad de los adultos cumple criterio, pero solo un 26 % de los pacientes alcanza la meta de control. Alrededor del 85 % de los casos son hipertensión primaria."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la presión arterial es el producto del gasto cardíaco por la resistencia periférica total; en la hipertensión primaria el gasto suele ser normal o algo elevado y la resistencia periférica está aumentada. Entre las causas secundarias figuran la apnea obstructiva del sueño, la enfermedad renal parenquimatosa, la enfermedad renovascular y el hiperaldosteronismo primario, además de fármacos como simpatomiméticos, AINE, antipsicóticos, corticoides, inhibidores de tirosina cinasa y cocaína. Los factores de riesgo modificables son dieta rica en sal y grasas saturadas, inactividad, tabaco, alcohol y sobrepeso; la contaminación del aire es un factor ambiental relevante; la historia familiar, la edad >65 años, la diabetes y la enfermedad renal son no modificables."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la mayoría de los pacientes no tiene síntomas, de modo que la única forma de detección es medir la presión. Cifras muy elevadas (habitualmente ≥180/120 mmHg) pueden acompañarse de cefalea intensa, dolor torácico, mareo, disnea, náuseas, vómitos, alteraciones visuales, ansiedad, confusión, acúfenos, epistaxis o arritmias. La lesión de órganos diana afecta corazón, cerebro, riñón y retina."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la medición debe estandarizarse: paciente sentado más de 5 minutos, espalda apoyada, pies en el suelo, brazo a la altura del corazón, sin ejercicio, cafeína ni tabaco en los 30 minutos previos y manguito que cubra el 80 % del perímetro del brazo, con un ancho del 40 %. Debe medirse en ambos brazos: una diferencia de hasta 15 mmHg es normal, y si persiste por encima de ese valor se usan las cifras del brazo más alto. Con una cifra de consulta ≥140/90 mmHg se repite la medición y se registra el menor de los dos últimos valores. Entre 140/90 y 180/120 mmHg se ofrece monitorización ambulatoria (MAPA) para confirmar; la MAPA requiere al menos dos mediciones por hora en vigilia y un promedio de al menos 14 mediciones, y la automedición domiciliaria (AMPA) dos mediciones separadas un minuto, dos veces al día, durante al menos 4 días (idealmente 7), descartando el primer día. El diagnóstico se confirma con consulta ≥140/90 mmHg **y** promedio de MAPA diurno o AMPA ≥135/85 mmHg. El cribado inicial de lesión de órganos diana incluye cociente albúmina/creatinina y hematuria, HbA1c, electrolitos, creatinina y filtrado glomerular, perfil lipídico, fondo de ojo y electrocardiograma de 12 derivaciones."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** las medidas no farmacológicas incluyen reducir la sal, moderar el alcohol, perder peso, dejar el tabaco y acumular 150 minutos semanales de actividad aeróbica moderada o 75 de vigorosa, con trabajo de fuerza dos o más días por semana. La guía NICE escalona el tratamiento: paso 1 con IECA o ARA-II en menores de 55 años no afrodescendientes y en diabéticos tipo 2 de cualquier edad, o con calcioantagonista en mayores de 55 años y en personas de origen africano o caribeño sin diabetes; si el calcioantagonista no se tolera, diurético tiazídico-like, prefiriendo indapamida. El paso 2 añade calcioantagonista o tiazídico al IECA/ARA-II; el paso 3 combina IECA o ARA-II + calcioantagonista + tiazídico-like; y en hipertensión resistente (paso 4) se considera espironolactona a dosis baja si el potasio es ≤4,5 mmol/L, o un alfa o betabloqueante si es >4,5 mmol/L, siempre tras confirmar con MAPA/AMPA, revisar adherencia y descartar hipotensión ortostática. **No debe combinarse un IECA con un ARA-II**. Las metas son <140/90 mmHg en menores de 80 años y <150/90 mmHg en mayores de 80, con equivalentes de MAPA/AMPA <135/85 y <145/85 mmHg respectivamente, y son las mismas con o sin enfermedad cardiovascular; la OMS reserva la meta <130/80 mmHg para quienes tienen enfermedad cardiovascular, diabetes, enfermedad renal crónica o alto riesgo cardiovascular, y mantiene <140/90 para el resto. Ante una cifra ≥180/120 mmHg sin síntomas se buscan lesiones de órganos diana y, si existen, se inicia tratamiento sin esperar la MAPA; con hemorragias retinianas, papiledema o síntomas potencialmente letales se remite para valoración especializada el mismo día."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la hipertensión no controlada produce angina, infarto, insuficiencia cardíaca, arritmias con riesgo de muerte súbita, ictus y nefropatía progresiva. La prevención se apoya en el estilo de vida, el control periódico de la presión, la adherencia terapéutica y el tratamiento de las comorbilidades."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** no diagnosticar con una única medición ni con un manguito de tamaño inadecuado; recordar que los sustitutos de sal ricos en cloruro de potasio no deben usarse en personas mayores, diabéticas, embarazadas, con enfermedad renal o en tratamiento con IECA/ARA-II; no se recomiendan suplementos de calcio, magnesio ni potasio para bajar la presión; la hipotensión ortostática se define por una caída ≥20 mmHg sistólica o ≥10 mmHg diastólica tras al menos un minuto de pie, o en los tres primeros minutos según otra referencia."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

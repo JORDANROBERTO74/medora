@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-virchow",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-virchow",
+  "order": 9,
+  "title": "Tríada de Virchow",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada describe los tres mecanismos clásicos de la trombosis venosa y sigue siendo un modelo fisiopatológico válido; no es un criterio diagnóstico ni una escala de riesgo."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la enfermedad tromboembólica venosa incluye la trombosis venosa profunda y el embolismo pulmonar; las guías abordan el estudio de las condiciones que aumentan su probabilidad, como la trombofilia y el cáncer."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** estasis del flujo (inmovilidad, compresión, insuficiencia venosa), lesión endotelial (cirugía, catéteres, traumatismo) e hipercoagulabilidad (trombofilia hereditaria o adquirida, neoplasia, estados inflamatorios)."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el objeto de la guía son la trombosis venosa profunda y el embolismo pulmonar en adultos, excluyendo a la embarazada; su valoración parte de la sospecha clínica y continúa con las pruebas diagnósticas."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** NICE NG158 ordena el proceso diagnóstico de la TVP y del embolismo pulmonar y establece cuándo está indicado el estudio de trombofilia y cuándo la búsqueda de cáncer oculto."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la anticoagulación es la base del tratamiento y la guía contempla el manejo ambulatorio del embolismo pulmonar de bajo riesgo, la anticoagulación a largo plazo para prevención secundaria, la trombólisis y los filtros de vena cava."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la guía aborda la prevención secundaria y las intervenciones mecánicas, lo que refleja la gravedad potencial del evento tromboembólico."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la tríada no estratifica el riesgo ni indica por sí sola anticoagulación; el riesgo se valora con factores clínicos y con escalas validadas. Confundir el modelo fisiopatológico con un algoritmo diagnóstico es el error más habitual."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

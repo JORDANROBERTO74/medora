@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neurologia/encefalomielitis",
+  "specialty": "neurologia",
+  "slug": "encefalomielitis",
+  "order": 2,
+  "title": "Encefalomielitis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:**\n  - El material base describe, con otro nombre, la **rabia**: una zoonosis vírica que produce encefalomielitis progresiva y es **virtualmente letal al 100 %** una vez que aparecen los síntomas.\n  - La **profilaxis posexposición (PPE) es una urgencia**: lavado generoso de la herida, pauta completa de vacuna y, si está indicada, inmunoglobulina o anticuerpos monoclonales.\n  - La **categoría de exposición** (I, II o III) determina si se administra solo vacuna o también inmunoglobulina.\n  - El **lavado de la herida por sí solo** reduce de forma marcada el riesgo, incluso sin otros tratamientos.\n  - La confirmación diagnóstica en vida es difícil; el diagnóstico de certeza es **posmortem**."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** La rabia es una enfermedad vírica zoonótica desatendida que afecta al sistema nervioso central y está presente en todos los continentes excepto la Antártida. Según el modelo de estimaciones mundiales de salud de 2021, causa unos **44 203 fallecimientos anuales**, con un **40 % de casos en menores de 15 años**; la cifra real se considera subestimada por debilidad de la vigilancia y por errores diagnósticos. Los **perros** son responsables de hasta el **99 %** de los casos humanos, y más de **29 millones de personas** reciben vacuna antirrábica cada año. El coste mundial se estima en torno a **8600 millones de dólares anuales**. En la Región de las Américas, donde la rabia canina está mayoritariamente controlada, los **murciélagos hematófagos** son hoy la principal fuente de rabia humana."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** El agente es el **virus de la rabia**, que infecta a mamíferos —perros, gatos, ganado y fauna silvestre— y se transmite por **saliva**, normalmente a través de mordeduras, arañazos o contacto directo con mucosas (ojos, boca o heridas abiertas). El material base lo clasifica como *Lyssavirus* de la familia *Rhabdoviridae*; las fuentes consultadas se refieren de forma genérica al «virus de la rabia» y no detallan la taxonomía en las secciones revisadas. La secuencia fisiopatológica es coherente con lo descrito en el material base: el virus debe **alcanzar el sistema nervioso central** para producir síntomas, y en su migración desencadena una **inflamación progresiva y letal del encéfalo y de la médula espinal**. La transmisión entre personas por mordedura o saliva es teóricamente posible pero **nunca se ha confirmado**; la inhalación de aerosoles, el consumo de carne o leche crudas de animales infectados y el trasplante de órganos son vías extremadamente raras. Las mordeduras de roedores no se consideran capaces de transmitir la rabia."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** El **periodo de incubación** es típicamente de **2 a 3 meses**, con un rango que va de **una semana a un año** según la localización de la entrada del virus y la carga viral. Los síntomas iniciales son inespecíficos —fiebre, dolor y sensaciones anómalas de hormigueo, punzada o quemazón **en la sede de la herida**—. Se distinguen dos formas:\n  - **Rabia furiosa:** hiperactividad, conducta excitable, alucinaciones, falta de coordinación, **hidrofobia** y **aerofobia**; la muerte sobreviene en pocos días por parada cardiorrespiratoria.\n  - **Rabia paralítica:** alrededor del **20 %** de los casos humanos; curso menos dramático y habitualmente más prolongado, con parálisis muscular progresiva que **comienza en la sede de la herida**, coma gradual y muerte. Se diagnostica mal con frecuencia, lo que contribuye a la infranotificación de la enfermedad."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** No existen herramientas diagnósticas aprobadas por la OMS capaces de detectar la infección **antes** de que aparezca la clínica, y el diagnóstico clínico es difícil sin una historia fiable de contacto con animal rabioso o sin hidrofobia o aerofobia. De ahí que la **evaluación del riesgo** —no la analítica— sea el paso que decide la conducta. La confirmación **posmortem** se hace detectando virus completos, **antígenos víricos o ácidos nucleicos** en tejidos infectados (encéfalo, piel o saliva). Cuando es posible, debe **estudiarse al animal agresor**. El material base cita además los **cuerpos de Negri** en el estudio histopatológico del encéfalo: la ficha consultada no los menciona entre los métodos actuales de confirmación, que se basan en antígenos y ácidos nucleicos."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** **No hay tratamiento eficaz de la rabia declarada**: una vez que aparecen los síntomas la enfermedad es casi siempre letal y el manejo es **de soporte y paliativo**. Todo el esfuerzo se concentra en la **PPE**, que consta de tres componentes:\n  - **Lavado de la herida:** agua y jabón durante **al menos 15 minutos**, inmediato y exhaustivo; si se dispone de él, irrigar con un virucida como la povidona yodada.\n  - **Vacuna:** pauta completa. La OMS recomienda la vía **intradérmica**, con una pauta de **2 sitios de 0,1 mL en los días 0, 3 y 7** (una semana); en personas ya inmunizadas basta **1 sitio de 0,1 mL en los días 0 y 3**. La vía intradérmica reduce el volumen de vacuna un **60-80 %** y el número de visitas, sin pérdida de seguridad ni de eficacia. Los CDC describen la alternativa intramuscular con **cuatro dosis en los días 0, 3, 7 y 14** (cinco dosis, con la del día 28, en inmunodeprimidos), administradas en el deltoides —o en la cara anterolateral del muslo en niños— y **nunca en la región glútea**.\n  - **Inmunoglobulina o anticuerpos monoclonales:** indicados en la **categoría III**. La dosis de inmunoglobulina antirrábica humana es de **20 UI/kg**, infiltrada en lo posible alrededor de la herida, con un máximo total de **40 UI/kg**; si no se administró el día 0 puede administrarse hasta el día 7 inclusive, y **nunca** en la misma jeringa ni en el mismo punto anatómico que la primera dosis de vacuna. Quienes ya fueron vacunados **no** deben recibir inmunoglobulina.\n  - **Categorías de exposición de la OMS**:\n    - **Categoría I** — tocar o alimentar animales, lamidos sobre piel intacta (sin exposición): lavado de la superficie cutánea, **sin PPE**.\n    - **Categoría II** — mordisqueo de piel descubierta, arañazos o abrasiones menores **sin sangrado**: lavado de la herida y **vacunación inmediata**.\n    - **Categoría III** — mordeduras o arañazos **transdérmicos** únicos o múltiples, contaminación de mucosas o de piel lesionada con saliva, y **exposición por contacto directo con murciélagos**: lavado, vacunación inmediata **e** inmunoglobulina o anticuerpos monoclonales.\n  - **Consideraciones prácticas:** no hay contraindicaciones conocidas de la vacuna antirrábica, y el **embarazo no es contraindicación** de la PPE; la PPE es adecuada en todas las edades, incluidos lactantes y niños. La PPE se administra con independencia del intervalo transcurrido desde la exposición, siempre que el paciente no muestre signos compatibles con rabia. La inmunoglobulina equina purificada ha sido eficaz donde no había inmunoglobulina humana, y el suero antirrábico no purificado se asocia a reacciones graves como anafilaxia."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** La complicación es la **muerte**: una vez que el virus infecta el sistema nervioso central y aparecen los síntomas, la rabia es letal en el **100 %** de los casos. La prevención se apoya en cuatro pilares:\n  - **Vacunación canina masiva**, incluidos los cachorros: es la estrategia más costoeficaz porque interrumpe la transmisión en su origen; el sacrificio de perros vagabundos **no** es eficaz para controlar la rabia.\n  - **Educación comunitaria** sobre conducta canina, prevención de mordeduras y qué hacer ante una agresión.\n  - **Profilaxis preexposición (PrEP)** en personal de laboratorio que manipula virus vivos, personal de control de enfermedades animales, guardas de fauna y, según el contexto, viajeros o poblaciones remotas con acceso limitado a biológicos. La PrEP **no sustituye** a la PPE: toda persona expuesta debe buscar atención posexposición.\n  - **Acceso a PPE** y vigilancia; la OMS y sus socios persiguen la eliminación de la rabia humana transmitida por perros para 2030, y a septiembre de 2026 tres países —Bután, Chile y México— han sido validados por la OMS en ese sentido.\n  - El material base incluye además «cesación tabáquica» y «control de comorbilidades» entre las medidas de prevención: no guardan relación con la rabia y no aparecen en las fuentes consultadas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:**\n  - **El contacto directo con un murciélago es categoría III** aunque no se identifiquen mordedura ni arañazo: la OMS incluye esa exposición entre las graves, que exigen inmunoglobulina además de vacuna.\n  - **El lavado no es un gesto simbólico:** en modelos animales, el lavado exhaustivo de la herida sin otro tratamiento reduce de forma marcada la probabilidad de rabia.\n  - **Errores frecuentes de administración** que anulan la eficacia: vacuna en región glútea (debe repetirse la dosis), inmunoglobulina administrada pero no infiltrada en la herida, inmunoglobulina omitida, y vacuna e inmunoglobulina en el mismo sitio anatómico —lo que puede neutralizar la vacuna y obliga a readministrarla a distancia—.\n  - **Retrasos de pocos días** en alguna dosis sueltas son poco importantes, pero lapsos de semanas o más tienen consecuencias impredecibles; ante una desviación debe mantenerse el espaciamiento recomendado para las dosis siguientes.\n  - **La PPE recibida en el extranjero** puede haber usado productos no disponibles en el país de destino: si la pauta está reconocida por la OMS no hace falta más tratamiento, pero si no lo está o no se completó, puede ser necesario confirmar la respuesta vacunal y administrar dosis adicionales.\n  - **No esperar a los síntomas.** La conducta se decide por la categoría de exposición, no por la gravedad aparente de la herida ni por la evolución clínica."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

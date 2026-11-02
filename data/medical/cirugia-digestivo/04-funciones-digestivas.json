@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cirugia-digestivo/funciones-digestivas",
+  "specialty": "cirugia-digestivo",
+  "slug": "funciones-digestivas",
+  "order": 4,
+  "title": "Funciones digestivas",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el tubo digestivo y sus órganos anexos se reparten el trabajo en cadena —el hígado fabrica la bilis, la vesícula la almacena y la expulsa con la comida, el páncreas vierte enzimas, el intestino delgado completa la digestión y absorbe, el colon recupera agua y forma las heces—. La regulación es nerviosa y hormonal, e incluye un sistema nervioso entérico propio y señales bidireccionales entre intestino y cerebro. La bilis no solo emulsiona grasas: es también la vía de excreción de colesterol y bilirrubina, de modo que su composición condiciona la litiasis."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el aparato digestivo comprende el tubo gastrointestinal (boca, esófago, estómago, intestino delgado, intestino grueso y ano) y los órganos sólidos anexos: hígado, páncreas y vesícula biliar; el intestino delgado se divide en duodeno, yeyuno e íleon, y el grueso incluye apéndice, ciego, colon y recto. Como referencia de carga de enfermedad del sistema biliar, alrededor del 10 % de los adultos desarrollará colelitiasis sintomática en una década y el 70 % de las litiasis se detectan asintomáticas."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la bilis normal mantiene en equilibrio colesterol, sales biliares, fosfolípidos y bilirrubina; la **sobresaturación de colesterol**, la cristalización y la **hipomotilidad vesicular** rompen ese equilibrio y generan cálculos. La mucosa vesicular absorbe agua y electrolitos, lo que concentra la bilis y aumenta la concentración de sales biliares, colesterol y pigmentos: es la base fisiológica de la concentración que describe la lámina. En el colon, las bacterias fermentan restos de hidratos de carbono no digeridos y producen ácidos grasos de cadena corta, además de sintetizar vitamina K."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la traducción clínica de la fisiología es la litiasis: cólico biliar, colecistitis, ictericia obstructiva y pancreatitis. La vesícula sintomática duele sobre todo tras comidas grasas, y la fiebre orienta a colecistitis. Reconocer los factores de riesgo —edad, sexo femenino, obesidad, embarazo, antecedentes familiares, dislipidemia, cirugía bariátrica, dietas— permite anticipar el problema."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no hay «criterios diagnósticos» de la función normal; la evaluación es funcional y de imagen. La ecografía abdominal con analítica es el primer escalón ante síntomas biliares, y la TC, la colangio‑RM y la ecoendoscopia se reservan para casos indeterminados o sospecha de complicación. La imagen informa del calibre y del contenido de la vía biliar, y la ecoendoscopia es la prueba con mayor rendimiento para cálculos del colédoco cuando las demás no concluyen."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la ampliación útil aquí es la prevención y el manejo de la disfunción. En la colelitiasis asintomática se considera colecistectomía en pacientes con alto riesgo de cáncer vesicular. Cuando la vesícula se extirpa, la bilis sigue llegando al intestino directamente desde el hígado, de modo que la digestión continúa, aunque la emulsificación es menos eficiente con comidas muy grasas: es la consecuencia fisiológica de la colecistectomía. En la insuficiencia exocrina pancreática el fallo está en la entrega de enzimas al duodeno, que es exactamente la función que describe la lámina del páncreas."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la disfunción de cada órgano tiene su traducción: la litiasis y sus complicaciones para la vesícula y la vía biliar; la malabsorción de grasas y vitaminas liposolubles cuando falla la bilis o la lipasa; la deficiencia de vitamina K —y por tanto de factores de coagulación dependientes de ella— cuando falla la absorción colónica o la síntesis hepática. La prevención pasa por controlar los factores de riesgo litogénicos modificables (obesidad, dietas de adelgazamiento rápidas, dislipidemia)."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) la vesícula **no** produce bilis: la produce el hígado y la vesícula la almacena, concentra y libera; (2) el páncreas es glándula mixta: su jugo digiere, y sus hormonas regulan la glucemia, de modo que su fallo puede expresarse como maldigestión o como diabetes; (3) el intestino delgado absorbe la mayor parte de los nutrientes y el colon sobre todo agua, con producción bacteriana de vitamina K; (4) el sistema nervioso entérico y el eje intestino‑cerebro explican síntomas digestivos sin lesión estructural."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia/semiologia-cardiovascular",
+  "specialty": "cardiologia",
+  "slug": "semiologia-cardiovascular",
+  "order": 5,
+  "title": "Semiología cardiovascular",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la auscultación sigue siendo una herramienta insustituible por su disponibilidad y su coste nulo; su rendimiento depende de una secuencia sistemática, de elegir bien la campana o el diafragma y de describir cada hallazgo con intensidad, tono, duración y cronología."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la auscultación forma parte de una exploración cardiovascular completa que incluye aspecto general, signos vitales, palpación y auscultación de pulsos, inspección venosa, palpación y percusión torácica, auscultación pulmonar y exploración abdominal y de extremidades. Pese al auge de la imagen cardíaca, la auscultación a pie de cama conserva utilidad porque siempre está disponible y puede repetirse sin coste."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** los ruidos cardíacos son breves y se producen por la apertura y el cierre valvulares; los galopes son ruidos diastólicos (S3 y S4) originados por el llenado ventricular y suelen ser anormales, aunque no siempre; los soplos nacen de la turbulencia del flujo y son más prolongados que los ruidos. El S1 se debe sobre todo al cierre mitral, con componente tricuspídeo, y el S2 al cierre aórtico y pulmonar."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el S1 es intenso en la estenosis mitral y puede ser blando o ausente en la insuficiencia mitral por rigidez valvular, mientras que el desdoblamiento fisiológico del primer ruido (S1) es normal en muchos pacientes. Los clics son sistólicos, de tono más alto y duración más breve que los ruidos; los de la estenosis aórtica congénita o pulmonar son precoces y los del prolapso mitral, meso o telesistólicos, con desplazamiento hacia S1 al reducirse el volumen de llenado (bipedestación, Valsalva) y hacia S2 al aumentar (decúbito). Los soplos se describen por localización, cronología, intensidad, tono, duración e irradiación, y esa descripción suele bastar para orientar el diagnóstico."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** los ruidos de tono alto se auscultan mejor con el diafragma y los de tono bajo con la campana, ejerciendo muy poca presión porque la presión excesiva convierte la piel en diafragma y elimina los sonidos graves. La secuencia recomendada comienza en el impulso apical con el paciente en decúbito lateral izquierdo, continúa en el borde esternal izquierdo bajo, asciende por los espacios intercostales y desciende desde el borde esternal derecho alto, explora la axila izquierda y la región supraclavicular y termina con el paciente sentado para la espalda e inclinado hacia delante para los soplos diastólicos aórtico y pulmonar y el roce pericárdico. Los soplos sistólicos se gradúan de 1 a 6 y los diastólicos de 1 a 4. El roce pericárdico es un sonido áspero, de tono alto, con dos o tres componentes que varían con la postura y pueden hacerse casi continuos en taquicardia. La exploración debe completarse con la medición de la presión en ambos brazos —hasta 15 mmHg de diferencia es normal— y con la búsqueda de pulso paradójico, anormal por encima de 10 mmHg."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** no aplica; se trata de una competencia semiológica. El equivalente es la conducta derivada del hallazgo: documentar el hallazgo con un esquema de los componentes auscultatorios y palpatorios permite comparar exploraciones sucesivas e interpretarlo a la luz de la imagen."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** un soplo no caracterizado o un hallazgo auscultatorio no documentado retrasa el diagnóstico de valvulopatía; la prevención del error consiste en auscultar todo el precordio, no solo los focos nombrados, y en repetir la exploración con maniobras posturales."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** auscultar solo cuatro focos y omitir la axila, la región supraclavicular y la espalda; usar la campana con presión excesiva y perder los ruidos graves; no graduar el soplo ni precisar su irradiación; confundir un galope fisiológico con un S3 patológico sin valorar el contexto; olvidar que el S2 se desdobla con la inspiración."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "pediatria/cribado-neonatal",
+  "specialty": "pediatria",
+  "slug": "cribado-neonatal",
+  "order": 2,
+  "title": "Cribado neonatal / prueba del talón",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el cribado neonatal no es una prueba aislada sino un programa de salud pública con cuatro pasos encadenados: toma de muestra, análisis en un laboratorio centralizado, confirmación diagnóstica y derivación a una unidad clínica de seguimiento. Se ofrece a todos los recién nacidos, tanto en el hospital como en el domicilio, es gratuito y requiere información previa y consentimiento expreso de la madre, el padre o los tutores. Un resultado alterado no es un diagnóstico: solo indica que hay que hacer pruebas de confirmación."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el programa identifica cada año a miles de recién nacidos con enfermedades graves y potencialmente letales en Estados Unidos, y ese beneficio depende de que la detección y el tratamiento sean tempranos. La cartera común española incluye más de veinte entidades: entre ellas hipotiroidismo congénito, fenilcetonuria, fibrosis quística, anemia falciforme, deficiencia de biotinidasa, hiperplasia suprarrenal congénita, tirosinemia tipo I, acidemia glutárica tipo I, defectos de la beta-oxidación (MCAD, LCHAD, VLCAD, carnitina primaria), acidemias orgánicas (metilmalónica, propiónica, isovalérica, 3-hidroxi-3-metilglutárica), homocistinuria, enfermedad de la orina con olor a jarabe de arce, inmunodeficiencia combinada grave, atrofia muscular espinal y adrenoleucodistrofia ligada al X. La composición del panel cambia con el tiempo: varias de esas entidades se incorporaron mediante la Orden SND/356/2026."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la mayoría de estas enfermedades tienen base genética y, según cuál sea, alteran el desarrollo cerebral y producen discapacidad intelectual, o afectan hígado, pulmones o corazón. El principio común es que el daño se instala antes de que aparezcan los síntomas, de modo que la intervención útil es la que se hace en la fase presintomática."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** por definición, el recién nacido cribado está asintomático; el objetivo del programa es identificar y tratar antes de que la enfermedad se manifieste clínicamente y así evitar mortalidad prematura y discapacidad física o psíquica. Esa ausencia de síntomas es la razón de ser del cribado y también su límite: la prueba no sustituye la valoración clínica de un neonato que ya está enfermo."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la muestra se obtiene por punción del talón, se recoge en un papel especial de gota seca y se remite al laboratorio de la red de cribado. La ventana recomendada es entre las 24 y las 72 horas de vida, y en determinadas circunstancias —por ejemplo, prematuridad— puede ser necesaria una segunda muestra. Junto con la sangre se registran datos de filiación, dirección y teléfono actualizados, imprescindibles para localizar a la familia si el resultado es positivo. Si el resultado es normal, la familia recibe notificación en el primer mes de vida, habitualmente alrededor de las tres semanas. Si es positivo, se contacta de inmediato a la familia y se realizan pruebas de confirmación; solo si estas se mantienen alteradas se cita al neonato en la unidad clínica de referencia para el diagnóstico definitivo y el tratamiento."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** como regla general, todas las enfermedades incluidas en un programa de cribado metabólico neonatal tienen tratamiento, sea eficaz, sustitutivo o dietético —el ejemplo clásico es la dieta especial de la fenilcetonuria—, y el objetivo es instaurarlo lo antes posible para evitar o minimizar el daño. En muchos casos el diagnóstico precoz permite además ofrecer consejo genético a la familia."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la consecuencia de no cribar es el diagnóstico tardío, con peor pronóstico. La calidad del programa depende de la fase preanalítica y analítica, y por eso existen programas de garantía externa que verifican la exactitud de los laboratorios de cribado y su capacidad para identificar a los bebés que necesitan atención. La prevención de errores incluye la toma correcta, el registro de datos de contacto y la trazabilidad de la muestra."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no comunicar un positivo como diagnóstico: exige confirmación; (2) no olvidar la segunda muestra en prematuros y en situaciones especiales; (3) recordar que el panel es nacional y variable: galactosemia y deficiencia de G6PD, que el material base incluye, no forman parte de la cartera común española, lo que confirma que la lista depende del programa de cada país; (4) no tomar la muestra sin informar y sin consentimiento, que son parte obligatoria del proceso."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cirugia-digestivo/via-biliar",
+  "specialty": "cirugia-digestivo",
+  "slug": "via-biliar",
+  "order": 2,
+  "title": "Vía biliar",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la colelitiasis es muy prevalente y mayoritariamente asintomática; el problema clínico aparece cuando el cálculo obstruye el cístico (cólico, colecistitis) o migra al colédoco (coledocolitiasis, colangitis, pancreatitis). El diagnóstico se escalona: ecografía y analítica primero, y pruebas de segunda línea (TC, RM/colangio‑RM, ecoendoscopia) cuando la ecografía no es concluyente o se sospecha coledocolitiasis, colangitis o Mirizzi. La CPRE es terapéutica, no un test diagnóstico de primera línea."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** datos prospectivos poblacionales recogidos por la guía ASGE indican que alrededor del **10 %** de los adultos estadounidenses desarrollará colelitiasis sintomática a lo largo de una década, y que entre el **10 % y el 20 %** de quienes tienen colelitiasis sintomática presenta coledocolitiasis concomitante. La guía japonesa estima que cerca del **70 %** de las colelitiasis se detectan asintomáticas, con una tasa acumulada de síntomas del **10–20 % a 10 años**. La coledocolitiasis es, además, la primera causa de pancreatitis aguda."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el cálculo de colesterol aparece por sobresaturación de colesterol en la bilis, cristalización y **disminución de la contractilidad vesicular**; contribuyen la ingesta calórica y de grasa animal elevada, la hiperlipidemia, los anticonceptivos orales, el ayuno prolongado, las dietas de adelgazamiento, el enlentecimiento del tránsito intestinal y la obesidad. El cálculo de bilirrubinato cálcico tiene como causa principal la **infección biliar**, y la colestasis también favorece su formación. Los cálculos negros se relacionan con un exceso de bilirrubina no conjugada por sobrecarga de bilirrubina —hemólisis (esferocitosis hereditaria, talasemia), enfermedad de Crohn, resección ileal— y se observan también en la cirrosis. La coledocolitiasis suele resultar de la migración de cálculos desde la vesícula al árbol biliar."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la mayoría de las colelitiasis son asintomáticas; durante una crisis aparecen dolor abdominal característico, náuseas y vómitos, y la fiebre orienta a colecistitis asociada. La coledocolitiasis cursa con dolor abdominal o dorsal, fiebre, ictericia y náuseas/vómitos, y en ocasiones es asintomática."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** ante síntomas sugestivos se realizan ecografía abdominal y analítica; si la vesícula se visualiza mal o el hallazgo es indeterminado, o si se sospecha colangitis, coledocolitiasis, **síndrome de Mirizzi**, cálculo de confluencia o cáncer vesicular, se recomiendan TC, RM/colangio‑RM y/o ecoendoscopia. En la coledocolitiasis se emplean ecografía, TC y/o RM/colangio‑RM según el caso; si son indeterminadas se sugiere **ecoendoscopia**, y la CPRE se recomienda cuando hay síntomas de colangitis aguda. En el riesgo intermedio (10–50 %) la guía ASGE sugiere ecoendoscopia **o** colangio‑RM, a elección según preferencia, experiencia y disponibilidad. La ecoendoscopia tiene sensibilidad y especificidad elevadas para coledocolitiasis (en torno a 0,94 y 0,95 en el metaanálisis citado por la guía japonesa)."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la extracción endoscópica por CPRE es el tratamiento de referencia de la coledocolitiasis. En cálculos grandes se sugiere **dilatación papilar con balón grande tras esfinterotomía** en lugar de esfinterotomía aislada. En la pancreatitis biliar **sin** colangitis ni obstrucción/coledocolitiasis se recomienda **no** realizar CPRE urgente (antes de 48 horas). La estrategia «ecoendoscopia primero» permite omitir la CPRE en cerca del 67 % de los pacientes con sospecha y reduce los efectos adversos y la pancreatitis post‑procedimiento, a costa de más procedimientos totales y de requerir endosonografista experimentado. En la colelitiasis asintomática, la colecistectomía debe considerarse en pacientes con alto riesgo de cáncer vesicular. En el síndrome de Mirizzi, el tipo I suele ser abordable por laparoscopia; los tipos II y III con frecuencia exigen colecistectomía parcial o cierre de la fístula y presentan mayor tasa de conversión; el tipo IV se ha manejado clásicamente con cirugía abierta y anastomosis bilioentérica (hepatoyeyunostomía), aunque series seleccionadas describen abordajes laparoscópicos."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las complicaciones de la colelitiasis incluyen cólico biliar, colecistitis, ictericia obstructiva y pancreatitis. La CPRE terapéutica no está exenta de riesgo: la guía ASGE cifra en **6–15 %** los efectos adversos mayores del tratamiento endoscópico de la coledocolitiasis, de ahí la insistencia en seleccionar bien a los candidatos. Como prevención secundaria, conocer los factores de riesgo (edad, sexo femenino, obesidad, embarazo, antecedentes familiares, dislipidemia, cirugía bariátrica, dietas) permite identificar a quien se beneficiará de seguimiento."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) la mnemotecnia de las «4 F» del material base **no** es la de las guías: la versión validada es la de las **5 F** —*forty, female, fatty, fair, fertile*—, a la que la guía japonesa añade dislipidemia, cirugía gástrica o bariátrica previa y dieta; (2) no llevar a CPRE directa una sospecha de coledocolitiasis con riesgo intermedio sin confirmación por ecoendoscopia o colangio‑RM; (3) en pancreatitis biliar sin colangitis, la CPRE urgente no aporta y puede dañar; (4) el síndrome de Mirizzi se sospecha por ictericia obstructiva recurrente con colangitis y dilatación biliar «sin causa aparente», y la imagen clave es la compresión extrínseca o la fístula colecistobiliar."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

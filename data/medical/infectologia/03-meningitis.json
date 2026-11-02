@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "infectologia/meningitis",
+  "specialty": "infectologia",
+  "slug": "meningitis",
+  "order": 3,
+  "title": "Meningitis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la meningitis bacteriana es una emergencia que puede matar en 24 horas y exige antibiótico empírico inmediato, sin esperar la punción lumbar. El conjunto de alarma que obliga a sospecharla con fuerza es fiebre, cefalea, rigidez de nuca y alteración del estado de conciencia o de la cognición. En entornos no epidémicos se añade corticoide intravenoso con la primera dosis de antibiótico. Alrededor de uno de cada seis afectados fallece y uno de cada cinco queda con secuelas graves."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** en 2019 se notificaron unos 2,5 millones de casos de meningitis en el mundo, de los cuales 1,6 millones fueron bacterianos, con aproximadamente 240 000 muertes. La letalidad de la meningitis bacteriana se sitúa en torno a uno de cada seis pacientes y las complicaciones graves en uno de cada cinco, y en 2025 el cinturón africano de la meningitis notificó 21 526 casos sospechosos y 971 muertes, con una letalidad del 4,5 %. La carga mayor corresponde al África subsahariana, aunque la enfermedad afecta a personas de cualquier edad y lugar. El patrón etiológico depende de la edad: en recién nacidos dominan el estreptococo del grupo B, *Escherichia coli* y *Listeria*; en niños y adolescentes, meningococo, neumococo y *Haemophilus influenzae*; y en adultos, neumococo y meningococo. El Manual MSD precisa que en el adulto mayor se añaden *L. monocytogenes* y bacilos gramnegativos, y que *S. aureus* causa meningitis grave tras herida penetrante. El CDC coincide en el desplazamiento etiológico por edad."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la vía de entrada más frecuente es hematógena; las bacterias también llegan desde senos, oído medio o mastoides, a través de una herida penetrante, tras una intervención neuroquirúrgica o por una derivación infectada, y por defectos congénitos o adquiridos del cráneo y la columna. En el inmunodeprimido los agentes más probables son neumococo, *Listeria*, *Pseudomonas aeruginosa*, *Mycobacterium tuberculosis*, meningococo y gramnegativos, con variaciones según el tipo de déficit: en el defecto de inmunidad celular predominan *Listeria* y micobacterias, y en el defecto humoral o la esplenectomía, el neumococo. Como el líquido cefalorraquídeo contiene habitualmente pocos leucocitos, inmunoglobulinas y complemento, la bacteria se multiplica inicialmente sin inflamación; después libera endotoxinas y ácido teicoico que desencadenan la respuesta inflamatoria, con aumento de proteínas y descenso de la glucosa en el LCR. La inflamación subaracnoidea se acompaña con frecuencia de encefalitis cortical y ventriculitis."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el cuadro clásico combina fiebre, cefalea, rigidez de nuca y alteración del nivel de conciencia o de la cognición; los síntomas menos frecuentes son convulsiones, coma y déficit neurológico. En lactantes el patrón es distinto: irritabilidad, menos actividad, dificultad para despertar, llanto débil y continuo, rechazo del alimento y abombamiento de la fontanela; a ello se añade el mal aspecto general y el abombamiento fontanelar en la tabla de NICE. La enfermedad meningocócica debe sospecharse ante un exantema hemorrágico no blanqueable con lesiones mayores de 2 mm, un exantema petequial o purpúrico de progresión rápida, o cualquier signo de meningitis asociado a ese exantema, y no debe descartarse por ausencia de rash. El examen de la piel debe incluir todo el cuerpo, también la zona del pañal, y la búsqueda de petequias conjuntivales, con la advertencia de que los exantemas son más difíciles de ver en piel oscura. El material base recoge los signos de Kernig y Brudzinski; las guías consultadas no los incluyen entre sus criterios operativos y priorizan la combinación de alarma y la valoración del estado mental."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el diagnóstico se confirma con la clínica, los resultados de laboratorio sanguíneo y el análisis del LCR. La punción lumbar debe hacerse, si es seguro y no retrasa el tratamiento, antes de iniciar los antibióticos; nunca debe retrasar el antibiótico. El estudio inicial incluye hemocultivo, recuento leucocitario con neutrófilos, proteína C reactiva o procalcitonina, glucemia, PCR en sangre entera para meningococo y neumococo, y prueba del VIH, además de un frotis faríngeo para cultivo de meningococo. Un valor normal de PCR, procalcitonina o leucocitos no permite descartar la enfermedad. En el LCR, el patrón bacteriano se caracteriza por aumento de proteínas y descenso de la glucosa. La valoración del riesgo de herniación antes de la punción, que el material base resuelve con tomografía cuando hay signos de hipertensión intracraneal [P59], no puede convertirse en una demora del antibiótico."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el antibiótico empírico debe iniciarse lo antes posible y su elección depende de la edad, de la presencia de inmunosupresión y de los patrones locales de resistencia antimicrobiana. En el medio hospitalario, NICE fija el objetivo de que los antibióticos empiecen dentro de la primera hora desde la llegada. No debe retrasarse el traslado para administrar antibióticos; si se prevé una demora clínicamente significativa, se administra ceftriaxona o bencilpenicilina por vía intravenosa o intramuscular fuera del hospital, y lo mismo se hace de inmediato en la sospecha fuerte de enfermedad meningocócica. En entornos no epidémicos, la OMS indica añadir corticoide intravenoso —dexametasona— con la primera dosis de antibiótico para reducir la respuesta inflamatoria y el riesgo de secuelas neurológicas y muerte; el Manual MSD coincide en que el tratamiento combina antibióticos y glucocorticoides administrados cuanto antes. Después se ajusta el tratamiento según cultivo y antibiograma, como recoge el material base [P59], y la cobertura frente a *Listeria*, que el material base resuelve con ampicilina, se reserva a los grupos de riesgo —mayores de 50 años, inmunodeprimidos y gestantes—, en línea con la distribución etiológica por edad. NICE añade la realización sistemática de una prueba del VIH en todo paciente con sospecha de meningitis bacteriana, por su implicación en el riesgo de recurrencia."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las secuelas permanentes incluyen hipoacusia, convulsiones, debilidad de miembros y dificultades de visión, habla, lenguaje, memoria y comunicación; el CDC añade el coma y la muerte. Entre las complicaciones agudas figuran hidrocefalia, infartos arteriales o venosos por trombosis, parálisis del sexto par, sordera, empiema subdural, hipertensión intracraneal por edema cerebral, absceso cerebral, herniación —la causa más frecuente de muerte en la fase aguda—, shock séptico, coagulación intravascular diseminada e hiponatremia por secreción inadecuada de hormona antidiurética. La prevención se apoya en tres pilares: vacunación frente a meningococo, neumococo y *H. influenzae* tipo b, quimioprofilaxis de los contactos estrechos de un caso de enfermedad meningocócica para eliminar el estado de portador, y penicilina intravenosa intraparto en las gestantes portadoras de estreptococo del grupo B. Como hitos recientes, la vacuna conjugada frente al meningococo A redujo en un 99 % la enfermedad confirmada por ese serogrupo en las poblaciones vacunadas y no se han notificado casos confirmados desde 2017 en los países que la introdujeron, y en 2023 se precalificó la primera vacuna conjugada pentavalente (A, C, W, Y y X), utilizada por primera vez en una campaña preventiva en Níger en 2025. Los factores de riesgo que obligan a extremar la sospecha son la vacunación incompleta, la asplenia funcional o anatómica, el déficit o la inhibición del complemento, la fístula de LCR, el implante coclear, la residencia en grandes alojamientos compartidos, el antecedente familiar o personal de enfermedad meningocócica y el contacto con un caso o con una zona de brote."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no retrasar el antibiótico para hacer la punción lumbar ni para esperar resultados; (2) no descartar enfermedad meningocócica por ausencia de exantema; (3) sospechar meningitis en el anciano con delirium y en el joven con alteración de conducta atribuida a alcohol o tóxicos, dos escenarios en los que el diagnóstico se pierde con frecuencia; (4) cubrir *Listeria* en mayores de 50 años y en inmunodeprimidos, porque el patrón etiológico cambia con la edad y la inmunidad; (5) ante una púrpura no blanqueable, tratar como enfermedad meningocócica hasta demostrar lo contrario, porque es un criterio de alarma mayor."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

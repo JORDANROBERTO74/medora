@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-charcot-esclerosis-multiple",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-charcot-esclerosis-multiple",
+  "order": 2,
+  "title": "Tríada de Charcot (esclerosis múltiple)",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada es una descripción histórica. Charcot la propuso en 1868 como tríada diagnóstica de la enfermedad, antes de que existieran la resonancia magnética y los criterios actuales."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la esclerosis múltiple es una enfermedad desmielinizante crónica del sistema nervioso central; se estiman alrededor de 2,8 millones de personas afectadas en el mundo."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** inflamación y desmielinización con pérdida axonal progresiva; las lesiones típicas son ovoideas, de al menos 3 mm, periventriculares, corticales/yuxtacorticales, infratentoriales o medulares."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** discapacidad motora y del equilibrio, alteraciones visuales, fatiga crónica, depresión, trastornos cognitivos, pérdida de sensibilidad y disfunción vesical. Los síntomas del tronco y del cerebelo explican el nistagmo, el temblor y la disartria que integran la tríada."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el diagnóstico exige demostrar diseminación en el espacio y en el tiempo y excluir imitadores; se emplean los criterios de McDonald de 2017, en los que las bandas oligoclonales en líquido cefalorraquídeo pueden sustituir la demostración de diseminación en el tiempo. La tríada no forma parte de esos criterios."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el tratamiento se dirige a la enfermedad desmielinizante y a la neurorrehabilitación; el temblor y la disartria se abordan de forma sintomática. El diagnóstico precoz importa porque permite iniciar tratamiento antes y evitar terapias innecesarias en los diagnósticos erróneos."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la discapacidad acumulada y el deterioro cognitivo son las complicaciones principales; el error de diagnóstico con neuromielitis óptica o enfermedad desmielinizante aguda es un riesgo reconocido, de ahí la utilidad del estudio del líquido cefalorraquídeo y de los anticuerpos frente a acuaporina 4."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** los criterios de 2017 son más sensibles pero menos específicos que los de 2010, lo que obliga a descartar imitadores antes de etiquetar al paciente. Confundir la tríada histórica con un criterio vigente es el error clásico de examen."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

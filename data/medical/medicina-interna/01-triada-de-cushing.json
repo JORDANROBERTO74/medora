@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-cushing",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-cushing",
+  "order": 1,
+  "title": "Tríada de Cushing",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la combinación de hipertensión, bradicardia y depresión respiratoria se describe como hallazgo ominoso de hipertensión intracraneal avanzada, no como criterio diagnóstico."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** se documenta en aproximadamente un tercio de los casos de herniación tonsilar, de modo que su ausencia no descarta el cuadro."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el aumento de la presión intracraneal compromete la perfusión cerebral y el tronco; la descarga simpática eleva la presión arterial, el barorreflejo produce bradicardia y la compresión bulbar altera el patrón respiratorio."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** cefalea de predominio matutino que empeora con maniobras de Valsalva, náuseas o vómitos, papiledema, deterioro progresivo de la conciencia, midriasis arreactiva, alteraciones de la mirada vertical y posturas de decorticación o descerebración."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no existe una regla diagnóstica basada en la tríada; la valoración se apoya en la escala de coma de Glasgow y en las pupilas, y la tomografía sin contraste es la imagen inicial del traumatismo craneoencefálico. La monitorización invasiva de la presión intracraneal sigue siendo el patrón de referencia. En el trauma, NICE indica tomografía en la primera hora ante Glasgow ≤12, sospecha de fractura abierta o hundida, signos de fractura de base de cráneo, convulsión posraumática, déficit focal o más de un vómito."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** tratar la causa y prevenir el daño secundario. En el traumatismo con Glasgow ≤12 sin sangrado extracraneal, NICE considera un bolo de 2 g de ácido tranexámico intravenoso (15-30 mg/kg en menores de 16 años) dentro de las primeras 2 horas. En el paciente grave se recomienda evitar la hipoxemia y mantener normoventilación, reservando la hiperventilación como medida de rescate ante signos de herniación."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** herniación, isquemia cerebral y muerte; la prevención se basa en el control precoz de la vía aérea, la oxigenación y la derivación oportuna a un centro de trauma."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** esperar la tríada retrasa el tratamiento y su ausencia no excluye hipertensión intracraneal. En el paciente ingresado, el deterioro del componente motor de la Glasgow es el dato que más debe alertar al equipo."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "nefrologia/acidosis-metabolica",
+  "specialty": "nefrologia",
+  "slug": "acidosis-metabolica",
+  "order": 2,
+  "title": "Acidosis metabólica",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el hiato aniónico (anión gap) es la herramienta que separa las acidosis metabólicas en dos grandes grupos: las de hiato aumentado, por ganancia de ácido, y las de hiato normal o hiperclorémicas, por pérdida de bicarbonato. Ese corte tiene consecuencias terapéuticas, porque en las primeras el objetivo es eliminar o metabolizar el ácido acumulado y en las segundas reponer la base perdida. En la cetoacidosis, el cuerpo cetónico predominante en sangre es el 3-β-hidroxibutirato, que las tiras reactivas de orina no detectan."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** se considera acidosis metabólica un pH inferior a 7,35 con bicarbonato plasmático por debajo de 22 mEq/l, siendo el rango de referencia del bicarbonato 22-28 mEq/l y el del pH 7,35-7,45. En la enfermedad renal crónica el bicarbonato desciende de forma progresiva cuando la TFG cae por debajo de 60 ml/min por 1,73 m², y el descenso es más marcado en los estadios G4-G5. La prevalencia ajustada de bicarbonato sérico inferior a 22 mmol/l fue del 7,7 % en pacientes con diabetes y del 6,7 % sin ella en el estadio G3A1, y ascendió a 38,3 % y 35,9 % respectivamente en el estadio G5A3. La cetoacidosis asociada a iSGLT2 presenta incidencias comunicadas de 0,16-0,76 casos por 1000 pacientes-año en diabetes tipo 2 y de 4-6 % en tipo 1."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** en las acidosis de hiato aumentado predomina la ganancia de ácido, endógeno o exógeno (cetoacidosis, acidosis láctica, intoxicación por metanol o etilenglicol), y son normoclorémicas porque los aniones acumulados no se miden en la fórmula. En las de hiato normal predomina la pérdida de bicarbonato, renal o digestiva (diarrea, acidosis tubulares), y el cloro asciende para mantener la electroneutralidad, de ahí el término hiperclorémica. La diarrea grave produce acidosis hiperclorémica con deshidratación y déficit de potasio, y en casos extremos puede sumarse un componente de acidosis láctica o cetósica por hipoperfusión o ayuno. El suero salino fisiológico al 0,9 % es hiperclorémico respecto al plasma, por lo que volúmenes grandes pueden generar acidosis hiperclorémica. En la cetoacidosis, el déficit de insulina y el exceso de glucagón aumentan la cetogénesis hepática y reducen el aclaramiento renal de acetoacetato y β-hidroxibutirato. La capacidad renal de generar y excretar amonio, regulable y sin límite fijo, alcanza su máximo entre el tercer y el séptimo día de acidosis sostenida."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la sintomatología depende de la gravedad y de la velocidad de instauración, con hiperpnea por taquipnea o batipnea, y en la acidemia grave aparecen menor contractilidad cardiaca, hipotensión, taquicardia, peor respuesta a catecolaminas, edema pulmonar y arritmias ventriculares. La acidosis crónica, como la de las acidosis tubulares o la enfermedad renal crónica, favorece la pérdida ósea con osteoporosis y fracturas, y en los niños altera el crecimiento. En la cetoacidosis diabética el cuadro se acompaña de deshidratación y, en los casos graves, de deterioro del nivel de conciencia. El potasio merece atención especial: por cada 0,1 unidades de aumento del pH el potasio plasmático desciende alrededor de 0,6 mmol/l, de modo que un potasio \"normal\" en una acidosis puede ocultar un déficit importante."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el hiato aniónico se calcula como sodio menos la suma de cloro y bicarbonato, con un rango de normalidad de 10 ± 2 mEq/l (8 ± 2 mEq/l si el laboratorio emplea electrodos selectivos). Como la albúmina es el principal anión no medido, cada descenso de 1 g/dl de albúmina reduce el hiato en torno a 2,5 mEq/l, corrección imprescindible en pacientes hipoalbuminémicos. La valoración incluye comprobar la respuesta secundaria: en la acidosis metabólica la pCO₂ debe bajar aproximadamente 1 mmHg por cada mmol/l de descenso del bicarbonato, y una compensación inadecuada indica un trastorno mixto. El diagnóstico de cetoacidosis diabética exige tres elementos simultáneos: glucemia superior a 11 mmol/l o diabetes conocida; cetonemia capilar o sanguínea superior a 3 mmol/l (o cetonuria de 2+ o más); y bicarbonato inferior a 15 mmol/l y/o pH venoso inferior a 7,3. Los cuerpos cetónicos incluyen acetona, 3-β-hidroxibutirato y acetoacetato, y el predominante en sangre es el 3-β-hidroxibutirato, por lo que la medición capilar de cetonas es la vía preferida y la tira urinaria, que mide acetoacetato, no refleja el cuerpo cetónico predominante. En la cetoacidosis asociada a iSGLT2 la glucemia puede ser inferior a 250 mg/dl, de modo que el diagnóstico se apoya en la acidosis con hiato elevado y en la cetonemia, no en la cifra de glucosa. La resolución de la cetoacidosis se define por cetonas inferiores a 0,6 mmol/l y pH venoso superior a 7,3."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el tratamiento de la acidosis se dirige a bloquear la producción de ácido y a corregir la causa (insulina en la cetoacidosis, restauración de la perfusión en la isquemia), vigilando siempre el potasio. El bicarbonato intravenoso en las acidosis agudas con hiato elevado debe reservarse para circunstancias concretas, como hiperpotasemia grave o descensos del pH potencialmente letales, y no ha demostrado beneficio consistente en la cetoacidosis diabética, la acidosis láctica, el shock séptico, la acidosis intraoperatoria ni la parada cardiaca. Cuando se administra, el objetivo no es normalizar el bicarbonato sino alcanzar un valor de seguridad de 8-12 mEq/l, y debe garantizarse una ventilación adecuada porque la reposición genera CO₂. En la cetoacidosis diabética la guía JBDS-IP no recomienda bicarbonato de forma rutinaria y basa el tratamiento en reposición de volumen, insulina intravenosa y corrección del potasio, con monitorización horaria de cetonas y glucosa. En la enfermedad renal crónica, la guía KDIGO 2024 no emite recomendación graduada por falta de ensayos de gran tamaño; sugiere considerar tratamiento farmacológico y/o dietético para evitar acidosis con implicaciones clínicas, con el umbral orientativo de bicarbonato inferior a 18 mmol/l en adultos. El mismo documento advierte que la corrección no debe superar el límite superior de la normalidad ni empeorar la presión arterial, el potasio o el estado de volumen. Los ensayos controlados con placebo no confirman que el bicarbonato oral modifique el riesgo de insuficiencia renal (HR 0,81; IC 95 % 0,54-1,22) y el ensayo BiCARB no mostró beneficio en desenlaces no renales, con mayores costes y peor calidad de vida. Las dietas con menor carga ácida y mayor proporción de alimentos vegetales reducen la producción neta de ácido y son una estrategia adicional."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la acidosis metabólica crónica se asocia a catabolismo proteico, pérdida de masa muscular, inflamación, disfunción cardiaca y mayor mortalidad, aunque la causalidad no está demostrada. En la enfermedad renal crónica avanzada la acidosis contribuye a la enfermedad ósea y, en niños, al retraso del crecimiento, motivo por el que se recomienda prevenirla en la infancia. La prevención pasa por el control de la enfermedad de base, la revisión de fármacos y la monitorización del bicarbonato, evitando tanto la infracomo la sobrecorrección. En la cetoacidosis, la prevención incluye educación del paciente, manejo de los factores desencadenantes y suspensión de iSGLT2 cuando aparece el cuadro."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) corregir siempre el hiato aniónico por la albúmina antes de descartar una acidosis de hiato elevado; (2) recordar que un hiato normal no excluye acidosis, solo orienta a pérdida de bicarbonato; (3) no fiarse de la tira urinaria de cetonas en la cetoacidosis por iSGLT2 ni en la alcohólica, porque mide acetoacetato y puede infraestimar; (4) no administrar bicarbonato de rutina en la cetoacidosis; (5) no perseguir la normalización del bicarbonato en la enfermedad renal crónica, donde el objetivo es evitar cifras peligrosas; (6) interpretar la gasometría venosa con cautela: el pH y el bicarbonato son comparables a los arteriales, pero la pCO₂ venosa es siempre mayor y más dispersa."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

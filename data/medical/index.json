@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "stats": {
+    "specialties": 13,
+    "topics": 52,
+    "blocks": 417
+  },
+  "specialties": [
+    {
+      "id": "cardiologia",
+      "name": "Cardiología",
+      "slug": "cardiologia",
+      "order": 1,
+      "kind": "clinical",
+      "manifest": "cardiologia/manifest.json"
+    },
+    {
+      "id": "gineco-obstetricia",
+      "name": "Ginecología y Obstetricia",
+      "slug": "gineco-obstetricia",
+      "order": 2,
+      "kind": "clinical",
+      "manifest": "gineco-obstetricia/manifest.json"
+    },
+    {
+      "id": "cirugia-digestivo",
+      "name": "Cirugía / Traumatología",
+      "slug": "cirugia-digestivo",
+      "order": 3,
+      "kind": "clinical",
+      "manifest": "cirugia-digestivo/manifest.json"
+    },
+    {
+      "id": "neumologia",
+      "name": "Neumología",
+      "slug": "neumologia",
+      "order": 4,
+      "kind": "clinical",
+      "manifest": "neumologia/manifest.json"
+    },
+    {
+      "id": "infectologia",
+      "name": "Infectología",
+      "slug": "infectologia",
+      "order": 5,
+      "kind": "clinical",
+      "manifest": "infectologia/manifest.json"
+    },
+    {
+      "id": "endocrinologia",
+      "name": "Endocrinología y Metabolismo",
+      "slug": "endocrinologia",
+      "order": 6,
+      "kind": "clinical",
+      "manifest": "endocrinologia/manifest.json"
+    },
+    {
+      "id": "nefrologia",
+      "name": "Nefrología",
+      "slug": "nefrologia",
+      "order": 7,
+      "kind": "clinical",
+      "manifest": "nefrologia/manifest.json"
+    },
+    {
+      "id": "emergencias-shock",
+      "name": "Emergencias y Shock",
+      "slug": "emergencias-shock",
+      "order": 8,
+      "kind": "clinical",
+      "manifest": "emergencias-shock/manifest.json"
+    },
+    {
+      "id": "pediatria",
+      "name": "Pediatría",
+      "slug": "pediatria",
+      "order": 9,
+      "kind": "clinical",
+      "manifest": "pediatria/manifest.json"
+    },
+    {
+      "id": "neurologia",
+      "name": "Neurología",
+      "slug": "neurologia",
+      "order": 10,
+      "kind": "clinical",
+      "manifest": "neurologia/manifest.json"
+    },
+    {
+      "id": "radiologia",
+      "name": "Radiología e Imagenología",
+      "slug": "radiologia",
+      "order": 11,
+      "kind": "clinical",
+      "manifest": "radiologia/manifest.json"
+    },
+    {
+      "id": "medicina-interna",
+      "name": "Medicina Interna / Semiología",
+      "slug": "medicina-interna",
+      "order": 12,
+      "kind": "clinical",
+      "manifest": "medicina-interna/manifest.json"
+    },
+    {
+      "id": "institucional",
+      "name": "Institucional / Otros",
+      "slug": "institucional",
+      "order": 13,
+      "kind": "institutional",
+      "manifest": "institucional/manifest.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

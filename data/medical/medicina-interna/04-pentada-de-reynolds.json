@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/pentada-de-reynolds",
+  "specialty": "medicina-interna",
+  "slug": "pentada-de-reynolds",
+  "order": 4,
+  "title": "Pentada de Reynolds",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la pentada añade a la tríada dos signos de disfunción orgánica; en la práctica identifica al paciente con sepsis biliar que requiere drenaje urgente."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** es una variante de gravedad de la colangitis aguda; la colangitis grave se asocia a mortalidad elevada y su pronóstico depende de la precocidad del drenaje biliar."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la infección de la bilis estancada produce inflamación del árbol biliar; la forma grave se acompaña de disfunción orgánica, que es lo que expresan la hipotensión y la alteración del estado mental."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** fiebre, ictericia, dolor en hipocondrio derecho, hipotensión y alteración del estado mental; puede acompañarse de oliguria, taquipnea o deterioro de la conciencia."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no es un criterio formal; la gravedad se establece con los criterios de las Tokyo Guidelines 2018, que evalúan la disfunción orgánica y condicionan la indicación y la urgencia del drenaje."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** reanimación hemodinámica, antibioticoterapia precoz y drenaje biliar urgente; el retraso del drenaje más allá de 12 horas se ha asociado a mayor mortalidad en el shock séptico biliar."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** shock distributivo, fracaso multiorgánico y muerte; la prevención consiste en reconocer la colangitis antes de que aparezca la disfunción orgánica."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la pentada es aún más infrecuente que la tríada, y su ausencia no excluye gravedad; la decisión de drenar no debe esperar a que se complete el cuadro."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

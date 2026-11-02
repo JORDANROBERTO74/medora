@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "pediatria/crecimiento-y-desarrollo",
+  "specialty": "pediatria",
+  "slug": "crecimiento-y-desarrollo",
+  "order": 1,
+  "title": "Crecimiento y desarrollo",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** los patrones de crecimiento de la OMS no son una descripción de cómo crecen los niños de un país, sino un instrumento normativo que indica cómo deberían crecer cuando se atienden sus necesidades de salud y alimentación. Se apoyan en dos juegos de curvas complementarios: los estándares de 0 a 5 años (2006) y la referencia de 5 a 19 años (2007). Sin antropometría y sin ventanas de hitos, una lista de etapas no permite decidir si un niño crece o se desarrolla normalmente."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** en 2022 se estimaron 149 millones de menores de 5 años con retraso del crecimiento (baja talla para la edad), 45 millones con emaciación (bajo peso para la talla) y 37 millones con sobrepeso u obesidad; cerca de la mitad de las muertes en menores de 5 años se asocia a desnutrición. Entre los 5 y los 19 años, 390 millones tenían sobrepeso —160 millones con obesidad— y 190 millones delgadez, definida por un IMC para la edad más de dos desviaciones estándar por debajo de la mediana de referencia."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la emaciación refleja una pérdida reciente y grave de peso, la baja talla para la edad traduce desnutrición crónica o recurrente —asociada a condiciones socioeconómicas deficientes, mala salud y nutrición maternas, enfermedad frecuente y alimentación inadecuada— y el bajo peso para la edad puede deberse a cualquiera de las dos. El estudio multicéntrico de referencia de la OMS incluyó 8440 niños de seis países criados en condiciones ambientales óptimas, con lactancia materna como norma biológica, y mostró que el crecimiento infantil es similar entre regiones cuando esas condiciones se cumplen."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** las etapas del material base se corresponden con ventanas de adquisición de hitos motores gruesos publicadas por la OMS: sedestación sin apoyo entre 3,8 y 9,2 meses; bipedestación con apoyo entre 4,8 y 11,4; gateo entre 5,2 y 13,5; marcha con apoyo entre 6,0 y 13,7; bipedestación sin apoyo entre 6,9 y 16,9; y marcha sin apoyo entre 8,2 y 17,6 meses. La ventana, y no la edad puntual, es el marco con el que la OMS describe la adquisición de cada hito."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** los estándares incluyen peso para la edad, longitud/talla para la edad, peso para la longitud/talla, IMC para la edad, perímetro cefálico, perímetro braquial, pliegues cutáneos y velocidades de peso, longitud y perímetro cefálico. Entre 0 y 5 años la OMS define riesgo de sobrepeso por encima de +1 DE, sobrepeso por encima de +2 DE y obesidad por encima de +3 DE, con un enfoque escalonado deliberado para no imponer dietas restrictivas a niños que aún crecen. De los 5 a los 19 años la delgadez se sitúa por debajo de −2 DE del IMC para la edad. Las curvas de velocidad permiten detectar la desviación antes de que el niño cruce un umbral de crecimiento, ventaja que los patrones antiguos no ofrecían."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** no existe un tratamiento de la etapa evolutiva; la intervención es la promoción del crecimiento: apoyo a la lactancia materna exclusiva durante los seis primeros meses, alimentación complementaria inocua y adecuada después, vacunación y acceso a atención de salud, y directrices nacionales que orienten a los cuidadores sobre alimentos locales. El seguimiento antropométrico periódico con los instrumentos citados es la herramienta de control."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** el retraso del crecimiento limita el potencial físico y cognitivo, y sus efectos se acumulan a lo largo de la vida. La ventana de mayor rendimiento preventivo son los primeros mil días, desde la concepción hasta el segundo cumpleaños. La pobreza amplifica el riesgo y la desnutrición, a su vez, aumenta los costes sanitarios y frena el crecimiento económico, de modo que el problema se perpetúa entre generaciones."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no usar la referencia NCHS/OMS de 1977 para menores de 5 años: fue sustituida por los estándares de 2006; (2) recordar que el cambio de referencia modifica la prevalencia —con los estándares de 2006 el retraso del crecimiento en lactantes y la emaciación por debajo de unos 70 cm resultan más frecuentes—, por lo que las series históricas no son comparables sin advertirlo; (3) no interpretar un percentil aislado: la OMS publica velocidades precisamente para ver la trayectoria; (4) no tratar la referencia de 5 a 19 años como un estándar prescriptivo, porque es una reconstrucción de datos de 1977 y no un estudio de niños en condiciones óptimas."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

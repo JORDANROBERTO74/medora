@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neumologia/neumonia",
+  "specialty": "neumologia",
+  "slug": "neumonia",
+  "order": 3,
+  "title": "Neumonía",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la guía NICE NG250 (2025) sustituye a las anteriores guías de neumonía y aporta tres cambios prácticos: la duración del antibiótico en el adulto se fija en **5 días** si hay estabilidad clínica, se incorporan recomendaciones sobre **corticosteroides** en adultos hospitalizados con neumonía comunitaria de alta gravedad, y se admite la **ecografía pulmonar** como herramienta diagnóstica en el hospital. La guía ATS/IDSA de 2019 sigue siendo la referencia metodológica internacional, con 16 áreas de recomendación que abarcan pruebas diagnósticas, elección del lugar de atención, tratamiento empírico inicial y decisiones posteriores."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la neumonía adquirida en la comunidad es la infección del parénquima pulmonar en un paciente no hospitalizado; la guía NICE amplía su alcance a la neumonía intrahospitalaria y a la neumonía bacteriana secundaria a COVID-19, pero excluye la neumonía asociada a ventilación mecánica y la neumonía por COVID-19. La clasificación del material base (NAC, intrahospitalaria a las 48 h del ingreso, asociada a ventilación mecánica a las 48–72 h de la intubación) es compatible con el enfoque de la guía, que trata como comunitaria la neumonía que aparece dentro de las primeras 48 horas del ingreso hospitalario."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el material base acierta al separar patógenos típicos (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Staphylococcus aureus*) de atípicos (*Mycoplasma pneumoniae*, *Chlamydia pneumoniae*). La guía NICE insiste en que la elección antibiótica debe considerar la resistencia local, la vigilancia de infecciones respiratorias (incluidas las tasas de *Mycoplasma pneumoniae*, que se presenta en brotes aproximadamente cada cuatro años, más frecuentes en edad escolar), el uso previo de antibióticos y la colonización por bacterias multirresistentes. La descripción anatomopatológica en cuatro fases del material base no se contradice con la guía, que no aborda histología."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el material base describe dos patrones (inicio brusco con fiebre alta, escalofríos, tos productiva y esputo herrumbroso frente a inicio gradual con fiebre moderada, tos seca y síntomas extrapulmonares). La guía no reescribe el cuadro clínico, pero añade que el juicio clínico debe acompañar siempre a las escalas de gravedad, porque comorbilidades, embarazo y otros factores modifican el riesgo."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** en atención primaria se emplea el **CRB65** (confusión, frecuencia respiratoria ≥ 30/min, presión arterial baja —diastólica ≤ 60 mmHg o sistólica < 90 mmHg— y edad ≥ 65 años), con riesgo de muerte a 30 días < 1 % para 0 puntos, 1–10 % para 1–2 y > 10 % para 3–4; se recomienda derivar al hospital con 2 o más puntos y ofrecer atención primaria con instrucciones de alarma con 0 puntos. En el hospital se usa el **CURB65**, que añade urea > 7 mmol/L: 0–1 punto < 3 % de mortalidad, 2 puntos 3–15 % y 3–5 puntos > 15 %, con ingreso hospitalario a partir de 3 y valoración de cuidados críticos. Debe existir un proceso que permita el diagnóstico con radiografía de tórax en las primeras 4 horas desde la llegada al hospital, y la ecografía pulmonar puede usarse para el diagnóstico rápido en un paciente grave, para descartar alternativas como la insuficiencia cardiaca y para investigar complicaciones como la enfermedad pleural. Se considera medir proteína C reactiva al ingreso y no se ofrecen pruebas microbiológicas de rutina en la neumonía comunitaria de baja gravedad; en gravedad moderada o alta se valoran hemocultivos si hay sospecha de sepsis, cultivo de esputo, antígeno urinario neumocócico (para desescalar) y antígeno urinario de *Legionella* si hay factores de riesgo."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el antibiótico debe iniciarse lo antes posible tras el diagnóstico y dentro de las 4 horas de la llegada al hospital, por vía oral si el paciente tolera y la gravedad no exige vía intravenosa, revisando a las 48 horas para pasar a oral. En el adulto con neumonía comunitaria de baja gravedad, la primera línea es amoxicilina 500 mg cada 8 horas durante 5 días, con doxiciclina o claritromicina como alternativas en alergia a penicilina o sospecha de atípicos; en gravedad moderada se asocia un macrólido si se sospechan atípicos; en gravedad alta se usa amoxicilina-clavulánico (500/125 mg oral o 1,2 g intravenoso cada 8 horas) asociado a claritromicina, y levofloxacino solo como alternativa en alergia a penicilina, recordando las restricciones de la MHRA de 2024 para fluoroquinolonas. En el adulto, el tratamiento se suspende a los 5 días salvo que la microbiología indique lo contrario o el paciente no esté clínicamente estable (fiebre en las últimas 48 horas o **dos o más** de los siguientes signos: presión sistólica < 90 mmHg, frecuencia cardiaca > 100/min, frecuencia respiratoria > 24/min o saturación < 90 % en aire ambiente). En niños de 3 meses a 11 años con neumonía no grave, sin complicaciones ni enfermedad de base, la pauta es de **3 días** de amoxicilina. En la neumonía intrahospitalaria se revisa el tratamiento tras 5 días y se valora suspenderlo si hay estabilidad. La guía ATS/IDSA de 2019 mantiene el mismo esqueleto de decisiones (pruebas diagnósticas, lugar de atención, tratamiento empírico y ajuste posterior) con metodología GRADE."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** el material base enumera vacunación antineumocócica, antigripal y frente a COVID-19, cese tabáquico y control de comorbilidades. La guía NICE no desarrolla un capítulo de prevención primaria, pero sí de prevención de complicaciones: no se recomienda el alta hospitalaria si en las 24 horas previas hay dos o más signos de inestabilidad (temperatura > 37,5 °C, frecuencia respiratoria ≥ 24/min, frecuencia cardiaca > 100/min, presión sistólica ≤ 90 mmHg, saturación < 90 %, alteración del estado mental o incapacidad para comer sin ayuda). Se recomienda valorar el alta precoz a hospitalización domiciliaria o unidad de alta precoz en pacientes que mejoran pero requieren seguimiento."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) el CURB65 no decide por sí solo el destino del paciente: 2 puntos no equivale automáticamente a UCI, sino a elegir entre hospitalización, unidad de alta precoz, hospitalización domiciliaria o ingreso; (2) no prolongar antibiótico más allá de 5 días en el adulto estable, práctica que la guía considera innecesaria; (3) no usar fluoroquinolonas como primera elección por las restricciones de seguridad de 2024; (4) no pedir microbiología de rutina en la neumonía leve, porque no cambia el manejo y sí los costes."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

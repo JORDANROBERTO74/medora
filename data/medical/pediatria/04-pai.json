@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "pediatria/pai",
+  "specialty": "pediatria",
+  "slug": "pai",
+  "order": 4,
+  "title": "PAI: calendario de inmunizaciones (Bolivia)",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el calendario tiene dos ejes que no deben confundirse: el esquema público del PAI y la oferta del mercado privado. El esquema boliviano descrito en la norma técnica aplica once vacunas a lo largo de la vida, mientras que la tabla del material base reúne veintiuna, varias de ellas solo disponibles en el sector privado o no disponibles en el país [P67]. La decisión clínica correcta exige identificar primero qué vacuna pertenece al esquema público y cuál es una recomendación individual."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el PAI es el programa que organiza la vacunación universal, con meta de coberturas superiores al 95 %. La OMS publica recomendaciones por antígeno que los países adaptan a su epidemiología: BCG en dosis única al nacer en países con alta incidencia de tuberculosis, idealmente junto con la dosis de hepatitis B al nacer; tres dosis primarias de vacuna con difteria, tétanos y tos ferina desde las seis semanas, con refuerzos entre los 12 y 23 meses, a los 4-7 años y a los 9-15 años; y dos dosis de vacuna contra el sarampión en todos los programas nacionales."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la clasificación operativa distingue vacunas vivas atenuadas —BCG, polio oral, SRP, SR, rotavirus y fiebre amarilla— de vacunas inactivadas, y de esa distinción dependen las precauciones. Las vivas requieren replicación para inducir respuesta, de modo que los anticuerpos circulantes y las inmunoglobulinas pueden interferir: entre SRP y fiebre amarilla deben administrarse simultáneamente o separarse cuatro semanas, y tras inmunoglobulinas hay que esperar tres meses. Las inactivadas con adyuvante de hidróxido de aluminio —pentavalente, dT y hepatitis B— no deben aplicarse por vía intradérmica ni subcutánea porque producen granulomas y necrosis."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el tema no tiene clínica diagnóstica; el equivalente operativo es la verificación del estado vacunal en cada contacto, porque se denomina oportunidad perdida la situación en que una persona elegible acude al servicio y no se investiga ni se actualiza su esquema."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el esquema se define por tres parámetros: edad de inicio, número de dosis e intervalo óptimo entre dosis, con intervalos mínimos que no deben acortarse salvo en control de brote. El esquema público boliviano incluye BCG al nacer —administrable hasta los 11 meses y 29 días—; pentavalente a los 2, 4 y 6 meses, con cuarta dosis entre 18 y 23 meses y quinta a los 4 años; polio con primera dosis de IPV a los 2 meses, tercera de IPV a los 6 meses y dosis segunda, cuarta y quinta con bOPV a los 4 meses, 18 meses y 4 años; antineumocócica a los 2, 4 y 6 meses, sin refuerzos y hasta los 11 meses y 29 días; antirrotavírica a los 2 y 4 meses, completable hasta los 11 meses y 29 días; e influenza pediátrica con dos dosis entre 6 y 11 meses separadas un mes y dosis única entre 12 y 23 meses. La nota departamental completa el resto del calendario infantil con SRP y fiebre amarilla entre 12 y 23 meses, VPH en niñas de 10 años con dos dosis y dT con esquema de cinco dosis. La OMS acepta para el neumococo tanto una pauta 2+1 como una 3+0 cuando se empieza a las seis semanas, y para el rotavirus exige iniciar lo antes posible después de las seis semanas y no vacunar por encima de los 24 meses."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** el esquema público descrito comprende once vacunas, frente a las veintiuna filas de la tabla base, en la que varias aparecen solo en la columna privada o marcadas como no disponibles en el país [P67]. La vacuna contra el meningococo se recomienda en la actualidad como conjugada pentavalente en dosis única desde los 9 meses, en línea con el calendario rutinario. La vacuna contra la varicela se recomienda en dos dosis cuando se introduce en un programa nacional. La influenza estacional exige dos dosis separadas al menos cuatro semanas en niños de 6 meses a 8 años, y una dosis anual a partir de los 9 años o en quienes ya recibieron al menos una dosis previamente."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las contraindicaciones absolutas se reducen a la reacción alérgica grave a una dosis previa; el documento enumera como falsas contraindicaciones la alergia inespecífica, el antecedente familiar de convulsiones, la desnutrición, las reacciones leves previas, la enfermedad aguda leve, el tratamiento antibiótico, la lactancia, los corticoides en dosis bajas y la convalecencia. En el embarazo, las vacunas vivas están contraindicadas de forma general. La vigilancia de eventos supuestamente atribuibles a la vacunación es parte del programa, igual que la supervisión y la capacitación del personal."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no presentar como \"PAI\" una vacuna que solo existe en el sector privado: el esquema público son once vacunas; (2) recordar que la polio boliviana combina IPV y bOPV, de modo que no todas las dosis son inactivadas; (3) no reiniciar un esquema interrumpido: se completan las dosis que faltan, y los intervalos largos no borran la memoria inmunológica; (4) aprovechar el contacto para vacunar, porque la oportunidad perdida es el error más frecuente y el más evitable; (5) verificar la edad límite de cada vacuna, que en BCG, neumococo y rotavirus es de 11 meses y 29 días."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

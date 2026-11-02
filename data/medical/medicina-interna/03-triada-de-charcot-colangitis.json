@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-charcot-colangitis",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-charcot-colangitis",
+  "order": 3,
+  "title": "Tríada de Charcot (colangitis)",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** los tres elementos siguen siendo la descripción clásica, pero las Tokyo Guidelines 2018 los sustituyen por criterios formales que combinan inflamación sistémica, colestasis e imagen."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la colangitis aguda es una urgencia médica por infección de la bilis estancada; la causa principal de obstrucción es la coledocolitiasis. En una serie de pacientes con ictericia obstructiva, los criterios de Tokio identificaron colangitis en cerca del 43 %, frente al 9,9 % registrado clínicamente."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** obstrucción del flujo biliar (cálculos, estenosis benignas o malignas, prótesis obstruidas, hemobilia, parasitosis) que favorece la colonización y la inflamación del árbol biliar."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** fiebre o escalofríos, ictericia y dolor en hipocondrio derecho; pueden añadirse hipotensión y alteración del estado mental cuando hay disfunción orgánica."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** según TG18, se requiere un criterio de inflamación sistémica (fiebre >38 °C, leucocitos <4 o >10 ×10³/µL, proteína C reactiva >1 mg/dL) más uno de colestasis (bilirrubina total >2 mg/dL o enzimas >1,5 veces el valor de referencia) o de imagen (dilatación biliar o evidencia de la causa); el diagnóstico definitivo exige un criterio de cada grupo."
+        },
+        {
+          "id": "sensibilidad-de-la-triada",
+          "title": "Sensibilidad de la tríada",
+          "markdown": "**Sensibilidad de la tríada:** en la misma serie, el diagnóstico clínico basado en la tríada mostró sensibilidad del 23 % y especificidad del 100 % frente a los criterios TG18."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** antibióticos y drenaje biliar, con la colangiopancreatografía retrógrada endoscópica como procedimiento de elección; el retraso en el drenaje se asocia a peor evolución, y la demora en el antibiótico aumenta la mortalidad en el shock séptico biliar."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** sepsis biliar, disfunción multiorgánica y muerte; la prevención pasa por el tratamiento oportuno de la litiasis del colédoco."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la tríada es específica pero insuficiente para descartar colangitis; el dolor puede faltar y la fiebre puede estar ausente en el paciente añoso o inmunosuprimido. Esperar la tríada completa retrasa el drenaje."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

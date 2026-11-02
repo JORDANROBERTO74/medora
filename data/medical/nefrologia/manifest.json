@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "nefrologia",
+  "name": "Nefrología",
+  "slug": "nefrologia",
+  "order": 7,
+  "kind": "clinical",
+  "description": "Nefritis lúpica y acidosis metabólica.",
+  "topics": [
+    {
+      "id": "nefrologia/nefritis-lupica",
+      "slug": "nefritis-lupica",
+      "order": 1,
+      "title": "Nefritis lúpica",
+      "file": "01-nefritis-lupica.json"
+    },
+    {
+      "id": "nefrologia/acidosis-metabolica",
+      "slug": "acidosis-metabolica",
+      "order": 2,
+      "title": "Acidosis metabólica",
+      "file": "02-acidosis-metabolica.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

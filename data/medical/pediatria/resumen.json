@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "specialty": "pediatria",
+  "kind": "summary",
+  "source": {
+    "file": "MEDIC-GRADO NUEVA 2026.pdf",
+    "title": "MEDIC-GRADO NUEVA 2026 — Pediatría y Neonatología",
+    "pages": 463,
+    "authors": "David Villa"
+  },
+  "chapters": [
+    {
+      "id": "pediatria/resumen/aiepi",
+      "slug": "aiepi",
+      "order": 1,
+      "title": "AIEPI",
+      "sourcePages": [
+        400
+      ],
+      "markdown": "<!-- p:400 -->\n\n### Definición\n\n- Atencion integral a enfermedades prevalentes de la infancia\n\n- Cubre desde el nacimiento hasta los 5 años\n\n- Desnutricion\n\n- Diarrea y deshidratacion\n\n- Neumonia\n\n- Enfermedad febril\n\n- Otitis\n\n- Mastoiditis\n\nObjetivos\n\n- Reducir mortalidad en nios menores de 5 años\n\n- Reducir trastornos nutricionales\n\n- Reducir episodios de gravedad en las enfermedades infecciosas\n\n- Promocion de la salud y prevencion de enfermedades de la niñez\n\n- Prevencion con vacunas\n\n- Educar a la madre y responsable"
+    },
+    {
+      "id": "pediatria/resumen/neumonia",
+      "slug": "neumonia",
+      "order": 2,
+      "title": "Neumonia",
+      "sourcePages": [
+        400,
+        401
+      ],
+      "markdown": "<!-- p:400 -->\n\nEn niños de 2 meses a menor de 5 años preguntar por los principales sintomas del niño\n\n- Cuanto tiempo con tos o dificultad para respirar.\n\n- Taquipnea\n\n- Tiraje subcostal\n\n<!-- p:401 -->\n\n- Estridor en reposo\n\n- Si hay sibilancias\n\nSi la respuesta es afirmativa\n\n1. Hace cuanto tiempo\n\n2. Tiene sibilancias durante la inspiracion\n\n3. Primera vez que tiene sibilancias\n\nIRA/sin neumonía (ningun signo de neumonia)\n\n- Resfrio o tos\n\n### Acudir al hospital\n\nSi tiene sibilancias (salbutamol en aerosol cada/6horas) recomendacion sobre la alimentacion.\n\nIRA con neumonía\n\n- Taquipnea para la edad\n\n- Dar trimetropim sulfametoxazol cada 12 HRS por 5 dias V.o\n\n- Con sibilancias (salbutamol en aerosol C/6 horas por 5 dias)\n\n- Regresar en 2 dias\n\nIRA con neumonía grave\n\n- Tiraje subcostal\n\n- Estridor en reposo\n\n- Con sibilancias (salbutamol) en 20 minutos evaluar ---ver la tos y la dificultad\n\nRespiratoria\n\n- Penicilina procainica 50.000 ui/KG/dia\n\n- Oxigenoterapia\n\n- Referir a hospital"
+    },
+    {
+      "id": "pediatria/resumen/otitis",
+      "slug": "otitis",
+      "order": 3,
+      "title": "Otitis",
+      "sourcePages": [
+        402
+      ],
+      "markdown": "<!-- p:402 -->\n\nAguda:  < (-) 14 dias\n\n- Otalgia\n\n- Fiebre\n\n- Secrecion nasal y tos\n\n- Supuracion del oido\n\n### Tratamiento\n\nTrimetropim sulfametozaxol C /12---- 10 dias en jarabe\n\n- Paracetamol\n\n- Enseñar a la madre a tratar la supuracion\n\n- Retorno en 48 horas\n\nCronica:  > (+) 14 dias\n\n- Otalgia\n\n- Fiebre\n\n- Supuracion del oido\n\n### Tratamiento\n\n- Limpiar oido con frecuencia\n\n- Ciprofloxacina en gotas\n\n- Retorno en 5 dias"
+    },
+    {
+      "id": "pediatria/resumen/mastoiditis-aiepi",
+      "slug": "mastoiditis-aiepi",
+      "order": 4,
+      "title": "Mastoiditis (AIEPI)",
+      "sourcePages": [
+        402
+      ],
+      "markdown": "<!-- p:402 -->\n\nTumefaccion doloroso en region mastoidea\n\n- Paracetamol y referir\n\n- 1ra dosis de penicilina procainica 50000ui/ KG----referir"
+    },
+    {
+      "id": "pediatria/resumen/convulsiones-febriles",
+      "slug": "convulsiones-febriles",
+      "order": 5,
+      "title": "Convulsiones febriles",
+      "sourcePages": [
+        403
+      ],
+      "markdown": "<!-- p:403 -->\n\n- No dar de inicio antipiretico\n\n- Encontrar la causa (medios fisicos/ dar metamizol)\n\n- Resultado de la liberacion de citoquinas endogenas por el hipotalamo,\n\nCausando aumento de temperatura. Tipicas: ------duran < 10 minutos, ECG normal atipicas: crisis focales----duran > 10 minutos---ECG alterado. Pueden complicarse a status epileptico\n\n### Tratamiento\n\nDiazepam 0.2 – 0.5 MG/KG I.M o rectal medios fisicos paracetamol/dipirona"
+    },
+    {
+      "id": "pediatria/resumen/diarrea",
+      "slug": "diarrea",
+      "order": 6,
+      "title": "Diarrea",
+      "sourcePages": [
+        404,
+        405,
+        406
+      ],
+      "markdown": "<!-- p:404 -->\n\n### Concepto\n\nDeposiciones liquidas o semiliquidas en mas de 3 oportunidades por dia, con perdida de liquidos y electrolitos.\n\n### Clasificacion\n\n- Diarrea aguda sin de deshidratacion\n\n- Diarrea aguda con deshidratacion\n\n- Diarrea persistente sin deshidratacion\n\n- Diarrea persistente con deshidratacion\n\n- Diarrea cronica\n\n- Diarrea grave\n\n- Disenteria\n\n### Clinica\n\nPiel y mucosas secas llanto sin lagrimas signo del pliegue cutaneo irritabilidad-somnoliencia enoftalmos sed hipoactividad\n\n<!-- p:405 -->\n\n### Tratamiento\n\nDiarrea aguda sin de deshidratacion plan a (sro) + zinc + vitamina a (por 14 dias) recomendar que siga dando el pecho- volver en 5 dias\n\n<2 años: 50 – 100ml por cada diarrea 2 – 5 años: de 100 – 200 ML por cada deposicion diarreica\n\n- Diarrea aguda con deshidratacion\n\n### Plan B\n\nSro a libre demanda (50 – 100 ML /KG en  4 horas, reevaluar si sigue deshidratado repetir plan B 2hs mas), reevaluar plan C – plan a\n\n- Diarrea persistente sin deshidratacion\n\nPlan a + zinc\n\n- Diarrea persistente con deshidratacion\n\nPlan B + zinc por 15 dias\n\nDiarrea cronica (diarrea > 30 dias)\n\n<!-- p:406 -->\n\nDiarrea grave\n\n### Plan C\n\n1° hora 50 ML/kg ringer lactato 2|° hora 25 ML/kg 3° 25ml/KG\n\n3 horas despues… probar tolerancia de sro + revaluar para eleccion de plan a, plan B o repetir plan C\n\n- Disenteria ----presencia de sangre en la materia fecal\n\nCiprofloxacino 250mg c/12 horas por 3 dias, volver en 2 dias y recomendar alimentacion\n\n![Figura 1](/resumen/pediatria/p406-1.webp)"
+    },
+    {
+      "id": "pediatria/resumen/desnutricion",
+      "slug": "desnutricion",
+      "order": 7,
+      "title": "Desnutricion",
+      "sourcePages": [
+        407,
+        408,
+        409,
+        410
+      ],
+      "markdown": "<!-- p:407 -->\n\n- Suero de rehidratacion oral contiene:\n\nCloruro de sodio glucosa cloruro de potasio citrato de sodio\n\n### Ringer lactato contiene\n\nCloruro de sodio y potasio calcio lactato-------------------- agua\n\n### Objetivo\n\n- Evaluar alimentacion y corregir problemas\n\nMebendazol 500mg en: >1 año (si no trato en los ultimos 6 meses) vitamina a: > 6 meses/ <5 años chispitas nutricionales o hierro > 6meses/ < 2 años\n\n### Contienen\n\nÁcido folico: 150 MG hierro: 12,5 MG zinc: 5mg vitamina a: a 300mg vitamina C 300 MG evaluar salud oral y desarrollo psicomotor\n\n### Control regular\n\n< 2 años c/90 dias (trimestral) 2– 5 años cada año\n\n<!-- p:408 -->\n\n| Signo | Marasmo | Kwashiorkor |\n|---|---|---|\n| Pérdida de tejido graso | Intensa | Moderada |\n| Edema | Ausente | Frecuente |\n| Hepatomegalia | Rara | Muy frecuente |\n| Ascitis | Ausente | Frecuente |\n| Dermatitis | Rara | Muy frecuente |\n| Cambios de coloración de la piel | Raros | Muy frecuentes |\n| Alteraciones del cabello | Moderadas | Muy frecuentes |\n| Palidez de piel y mucosas | Rara | Muy frecuentes |\n\n<!-- p:409 -->\n\nPoco comun                              frecuentes\n\nSignos de deficiencia vitaminica\n\nGrado I----desnutricion aguda leve deficit 10-24% del peso corporal evluar desarrollo psicomotor y salud dental reevaluar en 15 dias\n\n### Tratamiento\n\nVitamina a + zinc hierro en jarabe > 2 años chispita nutricional en jarabe agregar una cucharada de aceite vegetal a la comida\n\nOjo: volver inmediatamente en caso de: fiebre tos anorexia diarrea\n\nGrado II ------desnutricion aguda moderada deficit en 25 – 40 %\n\n### Tratamiento\n\n- Administrar atlu (alimento terapeutico listo para su uso)\n\n- 6 - 23 meses: dar un sobre en 24 horas\n\n- 2 – 5 años dar 2 sobres en 24 horas hasta llegar al peso normal\n\nCompleta la evaluacion para diagnostico de complicaciones. Reevaluar en 7 dias.\n\n<!-- p:410 -->\n\n- Grado III ------desnutricion aguda grave\n\nDeficit de  41% tratamiento    evitar hipotermia\n\n### Atlu\n\n6 – 11 meses, dar un sobre c/12 horas 12 – 23 meses, dar 2 sobres en  12 horas 2 – 5 años dar 3 sobres/12 horas administrar via oral 50 ML de dextrosa al 10% una sola vez si recibe alimento materno(seno) debe recibir agua hervida antibioticoterapia: ---ceftriaxona (primera dosis) referir al hospital\n\n### Que contiene el atlu\n\n- Pasta de mani\n\n- Azucar\n\n- Materia grasa vegetal\n\n- Leche en polvo descremada\n\n- Suero de leche\n\n- Minerales y vitaminas\n\n- Cacao---lecitina"
+    },
+    {
+      "id": "pediatria/resumen/atencion-del-recien-nacido",
+      "slug": "atencion-del-recien-nacido",
+      "order": 8,
+      "title": "Atencion del recien nacido",
+      "sourcePages": [
+        411,
+        412,
+        413
+      ],
+      "markdown": "<!-- p:411 -->\n\n### Definición\n\nProcedimientos que se realizan para ayudar en la atencion del recien nacido y transcision en la vida extrauterina\n\nObjetivos\n\n- Apoyar y supervisar la atencion neonatal inmediata\n\n- Identificar y resolver situaciones de emergencia\n\n- Prevenir hipotermia en el recien nacido\n\n- 4 momentos:\n\n1. Adaptacion neonatal inmediata\n\n2. Cuidado en las primeras 4 horas de vida\n\n3. Cuidados mediatos\n\n4. Consulta medica de control del recien nacido\n\n- Adaptación neonatal inmediata\n\n- Pinzamiento tardio del cordon---evitar anemia en el rn\n\n- Secado de la cabeza y cuerpo del rn, estimulandolo, con toalla tibia y suave\n\nSuccion activa del recien nacido ----recuperacion de las secreciones\n\nSi secrecion abundante evaluar permeabilidad esofagica\n\n- Recordar siempre que la atencion del rn debe efectuarse cerca de la madre si\n\nNiño estable---------apego precoz= evitar hipoglucemia e hipotermia\n\n- Gentamicina oftalmica----infecciones + vitamina K------evitar hemorragias -\n\n<!-- p:412 -->\n\nEvaluar el apgar (1° - 5°minuto) frecuencia cardiaca reflejos tono muscular apariencia frecuencia respiratoria\n\nMedidas antropometricas perimetro cefalico-- >33cm perimetro abdominal >32cm peso-----2500 a 3999 gramos talla------ >50 CM perimetro toracico-- >33cm\n\n### Cuidados en las primeras 4 horas de vida\n\n1. Evaluar signos vitales\n\n2. Examen fisico general----minucioso—todos los aparatos\n\nDiagnosticar identidad sexual. Calcular edad gestacional---Capurro—ballard. Correlacionar peso, talla, perimetros para la edad gestacional. Descartar malformaciones-----evaluar cromosomopatias. Descartar infecciones comprobar permeabilidad rectal y esofagica.\n\n3. Evaluar resultados de laboratorios\n\n4. Permitir y garantizar la atencion de un recien nacido en centro de mayor\n\nComplejidad\n\n<!-- p:413 -->\n\nCuidados en las primeras 4 horas\n\n- Administrar vitamina K\n\n- Profilaxis oftalmica\n\n- Mantener seco y con ropa al recien nacido\n\n- Educar a la made con respecto a lactancia y limpieza del niño\n\n- Controlar los signos vitales del niño\n\n- Mantener adecuada la temperatura del lugar\n\n- Curacion y vigilar el estado del cordon\n\n- Comprobar permeabilidad anal, urinaria, y esofagica\n\nCuidados mediatos\n\n- Dar vacunas: BCG y antihepatitis B\n\n- Educar a madre y prevencion de accidentes\n\n- Realizar rastreo de enfermedades infecciosas y metabolicas\n\n- Citar a control despues de 4 a 5 dias del egreso\n\nConsulta médica anamnesis examen fisico completo evaluar conductas y cuidados maternos del recien nacido"
+    },
+    {
+      "id": "pediatria/resumen/reanimacion-neonatal",
+      "slug": "reanimacion-neonatal",
+      "order": 9,
+      "title": "Reanimacion neonatal",
+      "sourcePages": [
+        414,
+        415,
+        416
+      ],
+      "markdown": "<!-- p:414 -->\n\nMedic-grado            reanimacion neonatal\n\n- Conceptos iniciales:\n\n- Vpp: 1 de cada 10 recien nacidos.\n\n- Intubacion endotraqueal: 1 de cada 100 rn.\n\n- Masaje cardiaco: 1 de cada 1000 recien nacidos.\n\n- Preparar para la atencion del recien nacido\n\n- Temperatura de la sala de parto 23-25 grados.\n\n- Temperatura del recien nacido.\n\n- Preguntas iniciales: ----evaluar vitalidad\n\n1. Embarazo a termino > de 34 semanas\n\n2. Respirando o llorando.\n\n3. Tono muscular en flexion.\n\n- Si las 3 respuestas son afirmativas, realizar apego precoz, si una de las\n\nPreguntas es positiva …..llevara a la mesa de reanimacion.\n\n- Clampeo tardio del cordon:\n\n- Si paciente con buena vitalidad-------clampleo despues de 60 segundos.\n\n- Sin vitalidad……. Clampeo inmediato del cordon.\n\n<!-- p:415 -->\n\nPasos iniciales en 30 segundos\n\n- Secuencia en mas de 34 semanas y antes de las 34 semanas\n\n1. Mantener temperatura ambiente ----fuente de calor (temp36,5-37 grados)\n\n2. Secar ----cuerpo y cabeza\n\n3. Posicionar -----extension de la cabeza---cabecera\n\n4. Aspirar ---- si obstruccion de la via aerea---primero boca y despues nariz. 5-\n\nOximetro de pulso + monitor cardiaco\n\nReevaluar despues de los pasos iniciales\n\n1. Frecuencia cardiaca ------monitor\n\n- >100 -----respiracion regular ------ cuidados de rutina y hacer apego\n\nPrecoz. -<100 -60 ----apnea o gasping ----- vpp 30 segundos + monitorizacion\n\n2. Respiracion\n\n- Iniciar vpp------hacer en 30 segundos -----40 a 60 movimientos por minuto\n\n1. Colocar oximetro en el brazo derecho\n\n2. Monitor cardiaco -------FC\n\n- Si > de 34 semanas ------ ventilacion con fio2 de 21%\n\n- Si < de 34 semanas ------ ventilacion con fio2 al 30%\n\n- Minuto de oro ---- pasos iniciales (30 seg) + vpp (30 seg).\n\n- Reevaluacion despues de la vpp\n\n- Si FC >100 latidos + respiracion regular ----cuidados de rutina.\n\n- Si FC todavia <100 ----chequear la tecnica.\n\n<!-- p:416 -->\n\n- Si tecnica es correcta ------sin mejoria de la frecuencia cardiaca o menor de 60\n\nLatidos---------indicar iot con fio2 100%\n\n- Indicacion de iot:\n\n- Ventilacion por mascara no efectiva o prolongada\n\n- Indicacion de masaje cardiaco o adrenalina\n\n- Sospecha de hernia diafragmatica\n\n- Reevaluacion despues de la iot: ----si FC menor de 60 ---iniciar masaje cardiaco.\n\n1. Tecnica --- de los pulgares y abrazando el torax\n\n2. Lugar ----tercio inferior del esternon\n\n3. Posicion atrás de la cabeza\n\n4. Relacion 3:1\n\n5. Tiempo de 60 segundos\n\n- Reevaluacion despues del masaje cardiaco\n\n- Si FC >60 ----parar masaje y mantener ventilacion\n\n- Si FC continua <60 latidos ----chequear tecnica\n\n- Si tecnica correcta ---- epinefrina 0,01- 0,03 MG/KG a cada 3 -5 minutos\n\n- Si palidez o evidencia de choque ----sfo 0.9% 10 ML/KG en 5 a 10 minutos\n\n- Cateterismo venoso umbilical\n\n- Opcion cateterismo intraoseo\n\n- Cuando el bebe nace con meconio?\n\n1. Rn a termino y vigoroso ---- apego precoz\n\n2. Rn no vital ------mesa de reanimacion + pasos iniciales\n\n- Detalle:\n\nAspirar hipofaringe y traquea ---via iot---solamente si no mejora despues 30 segundos de vpp"
+    },
+    {
+      "id": "pediatria/resumen/bronquiolitis-aguda",
+      "slug": "bronquiolitis-aguda",
+      "order": 10,
+      "title": "Bronquiolitis aguda",
+      "sourcePages": [
+        417,
+        418,
+        419
+      ],
+      "markdown": "<!-- p:417 -->\n\n### Definicion\n\nEs una infeccion viral aguda de las vias respiratorias inferiores, en un pediatrico <24 meses.\n\n- Mayor incidencia:\n\nEntre 2 y 6 meses----2 a 3% de los lactantes requieren internacion- principalmente en meses de invierno.\n\n### Etiologia\n\n- Virus sincitial respiratorio\n\n- Rinovirus\n\n- Virus parainfluenza tipo 3\n\n- Influenza a y B\n\n- Metapneumovirus\n\n- Adenovirus\n\n- Factores de riesgo de gravedad en la bronquiolitis\n\nFactores del paciente        factores sociales menor de 3 meses      padres fumadores prematuridad       hermanos en edad escolar cardiopatia congenita       bajo nivel socioeconomico displasia boncopulmonar       no lactancia materna inmunodeficiencia fibrosis quistica\n\n<!-- p:418 -->\n\n### Fisiopatologia\n\n1. Virus se propaga por via por via respiratoria alta\n\n2. A via respiratoria baja con necrosis epitelial\n\n3. Desarrolla respuesta inflamatoria\n\n4. Hay edema y exudacion-----con obstruccion parcial o completa de via aereas\n\nAtelectasia\n\n### Clinica\n\nEn 24 a 48 HRS\n\nRinorrea epifora estornudos tos dificultad respiratoria----grados variables taquipnea retracciones apneas recurrentes cianosis deshidratacion/vomitos /diarrea\n\n- Gasometria arterial----en casos graves\n\n### Diagnostico\n\nEvaluacion clinica----anamnesis /examen fisico RX de torax ----infiltrado a predominio parahiliar, intersticial PCR para virus------panel viral (hisopado-aspirado) prueba rapida de antigenos oximetria de pulso gasometria arterial----en casos graves\n\n<!-- p:419 -->\n\n### Tratamiento\n\n- Sintomaticos----paracetamol-ibuprofeno-dipirona---hidratacion por VO.\n\n- Oxigeno si fuese necesario---mascara facial o canula\n\n- Hidratacion endovenosa---si necesario\n\n- Limpiar o lavar fosas nasales, con solucion fisiologica\n\n- Nebulizacion son salbutamol/adrenalin\n\n- Nebulizacion con solucion fisiologica hipertonica\n\n- Corticoides parenterales\n\n- No usar antibioticos\n\n- Palivizumab----disminuye la frecuencia de internaciones—en rn de riesgo\n\n- Cuando internar:\n\n- Dificultad respiratoria\n\n- Cianosis, fatiga, letargia\n\n- Apneas recurrentes\n\n- Hipoxemia\n\n- No tolera via oral: a liquidos, ni solidos.\n\n- Cardiopatia/displasia broncopulmonar"
+    },
+    {
+      "id": "pediatria/resumen/coqueluche",
+      "slug": "coqueluche",
+      "order": 11,
+      "title": "Coqueluche",
+      "sourcePages": [
+        420,
+        421
+      ],
+      "markdown": "<!-- p:420 -->\n\n### Definicion\n\nEs una infeccion causada por bordetella pertussis que es una bacteria gram negativa---cocobacilo\n\n- Incubacion: 6 a 10 dias---invade mucosa respiratoria—con mucha mucosidad\n\n### Inicia\n\n- Inicia con sintomas respiratorios altos----tos paroxistica o espasmodica\n\n+ inspiracion prolongada\n\n- -------con duracion del cuadro de 6 a 10 sem.\n\n- 3 etapas:\n\n- Catarral\n\n- Paroxistica---accesos de tos >5 toses forzadas en la espiracion.\n\n- Convaleciente\n\n- Transmision: gotas de secrecion respiratoria.\n\n### Contagiosidad\n\nAlta, en el 80 % de los contactos causa enfermedad\n\n### Diagnostico\n\nEstridor inspiratorio + tos paroxistica\n\n- PCR en tiempo real\n\n- Cultivo de secreciones nasofaringeas\n\n- Serologia\n\n<!-- p:421 -->\n\n### Complicaciones\n\n- Asfixia en un lactante\n\n- Otitis media\n\n- Bronconeumonia---- en ancianos\n\n- Convulsiones\n\n- Hemorragias intracerebral/ojos/piel y mucosas\n\n- Hernias umbilicales\n\n- Prolapso rectal\n\n### Tratamiento\n\n### Macrolidos\n\n- Eritromicina-----durante 14 dias---- se asocia a estenosis hipertrofica del piloro\n\nAzitromicina---durante 5 dias\n\n### Prevencion\n\nPentavalente y profilaxis posexposicion"
+    },
+    {
+      "id": "pediatria/resumen/enfermedad-de-membrana-hialina",
+      "slug": "enfermedad-de-membrana-hialina",
+      "order": 12,
+      "title": "Enfermedad de membrana hialina",
+      "sourcePages": [
+        422,
+        423,
+        424
+      ],
+      "markdown": "<!-- p:422 -->\n\n### Definicion\n\nDificultad respiratoria por deficit de surfactante que causa el colapso alveolar, en recien nacido prematuro (< de 37 semanas de edad gestacional).\n\n- Los neumocitos tipos 2 producen surfactante que causa que reduce la presion\n\nAlveolar.\n\n### Factores de riesgo\n\n- Prematuridad\n\n- Asfixia durante el trabajo de parto (destruccion de neumocitos tipo 2)\n\n- Recien nacido hombre (metabolismo lento)\n\n- Madres diabeticas\n\n- Embarazos multiples\n\n### Incidencia\n\n- De 60 a 80 %: 37 semanas\n\n- Rara en recien nacido a termino\n\nCronologia del desarrollo pulmonar\n\n- 24 dias: evaginacion del intestino embrionario\n\n- 12 semanas: formacion de la traquea, bronquios, lobulos, arteria pulmonar y\n\nPleura\n\n- 26-28 semanas: proliferacion de alveolos y red capilar (95% celulas I) (5% celulas\n\nTipo II)\n\n<!-- p:423 -->\n\nFactor surfactante\n\n- Contiene 90% de fosfolipidos y 10% de proteinas\n\n### Fisiopatologia\n\n1. Prematuridad (menor sintesis, almacenamiento y liberacion de surfactante)\n\n2. Menor cantidad de surfactante alveolar-aumenta tension superficial capilar\n\n3. Atelectasia (perfusion irregular, hipoventilacion)\n\n4. Hipoxemia + retencion de dioxido de carbono\n\n5. Acidosis e hipoperfusion tisular\n\n6. Fuga de plasma de alveolos\n\n7. Fibrina + acumulacion de celulas necroticas (membrana hialina)\n\nClinica ----signo de dificultad respiratoria (test de Silverman anderson)\n\n- Tiraje intercostal\n\n- Retraccion esternal\n\n- Tiraje subcostal\n\n- Aleteo nasal\n\n- Quejido espiratorio\n\n- Cianosis\n\n- Taquipnea\n\n- Apnea\n\n- Disociacion toracoabdominal\n\n### RX de torax\n\n- Infiltrado reticulo nodular difuso (vidrio esmerilado)\n\n- Borramiento de la silueta cardiaca,\n\n- Broncograma aereo\n\n<!-- p:424 -->\n\n- Gasometria: hipoxemia -hipercapnia\n\n- Diagnosticos diferenciales:\n\n- Neumonia\n\n- Taquipnea transitoria del recien nacido\n\n- Hipertension pulmonar persistente\n\n- Edema pulmonar\n\n### Tratamiento\n\n1. Internacion en neonatologia\n\n2. Se indica surfactante intratraqueal-----colocar surfactante:\n\n- Reduce riesgo de neumotorax\n\n- Enfisema intersticial\n\n- Hemorragia intraventricular\n\n- Displasia broncopulmonar\n\n3. Cpap o ventilacion mecanica\n\n### Prevencion\n\nUso de corticoides como dexametasona o betametasona entre las semanas 24 y\n\n34."
+    },
+    {
+      "id": "pediatria/resumen/enfermedades-exantematicas",
+      "slug": "enfermedades-exantematicas",
+      "order": 13,
+      "title": "Enfermedades exantematicas",
+      "sourcePages": [
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433
+      ],
+      "markdown": "<!-- p:425 -->\n\nEscarlatina\n\n### Concepto\n\nInfeccion causada por streptococo beta hemolitico del grupo A. (streptococo pyogenes). Tiene una exotoxina pirogenica---son 3 tipos diferentes.\n\n- Afecta a escolares y preescolares.\n\n- Transmision: goticulas\n\n- Periodo de incubacion---2-5 dias\n\n### Puerta de entrada\n\n- Piodermitis\n\n- Faringoamigdalitis ----puede generar fiebre reumatica\n\n### Prodromo\n\n- Fiebre alta\n\n- Faringitis------lengua blanca y lengua roja\n\n### Exantema\n\nMicropapular con aspecto de lija---inicia en region cervical\n\n- Signo de pastia\n\n- Signo de filatov\n\n- Progresion: centrifuga\n\n- Descamacion-----laminar\n\n<!-- p:426 -->\n\n### Complicaciones\n\n- Abceso periamigdalino\n\n- Abceso retrofaringeo\n\n- Fiebre reumatica\n\n- Glomerulonefiritis postestreptococica\n\n### Tratamiento\n\n- Sintomaticos\n\n- Penicilina benzatinica\n\n- Azitromicina\n\n- Claritromicina\n\n![Figura 1](/resumen/pediatria/p426-1.webp)\n\n<!-- p:427 -->\n\nSarampion\n\nEs un morbilivirus de la familia de los paramixovirus que se encuentra en el tracto respiratorio.\n\n### Transmision\n\nGoticulas o aerosol---3 a 4 dias antes y 4 a 6 dias despues incubacion: 8-12 dias\n\n### Prodromos\n\n- Tos\n\n- Fiebre (mas alta en la erupcion cutanea)\n\n- Coriza----- (estornudos)\n\n- Conjuntivitis con fotofobia\n\n- Enantema (manchas de koplick) ----lesiones blanquecinas en mucosa yugal\n\nPatognomonico.\n\n### Exantema\n\n- Tipo morbiliforme-----lesiones maculopapulares que se agrupan.\n\n### Inicio\n\nCabeza, cuero cabelludo, region cervical\n\n- Progresion:\n\nCraneo -caudal—region retroauricular\n\n![Figura 2](/resumen/pediatria/p427-1.webp)\n\n<!-- p:428 -->\n\nConvalescencia: ----descamacion fina de la piel. Tos es el primer sintoma en apararecer y es el ultimo--en desaparecer\n\n### Complicaciones\n\n- Otitis media aguda (mas comun)\n\n- Neumonia (mayor mortalidad)\n\n- Encefalitis (alta letalidad)\n\n- Panencefalitits esclerosante subaguda\n\n### Laboratorio\n\nSerologia o aislamiento viral/PCR\n\n### Tratamiento\n\nVitamina a (una dosis al diagnostico y otra al segundo dia)\n\nInternar y hacer aislamiento aereo\n\n### Profilaxis\n\nPrecontacto: inmunizacion ----triple\n\n### Viral post contacto\n\nVacuna hasta el 3er dia (vacuna de bloqueo)\n\n- Inmunoglobulina: hasta el dia 6°dia (embarazadas, < 6 meses,\n\nInmunocomprometidos\n\n<!-- p:429 -->\n\nRubeola\n\nCausado por un rubivirus\n\n### Transmision\n\nGoticulas---5-7 dias antes y 5 a 7 dias del rash\n\nPeriodo de incubacion: 14-21 dias\n\n### Prodromos\n\n- Sintomas catarrales leves\n\n- Fiebre baja\n\n- Hiperemia conjuntival\n\n- Linfoadenopatia retroauricular occipital, retroauricular\n\n### Exantema\n\nTipo rubeoliforme/maculopapular roseo (lesiones aisladas)\n\nProgresion: craneo caudal rapida descamacion: ausente\n\n### Complicaciones\n\nArtropatias sindrome de rubeola congenita trombocitopenia\n\n<!-- p:430 -->\n\n### Prevencion\n\n- Inmunizacion\n\nPost-contacto----vacuna de bloqueo hasta 72 HRS—no embarazadas e inmunodeprimidos\n\n### Tratamiento\n\nSintomatico\n\nEritema infeccioso (quinta enfermedad)\n\nAgente: parbovirus B-19 transmision: goticulas periodo de incubacion: mas o menos 15 dias\n\nProdromos: inexpecificos o inexistente\n\n### Exantema trifasico\n\n1ra fase (cara abofeteada) ----eritema facial 2da fase (exantema reticulado---en zonas de extension--extremidades. 3ra fase– recidiva del exantema----superficie extensoras\n\nProgresion---- craneo-caudal\n\n### Complicaciones\n\n(parbovirus-b19)\n\n- Crisis aplasica\n\n- Hidropsia fetal\n\n- Artropatia\n\n<!-- p:431 -->\n\nVaricela\n\nAgente: virus de la varicela-zoster transmision: respiratoria\n\nProdromos----inespecificos\n\n### Exantema\n\nTipo vesicular pleomorfico macula>papula>vesicula>pustula>costra.\n\n- Pruriginoso (con compromiso de mucosa)\n\n### Progresion\n\nCentrifuga descamacion----ausente cuando solo esta en estadio de costras ---paciente deja de ser infectante\n\n### Complicaciones\n\n- Infeccion bacteriana: (5%) –---cicatrices\n\n- Varicela progresiva: (compromiso visceral—coagulopatia)\n\n- Varicela congenita---cicatrices e hipoplasia de miembros\n\n- Ataxia cerebelosa\n\n- Encefalitis----complicacion grave\n\n### Tratamiento\n\nAciclovir VO aciclovir EV\n\n1. Profilaxis pre-exposicion: 12 meses\n\n2. Profilaxis pos-exposicion: vacuna de bloqueo hasta 5to dia 3\n\n- Inmunoglobulina especifica---ighavz---hasta el 4to dia en:\n\n<!-- p:432 -->\n\n- Inmunodeprimido\n\n- Embarazada\n\n- Rn prematuro\n\n- Rn de madre con varicela de 5 dias antes hasta 2 dias despues del parto\n\nEnfermedad mano pie boca agente: coxsakie a16-----enterovirus transmision: con goticulas\n\nFase exantematica\n\n- Fiebre\n\n- Lesiones vesiculares y ulceradas en la cavidad oral\n\n- Exantema maculopapular-vesicular en manos/pie/nalgas\n\n- Complicaciones raras:\n\n- Meningitis aseptica\n\nMielitis flacida encefalitis\n\n- Miocarditis\n\n### Tratamiento\n\nSintomaticos----paracetamol-ibuprofeno liquidos por via oral\n\n<!-- p:433 -->\n\nExantema subito\n\n### Agente\n\nHerpes virus tipo 6 y 7 tipico en lactantes\n\n### Transmision\n\nSaliva de portadores cronicos asintomaticos\n\n### Fase prodromica\n\nFiebre alta que desaparece con el inicio de la erupcion cutanea\n\nFase exantematica\n\n- Tipo maculopapular-----rubeoliforme—morbiliforme\n\n- Progresion:\n\nInicio en el tronco y progresion centrifuga\n\n### Convalescencia\n\nDescamacion ausente\n\n- Complicacion:\n\nConvulsion febril\n\n- Diagnostico diferencial---farmacodermia\n\n### Tratamiento\n\nSintomaticos"
+    },
+    {
+      "id": "pediatria/resumen/enfermedad-de-kawasaki",
+      "slug": "enfermedad-de-kawasaki",
+      "order": 14,
+      "title": "Enfermedad de Kawasaki",
+      "sourcePages": [
+        434
+      ],
+      "markdown": "<!-- p:434 -->\n\n### Concepto\n\n- Es una enfermedad rara, que causa una vasculitis autoinmunitaria, con\n\nRiesgo de inflamacion y estenosis.\n\n### Relacionado con\n\nFactores ambientales------infecciones niños menores de 5 años o adultos raza asiatica\n\n### Diagnostico\n\nFiebre por + de 5 dias + 4 alteraciones:\n\n1. Conjuntivitis no exudativa\n\n2. Alteraciones en labios y cavidad oral\n\n3. Adenomegalia cervical\n\n4. Exantema polimorfo\n\n5. Alteraciones de las extremidades\n\n- Complicacion: aneurisma coronario----hacer ecocardiograma\n\n### Tratamiento\n\nPara disminuir incidencia anerisma coronario.\n\n- Inmunoglobulina EV\n\n- Aspirina en dosis antiflamatoria en la fase aguda\n\nAspirina en dosis antiagregante en fase aguda"
+    },
+    {
+      "id": "pediatria/resumen/ictericia-neonatal",
+      "slug": "ictericia-neonatal",
+      "order": 15,
+      "title": "Ictericia neonatal",
+      "sourcePages": [
+        435,
+        436,
+        437
+      ],
+      "markdown": "<!-- p:435 -->\n\n### Concepto\n\nEs una enfermedad neonatal caracterizada por la coloracion amarilla de piel y mucosas por hiperbilirrubinemia—mayor de 2 a 3 MG/dl.\n\n- El desarrollo de la ictericia es craneo -caudal, ya con compromiso debajo del\n\nOmbligo se considera patologica---con valor de 15 MG/dl de bilirrubina indirecta\n\n- Complicaciones de la hiperbilirrubinemia: ---neurotoxicidad\n\nAumento excesivo y rapido y el umbral de preocupacion—depende de:\n\n- Edad\n\n- Grado de prematurez\n\n- Estado de salud\n\n- Para recien nacidos con: sepsis, hipotermia,\n\nPrematuros, pig, no hay niveles seguro de hiperbilirrubinemia\n\n- Encefalopatia bilirrubinica genera: ---bilirrubina indirecta en ganglios de la\n\nBase y tronco encefalico\n\n- Paralisis cerebral\n\n- Deficit sensitivo-motor\n\n- Convulsiones a repeticion\n\n- Fisiopatologia de la hiperilirrubinemia\n\n1. Ocurre por la degradacion de la hemoglobina a bilirrubina indirecta.\n\n2. Bilirrubina indiecta se une a la albumina y es transportada al higado\n\n3. Captada por los hepatocitos y conjugada con acido glucoronico.\n\n4. La udp glucoroniltransferasa—la hace bilirrubina directa(hidrosoluble)\n\n5. Lo que queda de bilirrubina indirecta se reabsorve y se recicla en la\n\nCirculacion\n\n<!-- p:436 -->\n\n- Ictericia fisiologica:\n\nAparece despues de 24 a 48 HRS del nacimiento—hasta 7 o 10 dias siempre mejorando— asintomatico bilirrubina indiecta igual o menor de 15 MG/dl\n\n- Vida media menor de globulos rojos\n\n- Poliglobulia transitoria\n\n- Falta de enzima y aumento de la circulacion enterohepatica.\n\n- Ictericia patologica:\n\nAparece ya antes de 24 horas del nacimiento y persiste hasta 2 semanas despues- bilirrubina indirecta. Puede llegar >18 MG/dl—tiene clinica grave\n\n### Clasificacion\n\nFisiologica                           patologica\n\n- Hiperbilirrubinemia fisiologica\n\n- Ictericia por lactancia materna\n\n- Ictericia por leche materna\n\n- Ictericia por factor rh\n\n- Ictericia por grupo a, B, o\n\n- Sepsis neonatal\n\n- Atresia de vias biliares\n\n### Diagnostico\n\nAnamnesis y examen fisico -----estadios de kramer\n\n1. ---- cabeza/cara (6mg/dl)\n\n2. ----- hasta el ombligo (9 MG/dl)\n\n3. ------ hasta las rodillas (12 MG/dl)\n\n4. --------hasta los tobillos 15 MG/D)\n\n5. -------manos y pies (>18 MG/dl)\n\n- Laboratorio -------hiperbilirrubinemia\n\n<!-- p:437 -->\n\n### Tratamiento\n\n- Ictericia fisiologica----resuelve sola en 1 semana.\n\n- Ictericia por lactancia materna---aumentando la frecuencia de las tomas.\n\n- Ictericia por leche materna----descontinuar 7 a 10 dias, reducen los niveles y\n\nReintegrar la leche materna despues\n\n- Tratamiento definitivo:\n\n- Fototerapia---luz blanca o luz azul(intensiva)\n\nAccion de--fotoisomerizar la bilirrubina indirecta\n\n- Se indica con valores desde 12 a 15mg/dl\n\n- Exanguinotransfusion: ---se indica cuando falla la fototerapia\n\n- Prevencion de incompatiblidad del rh-:"
+    },
+    {
+      "id": "pediatria/resumen/clasificacion-de-los-parasitos",
+      "slug": "clasificacion-de-los-parasitos",
+      "order": 16,
+      "title": "Clasificacion de los parasitos",
+      "sourcePages": [
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444
+      ],
+      "markdown": "<!-- p:438 -->\n\n- Helmintos:\n\n- Nematodos: ascaris lumbricoides, uncinarias, estronguiloides, oxiuris.\n\n- Cestodos: taenia solium, taenia saginata----praziquantel\n\n- Protozoarios:\n\nEntamoeba histolitica-Giardia lamblia\n\n- Giardia lamblia\n\nPrevalencia: 2 a 6 años incubacion: 5 dias localizacion: duodenal y yeyuno proximal\n\n- No hay afectacion extraintestinal\n\n### Evoluciones\n\n- Portador asintomatico\n\n- Diarrea acuosa mal absortiva\n\n### Síntomas\n\n- Diarrea\n\n- Malestar general\n\n- Distension abdominal\n\n- Dolor abdominal tipo colico\n\n- Distension abdominal-meterorismo\n\n- Perdida de peso\n\n- Esteatorrea\n\n<!-- p:439 -->\n\n### Tratamiento\n\n- Metronidazol\n\n- Trichuriasis\n\n### Agente\n\n- Trichuris trichura se\n\nEncuentra en recto y ano.\n\n### Clinica\n\n- Causa prolapso rectal -----debilidad en la camada muscular del intestino.\n\n### Diagnostico\n\nExamen en fresco de parasitos----conteo de kato-katz\n\n### Tratamiento\n\nAlbendazol 400 MG de 3 a 7 dias---pamoato de pirantel.\n\n- Estrongiloidiasis\n\n### Agente\n\nStrongyloides stercoralis\n\n### Localizacion\n\nDelgado (larva currens) parasito helminto de tierra.\n\n### Ciclo\n\nHuevo-larva-parasito---huevo—larva rabditoide(heces)—larva filarioide(suelo)-\n\n- -piel\n\n- -pulmon—vias aereas---esofago---intestino.\n\nTransmision: cutanea---no fecal oral\n\n<!-- p:440 -->\n\n### Clinica\n\n- Lesion cutanea\n\n- Dolor abdominal tipo colico /epigastralgia\n\n- Ciclo pulmonar---sindrome de loeffler\n\n- Sindrome ulceroso peptico-----riesgo de hemorragia digestiva\n\n- Si autoinfestacion---inmunodeprimidos----forma diseminada con sepsispor\n\nGram negativos\n\n### Diagnostico\n\n- Examen parasitologico de heces---baermann moraes (larva)\n\n### Tratamiento\n\n- Ivermectina---200mg/KG 2 dias.\n\n- Tiabendazol\n\n- Nitazoxanida\n\n- Ancilostomiasis\n\n### Agente\n\nNecator americanus/ ancylostoma duodenale (geohelmintos).\n\n### Localizacion\n\nIntestino delgado----larva migrans cutanea.\n\n### Ciclo\n\nParasito—huevo(suelo)—parasito(intestino)—huevo(heces)-larva rabditoide— larva filarioide (infectante en suelo)-penetracion de piel—pulmon, viasaereas, esofago-de nuevo al intestino.\n\n<!-- p:441 -->\n\n### Transmision\n\nCutanea---no fecal oral\n\n### Cuadro clinico\n\nLesion cutanea sintomas intestinales inspecificos ciclo pulmonar anemia ferropenica + eosinofilia\n\n### Diagnostico\n\nExamen de parasitos en las heces.\n\n### Tratamiento\n\n- Albendazol 400mg dosis unica\n\n- Nitazoxanida\n\n- Amebiasis\n\n### Agente\n\nEntamoeba histolitica por ingesta de quistes del parasito---trofozoitos—lesion en matraz localizacion: colon\n\n### Ciclo de vida\n\nQuiste-ingestion- trofozoito (colon)—quiste (heces)\n\n### Clinica\n\nCronico---puede ser fulminante\n\nHemorragia digetiva alta perforacion intestinal\n\n<!-- p:442 -->\n\nAbceso hepatico amebiano—unico----ecografia/TAC/rnm ciclo de loos pulmonar colitis-----disenteria---diarrea (trofozoitas) materia fecal dura---quistes.\n\n### Tratamiento\n\nMetronidazol tinidazol paramomicina\n\n- Oxiuriasis\n\n### Agente\n\nEnterobius vermicularis se encuentra en recto y ano.\n\n### Clinica\n\n- Prurito anal\n\n- Vulvovaginitis---leucorrea\n\n- Excoriaciones por rascado\n\n- Dolor abdominal en fosa iliaca y cuadrantes inferiores\n\n### Diagnostico\n\nCinta adhesiva de graham\n\n### Tratamiento\n\nMebendazol 100mg V.o (1 dosis y repetir en 1 semana) albendazol 400 MG/dosis unica\n\n<!-- p:443 -->\n\n- Ascaridiasis\n\n### Agente\n\nAscaris lumbricoides localizacion: delgado—yeyuno\n\n### Ciclo evolutivo\n\nHuevo(ingestion)—larva (ciclo de loss)—pulmon-vias aereas esofago-- parasito(intestino)---huevo(heces).\n\n### Etapa intestinal\n\n- Dolor abdominal inespecifico-colico biliar-pancreatitis-colangitis\n\n- Diarrea\n\n- Hiporexia-anorexia\n\n- Palidez muco-cutanea\n\n- Perdida de peso\n\n- Obstruccion intestinal\n\n- Tos seca----disnea---cianosis\n\n- Infiltrado pulmonar migratorio\n\n- Eosinofilia\n\n- Abceso hepatico\n\n### Diagnostico\n\nExamen de parasitos en heces---huevo de ascaris\n\n### Tratamiento\n\n- Albendazol 400mg/KG/dosis unica\n\n- Opciones: levamisol, pamoato de pirantel, ivermectina, nitaxozanida\n\n- Suboclusion intestinal: no usar pirantel\n\n<!-- p:444 -->\n\nSoporte: sonda nasogastrica + hidratacion.\n\n- Piperazina+oleo mineral\n\nEnema de solucion salina hipertonica + aceite mineral"
+    },
+    {
+      "id": "pediatria/resumen/programa-ampliado-de-inmunizacion",
+      "slug": "programa-ampliado-de-inmunizacion",
+      "order": 17,
+      "title": "Programa ampliado de inmunizacion",
+      "sourcePages": [
+        445,
+        446
+      ],
+      "markdown": "<!-- p:445 -->\n\n### Esquema infantil\n\n| Vacuna | Previene | Vía | Edad de aplicación | Dosis |\n|---|---|---|---|---|\n| BCG | Formas graves de TBC | ID | Recién nacido | 0,1 |\n| Pentavalente | Difteria, tétanos, hepatitis B, neumonía, meningitis, coqueluche | IM | 1-2 meses; 2-4 meses; 3-6 meses; 4-18 meses; 5-4 años | 0,5 |\n| Antipolio | Poliomielitis | IM/oral | 1-2 meses; 2-4 meses; 3-6 meses; 4-18 meses; 5-4 años | 2 gotas |\n| Antineumocócica | Neumonías, meningitis | IM | 1-2 meses; 2-4 meses; 3-6 meses | 0,5 |\n| Anti-rotavírica | Diarrea severa | Oral | 1-2 y 3 meses; 2-4 y 6 meses | 1,5 |\n\n<!-- p:446 -->\n\n### Esquema adicional\n\n| Vacuna | Previene | Vía | Edad de aplicación | Dosis |\n|---|---|---|---|---|\n| Anti influenza | Gripe | IM | 6 meses: 1ra dosis; 2da dosis | 0,25 |\n| SRP | Triple viral | SC | 1ra a los 12 meses; 2da a los 23 meses | 0,5 |\n| Anti-amarílica | Fiebre amarilla | SC | 12 meses | 0,5 |\n| HPV | Cáncer y condilomas | IM | Niño y niña con 10 años; 1 sola dosis | 0,5 |\n| DT adulto | Tétanos | IM | Cada 10 años y durante el embarazo | 0,5 |\n| Antihepatitis B | Adulto | IM | 1 al contacto; 2 al mes; 3 a los 6 meses | 0,5 |\n| Anticoronavirus | Gripe | IM | 1 vez al año | 0,5 |"
+    },
+    {
+      "id": "pediatria/resumen/sepsis-neonatal",
+      "slug": "sepsis-neonatal",
+      "order": 18,
+      "title": "Sepsis neonatal",
+      "sourcePages": [
+        447,
+        448,
+        449
+      ],
+      "markdown": "<!-- p:447 -->\n\n### Definicion\n\nSindrome clinico caracterizado por signos y sintomas de infeccion sistemica, con confirmacion por hemocultivo u otro liquido esteril, bacterias, hongos o virus. Que se manifiesta antes o despues de las 48 HRS.\n\nIncidencia---0,5 a 8/1000 nacidos vivos\n\n### Tasas altas en\n\n- Nacidos bajo peso\n\n- Apgar bajo\n\n- Varones\n\n### Etiologia\n\nVia transplacentaria adquirida por el canal del parto: (corioamnionitis)---RPM infeccion nosocomial: (cateteres, tubos orotraqueales, sonda naso y orogastricas)\n\n### Factores de riesgo\n\n- Prematuro\n\n- Parto pretermino\n\n- Rpmo >18 horas (prolongada)\n\n- Signos clinico de corioamnionitis (fiebre, leucocitosis, desvio a la izquierda y\n\nDolor a la palpacion uterina.\n\n- Estreptococo del grupo B (S. Agalactiae---pesquizar en la semana 35-37)\n\nBacterias:  E. coli-----torch----transplacentaria\n\n<!-- p:448 -->\n\nClasificacion de sepsis neonatal precoz: <72 HRS (via ascendente o canal de parto) tardia: >de 72hrs (infeccion nosocomial) -----cateteres---S. Aureus\n\n### Clinica\n\nPuede presentarse asintomatica (horas y dias)\n\n### Primeras señales\n\n- Taquipnea\n\n- Quejido espiratorio\n\n- Tiraje intercostal o subcostal\n\n- Cianosis\n\n- Fiebre o hipotermia\n\n- Predictores de sepsis (bradicardia-apnea)\n\n### Trastornos neurologicos\n\n- Alteracion del estado de alerta----deja de mamar\n\n- Alteraciones hemodinamicas (shock)----taquicardia-taquipnea-apnea\n\n- Enterocolitis necrotizante—compromiso de pared intestinal y perforacion\n\nInestabilidad termica----hipotermia-hipertermia\n\n### Laboratorio\n\n- Hemograma---leucocitosis- desvio a la izquierda\n\n- Aumento de dimero D\n\n- Disminucion del fibrinogeno\n\n- Disminucion de plaquetas\n\n- PCR\n\n- Ves\n\n- Procalcitonina\n\n<!-- p:449 -->\n\n- Diagnostico de sepsis neonatal:\n\n1. Sospecha clinica\n\n2. Hemocultivo---gold standard\n\n3. Urocultivo ---sepsis neonatal tardia\n\n4. Cultivo liquido cefalorraquideo\n\n### Tratamiento\n\nNeonatologia\n\n- Monitoreo de signos vitales y diuresis\n\n- Plan de hidracion parenteral\n\n- Lactancia con formula y materna\n\nSepsis neonatal precoz (estreptococo agalactiae, E. coli, klebsiella, Listeria)\n\n- Antibioticos utilizados: ampicilina+ gentamicina\n\nSepsis neonatal tardia (staphilococo coagulasa, staphilococus aureus, bacterias gram negativas)\n\n- Antibioticos utilizados-----vancomicina-piperacilina tazobactam"
+    },
+    {
+      "id": "pediatria/resumen/sindrome-de-aspiracion-de-meconio",
+      "slug": "sindrome-de-aspiracion-de-meconio",
+      "order": 19,
+      "title": "Sindrome de aspiracion de meconio",
+      "sourcePages": [
+        450,
+        451,
+        452
+      ],
+      "markdown": "<!-- p:450 -->\n\n### Definicion\n\nEs la inhalacion de meconio durante el embarazo o el trabajo de parto, que produce inflamacion y obstruccion de la via aerea que afecta el intercambio gaseoso y cursa con cuadro obstructivo bronquial.\n\n### Incidencia\n\n5% de los recien nacidos que eliminan meconio durante el parto lo terminan de aspirar\n\n### Factores de riesgo\n\nParto postermino alteraciones de la placenta, utero y cordon umbilical diabetes materna tabaquismo oligoamnios RCIU preclampsia-eclampsia hipertension materna\n\n### Fisiopatologia\n\n- Obstruccion de la via aerea (hipoxia)\n\n- Neumonitis quimica\n\n- Liberacion de citoquinas\n\n- Disminucion de la produccion e inacticvacion del surfactante---atelectasias\n\n- Predispone a infecciones---meconio es medio de cultivo\n\n- Acidosis ehipoxia genera vasoconstriccion del lecho pulmonar=hipertension\n\nPulmonar persistente.\n\n<!-- p:451 -->\n\n### Meconio contiene\n\n- Celulas epiteliales intestinales\n\n- Lanugo\n\n- Vernix caseoso\n\n- Moco\n\n- Liquido amniotico\n\n- Bilis\n\n- Agua (85-95%)\n\n- Citoquinas (il-6/il-1/il-8/fnt)\n\n### Meconio\n\n- PH acido\n\n- Viscoso\n\n- Color verde /negruzco\n\n- Contiene enzimas que inactivan el surfactante hidrolizando su agente activo -\n\nDipalmitoilfosfatidilcolina\n\n### Clinica\n\nCuadro obstructivo pulmonar\n\n- Dificultad respiratoria acompañada o no de asfixia\n\n- Taquipnea/bradipnea\n\n- Cianosis\n\n- Aleteo nasal\n\n- Quejido espiratorio y crepitantes\n\n- Tincion del cordon umbilical, uñas o de la piel, boca faringe y traquea\n\n- Torex en tonel---neumotorax-neumomediastino\n\n<!-- p:452 -->\n\n### Diagnostico\n\nPedir hemocultivo y RX de torax\n\n- Antecedentes maternos y perinatales\n\n- Liquido amniotico en piel y traquea.\n\n- Sindrome de dificultad respiratoria al nacer\n\n- Gasometria---con hipoxemia, hipercapnia, acidosis respiratoria y metabolica\n\nHallazgos radiologicos (imagen en panal de abejas)\n\n  - A) hiperinsuflacion de campos pulmonares\n\n  - B) diafragmas aplanados\n\n  - C) infiltrado macronodular y micronodular\n\n### Tratamiento\n\n- Intubacion endotraqueal y ventilacion mecanica\n\n- Suplementar oxigeno----para relajar la vasculatura pulmonar.\n\n- Surfactante---2-4 dosis—en 24 horas\n\n- Antibiotico endovenoso----ampi+genta---pensar siempre neumonia\n\n- Oxigenacion por membrana extracorporea\n\n- Asistencia respirtoria con---cpap\n\n- Oxido nitrico y ventilacion de alta frecuencia"
+    },
+    {
+      "id": "pediatria/resumen/escala-de-silverman-andersen",
+      "slug": "escala-de-silverman-andersen",
+      "order": 20,
+      "title": "Escala de Silverman-Andersen",
+      "sourcePages": [
+        453
+      ],
+      "markdown": "<!-- p:453 -->\n\n| Signo clínico | 0 puntos | 1 punto | 2 puntos |\n|---|---|---|---|\n| Aleteo nasal | Ausente | Mínima | Marcada |\n| Quejido respiratorio | Ausente | Con estetoscopio | Audible |\n| Tiraje intercostal | Ausente | Apenas visible | Marcada |\n| Retracción esternal | Sin retracción | Apenas visible, sincronizada | Marcada, bamboleo |\n| Disociación toracoabdominal | — | Retraso, poca elevación en la inspiración | — |"
+    },
+    {
+      "id": "pediatria/resumen/capurro",
+      "slug": "capurro",
+      "order": 21,
+      "title": "Capurro",
+      "sourcePages": [
+        454,
+        455
+      ],
+      "markdown": "<!-- p:454 -->\n\n### Interpretación de Silverman-Andersen\n\n| Puntaje | Interpretación |\n|---|---|\n| 0 puntos | Sin dificultad respiratoria |\n| 1 a 3 puntos | Dificultad respiratoria leve |\n| 4 a 6 puntos | Dificultad respiratoria moderada |\n| 7 a 10 puntos | Dificultad respiratoria severa |\n\n### Capurro: edad gestacional\n\n| Signo | Puntaje |\n|---|---|\n| Oreja aplanada, sin incurvación | 0 |\n| Oreja parcialmente incurvada | 8 |\n| Borde superior de la oreja incurvado | 16 |\n| Pabellón totalmente incurvado | 24 |\n| Glándula mamaria no palpable | 0 |\n| Glándula palpable menor de 5 mm | 5 |\n| Glándula palpable entre 5 y 10 mm | 10 |\n| Glándula palpable mayor de 10 mm | 15 |\n\n<!-- p:455 -->\n\n| Signo | 0 | 5 | 10 | 15 | 20 |\n|---|---|---|---|---|---|\n| Formación del pezón | Apenas visible | Diámetro de 7,5 mm, areola lisa y chata | Diámetro mayor de 7,5 mm, areola punteada, borde no levantado | Diámetro mayor de 7,5 mm, areola punteada, borde levantado | — |\n| Textura de la piel | Muy fina, gelatinosa | Fina, lisa | Más gruesa, discreta descamación superficial | Gruesa, descamación de manos y pies | Gruesa, grietas profundas, apergaminadas |\n| Pliegues plantares | Sin pliegues | Marcas mal definidas, solo borde anterior | Marcas bien definidas en la mitad anterior, surcos en la mitad anterior | Surcos en la mitad anterior | Surcos en más de la mitad anterior |"
+    },
+    {
+      "id": "pediatria/resumen/apgar",
+      "slug": "apgar",
+      "order": 22,
+      "title": "Apgar",
+      "sourcePages": [
+        456,
+        457,
+        458
+      ],
+      "markdown": "<!-- p:456 -->\n\nPostmaduro: 42 semanas o mas a termino: 37 a 41 semanas prematuro leve: 35 a 36 semanas prematuro moderado: 32 a 34 semanas prematuro extremo: < de 32 semanas\n\n### Formula\n\nSe suma 204 + puntaje parcial y se divide entre 7\n\n(se mide al 1°minuto y 5°minuto) vitalidad del recien nacido\n\n0                1      2\n\nTono muscular  flacido\n\nCierta flexion de    movimientos manos y pies         activos\n\nFC\n\n<100 latidos  >100 latidos\n\nAusente\n\n<!-- p:457 -->\n\nAusente                mueca\n\nIrritabilidad                   acrocianosis      mueca, tos , refleja                                           estornudos\n\nColor                                                rosado\n\nRespiración          cianotico ausente\n\nBuena/llanto fuerte\n\nLenta irregular\n\nDepresion severa             0 a 3 puntos\n\nDepresion moderada           4 a 6 puntos         rcp neonatal avanzado mas medicacion, monitoreo en UCI\n\nNecesario algunas maniobras rcp neonatal y monitoreo post recuperacion\n\n<!-- p:458 -->\n\nMedic-grado  7 a 10 puntos normal\n\nRecien nacido en buenas condiciones"
+    },
+    {
+      "id": "pediatria/resumen/miscelaneas-anatomicas",
+      "slug": "miscelaneas-anatomicas",
+      "order": 23,
+      "title": "Miscelaneas anatomicas",
+      "sourcePages": [
+        459,
+        460,
+        461,
+        462,
+        463
+      ],
+      "markdown": "<!-- p:459 -->\n\n- Circulacion mayor:\n\n- Comienza en ventriculo izquierdo\n\n- Aorta\n\n- Circulacion sistemica\n\n- Capilares\n\n- Retorno por venas cavas\n\n- Auricula derecha\n\n- Circulacion menor:\n\n- Ventriculo derecho\n\n- Hasta la arteria pulmonar\n\n- Capilares pulmonares\n\n- Intercambio de oxigeno\n\n- Atraves de venas pulmonares\n\n- Auricula izquierda\n\n- Triangulo de calot:\n\n- Arteria cistica\n\n- Conducto cistico\n\n- Conducto hepatico comun\n\n- Conducto hepatocistico---contine la arteria cistica\n\n### Formado por\n\n- Borde inferior del higado\n\n- Conducto cistico\n\n- Conducto hepatico comun.\n\n- Arterias del corazon:\n\n- Coronaria derecha\n\n- Coronaria izquierda----se divide en 2 descedente anterior y circunfleja.\n\n- Coronaria derecha se une con la circunfleja y forman las arterias descendente\n\nPosterior\n\n<!-- p:460 -->\n\n- Tronco celiaco:\n\n- Arteria hepatica\n\n- Arteria esplenica\n\n- Arteria gastrica izquierda\n\n- Arteria aorta abdominal---ramas:\n\n- Grupo anterior: tronco celiaco, mesenterica superior e inferior\n\n- Grupo lateral: renales y suprarrenales\n\n- Grupo dorsal: arteria frenica, lumbares y sacras.\n\n- Terminales: iliacas derecha e izquierdo\n\n- Sistema electrico del corazon:\n\n- Nodo sinusal\n\n- Haces\n\nInternodales.\n\n- Nodo auriculo ventricular\n\n- Haz de hiz\n\n- Rama derecha e izquierda\n\n- Fibras de purkinje\n\n- Poligono de willis (circulacion de la base del cerebro)\n\n- Circulacion anterior\n\nCarotida interna forma: artera cerebral anterior y media, se comunican entre ellas por la comunicante anterior.\n\n- Circulacion posterior:\n\nSistema vertebro basilar---arteria cerebral posterior que se comunica con la arteria cerebral media a traves de la comunicante posterior\n\n- Circulacion del liquido cefalorraquideo:\n\n- Se inicica en los plexos coroideos y termina en las granulaciones de pachionni\n\n<!-- p:461 -->\n\n- Ciclo menstrual:\n\nInicia en:\n\n- Hipotalamo---liberacion de gnrh\n\n- Hipofisis: liberacion de gonadotrofinas (lh- fsh).\n\n- Ovario: estrogenos -progesterona-nhibina a y B\n\n- Via respiratoria:\n\n- Boca\n\n- Faringe\n\n- Laringe\n\n- Traquea\n\n- Bronquios fuente\n\n- Bronquios de gran, mediano y pequeño calibre\n\n- Bronquiolos de 1,2 3 er orden\n\n- Bronquiolos terminales\n\n- Sacos alveolares\n\n- Alveolos\n\n- Conducto espermatico:\n\n- Plexo pampiniforme\n\n- Arteria y vena espermatica\n\n- Conducto deferente\n\n- Nervio genito femoral\n\n- Conducto peritoneal vaginal\n\n- Triangulo de hesselbach---- hernia inguinal directa.\n\n1. Vasos epigastricos inferiores\n\n2. Ligamento inguinal\n\n3. Vaina del recto\n\n- Conducto inguinal formado por:\n\n- Recto anterior\n\n- Musculo transverso\n\n- Musculo oblicuo mayor y menor.\n\n- Capas del esofago:\n\nMucosa- submucosa- muscular-adventicia\n\n<!-- p:462 -->\n\n- Capas del intestino:\n\n- Mucosa- submucosa- muscular-serosa\n\n- Sistema renina/angiotensina/aldosterona\n\n- Riñon con menos flujo libera-------- renina\n\n- Higado----angiotensinogeno\n\n- Union de renina+ angiotensinogeno = angiotensina 1.\n\n- Pulmon: libera eca\n\n- Angiotensina 1 + eca= angiotensina 2.\n\n(efecto vasoconstrictor).\n\n- Angiotensina 2, estimula la liberacion de aldosterona (que mantiene la\n\nAbsorcion de sodio en el tubulo contorneado distal y colector).\n\n- Liberacion de acido clorhidrico:\n\n- Gastrina\n\n- Acetilcolina\n\n- Histammina.\n\n- Simpatico: libera adrenalina/ noradrenalina\n\n- Dilata pupilas (midriasis)\n\n- No hay salivacion\n\n- Broncodilatacion\n\n- Taquicardia\n\n- Mantiene tono muscular.\n\n- Reduce el transito intestinal\n\n- Relaja la vejiga\n\n- Eyaculacion\n\n- Aumenta la\n\nSudoracion.\n\n- Libera la glucosa\n\n- Parasimpatico: ---- acetilcolina\n\n- Pupilas mioticas\n\n- Mayor salivacion\n\n- Broncoconstriccion\n\n- Bradicardia\n\n- Relaja los musculos\n\n- Aumenta el transito intestinal\n\n- Contrae la vejiga\n\n- Mantiene ereccion\n\n<!-- p:463 -->\n\n- Disminue la\n\nSudoracion.\n\n- Mantiene la glucosa en el higado\n\n- Arco aortico\n\n### Formado por\n\n- Arteria subclavia izquierda\n\n- Arteria carotida izquierda\n\n- Tronco braquiocefalico\n\n![Figura 1](/resumen/pediatria/p463-1.webp)"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

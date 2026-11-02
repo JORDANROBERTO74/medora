@@ -1,14 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import { clinicalCases, getCase, pickRandomCase } from './cases'
 import { specialties } from './content'
-import type { SpecialtySlug } from './content'
 
 describe('clinicalCases', () => {
-  it('has exactly one case per specialty', () => {
-    for (const specialty of specialties) {
-      const matches = clinicalCases.filter((clinicalCase) => clinicalCase.specialtySlug === specialty.slug)
-      expect(matches).toHaveLength(1)
-    }
+  it('references real specialties, one case per specialty', () => {
+    const known = new Set(specialties.map((specialty) => specialty.slug))
+    const used = clinicalCases.map((clinicalCase) => clinicalCase.specialtySlug)
+
+    for (const slug of used) expect(known.has(slug)).toBe(true)
+    expect(new Set(used).size).toBe(used.length)
   })
 
   it('keeps unique url-safe ids', () => {
@@ -43,12 +43,16 @@ describe('clinicalCases', () => {
 
 describe('getCase', () => {
   it('resolves the case for a specialty', () => {
-    expect(getCase('surgery')?.options[getCase('surgery')!.correctIndex]).toBe('Apendicitis aguda')
-    expect(getCase('pediatrics')?.options[getCase('pediatrics')!.correctIndex]).toBe('Meningitis bacteriana')
+    expect(getCase('gastrointestinal-surgery')?.options[getCase('gastrointestinal-surgery')!.correctIndex]).toBe(
+      'Apendicitis aguda'
+    )
+    expect(getCase('infectious-diseases')?.options[getCase('infectious-diseases')!.correctIndex]).toBe(
+      'Meningitis bacteriana'
+    )
   })
 
-  it('returns undefined for an unknown specialty', () => {
-    expect(getCase('cardiology' as SpecialtySlug)).toBeUndefined()
+  it('returns undefined for a specialty without a case', () => {
+    expect(getCase('cardiology')).toBeUndefined()
   })
 })
 

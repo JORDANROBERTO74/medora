@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neumologia/derrame-pleural",
+  "specialty": "neumologia",
+  "slug": "derrame-pleural",
+  "order": 1,
+  "title": "Derrame pleural",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la clasificación operativa sigue siendo transudado frente a exudado con los criterios de Light, pero la guía SEPAR 2022 insiste en tres ideas: la insuficiencia cardiaca es la causa más frecuente, entre el 25 % y el 30 % de los trasudados se clasifican erróneamente como exudados, y el diagnóstico etiológico debe apoyarse en imagen (ecografía y TC) además del análisis del líquido. La ecografía pleural es la herramienta de elección para detectar derrames pequeños y para elegir el punto de punción o de colocación del catéter."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la incidencia anual de las enfermedades pleurales (derrame y neumotórax espontáneo) se estima en 350–360 casos por 100 000 habitantes, con costes sanitarios elevados. Se reconocen más de 60 causas, pero cuatro explican alrededor del 75 % de los casos: insuficiencia cardiaca, cáncer, neumonía y tuberculosis, en ese orden de frecuencia. La insuficiencia cardiaca es la causa más común de derrame y puede superar el 35 % en algunas series; su mortalidad a un año no es banal (en un estudio prospectivo, 50 % en derrames de causa cardiaca, 46 % renal y 25 % hepática)."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el material base describe los seis mecanismos de la ecuación de Starling. La guía SEPAR 2022 añade un matiz práctico: un mismo paciente puede tener dos o más causas simultáneas de derrame, y existe un cuadro raro (síndrome de Contarini) con derrames bilaterales de causa distinta en cada hemitórax, de modo que un trasudado \"puro\" no debe darse por supuesto si la evolución no cuadra."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el derrame pequeño suele ser asintomático o producir dolor pleurítico; el derrame moderado-grande causa disnea de esfuerzo, y en casos masivos ortopnea. La guía no propone un cuadro clínico nuevo, pero subraya que la intensidad de los síntomas y el volumen condicionan la indicación de toracocentesis terapéutica, no solo la etiología."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** los criterios de Light mantienen una sensibilidad del 98 % para identificar exudados, con el inconveniente de reclasificar erróneamente un 25–30 % de trasudados, sobre todo en pacientes con diuréticos o líquido pleural hemático. Para corregirlo, la guía propone: gradiente de proteínas suero–pleura superior a 2,5 g/dL, gradiente de albúmina superior a 1,2 g/dL o NT-proBNP pleural superior a 1500 pg/mL (aproximadamente el 80 % de los trasudados cardiacos mal clasificados cumple alguno de estos tres). En el hidrotórax hepático, un cociente albúmina pleural/sérica inferior a 0,6 es más sensible que el gradiente de albúmina. Si no se dispone de muestra sanguínea, colesterol pleural superior a 55 mg/dL o LDH superior al 67 % del límite superior normal identifican exudado con una sensibilidad del 97 %. El NT-proBNP pleural tiene sensibilidad del 94 % y especificidad del 91 % para derrame de origen cardiaco. Para el derrame paraneumónico, el pH es el mejor marcador para decidir la colocación de un catéter pleural. En tuberculosis pleural, la ADA sigue siendo el método más sensible, específico y disponible, y debe solicitarse de rutina; la identificación microbiológica o molecular de *M. tuberculosis* en líquido o tejido es el patrón oro."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en el derrame cardiaco, el 89 % de los derrames desaparece tras dos semanas de diuréticos; si se requieren más de una o dos toracocentesis terapéuticas al mes, se plantea pleurodesis con talco o catéter pleural tunelizado (IPC). En el derrame pleural maligno, tanto la pleurodesis con talco como los catéteres pleurales tunelizados controlan eficazmente los síntomas, y el catéter es opción de primera línea en la guía SEPAR; se prefieren técnicas pleurales definitivas en los derrames malignos recurrentes y sintomáticos, reservando la pleurodesis con talco para cuando no hay pulmón atrapado. La declaración ERS/EACTS de 2018 (acceso solo por resumen) considera la biopsia tisular el patrón oro para el diagnóstico y la planificación terapéutica y no identifica evidencia de que las terapias oncológicas sustituyan al drenaje del derrame maligno. En el derrame infeccioso, el drenaje está indicado en todo empiema o derrame complicado definido por pH inferior a 7,20, tabicación o presencia de microorganismos en el líquido, con antibiótico empírico precoz que cubra anaerobios y fibrinolíticos valorables si hay tabicación. En tuberculosis pleural el corticosteroide es controvertido y solo se considera en síntomas graves persistentes, con decorticación valorable en el fibrotórax residual."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las complicaciones descritas en el material base (infección, neumotórax, lesión de órganos, atrapamiento pulmonar, recidiva) se mantienen; la guía añade que repetir la citología más de dos veces no aumenta el rendimiento diagnóstico en el derrame maligno y que el pronóstico de estos pacientes puede estimarse con escalas validadas como el LENT. La prevención pasa por el control de la enfermedad de base (insuficiencia cardiaca, cirrosis, nefropatía) y por el tratamiento precoz del derrame paraneumónico antes de que tabique."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no clasificar como exudado un derrame cardiaco solo porque cumple un criterio de Light en un paciente con diuréticos; (2) recordar que un cociente de LDH superior a 0,6 y un LDH superior a dos tercios del límite superior normal son criterios distintos y no intercambiables; (3) no indicar pleurodesis si hay pulmón atrapado —el catéter tunelizado es entonces la opción—; (4) no usar el gradiente aislado como criterio único, porque pierde sensibilidad para exudados verdaderos."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

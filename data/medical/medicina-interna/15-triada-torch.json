@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-torch",
+  "specialty": "medicina-interna",
+  "slug": "triada-torch",
+  "order": 15,
+  "title": "Tríada de TORCH (toxoplasmosis congénita)",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada clásica descrita por Wolf en 1939 —hidrocefalia, calcificaciones intracraneales y coriorretinitis— se observa muy raramente en la actualidad."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la toxoplasmosis congénita resulta de la primoinfección materna durante el embarazo; la incidencia global se estima en 1,5 casos por 1.000 nacidos vivos, con mayor carga en Sudamérica y en países de ingresos bajos. El 85 % de los recién nacidos infectados está asintomático al nacer."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la transmisión transplacentaria ocurre durante la parasitemia; el riesgo de infección fetal aumenta con la edad gestacional (2,2 % a las 6 semanas, 23 % a las 18 y 56 % a las 30), mientras que la gravedad disminuye al avanzar el embarazo."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** hidrocefalia, microcefalia, calcificaciones intracraneales, coriorretinitis, cataratas, convulsiones, nistagmo, ictericia, petequias, anemia, hepatoesplenomegalia y restricción del crecimiento. Ninguna de estas manifestaciones es patognomónica: también sugieren citomegalovirus, herpes simple, rubéola o sífilis."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** IgM e IgA neonatales por ELISA o ISAGA, western blot comparativo madre-hijo, y PCR en líquido amniótico cuando se confirma la infección materna; al nacer se recomienda exploración neurológica, fondo de ojo dilatado y ecografía transfontanelar. Las pruebas serológicas deben confirmarse en un laboratorio de referencia."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** combinación de pirimetamina, sulfadiazina y ácido folínico, mantenida al menos un año; antes de iniciarla debe descartarse el déficit de glucosa-6-fosfato deshidrogenasa y durante el tratamiento se vigila el hemograma, pues hasta un 30 % presenta eventos hematológicos. En la gestante con infección antes de las 18 semanas se emplea espirromicina, y tras esa edad la combinación de pirimetamina y sulfonamidas con ácido folínico."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** coriorretinitis recurrente, ceguera, déficit neurológico y sordera; la prevención se basa en el tamizaje serológico prenatal, obligatorio en Francia y Austria, y en el tratamiento precoz de la infección materna."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** «TORCH» agrupa varias infecciones congénitas y ninguna manifestación es específica; esperar la tríada completa lleva a infradiagnosticar, porque la mayoría de los infectados nace sin signos. La coriorretinitis puede aparecer años después, lo que obliga a seguimiento oftalmológico prolongado."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

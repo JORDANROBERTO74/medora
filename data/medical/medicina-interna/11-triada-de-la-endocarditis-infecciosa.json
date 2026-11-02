@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-de-la-endocarditis-infecciosa",
+  "specialty": "medicina-interna",
+  "slug": "triada-de-la-endocarditis-infecciosa",
+  "order": 11,
+  "title": "Tríada de la endocarditis infecciosa",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada es una descripción clásica, pero los signos clínicos tienen sensibilidad y especificidad limitadas y el diagnóstico se establece con los criterios de Duke modificados, que integran clínica, microbiología e imagen."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la incidencia estimada fue de 13,8 casos por 100.000 personas en 2019, con aproximadamente 66.300 muertes en el mundo. En el registro EURO-ENDO las manifestaciones más frecuentes fueron fiebre (77,7 %), soplos cardíacos (64,5 %) e insuficiencia cardíaca (27,2 %); los fenómenos embólicos y los trastornos de conducción aparecieron en alrededor de una cuarta parte y una décima parte de los pacientes, respectivamente."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** infección del endocardio, habitualmente por estafilococos, estreptococos o enterococos, con vegetaciones que destruyen válvulas y generan embolias; la presentación varía desde sepsis aguda hasta enfermedad subaguda con fiebre leve."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** fiebre o sepsis de origen desconocido, soplo nuevo, insuficiencia cardíaca, fenómenos embólicos y manifestaciones vasculares o inmunológicas periféricas, estas últimas poco frecuentes y más propias de la infección estafilocócica grave o de la endocarditis estreptocócica subaguda. En ancianos e inmunosuprimidos la presentación suele ser atípica."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** se recomiendan al menos tres juegos de hemocultivos periféricos de 10 mL, separados unos 30 minutos, antes de iniciar antibióticos; la bacteriemia es continua, por lo que no es necesario coincidir con los picos febriles. El ecocardiograma transesofágico es la referencia morfológica; la tomografía cardíaca y la tomografía por emisión de positrones con fluorodesoxiglucosa son complementarias, sobre todo en prótesis valvulares."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** antibióticos prolongados guiados por la concentración inhibitoria mínima; la cirugía está indicada ante insuficiencia cardíaca, infección no controlada o prevención de embolias, con plazos que van de la urgencia (24 horas) a los 3-5 días según el escenario. Se contemplan el tratamiento antibiótico parenteral ambulatorio y el tratamiento oral parcial en pacientes seleccionados."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** insuficiencia cardíaca, ictus embólico (15-30 % de los casos), abscesos perivalvulares y muerte; la prevención incluye la profilaxis en pacientes de alto riesgo y el control de las puertas de entrada."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** la tríada no es criterio diagnóstico y su ausencia no descarta la enfermedad; en pacientes con prótesis o dispositivos, el ecocardiograma inicial puede ser negativo y estar indicada la repetición en 5-7 días."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

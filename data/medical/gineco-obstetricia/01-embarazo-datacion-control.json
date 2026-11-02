@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia/embarazo-datacion-control",
+  "specialty": "gineco-obstetricia",
+  "slug": "embarazo-datacion-control",
+  "order": 1,
+  "title": "Embarazo: datación y control",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "note": "Cuadro reconstruido con datos citados (no reproduce tablas de las fuentes):\n| Modelo | N.º de contactos | Primera cita | Distribución |\n|---|---|---|---|\n| OMS 2016 | 8 | Antes de las 12 semanas | 20, 26, 30, 34, 36, 38 y 40 semanas |\n| NICE NG201 | 10 (nulípara) / 7 (multípara) | Antes de las 10+0 semanas | Calendario propio de la guía |",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la edad gestacional y la fecha probable de parto se establecen **una sola vez**, combinando FUM y la primera ecografía fiable; los cambios posteriores son excepcionales y deben documentarse. Un embarazo sin ecografía que confirme o corrija la fecha antes de las 22+0 semanas se considera **datado de forma subóptima**. La ecografía de datación se ofrece entre las 11+2 y las 14+1 semanas, y la OMS recomienda al menos una ecografía antes de las 24 semanas."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la edad gestacional es el tiempo transcurrido desde el primer día de la FUM, y de ella se deriva la fecha probable de parto; se trata de una estimación poblacional y no de una medida individual, razón por la cual la guía insiste en fijarla con la primera ecografía fiable y no reajustarla después. A escala global, solo el 64 % de las gestantes recibía cuatro o más contactos prenatales en 2016. El modelo de ocho contactos reduce la mortalidad perinatal hasta en 8 por 1000 nacimientos frente al de cuatro visitas."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la estimación por FUM presupone una ovulación alrededor del día 14, de modo que la variabilidad del ciclo la vuelve inexacta; por eso la fecha de la FUM puede no representar bien la edad gestacional. La ecografía es más fiable cuanto más precoz: cuando hay polo fetal se mide la longitud cráneo-caudal (LCR) y solo se recurre al diámetro medio del saco gestacional si el polo no es visible. No debe usarse la edad gestacional derivada solo de la FUM para decidir si un latido debería ser visible."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** la altura uterina (sínfisis-fondo) se mide en cada control a partir de las 24+0 semanas, con una frecuencia no superior a cada 2 semanas, y se representa en una curva de crecimiento; sirve para cribar alteraciones del crecimiento, no para datar el embarazo. La palpación abdominal se realiza en todos los controles a partir de las 36+0 semanas para detectar presentación podálica. Las maniobras de Leopold, tal como se describen en [P15], no aparecen desarrolladas en las guías consultadas: se conserva el material base como técnica de exploración y se registra la limitación."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** jerarquía práctica de datación, en orden de preferencia: (1) FUM con ciclo regular y seguro; (2) ecografía del primer trimestre, que prevalece sobre la FUM cuando difiere; (3) en ausencia de ecografía precoz, la mejor estimación obstétrica disponible, que debe quedar registrada. En la valoración de viabilidad —que condiciona la datación cuando hay duda— se aplican umbrales objetivos: LCR < 7,0 mm sin latido obliga a repetir la ecografía un mínimo de 7 días; LCR ≥ 7,0 mm sin latido exige segunda opinión y/o repetición a los 7 días; diámetro medio del saco < 25,0 mm sin polo fetal obliga a repetir a los 7 días; por vía transabdominal, la repetición se difiere un mínimo de 14 días."
+        },
+        {
+          "id": "tratamiento-actualizado-calendario-y-contenido-del-control",
+          "title": "Tratamiento actualizado (calendario y contenido del control)",
+          "markdown": "**Tratamiento actualizado (calendario y contenido del control):** la OMS propone un mínimo de **ocho contactos**: el primero antes de las 12 semanas y los siguientes alrededor de las 20, 26, 30, 34, 36, 38 y 40 semanas. NICE planifica 10 citas rutinarias en nulíparas y 7 en multíparas, con la primera consulta (booking) antes de las 10+0 semanas. Contenido con respaldo de guía: presión arterial en cada contacto presencial y tira reactiva de orina para proteinuria en cada control; valoración del riesgo de preeclampsia en la primera consulta y en el segundo trimestre, con ácido acetilsalicílico en las gestantes de riesgo; hemograma, grupo sanguíneo y Rh en la primera visita; cribado de diabetes gestacional con sobrecarga oral entre las 24+0 y 28+0 semanas; profilaxis anti-D a las 28 semanas en gestantes Rh negativas no sensibilizadas; ecografía morfológica entre las 18+0 y 20+6 semanas, que incluye la localización placentaria. Suplementación diaria con 30–60 mg de hierro elemental y 400 µg de ácido fólico, y vacunación antitetánica según antecedente, son recomendaciones de la OMS."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** una datación tardía o insegura deja el embarazo clasificado de forma subóptima y se asocia a más inducciones por postérmino, motivo por el cual la OMS incluye la ecografía precoz entre las medidas que reducen esa práctica. Por eso se recomienda ofrecer la primera cita en dos semanas cuando la gestante consulta después de las 9+0 semanas, y preguntar por los motivos de la captación tardía porque pueden revelar problemas sociales o psicológicos. No se recomienda ecografía rutinaria después de las 28 semanas en gestaciones únicas no complicadas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no reajustar la fecha probable de parto en cada control: la corrección repetida genera confusión y solo procede en circunstancias excepcionales, documentadas; (2) no datar por altura uterina ni por percepción de movimientos, que son herramientas de cribado y seguimiento; (3) recordar que la ecografía más precoz es la que más pesa, y que una ecografía tardía no corrige con la misma precisión; (4) con ciclos irregulares, la FUM pierde valor y la ecografía manda.\n\nCuadro reconstruido con datos citados (no reproduce tablas de las fuentes):\n\n| Modelo | N.º de contactos | Primera cita | Distribución |\n|---|---|---|---|\n| OMS 2016 | 8 | Antes de las 12 semanas | 20, 26, 30, 34, 36, 38 y 40 semanas |\n| NICE NG201 | 10 (nulípara) / 7 (multípara) | Antes de las 10+0 semanas | Calendario propio de la guía |"
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "endocrinologia/hipoglucemia",
+  "specialty": "endocrinologia",
+  "slug": "hipoglucemia",
+  "order": 3,
+  "title": "Hipoglucemia",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la hipoglucemia se define por **la cifra de glucosa y la necesidad de ayuda**, no por el tipo de síntoma, y la distinción adrenérgica/neuroglucopénica es útil para reconocerla pero no es una clasificación de gravedad. En la práctica, la pregunta que decide la conducta es si la persona puede tratarse por sí misma: si puede, carbohidrato oral con recuento y nueva medición; si no puede, glucagón y ayuda de terceros. El glucagón es el tratamiento de elección de la hipoglucemia grave y el material base no lo contempla."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** para muchas personas con diabetes se considera hipoglucemia una glucosa por debajo de 70 mg/dL, aunque el umbral individual puede variar y debe acordarse con el equipo tratante. La hipoglucemia grave se define porque la cifra es tan baja que la persona no puede tratársela por sí misma. En un estudio global de personas con diabetes tratadas con insulina, 4 de cada 5 con diabetes tipo 1 y cerca de la mitad con tipo 2 notificaron al menos un episodio de glucosa baja en un período de 4 semanas. Entre adultos estadounidenses con diabetes que usan insulina o secretagogos, alrededor de 2 de cada 100 pueden presentar hipoglucemia grave cada año. Los grupos con mayor riesgo son quienes tienen diabetes tipo 1, quienes usan insulina o determinados antidiabéticos, las personas de 65 años o más, quienes ya han tenido hipoglucemias y quienes tienen enfermedad renal, cardiaca o deterioro cognitivo."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** en la diabetes, la causa es el desequilibrio entre fármaco, ingesta y gasto. La insulina y dos clases de antidiabéticos orales —sulfonilureas, que aumentan la insulina durante varias horas, y meglitinidas, que la aumentan de forma breve antes de las comidas— pueden bajar la glucosa. Contribuyen también una ingesta insuficiente de carbohidratos, el ayuno (incluido el de procedimientos), el aumento de actividad física —que puede reducir la glucosa hasta 24 horas después—, el alcohol sin comida suficiente y la enfermedad intercurrente. En términos generales, el tratamiento con insulina o secretagogos es la causa más frecuente de hipoglucemia. Fuera de la diabetes, la hipoglucemia verdadera exige documentar la tríada de Whipple y, descartadas causas como fármacos, enfermedad crítica, déficits hormonales y tumores no de células de los islotes, el diagnóstico diferencial se reduce a hipoglucemia accidental, subrepticia o incluso provocada, o a hiperinsulinismo endógeno."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** los síntomas aparecen rápido y varían entre personas. En el grupo leve-moderado se describen temblor o nerviosismo, hambre, cansancio, mareo o aturdimiento, confusión o irritabilidad, palpitaciones o latido irregular, cefalea, y dificultad para ver o hablar con claridad; en el grupo grave el cerebro puede dejar de funcionar bien, con pérdida de conciencia o convulsiones, y se trata de una situación peligrosa que requiere atención inmediata. Durante el sueño puede haber llanto o pesadillas, sudoración que empapa la ropa o las sábanas, y sensación de cansancio, irritabilidad o confusión al despertar; la hipoglucemia nocturna puede pasar inadvertida y reducir la capacidad de reconocer y responder a los síntomas durante el día. La repetición de episodios puede producir hipoglucemia inadvertida, en la que no se notan síntomas hasta que la cifra ha bajado mucho, y puede llevar a mantener la glucosa alta por miedo a nuevas crisis."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** el diagnóstico se establece midiendo la glucosa cuando aparecen los síntomas; si la cifra está por debajo del objetivo o por debajo de 70 mg/dL se inicia el tratamiento. En la hipoglucemia sin diabetes, la Endocrine Society recomienda evaluar y tratar solo cuando está documentada la tríada de Whipple: síntomas o signos compatibles, una concentración baja de glucosa plasmática y resolución de esos síntomas al elevar la glucosa. En la sospecha de hiperinsulinismo endógeno debe medirse durante el episodio glucosa, insulina, C-péptido, proinsulina, beta-hidroxibutirato y antidiabéticos orales circulantes, además de anticuerpos antiinsulina. La evaluación se orienta primero por pistas clínicas de la etiología (fármacos, enfermedad crítica, déficits hormonales, tumores no de células de los islotes)."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** si la glucosa está por debajo del objetivo o por debajo de 70 mg/dL, se administran de inmediato **15 a 20 gramos** de glucosa o carbohidratos, por ejemplo cuatro tabletas de glucosa o un tubo de gel, media taza (4 onzas) de zumo sin edulcorar, media lata (4 a 6 onzas) de refresco no light ni sin azúcar, o una cucharada de azúcar, miel o jarabe de maíz; se espera 15 minutos, se vuelve a medir y, si sigue baja, se repiten otros 15 a 20 gramos, repitiendo el ciclo hasta recuperar el objetivo. Si la siguiente comida queda a más de una hora, se añade una colación (galletas o una pieza de fruta). Quien toma fármacos que enlentecen la digestión de los carbohidratos necesita tabletas o gel de glucosa, porque otros alimentos no elevan la glucosa con la rapidez suficiente; y en la enfermedad renal conviene evitar el zumo de naranja por su contenido en potasio, siendo preferibles manzana, uva o arándano. En la **hipoglucemia grave** que la persona no puede tratarse, el glucagón —inyectable o en espray nasal— es la mejor opción y eleva rápidamente la glucosa; debe prescribirse un kit, comprobarse su caducidad, enseñarse a familiares, amigos y compañeros cómo administrarlo y pedirles que llamen a urgencias tras la administración o si no se dispone del kit. NIDDK recomienda además llevar identificación médica visible. En el abordaje de fondo, la Endocrine Society propone reducir el riesgo de hipoglucemia en la diabetes atendiendo al problema, aplicando los principios del tratamiento intensivo y considerando tanto los factores de riesgo convencionales como los que indican defensas comprometidas frente a la caída de la glucosa."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la hipoglucemia grave puede causar pérdida de conciencia, coma o muerte. La prevención combina educación, patrón de comidas con carbohidratos suficientes, llevar siempre una fuente de carbohidrato de acción rápida, precaución con el alcohol (comer si se bebe), ajuste de fármacos y carbohidratos alrededor del ejercicio —que puede bajar la glucosa durante la actividad y horas después— y control de la glucosa antes, durante y después del ejercicio. La monitorización continua con alarmas es útil en la hipoglucemia inadvertida o en episodios frecuentes, y NICE la ofrece de forma general en la diabetes tipo 1. En la diabetes tipo 1, además, la educación estructurada incluye el reconocimiento y manejo de la hipoglucemia, y existen programas específicos como el entrenamiento en reconocimiento de glucosa para quienes tienen episodios recurrentes."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no tratar \"según síntomas\": se mide y se trata por cifra, y se repite la medición a los 15 minutos; (2) no dar solo un caramelo o una comida completa cuando se busca un ascenso rápido y cuantificable; (3) no olvidar el glucagón en quien tiene riesgo de hipoglucemia grave, ni dejar de enseñar a su entorno; (4) no interpretar la ausencia de síntomas como ausencia de hipoglucemia: la hipoglucemia inadvertida es un problema reconocido; (5) no pasar por alto la hipoglucemia nocturna, que puede manifestarse solo como pesadillas, sudoración o cansancio al despertar; (6) no evaluar una hipoglucemia sin diabetes sin documentar la tríada de Whipple."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

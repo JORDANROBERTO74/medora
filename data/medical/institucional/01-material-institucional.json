@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "institucional/material-institucional",
+  "specialty": "institucional",
+  "slug": "material-institucional",
+  "order": 1,
+  "title": "Material institucional",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el bloque cumple una función de comunicación institucional, no docente-evaluable; su valor para el estudio es contextual (identidad del centro y oferta formativa) y no debe mezclarse con los apuntes clínicos."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** no aplica; no hay entidad clínica ni población diana."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** no aplica."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** no aplica."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** no aplica."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** no aplica; el curso anunciado no prescribe conducta alguna."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** no aplica."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no citar estas páginas como fuente clínica; (2) si se reutiliza el anuncio, respetar la marca y las condiciones del centro; (3) las fechas del curso son las del original y pueden haber cambiado."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

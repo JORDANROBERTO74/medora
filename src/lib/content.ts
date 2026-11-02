@@ -1,5 +1,18 @@
-// Domain content: identifiers in English, visible strings in Spanish.
-export type SpecialtySlug = 'surgery' | 'gynecology' | 'internal-medicine' | 'pediatrics'
+// Domain metadata visible to client components. Content bodies live in
+// data/medical and are read server-side by src/lib/content/corpus.ts.
+export type SpecialtySlug =
+  | 'cardiology'
+  | 'obstetrics-gynecology'
+  | 'gastrointestinal-surgery'
+  | 'pulmonology'
+  | 'infectious-diseases'
+  | 'endocrinology'
+  | 'nephrology'
+  | 'emergency-medicine'
+  | 'pediatrics'
+  | 'neurology'
+  | 'radiology'
+  | 'internal-medicine'
 
 export type Topic = {
   slug: string
@@ -17,59 +30,165 @@ export type Specialty = {
 
 export const specialties: Specialty[] = [
   {
-    slug: 'surgery',
+    slug: 'cardiology',
     number: '01',
-    name: 'Cirugía',
-    detail: '12 temas · 2 h 40 min',
-    progress: 82,
-    topics: [
-      { slug: 'acute-inflammation', name: 'Inflamación aguda' },
-      { slug: 'wound-healing', name: 'Cicatrización y reparación' },
-      { slug: 'hypovolemic-shock', name: 'Shock hipovolémico' },
-      { slug: 'surgical-infections', name: 'Infecciones quirúrgicas' },
-      { slug: 'abdominal-trauma', name: 'Trauma abdominal' },
-    ],
-  },
-  {
-    slug: 'gynecology',
-    number: '02',
-    name: 'Ginecología',
-    detail: '10 temas · 2 h 05 min',
-    progress: 46,
-    topics: [
-      { slug: 'prenatal-care', name: 'Control prenatal' },
-      { slug: 'obstetric-hemorrhage', name: 'Hemorragia obstétrica' },
-      { slug: 'preeclampsia', name: 'Preeclampsia' },
-      { slug: 'contraception', name: 'Anticoncepción' },
-      { slug: 'cervical-pathology', name: 'Patología cervical' },
-    ],
-  },
-  {
-    slug: 'internal-medicine',
-    number: '03',
-    name: 'Medicina Interna',
-    detail: '18 temas · 4 h 20 min',
+    name: 'Cardiología',
+    detail: '5 temas',
     progress: 0,
     topics: [
+      { slug: 'arterial-hypertension', name: 'Hipertensión arterial' },
       { slug: 'heart-failure', name: 'Insuficiencia cardíaca' },
-      { slug: 'diabetes-mellitus', name: 'Diabetes mellitus' },
-      { slug: 'community-acquired-pneumonia', name: 'Neumonía adquirida' },
-      { slug: 'anemia', name: 'Anemia' },
-      { slug: 'sepsis', name: 'Sepsis' },
+      { slug: 'acute-myocardial-infarction', name: 'Infarto agudo de miocardio' },
+      { slug: 'syncope', name: 'Síncope' },
+      { slug: 'cardiovascular-examination', name: 'Semiología cardiovascular' },
+    ],
+  },
+  {
+    slug: 'obstetrics-gynecology',
+    number: '02',
+    name: 'Ginecología y Obstetricia',
+    detail: '5 temas',
+    progress: 0,
+    topics: [
+      { slug: 'pregnancy-dating-and-prenatal-care', name: 'Embarazo: datación y control' },
+      { slug: 'first-trimester-bleeding', name: 'Hemorragias de la primera mitad del embarazo' },
+      { slug: 'ectopic-pregnancy', name: 'Embarazo ectópico' },
+      { slug: 'second-trimester-bleeding', name: 'Hemorragias de la segunda mitad del embarazo' },
+      { slug: 'postpartum-hemorrhage', name: 'Hemorragia postparto' },
+    ],
+  },
+  {
+    slug: 'gastrointestinal-surgery',
+    number: '03',
+    name: 'Cirugía / Traumatología',
+    detail: '4 temas',
+    progress: 0,
+    topics: [
+      { slug: 'digestive-hemorrhages', name: 'Hemorragias' },
+      { slug: 'biliary-tract', name: 'Vía biliar' },
+      { slug: 'appendicitis', name: 'Apendicitis' },
+      { slug: 'digestive-functions', name: 'Funciones digestivas' },
+    ],
+  },
+  {
+    slug: 'pulmonology',
+    number: '04',
+    name: 'Neumología',
+    detail: '4 temas',
+    progress: 0,
+    topics: [
+      { slug: 'pleural-effusion', name: 'Derrame pleural' },
+      { slug: 'tuberculosis', name: 'Tuberculosis' },
+      { slug: 'pneumonia', name: 'Neumonía' },
+      { slug: 'respiratory-patterns', name: 'Patrones respiratorios' },
+    ],
+  },
+  {
+    slug: 'infectious-diseases',
+    number: '05',
+    name: 'Infectología',
+    detail: '3 temas',
+    progress: 0,
+    topics: [
+      { slug: 'chagas-disease', name: 'Chagas' },
+      { slug: 'arbovirus-infections', name: 'Arbovirosis' },
+      { slug: 'meningitis', name: 'Meningitis' },
+    ],
+  },
+  {
+    slug: 'endocrinology',
+    number: '06',
+    name: 'Endocrinología y Metabolismo',
+    detail: '3 temas',
+    progress: 0,
+    topics: [
+      { slug: 'diabetic-foot', name: 'Pie diabético' },
+      { slug: 'insulin', name: 'Insulina' },
+      { slug: 'hypoglycemia', name: 'Hipoglucemia' },
+    ],
+  },
+  {
+    slug: 'nephrology',
+    number: '07',
+    name: 'Nefrología',
+    detail: '2 temas',
+    progress: 0,
+    topics: [
+      { slug: 'lupus-nephritis', name: 'Nefritis lúpica' },
+      { slug: 'metabolic-acidosis', name: 'Acidosis metabólica' },
+    ],
+  },
+  {
+    slug: 'emergency-medicine',
+    number: '08',
+    name: 'Emergencias y Shock',
+    detail: '2 temas',
+    progress: 0,
+    topics: [
+      { slug: 'shock', name: 'Shock' },
+      { slug: 'flashcards', name: 'Flash cards de emergencias' },
     ],
   },
   {
     slug: 'pediatrics',
-    number: '04',
+    number: '09',
     name: 'Pediatría',
-    detail: '14 temas · 3 h 10 min',
+    detail: '4 temas',
     progress: 0,
     topics: [
       { slug: 'growth-and-development', name: 'Crecimiento y desarrollo' },
+      { slug: 'newborn-screening', name: 'Cribado neonatal / prueba del talón' },
       { slug: 'dehydration', name: 'Deshidratación' },
-      { slug: 'bronchiolitis', name: 'Bronquiolitis' },
-      { slug: 'fever-in-pediatrics', name: 'Fiebre en pediatría' },
-      { slug: 'vaccination', name: 'Vacunación' },
+      { slug: 'expanded-immunization-program', name: 'PAI: calendario de inmunizaciones (Bolivia)' },
+    ],
+  },
+  {
+    slug: 'neurology',
+    number: '10',
+    name: 'Neurología',
+    detail: '2 temas',
+    progress: 0,
+    topics: [
+      { slug: 'antiepileptic-drugs', name: 'Antiepilépticos' },
+      { slug: 'encephalomyelitis', name: 'Encefalomielitis' },
+    ],
+  },
+  {
+    slug: 'radiology',
+    number: '11',
+    name: 'Radiología e Imagenología',
+    detail: '2 temas',
+    progress: 0,
+    topics: [
+      {
+        slug: 'ct-densities',
+        name: 'TC: densidades en la escala de Hounsfield (ACV isquémico frente a hemorrágico)',
+      },
+      { slug: 'ultrasound-echogenicity', name: 'Ecografía: ecogenicidad' },
+    ],
+  },
+  {
+    slug: 'internal-medicine',
+    number: '12',
+    name: 'Medicina Interna / Semiología',
+    detail: '15 temas',
+    progress: 0,
+    topics: [
+      { slug: 'cushing-triad', name: 'Tríada de Cushing' },
+      { slug: 'charcot-triad-multiple-sclerosis', name: 'Tríada de Charcot (esclerosis múltiple)' },
+      { slug: 'charcot-triad-cholangitis', name: 'Tríada de Charcot (colangitis)' },
+      { slug: 'reynolds-pentad', name: 'Pentada de Reynolds' },
+      { slug: 'beck-triad', name: 'Tríada de Beck' },
+      { slug: 'hutchinson-triad', name: 'Tríada de Hutchinson' },
+      { slug: 'meningitis-triad', name: 'Tríada de meningitis' },
+      { slug: 'ectopic-pregnancy-triad', name: 'Tríada clásica de embarazo ectópico' },
+      { slug: 'virchow-triad', name: 'Tríada de Virchow' },
+      { slug: 'whipple-triad', name: 'Tríada de Whipple' },
+      { slug: 'infective-endocarditis-triad', name: 'Tríada de la endocarditis infecciosa' },
+      { slug: 'classic-renal-cancer-triad', name: 'Tríada clásica del cáncer renal' },
+      { slug: 'lethal-trauma-triad', name: 'Tríada letal del trauma' },
+      { slug: 'saint-triad', name: 'Tríada de Saint' },
+      { slug: 'torch-syndrome', name: 'Tríada de TORCH (toxoplasmosis congénita)' },
     ],
   },
 ]
@@ -87,7 +206,7 @@ export function specialtyName(slug: SpecialtySlug): string {
 }
 
 export function getNextReview(): { specialty: Specialty; topic: Topic } | undefined {
-  const specialty = getSpecialty('surgery')
+  const specialty = getSpecialty('cardiology')
   const topic = specialty?.topics[0]
   return specialty && topic ? { specialty, topic } : undefined
 }

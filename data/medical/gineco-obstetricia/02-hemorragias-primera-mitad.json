@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "gineco-obstetricia/hemorragias-primera-mitad",
+  "specialty": "gineco-obstetricia",
+  "slug": "hemorragias-primera-mitad",
+  "order": 2,
+  "title": "Hemorragias de la primera mitad del embarazo",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** toda hemorragia del primer trimestre se maneja como potencialmente grave hasta demostrar lo contrario; el diagnóstico combina clínica, gonadotropina coriónica humana (hCG) cuantitativa y ecografía transvaginal. La conducta depende de tres ejes: estabilidad hemodinámica, diagnóstico y deseo reproductivo. El aborto incompleto no complicado puede tratarse con aspiración al vacío o con tratamiento médico, y ambas opciones son válidas."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el aborto incompleto se define clínicamente por un orificio cervical abierto con sangrado, en el que no se han expulsado todos los productos de la concepción o los expulsados no corresponden a la duración estimada del embarazo; sus síntomas habituales son sangrado vaginal y dolor abdominal. La enfermedad trofoblástica gestacional abarca desde la mola completa y parcial hasta la mola invasora, el coriocarcinoma y el tumor trofoblástico del lecho placentario; cuando persiste la elevación de la β-hCG se denomina neoplasia trofoblástica gestacional."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** en la mola hidatidiforme la proliferación trofoblástica anómala y el edema vellositario explican el útero mayor de lo esperado, los vómitos y los quistes tecaluteínicos descritos en [P04]; la transformación neoplásica hacia neoplasia trofoblástica gestacional se sospecha por elevación persistente de β-hCG. En el aborto, la expulsión parcial deja restos que sangran y pueden infectarse."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** en la amenaza de aborto con embarazo intrauterino confirmado y latido presente, se aconseja consultar si el sangrado empeora o persiste más de 14 días, y retomar el control prenatal si cede. El embarazo ectópico puede presentarse de forma atípica, con dolor abdominal o pélvico, amenorrea y sangrado vaginal, y también con mareo, síncope, dolor en el hombro, síntomas digestivos o urinarios."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la ecografía transvaginal es la prueba de elección para localizar el embarazo y valorar polo fetal y latido. Umbrales de no viabilidad: LCR < 7,0 mm sin latido exige repetir a los 7 días como mínimo; LCR ≥ 7,0 mm sin latido exige segunda opinión y/o repetición a los 7 días; diámetro medio del saco < 25,0 mm sin polo fetal exige repetir a los 7 días por vía transvaginal, y 14 días si la medición fue transabdominal. En el embarazo de localización desconocida, la hCG no sirve para determinar la localización: solo orienta el manejo según la tendencia, con dos determinaciones separadas unas 48 horas; una elevación > 63 % sugiere gestación intrauterina en desarrollo y un descenso > 50 % sugiere gestación que no prosperará. El diagnóstico de aborto con una sola ecografía no es 100 % seguro, sobre todo en edades gestacionales muy precoces."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en el aborto confirmado, el tratamiento expectante durante 7 a 14 días es la primera línea, salvo riesgo aumentado de hemorragia, antecedente traumático, coagulopatía o infección. Tratamiento médico del aborto retenido: 200 mg de mifepristona por vía oral y, 48 horas después, 800 µg de misoprostol por vía vaginal, oral o sublingual, salvo que el saco se haya expulsado. Aborto incompleto: dosis única de 600 µg de misoprostol (vaginal, oral o sublingual), con 800 µg como alternativa para alinear protocolos; no se recomienda mifepristona. La OMS acepta aspiración al vacío o tratamiento médico para el aborto incompleto con útero menor de 14 semanas, con 600 µg de misoprostol oral o 400 µg sublingual; a partir de 14 semanas, dosis repetidas de 400 µg cada 3 horas. Para la interrupción inducida por debajo de 12 semanas, la pauta recomendada es 200 mg de mifepristona y 800 µg de misoprostol 1–2 días después (intervalo mínimo 24 horas), o 800 µg de misoprostol solo. En la amenaza de aborto con sangrado y antecedente de aborto previo se ofrece progesterona micronizada vaginal 400 mg dos veces al día, mantenida hasta las 16 semanas si se confirma latido."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** las complicaciones incluyen hemorragia, restos retenidos e infección; en el aborto séptico el cuadro es sistémico. Tras un evento molar, la vigilancia de la β-hCG es la herramienta para detectar neoplasia trofoblástica gestacional. El seguimiento con prueba de embarazo en orina a las 3 semanas, y la revisión si es positiva, forman parte del manejo estándar tras tratamiento médico o expectante."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no dar por completo un aborto sin comprobar la cavidad, porque un embarazo de localización desconocida puede ser ectópico; (2) no usar la hCG para decidir la localización ni la progesterona sérica como adjuvante diagnóstico; (3) no ofrecer mifepristona en el aborto incompleto: la evidencia solo respalda misoprostol; (4) recordar que el manejo del aborto incompleto espontáneo y del postinducido es idéntico."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

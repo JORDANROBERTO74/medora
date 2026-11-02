@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "radiologia",
+  "name": "Radiología e Imagenología",
+  "slug": "radiologia",
+  "order": 11,
+  "kind": "clinical",
+  "description": "TC: densidades y ecografía: ecogenicidad.",
+  "topics": [
+    {
+      "id": "radiologia/tc-densidades",
+      "slug": "tc-densidades",
+      "order": 1,
+      "title": "TC: densidades en la escala de Hounsfield (ACV isquémico frente a hemorrágico)",
+      "file": "01-tc-densidades.json"
+    },
+    {
+      "id": "radiologia/ecografia-ecogenicidad",
+      "slug": "ecografia-ecogenicidad",
+      "order": 2,
+      "title": "Ecografía: ecogenicidad",
+      "file": "02-ecografia-ecogenicidad.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

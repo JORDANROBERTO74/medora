@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "emergencias-shock/shock",
+  "specialty": "emergencias-shock",
+  "slug": "shock",
+  "order": 1,
+  "title": "Shock",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el shock es un **continuo** y no un umbral aislado de presión arterial: el consenso SCAI lo estratifica en una escala de gravedad (estadios A–E) que se combina con el fenotipo clínico y con modificadores de riesgo, de modo que puede haber hipoperfusión con presión arterial aún normal (\"preshock\"). En la práctica de urgencias, la decisión de tratar no debe depender de un único parámetro: la guía NICE advierte que el lactato, la piel moteada y el relleno capilar **no pueden usarse de forma aislada** para decidir la fluidoterapia, porque el lactato se eleva por muchas causas y la valoración de la piel es subjetiva. La mortalidad del shock cardiogénico sigue siendo del 30–50 % intrahospitalaria y no ha mejorado de forma significativa en dos décadas, lo que subraya la importancia del reconocimiento precoz."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el shock cardiogénico representa el extremo de un espectro de gravedad; el infarto agudo de miocardio explica el 20–30 % de los casos y la insuficiencia cardiaca no isquémica el 50–55 %, con mortalidad intrahospitalaria del 30–50 %. En el trauma, la hemorragia y la coagulopatía traumática siguen siendo causas principales de muerte potencialmente evitable, y alrededor de un tercio de los pacientes con trauma grave llega al hospital ya coagulopático. El trauma representó aproximadamente el 8 % de las muertes anuales globales en el estudio GBD 2017. En sepsis, la guía NICE estructura el riesgo de muerte en cuatro bandas operativas (alta, media, baja y muy baja) calculadas sobre una escala de alerta precoz, no sobre impresiones clínicas aisladas."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el material base acierta al agrupar el shock en cinco mecanismos (pérdida de volumen, fallo de bomba, vasodilatación con alteración de la utilización de oxígeno, obstrucción al flujo y pérdida del tono simpático). El consenso SCAI añade una capa pronóstica útil: además de la gravedad hemodinámica, importa el **fenotipo** (univentricular o biventricular, isquémico o no isquémico) y los modificadores de riesgo, porque dos pacientes con la misma presión arterial pueden requerir estrategias distintas. En el shock hemorrágico, la coagulopatía es un proceso temprano y no solo un efecto tardío de la dilución: de ahí que la guía europea priorice el control rápido del sangrado sobre la corrección puramente numérica."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** los signos comunes descritos en el material base (alteración del estado mental, oliguria, acidosis láctica, piel fría y sudorosa o caliente y eritematosa según el tipo) siguen siendo válidos. La guía NICE operacionaliza estos signos en criterios explícitos de riesgo alto en la comunidad: frecuencia respiratoria ≥ 25/min, necesidad nueva de oxígeno con FiO2 ≥ 40 % para mantener saturación > 92 % (o > 88 % en insuficiencia respiratoria hipercápnica crónica), presión sistólica ≤ 90 mmHg o más de 40 mmHg por debajo de la habitual, frecuencia cardiaca > 130/min, no haber orinado en 18 horas o diuresis < 0,5 mL/kg/h en cateterizados, piel moteada o cenicienta, cianosis y exantema petequial o purpúrico no blanqueable. Los criterios de riesgo medio incluyen frecuencia respiratoria 21–24/min, presión sistólica 91–100 mmHg, frecuencia cardiaca 91–130/min, diuresis 0,5–1 mL/kg/h y temperatura timpánica < 36 °C."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** en el paciente séptico, la estratificación se hace con la escala NEWS2: 7 o más puntos indica riesgo alto, 5–6 medio, 1–4 bajo y 0 muy bajo, con la salvedad de que un único parámetro que aporte 3 puntos obliga a una revisión médica prioritaria aunque la suma sea baja. La escala debe interpretarse con el contexto fisiológico y las comorbilidades (por ejemplo, en lesión medular o enfermedad cardiaca o pulmonar de base puede ser menos fiable) y debe recalcularse cada 30 minutos en riesgo alto, cada hora en riesgo medio y cada 4–6 horas en riesgo bajo. El estudio inicial en riesgo alto y medio incluye gasometría con lactato y glucemia, hemocultivos, hemograma, proteína C reactiva, iones, creatinina, función hepática y coagulación, y puede considerarse la procalcitonina (recomendación añadida en 2026). En el shock cardiogénico, el diagnóstico se apoya en parámetros hemodinámicos combinados: índice cardiaco ≤ 2,2 L/min/m², potencia cardiaca < 0,6 W, índice de potencia cardiaca < 0,4 W/m², presión de pulso < 25 mmHg, y para la disfunción derecha presión auricular derecha elevada (> 10 mmHg; algunos criterios usan > 15 mmHg) o índice de pulsatilidad arterial pulmonar ≤ 0,9 en el infarto. En el shock cardiogénico el lactato se mide de forma seriada (cada 2–6 horas) porque se correlaciona con la mortalidad; en otros tipos de shock, la frecuencia se ajusta al protocolo local."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en la sepsis de riesgo alto, la guía NICE 2025 indica antibiótico intravenoso de amplio espectro **dentro de la primera hora** desde el cálculo del NEWS2, y un bolo de líquido intravenoso también dentro de la primera hora si no hay contraindicación. El fluido de elección es un cristaloide isotónico equilibrado (Hartmann o similar; suero salino 0,9 % si no hay equilibrado), con un **bolo inicial de 250 mL en 10–15 minutos**, bolos adicionales de 250 mL hasta un total de **1000 mL** incluidos los líquidos previos, reevaluación tras cada bolo y consulta al mando clínico senior si no hay mejoría tras 1000 mL. Los vasopresores se deciden con el equipo de críticos y pueden iniciarse por vía periférica si no hay acceso central, vigilando extravasación. En el shock cardiogénico, el soporte vasoactivo de primera línea es noradrenalina o dobutamina, con inodilatadores (milrinona, dobutamina, levosimendán) en bajo gasto normotenso, y debe evitarse escalar fármacos a costa de retrasar el soporte circulatorio mecánico. En el trauma con hemorragia, la guía europea recomienda traslado directo a un centro adecuado, minimizar el tiempo entre la lesión y el control del sangrado, compresión local y torniquete en hemorragias exanguinantes de extremidad, intubación sin demora si hay obstrucción de la vía aérea, Glasgow ≤ 8, hipoventilación o hipoxemia, evitar la hipoxemia, evitar la hiperoxemia salvo exanguinación inminente y mantener normoventilación con objetivo de PaCO2 35–40 mmHg y volumen corriente en torno a 6 mL/kg."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la hipoperfusión sostenida produce disfunción multiorgánica, y la lesión renal se anticipa por la diuresis (objetivo ≥ 0,5 mL/kg/h). En sepsis, la prevención de la progresión depende de dos elementos temporales: antibiótico precoz y reevaluación frecuente con escalado si no hay respuesta en la primera hora de cualquier intervención, momento en que debe valorar el paciente el mando clínico senior, el equipo de críticos y el médico responsable. En el shock cardiogénico, la prevención del deterioro pasa por el uso precoz y protocolizado de catéter de arteria pulmonar cuando persisten síntomas o empeora la función de órganos, y por considerarlo en todo paciente con soporte circulatorio mecánico. En el trauma, la prevención se basa en el control precoz del sangrado y en evitar que la coagulopatía traumática progrese, motivo por el que la guía europea ordena sus recomendaciones siguiendo la secuencia temporal de la reanimación."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no esperar a la hipotensión para actuar: el estadio de preshock existe y la presión arterial normal no descarta hipoperfusión; (2) no usar el lactato como único criterio de fluidoterapia ni de escalado, y recordar que la piel moteada es difícil de valorar en personas de piel morena o negra; (3) no confundir el shock distributivo con el séptico: la anafilaxia, el neurogénico y el endocrino también son distributivos y su tratamiento de primera línea no es el antibiótico; (4) en el shock cardiogénico con infarto, la revascularización no debe retrasarse por la inestabilidad, y en el shock con enfermedad multivaso se considera tratar solo la arteria culpable en el procedimiento índice; (5) en trauma, el torniquete se mantiene hasta el control quirúrgico y no se retira \"para ver\"."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

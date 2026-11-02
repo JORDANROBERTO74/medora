@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "neurologia/antiepilepticos",
+  "specialty": "neurologia",
+  "slug": "antiepilepticos",
+  "order": 1,
+  "title": "Antiepilépticos",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:**\n  - La selección del fármaco se deriva del **tipo de crisis** y del **tipo de epilepsia**, no de una lista plana de principios activos.\n  - El tratamiento se escalona en **primera, segunda y tercera línea**, y luego en tratamiento **adicional** (add-on) por niveles.\n  - El **valproato** y el **topiramato** tienen restricciones regulatorias por riesgo reproductivo que condicionan su lugar en el esquema.\n  - Varios antiseizúricos **pueden agravar** crisis de ausencia y mioclónicas: prescribirlos en esos tipos de crisis es un error con consecuencias clínicas.\n  - La dosis es un asunto de ficha técnica y titulación individual; las guías de manejo no sustituyen ese paso."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** El material base cubre el grupo de fármacos antiseizúricos (antes «anticomiciales»). Las fuentes consultadas para esta ampliación no reportan cifras de incidencia ni de prevalencia de epilepsia en las secciones revisadas, por lo que aquí no se ofrecen datos poblacionales; lo que sí aportan es el marco clasificatorio que decide el fármaco."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** La clasificación de las epilepsias de la ILAE ordena el diagnóstico en tres niveles —tipo de crisis, tipo de epilepsia y síndrome epiléptico— y sitúa la **etiología en cada uno de esos niveles**, porque condiciona de forma significativa las decisiones terapéuticas. Es decir: dos pacientes con la misma semiología pueden requerir fármacos distintos si difieren en el sustrato (estructural, genético, etc.), y esa es la razón de fondo por la que no existe un «antiepiléptico de primera elección» universal."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** La guía NICE organiza el tratamiento por tipos de crisis, lo que de facto define la semiología que hay que reconocer en consulta:\n  - **Crisis focales**, con o sin evolución a tónico-clónica bilateral.\n  - **Crisis tónico-clónicas generalizadas**.\n  - **Ausencias**.\n  - **Crisis mioclónicas**.\n  - **Crisis tónicas o atónicas** (las que producen caída al suelo).\n  - La clasificación operativa de la ILAE añade el eje de **conciencia** (focal con conciencia conservada frente a focal con compromiso de conciencia) y el de **manifestación motora o no motora**, y permite designaciones como «crisis focal con automatismo y conciencia comprometida» o «ausencia típica»."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** La clasificación operativa de 2017 fija reglas explícitas que conviene memorizar porque evitan discusiones estériles:\n  - Una crisis es de **inicio focal** si se origina, por patrón clínico o por localización electroencefalográfica, en un solo hemisferio; es **generalizada** si aparece de forma aparentemente simultánea en ambos hemisferios; existe una tercera categoría para el **origen desconocido**.\n  - El nivel de confianza exigido para decidir entre focal y generalizada se fija en el **80 %**.\n  - La clasificación **avanza solo hasta donde llega la información disponible**.\n  - Se clasifica por la **primera manifestación**, no por la más llamativa, con excepciones: la crisis focal con **detención del comportamiento** (behavior arrest) exige que esta ocupe toda la crisis, y la **conciencia comprometida** se marca si lo está en cualquier momento.\n  - La designación se jerarquiza como tipo de epilepsia: **focal**, **generalizada**, **combinada generalizada y focal**, o **desconocida**."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** Esquema por tipo de crisis según NICE NG217:\n  - **Crisis tónico-clónicas generalizadas:** primera línea con **lamotrigina, levetiracetam o valproato** (a elección); si fracasa, se prueba otra de las tres y luego la tercera. Adicional de primera línea: clobazam, lamotrigina, levetiracetam, perampanel, valproato o topiramato; de segunda línea: brivaracetam, lacosamida, fenobarbital, primidona o zonisamida.\n  - **Crisis focales:** primera línea con **lamotrigina o levetiracetam**; segunda línea en monoterapia con **carbamazepina, oxcarbazepina o zonisamida**; tercera línea con **lacosamida**. Adicional de primera línea: carbamazepina, lacosamida, lamotrigina, levetiracetam, oxcarbazepina, topiramato o zonisamida; de segunda línea: brivaracetam, cenobamato (conforme a la evaluación tecnológica correspondiente), eslicarbazepina, perampanel o pregabalina; de tercera línea: fenobarbital, fenitoína, valproato, tiagabina o vigabatrina.\n  - **Crisis mioclónicas:** primera línea con **levetiracetam o valproato**.\n  - **Ausencias con otros tipos de crisis (o con riesgo de presentarlos):** valproato, levetiracetam y lamotrigina son opciones de primera línea; la **etosuximida** puede ser adicional de segunda línea, pero **no debe usarse en monoterapia** cuando coexisten otros tipos de crisis, porque solo controla las ausencias.\n  - **Crisis tónicas o atónicas:** primera línea con **lamotrigina o valproato**; segunda línea con clobazam, rufinamida o topiramato; si todo fracasa, **dieta cetogénica** como tratamiento adicional en niños y **felbamato** bajo supervisión de neurología experta.\n  - **Epilepsias generalizadas idiopáticas:** primera línea con lamotrigina, levetiracetam o valproato; segunda línea con perampanel o topiramato.\n  - **Valproato — medidas vigentes:** no debe **iniciarse** en personas menores de 55 años (hombres o mujeres) salvo que dos especialistas documenten de forma independiente que no existe otra opción eficaz y tolerada, o que concurren razones de peso para que el riesgo reproductivo no aplique. En mujeres y niñas con capacidad de gestar solo se usa si otras opciones fracasaron, tras discutir riesgos y con **Programa de Prevención del Embarazo**. En varones se recomienda anticoncepción eficaz durante el tratamiento y hasta tres meses después, y se advierte del riesgo de fertilidad.\n  - **Topiramato — medidas vigentes:** no debe usarse en mujeres con capacidad de gestar salvo que se cumplan las condiciones del Programa de Prevención del Embarazo."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:**\n  - **Agravamiento de crisis** (efecto proconvulsivante): carbamazepina, gabapentina, oxcarbazepina, fenitoína, pregabalina, tiagabina y vigabatrina pueden aumentar la frecuencia de crisis de ausencia y mioclónicas; la lamotrigina puede agravar las mioclónicas, y en el apartado de ausencias y mioclonías la guía la incluye también entre los fármacos que pueden exacerbarlas.\n  - **Hueso:** el tratamiento prolongado con carbamazepina, fenitoína, valproato o primidona puede reducir la densidad mineral ósea y aumentar el riesgo de osteomalacia; debe considerarse suplementación en personas de riesgo.\n  - **Farmacogenética:** las autoridades reguladoras advierten de reacciones graves con **fenitoína** en personas de ascendencia china han o tailandesa, y con **carbamazepina** —y potencialmente oxcarbazepina y eslicarbazepina— en personas de ascendencia china han, tailandesa, europea o japonesa.\n  - **Adherencia y titulación:** la mayoría de los efectos adversos se manejan con titulación lenta y ajuste de dosis, lo que exige seguimiento activo y no abandono precoz del fármaco."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:**\n  - Un listado de fármacos con dosis **no es un algoritmo**: la decisión clínica depende del tipo de crisis, y el mismo fármaco puede ser de primera línea en un tipo y estar formalmente desaconsejado en otro.\n  - **Carbamazepina no es primera línea** para crisis focales en la guía vigente: figura como monoterapia de **segunda** línea y como adicional de primera línea; para las generalizadas tónico-clónicas directamente no se propone.\n  - **Fenitoína y fenobarbital** han retrocedido en el escalonamiento: en crisis focales aparecen en la **tercera** línea de tratamiento adicional, y en tónico-clónicas generalizadas el fenobarbital es adicional de segunda línea.\n  - Prescribir un fármaco procovulsivante en una epilepsia mioclónica juvenil es un error clásico y potencialmente grave.\n  - En epilepsias generalizadas idiopáticas el objetivo es la **libertad de crisis**, y el valproato es el más eficaz según la evidencia, pero su uso está subordinado a las restricciones reproductivas: la elección debe ser compartida y documentada.\n  - Las cifras de dosis del material base aparecen desalineadas por OCR (p. ej., una horquilla de «4—18 mg» para lamotrigina y otra de «15—40 mg» sin fármaco asignado): **no deben reproducirse sin verificar la ficha técnica**."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

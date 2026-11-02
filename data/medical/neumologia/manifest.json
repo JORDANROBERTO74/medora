@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "id": "neumologia",
+  "name": "Neumología",
+  "slug": "neumologia",
+  "order": 4,
+  "kind": "clinical",
+  "description": "Derrame pleural, tuberculosis, neumonía y patrones respiratorios.",
+  "topics": [
+    {
+      "id": "neumologia/derrame-pleural",
+      "slug": "derrame-pleural",
+      "order": 1,
+      "title": "Derrame pleural",
+      "file": "01-derrame-pleural.json"
+    },
+    {
+      "id": "neumologia/tuberculosis",
+      "slug": "tuberculosis",
+      "order": 2,
+      "title": "Tuberculosis",
+      "file": "02-tuberculosis.json"
+    },
+    {
+      "id": "neumologia/neumonia",
+      "slug": "neumonia",
+      "order": 3,
+      "title": "Neumonía",
+      "file": "03-neumonia.json"
+    },
+    {
+      "id": "neumologia/patrones-respiratorios",
+      "slug": "patrones-respiratorios",
+      "order": 4,
+      "title": "Patrones respiratorios",
+      "file": "04-patrones-respiratorios.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "neurologia",
+  "name": "Neurología",
+  "slug": "neurologia",
+  "order": 10,
+  "kind": "clinical",
+  "description": "Antiepilépticos y rabia (encefalomielitis).",
+  "topics": [
+    {
+      "id": "neurologia/antiepilepticos",
+      "slug": "antiepilepticos",
+      "order": 1,
+      "title": "Antiepilépticos",
+      "file": "01-antiepilepticos.json"
+    },
+    {
+      "id": "neurologia/encefalomielitis",
+      "slug": "encefalomielitis",
+      "order": 2,
+      "title": "Encefalomielitis",
+      "file": "02-encefalomielitis.json"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

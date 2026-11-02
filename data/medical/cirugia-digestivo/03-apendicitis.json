@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cirugia-digestivo/apendicitis",
+  "specialty": "cirugia-digestivo",
+  "slug": "apendicitis",
+  "order": 3,
+  "title": "Apendicitis",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la apendicitis aguda sigue estando entre las causas más frecuentes de dolor abdominal agudo y su diagnóstico continúa siendo un reto, con controversias de manejo entre distintos entornos. El abordaje recomendado combina **escalas clínicas + imagen**, y la apendicectomía continúa siendo el tratamiento estándar, con la laparoscopia cada vez más extendida. El tratamiento antibiótico exclusivo existe como opción en casos leves seleccionados, pero sigue en estudio y no ha desplazado a la cirugía."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la guía WSES de Jerusalén (actualización 2020) define la apendicitis aguda como una de las causas más comunes de dolor abdominal agudo y constata que el diagnóstico sigue siendo difícil y que persisten controversias sobre su manejo según el contexto. Los temas que cubre la guía delimitan el campo: diagnóstico, tratamiento no quirúrgico de la apendicitis no complicada, momento de la apendicectomía y demora intrahospitalaria, técnica quirúrgica, gradación intraoperatoria, manejo de la apendicitis perforada con flemón o absceso y antibioterapia perioperatoria."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el material base describe la secuencia obstrucción luminal → distensión → compromiso venoso y linfático → isquemia → necrosis → perforación, que es la enseñanza quirúrgica clásica. La guía WSES no estadifica la enfermedad por horas, sino que aborda una **gradación intraoperatoria** de la apendicitis; las escalas temporales exactas del original no se han podido verificar en las fuentes consultadas y se conservan como material docente (estado *ambigua* en concordancia)."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el NIDDK describe la evaluación como historia clínica + exploración + analítica + imagen. En la exploración se busca dolor en el hemiabdomen inferior derecho, con maniobras que incluyen la palpación y movilización suave de todo el abdomen, la presión sobre la rodilla derecha al elevar la pierna y la flexo‑rotación de la pierna con el paciente en decúbito lateral izquierdo; puede completarse con auscultación, tacto rectal y exploración pélvica. Analítica: hemograma (leucocitosis como signo de infección, además de deshidratación o alteraciones electrolíticas), proteína C reactiva, sedimento urinario para descartar infección vesical o litiasis renal y test de embarazo en la mujer."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la ecografía abdominal es la **primera** prueba de imagen en lactantes, niños, adultos jóvenes y embarazadas, y no irradia; la RM es una alternativa segura y fiable a la TC; en niños, para reducir la radiación, la TC se recomienda **solo después** de ecografía y RM. La TC requiere test de embarazo previo en la mujer en edad fértil. La guía WSES incorpora el uso de escalas clínicas y de imagen en el diagnóstico y dedica secciones específicas a las puntuaciones (Alvarado, *Adult Appendicitis Score* y otras). La imagen informa además de la causa alternativa del dolor (adherencias, enfermedad inflamatoria intestinal, obstrucción, enfermedad inflamatoria pélvica, litiasis renal, patología ginecológica)."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** la apendicectomía —laparoscópica o por laparotomía— es el tratamiento habitual; el abordaje laparoscópico es cada vez más frecuente, con menos complicaciones (incluidas las infecciones relacionadas con la hospitalización) y recuperación más corta. Todo paciente con sospecha de apendicitis recibe antibióticos antes de la cirugía, y algunos mejoran sin operarse; en casos leves seleccionados se plantea antibioterapia exclusiva, si bien la cirugía sigue siendo el estándar. La guía WSES desarrolla además el tratamiento no quirúrgico de la apendicitis no complicada, el momento de la apendicectomía y la antibioterapia perioperatoria. Si el cirujano encuentra un apéndice normal, suele extirparse para evitar episodios futuros y pueden corregirse otros hallazgos."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la peritonitis por rotura apendicular puede comprometer la vida y suele requerir laparotomía inmediata para limpiar la cavidad y extirpar el apéndice; el absceso se drena. Tras la apendicectomía pueden aparecer infección de la herida, absceso intraabdominal, fístula, obstrucción de intestino delgado, íleo y adherencias. La guía WSES dedica un apartado específico al manejo de la apendicitis perforada con flemón o absceso, que es donde se concentra la morbilidad. La cirugía precoz reduce la probabilidad de rotura y de complicaciones añadidas."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) ningún signo aislado confirma ni descarta apendicitis: la lámina de P21 lo dice y la guía lo respalda al integrar escalas + imagen; (2) en niños y embarazadas el orden es ecografía → RM → TC, no TC directa; (3) el dolor que migra a fosa ilíaca derecha con anorexia y náuseas es sugestivo, pero la presentación atípica obliga a imagen; (4) la apendicitis no complicada puede responder a antibióticos, pero la decisión debe individualizarse y la cirugía sigue siendo el estándar."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

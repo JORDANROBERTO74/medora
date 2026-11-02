@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "radiologia/tc-densidades",
+  "specialty": "radiologia",
+  "slug": "tc-densidades",
+  "order": 1,
+  "title": "TC: densidades en la escala de Hounsfield (ACV isquémico frente a hemorrágico)",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:**\n  - En el ictus agudo la primera prueba es la **TC sin contraste**, y su cometido inmediato es **descartar hemorragia**, no demostrar el infarto.\n  - La hemorragia aguda se reconoce por un **aumento de la densidad** del parénquima: es el «área hiperdensa» que describe el material base.\n  - El ictus isquémico cursa con **edema citotóxico**, apoptosis, trombosis microvascular y necrosis; el material base traduce ese fenómeno en hipodensidad.\n  - La TC sin contraste **no basta** para seleccionar candidatos a trombectomía: hacen falta angio-TC y, cuando el paciente se presenta más allá de 6 horas, perfusión por TC o difusión por RM.\n  - La **ventana terapéutica** manda: trombolisis hasta 4,5 horas desde el inicio y trombectomía hasta 24 horas en casos seleccionados por imagen.\n  - La densidad se interpreta **por comparación interna** con los tejidos vecinos: el material base acierta al presentarla como una escala y no como un valor absoluto de enfermedad [P46]."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** La escala de Hounsfield expresa los números de TC de forma estandarizada y se ancla en dos referencias arbitrarias, el agua y el aire, que el material base sitúa en 0 y −1000 UH respectivamente [P46]. Las fuentes consultadas no aportan cifras de incidencia ni de prevalencia en las secciones revisadas, de modo que aquí no se ofrecen datos poblacionales; lo que sí confirman es que la TC discrimina densidades de partes blandas con más detalle que la radiografía convencional. El ictus, en cambio, aparece descrito por su mecanismo y por su ventana de tratamiento más que por su frecuencia."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** Las dos entidades que el material base compara tienen mecanismos opuestos y eso explica su comportamiento en la imagen.\n  - **Isquemia:** la oclusión arterial reduce la perfusión y desencadena una cascada con edema, trombosis microvascular, apoptosis y necrosis celular; los mediadores inflamatorios contribuyen al edema y a la trombosis microvascular. El tejido muere a velocidades distintas según la gravedad de la isquemia: con perfusiones muy bajas la muerte neuronal puede ocurrir en minutos, mientras que con una perfusión del 40 % de lo normal el tejido puede tardar de 3 a 6 horas en perderse por completo; cuando la isquemia grave persiste más de 15 a 30 minutos, el tejido afectado muere. Alrededor del núcleo necrótico sobrevive la **penumbra**, tejido isquémico pero aún recuperable si se restablece el flujo.\n  - **Hemorragia:** suele deberse a la rotura de una pequeña arteria arteriosclerótica debilitada por hipertensión crónica; la sangre se acumula como una masa que diseca y comprime el tejido adyacente y, en hematomas grandes, eleva la presión intracraneal. La hipertensión crónica favorece microaneurismas (Charcot-Bouchard) en las perforantes, que pueden romperse.\n  - **Consecuencia para la imagen:** la sangre extravasada **aumenta** la densidad del parénquima y el edema isquémico la **reduce**; por eso la TC sin contraste separa ambas entidades en la urgencia."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** El material base no desarrolla la clínica; conviene añadirla porque es la que dispara la prueba. En la hemorragia intracerebral el inicio suele ser brusco, con cefalea súbita —a veces durante la actividad—, náuseas, vómitos, delirium, crisis focales o generalizadas y deterioro de la consciencia, junto con déficits focales progresivos; en ancianos la cefalea puede faltar o ser leve y las hemorragias pequeñas pueden simular un ictus isquémico. En el ictus isquémico el déficit depende del territorio afectado y la correlación con la arteria oculta no siempre es exacta."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** La guía NICE ordena la imagen del ictus agudo en dos pasos:\n  - **TC sin contraste inmediata** si hay indicación de trombolisis o trombectomía, el paciente está anticoagulado, tiene diátesis hemorrágica, presenta un Glasgow inferior a 13, síntomas progresivos o fluctuantes sin explicación, papiledema, rigidez de nuca o fiebre, o cefalea intensa al inicio.\n  - **Angio-TC** a continuación de la TC simple cuando se plantea trombectomía; **perfusión por TC** (o su equivalente por RM) si la trombectomía se plantea más allá de las 6 horas.\n  - Si no hay indicación de imagen inmediata, la exploración se realiza **lo antes posible y dentro de las 24 horas** del inicio.\n  - En la hemorragia, el diagnóstico se confirma con **TC o RM inmediatas**, que suelen ser diagnósticas; la angio-TC practicada en las primeras horas puede mostrar extravasación de contraste dentro del coágulo (signo del punto), marcador de sangrado activo y de expansión del hematoma.\n  - La TC también sirve para **excluir la hemorragia antes de trombolizar**: NICE condiciona el tratamiento a que el diagnóstico de hemorragia intracerebral se haya descartado por imagen.\n  - **Lectura de densidades:** el material base aporta los anclajes numéricos; las fuentes consultadas confirman la lógica (sangre aguda hiperdensa, edema isquémico hipodenso) pero no reproducen la tabla de valores. **Las cifras concretas de la escala (aire −1000 UH; grasa −100 a −50 UH; agua 0 UH; partes blandas +30 a +70 UH; hueso +300 a +1000 UH; calcio/metal > +1000 UH) se conservan como contenido del original y no se han podido verificar con un documento técnico accesible: se marcan como no verificadas** (véase «Actualizaciones» y la nota de licencia final)."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** Lo que la imagen habilita es distinto en cada rama.\n  - **Isquemia:** trombolisis intravenosa dentro de las 4,5 horas del inicio y siempre que se haya excluido la hemorragia intracraneal. Trombectomía dentro de las 6 horas en la oclusión proximal de la circulación anterior confirmada por angio-TC o angio-RM; entre 6 y 24 horas si la perfusión por TC o la difusión por RM muestran tejido salvable; y hasta 24 horas en la oclusión proximal de la circulación posterior. La selección exige además una situación funcional previa con modified Rankin inferior a 3 y una NIHSS superior a 5.\n  - **Hemorragia:** las guías de la AHA/ASA de 2022, recogidas por el Manual MSD, aceptan reducir la presión sistólica a 140 mmHg cuando está entre 150 y 220 mmHg; por encima de 220 mmHg cabe un descenso agresivo con infusión intravenosa continua de nicardipina, ajustando la dosis y monitorizando para bajar un 10-15 %. NICE fija el mismo objetivo con un límite de seguridad: no descender más de 60 mmHg en la primera hora. Se revierte la anticoagulación según el fármaco implicado, se evitan antiagregantes y anticoagulantes, y se considera evacuación quirúrgica en hematomas cerebelosos mayores de 3 cm y en hematomas lobares grandes seleccionados. Los anticonvulsivos se reservan para quien ha presentado una crisis, no de forma profiláctica."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** El hematoma puede diseccionar el parénquima y comprimirlo, producir herniación transtentorial con hemorragias secundarias de tronco, romperse al sistema ventricular y causar hidrocefalia aguda —predictor independiente de peor pronóstico— u obstruir el cuarto ventrículo si es cerebeloso. La expansión del hematoma es la complicación evitable por excelencia: el signo del punto en la angio-TC anuncia sangrado continuo y mal resultado. En la isquemia, el edema extenso puede elevar la presión intracraneal. En prevención, la guía evita la TC indiscriminada en el ataque isquémico transitorio: solo se indica si hay sospecha clínica de un diagnóstico alternativo que la TC pueda detectar."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:**\n  - **La regla «lo negro es aire» es una simplificación docente, y el propio material base la desmiente en su tabla:** asigna a la grasa valores negativos (oscuridad) y al metal valores superiores a los del hueso (blanco brillante) [P46][P47]. Sirve para memorizar los extremos, no para interpretar un corte.\n  - **«Iso a levemente hiperdenso» para las partes blandas mezcla dos comparaciones:** frente al agua (0 UH) el tejido blando es hiperdenso; «iso» solo tiene sentido frente a otro tejido blando. La confusión puede llevar a leer como normal un parénquima edematizado.\n  - **No pedir TC a todo ataque isquémico transitorio:** la guía lo desaconseja salvo sospecha de diagnóstico alternativo, y prefiere RM con difusión y secuencias sensibles a sangre tras la valoración especializada.\n  - **El signo de la arteria hiperdensa no sustituye a la angio-TC:** la trombectomía exige demostrar la oclusión proximal por angio-TC o angio-RM.\n  - **La TC normal no descarta el infarto:** la decisión de reperfundir se toma por clínica más exclusión de hemorragia y, cuando procede, por imagen vascular y de perfusión, no por la ausencia de hipodensidad.\n  - **Un hematoma pequeño puede parecer un infarto:** el Manual MSD advierte que las hemorragias pequeñas simulan un ictus isquémico, de ahí que la imagen sea obligatoria antes de antitrombóticos."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

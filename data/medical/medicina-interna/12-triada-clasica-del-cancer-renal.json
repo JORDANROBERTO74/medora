@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-clasica-del-cancer-renal",
+  "specialty": "medicina-interna",
+  "slug": "triada-clasica-del-cancer-renal",
+  "order": 12,
+  "title": "Tríada clásica del cáncer renal",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** solo alrededor del 10 % de los pacientes se presenta con la tríada clásica (hematuria, dolor en el flanco y masa palpable); la mayoría de los casos se descubre de forma incidental en estudios de imagen."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** el carcinoma de células renales representa cerca del 2 % de los diagnósticos y de las muertes por cáncer en el mundo; la incidencia se ha más que duplicado en el mundo desarrollado en medio siglo y dos tercios de los casos ocurren en hombres, con edad media al diagnóstico de 64 años."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el subtipo de células claras supone alrededor del 75 % de los casos y se asocia a mutaciones o deleciones del gen de von Hippel-Lindau; los factores de riesgo modificables incluyen tabaquismo, obesidad, hipertensión mal controlada, dieta, alcohol y exposiciones ocupacionales."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** además de la tríada, pueden aparecer fiebre, pérdida de peso y leucocitosis; cerca del 20 % de los pacientes presenta síndromes paraneoplásicos como hipercalcemia, policitemia, síndrome de Cushing o hipertensión por producción de renina. Un varicocele izquierdo puede ser la forma de presentación por obstrucción de la vena renal izquierda."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la mayoría de los casos se detecta por imagen (tomografía, resonancia o ecografía) y el diagnóstico se confirma mediante biopsia con estudio inmunohistoquímico cuando se plantea tratamiento sistémico."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** según las características del paciente y la extensión, el tumor se reseca o se ablaciona; en la enfermedad metastásica, el tratamiento sistémico incluye inmunoterapia con inhibidores de puntos de control y terapias dirigidas como sunitinib, según las guías oncológicas. La revisión citada es epidemiológica y **no permite afirmar la secuencia exacta ni el papel predictivo de PD-L1**, por lo que esas decisiones deben contrastarse con la guía oncológica vigente."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la supervivencia relativa a 5 años es del 93 % en el estadio I y del 12 % en el metastásico; la prevención se apoya en el control del tabaquismo, del peso y de la hipertensión."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** buscar la tríada como método de cribado es un error, porque su ausencia es la norma; la hematuria puede ser macroscópica o microscópica y el dolor lumbar simula patología osteomuscular."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

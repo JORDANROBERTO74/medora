@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "cardiologia/sincope",
+  "specialty": "cardiologia",
+  "slug": "sincope",
+  "order": 4,
+  "title": "Síncope",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** el síncope es una pérdida transitoria de conciencia por hipoperfusión cerebral global, de causa mayoritariamente benigna pero con un subgrupo cardíaco de alto riesgo; la historia clínica y el electrocardiograma son las herramientas que separan ambos mundos."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** pérdida súbita y breve de la conciencia con pérdida del tono postural y recuperación espontánea. El presíncope es la sensación de desmayo inminente sin pérdida de conciencia y comparte causas con el síncope, por lo que se evalúa igual. Las causas más frecuentes son la vasovagal y la idiopática; un grupo menor tiene causa cardíaca grave."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la mayoría de los síncopes se deben a un descenso del gasto cardíaco por obstrucción al flujo, disfunción sistólica o diastólica, arritmias o reducción del retorno venoso. Las arritmias producen síncope cuando la frecuencia es demasiado rápida para permitir el llenado (aproximadamente >150-180 lpm) o demasiado lenta (<30-35 lpm). La hipotensión ortostática aparece cuando fallan la taquicardia y la vasoconstricción compensadoras al ponerse de pie. La hipoglucemia puede causar pérdida de conciencia con flujo cerebral normal."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** los pródromos típicos son mareo, náusea y sudoración, con un desencadenante reconocible; en el síncope vasovagal la recuperación suele tardar entre 5 y 15 minutos, aunque puede prolongarse. Pueden observarse sacudidas musculares breves, y una convulsión de menos de 5 segundos puede acompañar a un síncope verdadero, sin que ello implique epilepsia. El síncope durante el esfuerzo, o inmediatamente después, obliga a descartar causa arrítmica o estructural."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la evaluación se basa en la descripción del paciente y de testigos: circunstancias, postura previa, pródromos, aspecto y coloración durante el episodio, movimientos, mordedura de lengua (lateral o punta), lesión, duración, confusión al recuperar y déficit focal. Debe realizarse electrocardiograma de 12 derivaciones con interpretación automatizada; son banderas rojas los trastornos de conducción, el QT largo o corto y cualquier alteración del segmento ST o de la onda T. Requieren valoración cardiovascular urgente en 24 horas: electrocardiograma anormal, insuficiencia cardíaca, síncope de esfuerzo, muerte súbita familiar en menores de 40 años o cardiopatía hereditaria, disnea nueva inexplicada y soplo; en mayores de 65 años sin pródromos debe considerarse la misma vía. El síncope vasovagal no complicado se diagnostica con las tres «P»: postura prolongada de pie, factores provocadores y pródromos. La hipotensión ortostática se confirma con el criterio de caída ≥20 mmHg sistólica o ≥10 mmHg diastólica. La monitorización electrocardiográfica se elige por frecuencia: Holter hasta 48 horas si los episodios ocurren varias veces por semana, registro externo si ocurren cada una o dos semanas y registrador implantable si son más espaciados. La prueba de mesa basculante no es de primera línea y no se indica cuando el diagnóstico de síncope vasovagal ya es claro. El masaje del seno carotídeo es la primera exploración en la sospecha de síncope del seno carotídeo y en el síncope inexplicado de mayores de 60 años. El electroencefalograma no se usa de rutina."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en el síncope vasovagal no complicado y en el situacional se explica el mecanismo, se identifican y evitan los desencadenantes, se tranquiliza sobre el buen pronóstico y se indica consultar si reaparece. En la hipotensión ortostática se revisan los fármacos implicados y se explican las medidas posturales y el pronóstico. Todo paciente pendiente de valoración especializada debe recibir instrucciones sobre qué hacer ante un nuevo episodio, restricciones de actividad y prohibición de conducir."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** el riesgo principal es el traumatismo durante la caída y el accidente de tráfico; de ahí la importancia del consejo sobre conducción y seguridad laboral. La prevención se basa en reconocer pródromos, evitar desencadenantes y tratar la causa cuando existe."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** no etiquetar de epilepsia un síncope con sacudidas breves; no pedir electroencefalograma de rutina; no indicar mesa basculante antes de la monitorización electrocardiográfica; recordar que la recuperación del síncope vasovagal puede no ser inmediata; preguntar siempre por el síncope durante el esfuerzo, que es una bandera roja."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getCase } from "@/lib/cases";
-import { getSpecialty, specialties } from "@/lib/content";
+import { clinicalCases, getCase } from "@/lib/cases";
+import { getSpecialty } from "@/lib/content";
 import { CaseView } from "../case-view";
 
 export function generateStaticParams() {
-  return specialties.map((specialty) => ({ specialty: specialty.slug }));
+  return clinicalCases.map((clinicalCase) => ({ specialty: clinicalCase.specialtySlug }));
 }
 
 export async function generateMetadata({

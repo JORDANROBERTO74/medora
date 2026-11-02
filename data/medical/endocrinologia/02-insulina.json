@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "endocrinologia/insulina",
+  "specialty": "endocrinologia",
+  "slug": "insulina",
+  "order": 2,
+  "title": "Insulina",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la insulina sigue siendo imprescindible en la diabetes tipo 1 y el fármaco de referencia cuando falla el resto del tratamiento en la tipo 2. Lo que ha cambiado en la práctica no es el mecanismo, sino la **forma de elegirla y ajustarla**: se recomiendan clases amplias de insulina antes que productos concretos, se prioriza el análogo basal una o dos veces al día como inicio en la tipo 2, y se insiste en educación estructurada, titulación y prevención de la hipoglucemia. En la diabetes tipo 1 el régimen de elección es el basal-bolus en múltiples dosis diarias."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** la insulina es una hormona peptídica producida por las células beta de los islotes pancreáticos; en la diabetes tipo 1 el páncreas no la produce y la persona debe administrársela varias veces al día, incluidas las comidas y bebidas. En la diabetes tipo 2 muchas personas necesitan fármacos y, con el tiempo, más de uno, pudiendo requerir insulina de forma transitoria en situaciones como el embarazo o la hospitalización. En la diabetes gestacional la insulina es segura durante el embarazo y se plantea cuando la alimentación y la actividad física no bastan."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** el esquema del material base describe correctamente el eje receptor–IRS–PI3K–PKB–GLUT4 y el balance anabólico. La lectura clínica que conviene retener es que la insulina reduce la glucosa por dos vías simultáneas —aumento de la captación y utilización periférica e inhibición de la producción hepática de glucosa— y que sus efectos tróficos explican el aumento de glucógeno, lípidos y proteínas. Las incretinas (GIP y GLP-1) amplifican la secreción de insulina tras la ingesta y son degradadas por la DPP-4, de ahí el interés farmacológico de inhibir esa enzima. Un matiz clínico relevante: los agonistas del receptor de GLP-1 **no son sustitutos de la insulina**."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** el tema de la insulina no genera un cuadro clínico propio; su relevancia asistencial está en el ajuste. La falta de insulina en la diabetes tipo 1 conduce a hiperglucemia y cetoacidosis, y el diagnóstico de tipo 1 en el adulto se apoya en datos clínicos (cetosis, pérdida rápida de peso, inicio antes de los 50 años, IMC menor de 25 kg/m², historia personal o familiar de autoinmunidad) sin que la edad ni el IMC por sí solos permitan incluir ni excluir el diagnóstico. El efecto adverso que limita el tratamiento es la hipoglucemia, y por eso NICE exige que el objetivo de HbA1c no se persiga a costa de hipoglucemia problemática."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** la clasificación del tipo de diabetes condiciona la indicación de insulina. NICE recomienda medir autoanticuerpos específicos de diabetes al diagnóstico en el adulto, no medir C-peptidemia de rutina para confirmarlo, y considerar C-peptidemia sin ayuno (non-fasting) con glucemia pareada cuando los autoanticuerpos son negativos y la clasificación sigue siendo incierta; el valor discriminativo del C-péptido aumenta cuanto más tiempo ha pasado desde el diagnóstico. Para el inicio de insulina en la diabetes tipo 2, el criterio operativo que maneja NICE es el nivel de HbA1c: si es de 75 mmol/mol (9,0 %) o superior, se considera combinar insulina basal con insulina corta o rápida, ya sea en inyecciones separadas o como preparación premezclada."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** en la **diabetes tipo 1** el régimen de elección es el basal-bolus en múltiples inyecciones diarias para todos los adultos, y no deben ofrecerse regímenes no basal-bolus (dos dosis de mezcla, solo basal o solo bolos) al diagnóstico; se ofrece monitorización continua de glucosa, en tiempo real o intermitente, con elección del dispositivo compartida, y objetivos de glucemia en plasma de 5 a 7 mmol/L en ayunas al despertar, 4 a 7 mmol/L antes de las comidas y 5 a 9 mmol/L a los 90 minutos de comer, con HbA1c objetivo de 48 mmol/mol (6,5 %) o menos. En la **diabetes tipo 2** se ofrece insulina basal una o dos veces al día como tratamiento inicial, y al iniciarla se mantiene la metformina, se suspenden los demás fármacos usados solo para la glucemia y se comentan con la persona los riesgos y beneficios de continuar los fármacos con beneficio cardiovascular o de peso. La revisión en cada control debe comprobar si quien usa insulina basal necesita además bolos antes de las comidas y si quien usa premezclada sin alcanzar objetivos debe cambiar de preparación o pasar a basal-bolus. La elección de la preparación basal es compartida y considera la necesidad de ayuda de un cuidador, la preocupación por la hipoglucemia nocturna y la preferencia por una inyección diaria; cuando varias opciones (incluidos biosimilares) son igual de adecuadas, se usa la de menor coste. Los análogos premezclados se prefieren a la insulina humana premezclada si la persona prefiere inyectarse justo antes de comer, si la hipoglucemia es un problema o si la glucemia sube mucho después de las comidas. La actualización de febrero de 2026 de NG28 se hizo por la retirada de productos de insulina y por desabastecimientos de marcas, y por eso el texto recomienda clases amplias en lugar de insulinas concretas, reconociendo el mayor uso de análogos. En cuanto a la **administración**, NIDDK recuerda que la insulina actúa más rápido inyectada en el abdomen, que debe rotarse el punto de inyección porque repetirlo endurece el tejido y dificulta las siguientes administraciones, y que muslo, glúteo y brazo absorben más lentamente; algunas personas necesitan de 2 a 4 inyecciones al día y otras una sola. Las vías disponibles son jeringa, pluma, bomba, inhalador, inyector a chorro y sistemas de páncreas artificial, este último principalmente en diabetes tipo 1. La educación estructurada al iniciar insulina debe cubrir técnica de inyección y rotación de puntos, automonitorización, titulación hasta objetivo, alimentación, normativa de conducción, manejo de la hipoglucemia y de los cambios agudos de glucemia, con apoyo de un profesional entrenado; la actualización de 2026 mantiene esa exigencia y añade la conversación sobre biosimilares, con decisión compartida y planificación del cambio."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** la complicación inmediata del tratamiento insulínico es la hipoglucemia, que aparece cuando no se equilibran fármaco, ingesta y actividad. La prevención se apoya en educación, automonitorización, elección del dispositivo y revisión periódica de las pautas. Existen además riesgos de errores de medicación con insulinas de alta concentración, combinaciones fijas y biosimilares, por lo que NICE remite a la guía de la MHRA sobre minimización de errores. La lipohipertrofia por inyecciones repetidas en el mismo punto es un problema práctico prevenible con rotación."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** (1) no iniciar insulina en la diabetes tipo 2 sin mantener la metformina ni sin revisar qué fármacos se suspenden; (2) no prescribir un régimen no basal-bolus a un adulto recién diagnosticado de tipo 1; (3) no elegir la insulina más barata si no es igual de adecuada para esa persona: la elección es compartida y luego se optimiza el coste; (4) no olvidar la rotación de puntos de inyección; (5) no considerar los agonistas de GLP-1 un sustituto de la insulina; (6) recordar que el objetivo de HbA1c no debe lograrse a costa de hipoglucemia problemática."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

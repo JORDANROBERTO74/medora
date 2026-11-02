@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "specialty": "gineco-obstetricia",
+  "kind": "summary",
+  "source": {
+    "file": "MEDIC-GRADO NUEVA 2026.pdf",
+    "title": "MEDIC-GRADO NUEVA 2026 — Ginecología y Obstetricia",
+    "pages": 463,
+    "authors": "David Villa"
+  },
+  "chapters": [
+    {
+      "id": "gineco-obstetricia/resumen/aborto",
+      "slug": "aborto",
+      "order": 1,
+      "title": "Aborto",
+      "sourcePages": [
+        301,
+        302,
+        303
+      ],
+      "markdown": "<!-- p:301 -->\n\nEs la interrupcion de la gestacion con < de 20 semanas de gestacion, con menos de 500 gramos, con menos de 25 cms de talla.\n\n- Causas:\n\n- Cromosomicas (principal)---50% de los casos---trisomias (cr16).\n\n- Anomalias uterinas\n\n- Incompetencia itsmocervical----cerclaje en semana 12-16 semanas, con dilatacion de 3\n\nCms, sin herniacion de la bolsa.\n\n- Infecciones\n\n- Alteraciones endocrinas\n\n- Diabetes\n\n- Tabaquismo\n\n- Insuficiencia del cuerpo luteo----progesterona micronizada\n\n- Trombofilias hereditarias\n\n- Sindrome antifosfolipidico\n\n### Clasificacion\n\n### Según la edad gestacional\n\n- Precoz: hasta la semana 12\n\n- Tardio: despues de la semana 12\n\n### Según la perioricidad\n\n- Esporadico: menos de 3 perdidas gestacionales\n\n- Habitual: >de 3 perdidas consecutivas.\n\n### Cuadro clinico\n\nHacer examen especular evaluar utero y hacer ecografia.\n\n- Dolor colico\n\n<!-- p:302 -->\n\nMedic-grado                           cuello cerrado\n\n- Sangrado <de 20 semanas\n\n- Completo\n\nCuello abierto  -amenaza de aborto\n\n- Retenido\n\n- Incompleto\n\n- Inevitable\n\n- Infectado\n\n- Aborto incompleto:\n\n- Sangrado variable con colicos---beta hcg negativa o disminuida---utero disminuido\n\nCon restos ovulares+ cuello abierto.\n\n- Conducta: vaciar cavidad.\n\n- Aborto inevitable:\n\n- Sangrado intenso y colicos compatible con edad gestacional + cuello abierto\n\nConducta: vaciar cavidad uterina,\n\n- Aborto infectado:\n\n- Manipulacion de la gestacion + señales de infeccion\n\n(fiebre, escalofrios, olor fetido +sangrado con pus +cuello abierto).\n\n- Utero: blando, doloroso, con restos ovulares.\n\n- Conducta: antibiotico (clindamicina + gentamicina) + vaciar la cavidad.\n\n- Aborto completo:\n\n- Sangrado con salida del material fetal y ovular, sin dolor\n\n- Subunidad beta gonadotrofina: negativa o disminuida\n\n- -utero vacio o disminuido\n\n+cuello cerrado.\n\n<!-- p:303 -->\n\n- Conducta: realizar ecografia de control y beta hcg.\n\n- Amenaza de aborto\n\n- Sangrado escaso y colicos.\n\n- Utero: compatible con edad gestacional+ cuello cerrado.\n\n- Conducta: reposo absoluto, no mantener relaciones sexuales, antiespasmodicos.\n\n- Aborto retenido\n\n- Sin sangrado y sin dolor\n\n- Subunidad beta hcg negativa o baja\n\n- Utero menor para edad gestacional+cuello cerrado.\n\n- Ecografia con embrion > 7mm sin latido cardiaco fetal.\n\nConducta: vaciar utero\n\n- Siempre descartar:\n\n- Embarazo anembrionado\n\n- Incompatibilidad rh\n\n### Tratamiento\n\n### Depende de la edad gestacional\n\n<12 semanas: ameu o legrado podria ademas hacer misoprostol. 12 semanas:\n\n- -con feto: misoprostol+ legrado.\n\n- -sin feto: legrado."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/acretismo-placentario",
+      "slug": "acretismo-placentario",
+      "order": 2,
+      "title": "Acretismo placentario",
+      "sourcePages": [
+        304,
+        305
+      ],
+      "markdown": "<!-- p:304 -->\n\n### Definición\n\nPlacenta, se implanta en zonas donde la decidua basal es insuficiente o anormal, con infiltracion del miometrio por vellosidades corionicas, con compromiso focal, parcial y total\n\n- Clasificación del acretismo placentario\n\n- Acreta\n\n- Increta\n\n- Percreta\n\n### Factores de riesgo\n\n- Placenta previa\n\n- Cesareas anteriores\n\n- Cirugias uterinas previas\n\n- Legrados uterinos\n\n- Multiparidad\n\n- Edad materna avanzada\n\nIncidencia\n\n- El mas importante antecedente es la placenta previa.\n\n- Se relaciona al numero de cesareas.\n\nSignos y síntomas\n\n- Presenta retencion placentaria\n\n- Puede causar el alumbramiento manual---- hemorragia puerperal\n\n- Coagulacion intravascular diseminada ----inestabilidad hemodinamica—shock\n\n### Diagnostico\n\n<!-- p:305 -->\n\n- Historia clinica y antecedentes\n\n- Ecografia:(doppler color, resonancia magnetica)\n\n- Adelgazamiento (>1mm) de la zona hipoecoica normal endometrial en el\n\nSegmento inferior.\n\n- Extension del tejido placentario a traves de la serosa uterina (percretismo)\n\n- Cistoscopia (para descartar placenta percreta que compromete vejiga)\n\n### Tratamiento\n\nHisterectomia\n\n- Complicacion principal\n\nShock hipovolemico\n\n![Figura 1](/resumen/gineco-obstetricia/p305-1.webp)"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/cambios-fisiologicos-del-embarazo",
+      "slug": "cambios-fisiologicos-del-embarazo",
+      "order": 3,
+      "title": "Cambios fisiologicos del embarazo",
+      "sourcePages": [
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "markdown": "<!-- p:306 -->\n\n### Cambios del útero\n\n- Aumento del volumen total\n\n- Aumento de la longitud\n\n- Aumento de peso\n\n- Aumento de la capacidad\n\nContractilidad uterina\n\n- Contracciones de braxton hicks------ y contracciones que se tornan regulares al\n\nFinal del embarazo, que terminan en trabajo de parto (semana 37 en adelante)\n\nCambios del cuello uterino\n\n- Resblandecimiento\n\n- Cuello congestivo-violaceo\n\n- Produccion de moco cervical----tapon mucoso\n\nCambios de ovarios y trompas----- + irrigado\n\n- Aumento de la produccion de progesterona por el cuerpo luteo.\n\n- Aumento del calibre de vasos ovaricos y de las trompas.\n\n### Cambios de vagina y periné\n\n- Mas vascularizado\n\n- Aumento de secreciones\n\n- Cambio de coloracion (signo de chadwick)\n\n- Engrosamiento de paredes vaginales\n\n### Cambios de glándulas mamarias\n\n- Aumento de tamaño\n\n- Aumento de la sensibilidad\n\n<!-- p:307 -->\n\n- Cambio de la coloracion de la areola y el pezon\n\n- Pezones erectiles\n\nCambios cardiovasculares\n\n- Corazón:\n\n- Aumento de frecuencia cardiaca\n\n- Aumenta el gasto cardiaco\n\n- Desdoblamiento del 1er ruido\n\n- Aumento de la masa ventricular izquierda con aumento del volumen sistolico\n\nVolumen hemático\n\n- Aumento del volumen hematico 45%\n\n- Disminucion del hematocrito y hemoglobina\n\n- Aumento del plasma y los hematies en  450ml\n\n- Leucocitosis (embarazo 15000 / parto 25000)\n\nCirculación\n\n- Disminucion de la presion arterial la primera mitad\n\n- Aumenta la presion arterial en la segunda mitad\n\n- Sindrome de hipotension supina (vena cava inferior)\n\nCoagulación sanguínea\n\n- Aumento del fibrinogeno\n\n- Aumentan factores de coagulacion VII, VIII, IX y X\n\n- Se acorta el TP y el kptt\n\n<!-- p:308 -->\n\nCambios del aparato respiratorio\n\n- Elevacion del diafragma mayor de 4 CM\n\n- Aumento del diametro transverso\n\n- Aumento del volumen respiratorio por minuto\n\n- Disminuye la capacidad vital pulmonar\n\n- Disminuye el volumen residual\n\nCambios del tracto digestivo\n\n- Desplazamiento visceral\n\n- Disminuye el tono y motilidad intestinal\n\n- Prolongacion de vaciamiento gastrico\n\n- Aparecen hemorroides\n\n- Nauseas y vomito\n\nCambios del hígado y vías biliares\n\n- Aumento de fosfatasa alcalina\n\n- Dismininucion de la produccion y concentraccion de la albumina\n\n- Ectasia biliar\n\n- Dilatacion e hipotonia de las paredes vesicales\n\n- Puede presentar litiasis renal\n\nCambios del sistema urinario\n\n- Aumento del tamaño renal\n\n- Aumento de la filtracion glomerular\n\n- Disminucion de la osmolaridad urinaria\n\n- Dilatacion e hipotonia de sistemas colectores con hidronefrosis y hidroureter\n\n<!-- p:309 -->\n\n- Cambios del peso corporal\n\n- Aumento de 9.5 – 11kg\n\n- Feto: 3000 gramos\n\n- Placenta: 400 gramos\n\n- Liquido amniotico: 200 gramos\n\n- Materno: útero 1000 gramos, mamas 800 gramos, liquido de volumen\n\nHematico 1.5 kg\n\nCambios del metabolismo de hidratos de carbono aumento de los niveles de insulina (hipoglucemia) 1° mitad--- anabolismo, lipogenesis y sintesis proteica 2° mitad: catabolismo, lipolisis e hiperglucemia\n\nCambios del metabolismo hídrico aumento de los liquidos (embarazo) placenta, liquido amniotico y feto: 3.5 litros volumen hematico materno, tamaño uterino, mamas: 3 litros\n\nCambios de los minerales calcio disminuye durante el tercer trimestre aumento de los requerimientos de hierro\n\nCambios en el equilibrio acido-base\n\n- Alcalosis respiratoria compensatoria\n\n- Disminucion de la osmolaridad serica\n\n<!-- p:310 -->\n\nCambios de las glándulas endocrinas\n\n### Hipofisis\n\n- Aumento de tamaño\n\n- Disminucion de la hormona de crecimiento\n\n- Aumento de la prolactina hipofisiaria\n\n### Tiroides\n\n- Aumento levemente del tamaño\n\n- Aumento del metabolismo basal\n\n- Cambios del sistema musculoesqueletico\n\nLordosis pronunciada----orgullo de la embarazada\n\n- Cambios de la piel\n\n- Hiperpigmentacion---aumento de progesterona---melasma o cloasma gravidico\n\n- Lesiones vasculares\n\n(formacion de nuevos vasos sanguineos)\n\n- Eritema palmar (aumento del volumen circulante)\n\n- Hemangiomas\n\n- Estrias por distension\n\n- Hirsutismo\n\nCambios del SNC y periférico\n\n- Sindrome del tunel carpiano por edema\n\n- Alteraciones del sueño"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/cancer-de-cervix",
+      "slug": "cancer-de-cervix",
+      "order": 4,
+      "title": "Cancer de cervix",
+      "sourcePages": [
+        311,
+        312,
+        313,
+        314,
+        315,
+        316
+      ],
+      "markdown": "<!-- p:311 -->\n\n- El cancer de cervix es causado por el HPV en 99% de los casos.\n\n### Desencadenantes\n\n- Alcohol\n\n- Tabaco\n\n- Inmunodepresion\n\n- Enfermedad de transmision sexual\n\n- Multiples parejas\n\n- Sexarca precoz\n\n- Papiloma virus humano:\n\n- 16-18---------- cancer de utero\n\n- 6-11: ------- condilomas\n\n- Cancer prevenible---vacuna cuadrivalente que se indica en el PAI\n\n- A los 10 años en hombre y mujeres 1 sola dosis\n\n### Conceptos importantes\n\n- Endocervix: ----epitelio glandular\n\n- Ectocervix: -----epitelio escamoso\n\n- Union escamo columnar: ----union de epitelios\n\n- Ectopia: salida de epitelio escamo columnar\n\n- Metaplasia escamosa: -----hay ectopia\n\n- Zona de transformacion: area donde metaplasia escamosa ocurre\n\n<!-- p:312 -->\n\n- Propagacion del tumor:\n\n- Hematica\n\n- Linfatica\n\n- Diseminacion directa\n\n### Clinica\n\nAsintomatico\n\n### En estadios avanzados\n\n- Dolor\n\n- Leucorrea fetida\n\n- Perdida de peso\n\n- Sinusorragia\n\n### Diagnostico\n\n1. Anamnesis + examen fisico +colpocitologia.\n\n2. Colposcopia\n\n3. Biopsia dirigida + estudio histopatologico\n\n- Diagnostico con colposcopia y biopsia\n\n- Test del acido acetico---area blanquecina\n\n- Test de schiller (lugol)----area que no marca iodo-povidona\n\n- Hallazgos:\n\n- Vasos atipico\n\n- Puntillado\n\n- Acetoblanca\n\n- Puntillado grosero.\n\n- Colposcopia insatisfactoria-----evaluar canal endocervical\n\n<!-- p:313 -->\n\nColpocitologia cuando se toma la muestra?\n\n- 1 vez por año y despues de 2 negativos, hacer toma cada 3 años\n\n- Mujer: de 25 a 64 años o en el inicio de las relaciones sexuales\n\n- Paciente con VIH:\n\n- Cada 6 meses en el 1er año, despues anualmente.\n\nCon cd4<200 mantener cada 6 meses\n\n- Mujer virgen no se toma muestra\n\n### Como se toma la muestra\n\n- Endocervix: cepillo o citobrush\n\n- Exocervix: espatula de ayre\n\nMujer histerectomizada\n\n- Histerectomia total por lesion benigna---no continuar el rastreo\n\n- Histerectomia parcial---se mantiene el rastreo\n\n![Figura 1](/resumen/gineco-obstetricia/p313-1.webp)\n\n<!-- p:314 -->\n\n### Como conducir\n\n- Lesion de bajo grado—lsil (nic1): repetir examen\n\n- Si > de 25 años (en 6 meses).\n\n- Si menor de 25 años (en 3 años).\n\n- Si despues de repetir, viene lesion igual o mas grave -----colposcopia\n\n- Si asc-us (probablemente no maligno) ---- se repite el estudio en 6 meses. Si el estudio viene\n\nIgual o peor ------ colposcopia.\n\n- Si asc-H (alta chance de neoplasia) ------- colposcopia.\n\n- Si agc (agus o atipia glandular) ------ colposcopia\n\nAlto Grado-hsil- (NIC 2 o NIC 3, Carcinoma endocérvix. Insitu ----colposcopia\n\n- Aoi (atipia de origen indeterminada) -- colposcopia\n\n- Hiv + lsil + ac-us-----colposcopia.\n\n- Colposcopia sirve para direccionar la biopsia ----- hallazgo sospechoso se\n\nRealiza biopsia\n\n- Mujer con >30 años y lesion glandular, evaluar el endometrio tambien.\n\n- Mujer embarazada, tiene que hacerse biopsia si hay sospechas de invasion.\n\nTratamiento de lesiones intraepiteliales\n\n- NIC 1: expectante por 2 años: crioterapia, laser, cauterizacion.\n\n- NIC 2: exeresis (conizacion con bisturi frio o leep).\n\n- Conizacion: retirar pedazo mas profundo y mayor\n\n- Conizacion con electrocauterio: es ambulatorial---leep\n\n<!-- p:315 -->\n\n- Tratamiento del cancer de cervix uterino----clasificacion de la figo 2018\n\n- 0: carcinoma in situ: NIC 3 (intraepitelial)----leep o conizacion-diagnostico y\n\nTerapeutico\n\n- 1 compromete el cuello\n\n- 1 a1: microscopico (hasta 3mm de profundidad): conizacion clasica (con bisturi)\n\n- 1 a2: macroscopico (3 a 5 MM de la profundidad): histerectomia tipo\n\n2+linfadenectomia pelvica\n\n- 1 b1: lesiones menores de 4 CM: histerectomia tipo 3 (radical)\n\n- 1b2: lesiones mayores a 4 CM - histerectomia tipo 3 (radical)\n\n2: compromete e invade vagina (puede afectar cervix y pelvis).\n\n- 2a: tercio superior de la vagina histerectomia tipo 3 (radical)\n\n- 2b: parametrios ----- radioterpia y quimioterapia (no es mas quirurgico).\n\n3. Compromete la pared pelvica\n\n- 3a: tercio inferior de la vagina--- radioterapia y quimioterapia\n\n- 3b: extension a pelvis osea/ hidronefrosis ---- radioterapia y quimioterapia\n\n- 3c1:  linfonodo pelvico\n\n- 3c2:   linfonodo paraortico\n\n![Figura 2](/resumen/gineco-obstetricia/p315-1.webp)\n\n<!-- p:316 -->\n\n4. Metastasis a distancia:\n\nCompromete vejiga, recto----- radioterapia y quimioterapia\n\n- Condilomas:\n\n- Laser y cauterizacion: ---si lesion extensa\n\n- Acido tricloroacetico: no en el embarazo\n\n- Podofilino: ---si en el embarazo"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/cancer-de-mama",
+      "slug": "cancer-de-mama",
+      "order": 5,
+      "title": "Cancer de mama",
+      "sourcePages": [
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323
+      ],
+      "markdown": "<!-- p:317 -->\n\n### Definicion\n\nProliferacion maligna de celulas epiteliales del margen de los ductos y lobulos mamarios.\n\n- Principal causa de cancer en mujeres de mas de 50 años\n\n### Historia natural\n\n1. Epitelio normal\n\n2. Hiperplasia epitelial tipica\n\n3. Hiperplasia epitelial atipica\n\n4. Carcinoma intraductal-----in situ o intralobular in situ\n\n5. Carcinoma invasor\n\n- Metastasis:\n\n- Mama contralateral\n\n- Huesos\n\n- Pleura\n\n- Pulmones\n\n- Higado\n\n![Figura 1](/resumen/gineco-obstetricia/p317-1.webp)\n\n<!-- p:318 -->\n\n### Factores de riesgo\n\nExceso de estrogenos\n\nSexo femenino edad >40 años antecedentes de cancer de mama historia familiar mutacion brca 1 y 2, otros p53, cerb, ras lesion de riesgo: hiperplasia ductal atipica/hiperplasia lobular atipica.\n\n### Exposicion a estrogenos\n\n- Nuliparidad\n\n- Dieta rica en grasa\n\n- Menopausia tardia\n\n- Menopausia precoz\n\n- Terapia hormonal de sustitucion/ anticonceptivos\n\n- Rastreo--------mamografia ----incluso si se utiliza protesis\n\n- Poblacion de alto riesgo:\n\n1. Familiar de 1er grado, con antecedente de cancer antes de los 50 años.\n\n2. Familiar de 1er grado con historia de cancer de ovario o cancer de mama bilateral.\n\n3. Familiar masculino---con historia de cancer.\n\n4. Lesiones atipicas o cancer lobular in situ.\n\n<!-- p:319 -->\n\n5. Mutacion brca1 y brca 2.\n\n6. Radioterapia entre 10 – 30 años de edad.\n\n- Mamografia:\n\n- Microcalcificaciones espiculares pleomorficas\n\n- Nodulos espiculados-----biopsia\n\n![Figura 2](/resumen/gineco-obstetricia/p319-1.webp)\n\n<!-- p:320 -->\n\n- Ecografia de las mamas:\n\n- Mixto: solido/quistico----heterogeneo\n\n- Sombra acustica posterior\n\n- Diametro antero-posterior mayor\n\n![Figura 3](/resumen/gineco-obstetricia/p320-1.webp)\n\n<!-- p:321 -->\n\n### Rastreo pueder\n\n- -anual o cada 2 años -----con mamografia a partir de los 40/50 a 69 años.\n\n- -poblacion de alto riesgo tiene que rastrear antes de los 40 años.\n\n### Tratamiento\n\n### Cirugia conservadora\n\n- In situ----<20 % de la mama------segmentectomia/ cuadrantectomia.\n\n+ radioterapia adjuvante pos operatoria.\n\n### Cirugia radical/mastectomia\n\n20% de la mama, multicentrico o contraindicacion de conservadora.\n\n- Simples---sin vaciamiento axilar----solo retira mama y piel.\n\n- Halsted----- retira los 2 pectorales—radical—con o sin vaciamiento axilar.\n\n- Patey-----retira el pectoral menor con o sin vaciamiento axilar.\n\n- Madden-----deja los 2 pectorales con o sin vaciamiento axilar.\n\n- Si el tumor es infiltrante--- ductal o lobular invasor== evaluar la\n\nAxila\n\n- Biopsia de ganglio centinela-----primer ganglio que drena en la region axilar.\n\n- Si es negativo: --------evitar diseccion axilar radical\n\n- Si es positivo: pero solo con 2 ganglios---se puede evitar el vaciamiento clasico\n\n![Figura 4](/resumen/gineco-obstetricia/p321-1.webp)\n\n<!-- p:322 -->\n\n- No se hace la biopsia si el\n\nGanglio e palpable o el tumor es localmente avanzado\n\n- Vaciamiento axilar radical complicaciones:\n\n- Escapula alada---lesion del nervio toracico largo---inerva serrato anterior alteraciones\n\nSensitivas en la cara medial del brazo\n\nReceptores de estrogeno y progesterona + y her-2------favorece muchas terapeuticas.\n\n- Cuando se hace quimioterapia adyuvante----6 a 8 ciclos—tumores mayores\n\n- Tumores >1 CM\n\n- Ganglio positivo\n\n- Metastasis hematogenica\n\n- Superexpresion del her-2\n\n- Receptor hormonal negativo\n\n- Quimioterapia neoadyuvante:\n\n- Para reducir el tamaño del tumor\n\n- Tumor localmente avanzado\n\n- Para evitar hacer despues de la cirugia\n\n- Radioterapia adyuvante-----solo despues de la quimioterapia.\n\n<!-- p:323 -->\n\n- Hormonoterapia------ despues de la quimioterapia\n\n- Sin receptor hormonal----mal pronostico.\n\n- Si receptor positivo----tamoxifeno en la premenopausia.\n\nO inhibidores de la aromatasa por 5 años\n\n- Trastuzumabe---en la sobrexpresion del her-2---peor pronostico y agresividad.\n\n![Figura 5](/resumen/gineco-obstetricia/p323-1.webp)"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/control-prenatal",
+      "slug": "control-prenatal",
+      "order": 6,
+      "title": "Control prenatal",
+      "sourcePages": [
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "markdown": "<!-- p:324 -->\n\n### Definición\n\nSerie de entrevistas realizadas de la embarazada con integrantes del equipo de salud, con el objetivo de vigilar la evolucion del embarazo y preparacion para el trabajo de parto.\n\nObjetivos\n\n- Detectar enfermedades maternas subclinicas\n\n- Prevencion\n\n- Diagnostico temprano y tratamiento de las complicaciones del embarazo\n\n- Vigilancia del crecimiento y la vitalidad fetal\n\n- Numero de entrevistas: 5 a 6 controles\n\n### Semanas de consultas\n\n- 1 consulta en el primer trimestre\n\n- 2 consultas en el segundo trimestre\n\n- 3 en el tercer trimestre\n\nEmbarazo de alto riesgo es aquel donde la vida de la madre o del feto o del recien nacido, tiene mayor dificultades de ser conseguidas que la media poblacional, los factores son:\n\n1. Factores sociodemograficos\n\n2. Edad<15->35 años\n\n3. Cirugias previas, perdidas de embarazos, tecnicas de reproduccion asistida\n\n4. Intercurrencias en el embarazo actual: anemia, ITU, ganancia de peso.\n\n5. Alteraciones fetales\n\n6. Hipertension arterial, les, saaf, DM, enfermedad autoinmune\n\n<!-- p:325 -->\n\n### Se abre carnet prenatal\n\nAnamnesis con historia clinica obstetrica------ (gpace)\n\n- Retardo del crecimiento intrauterino\n\n- Trastornos hipertensivos\n\n- Aborto\n\n- Conducta sexual\n\n- Anticonceptivos------que utiliza\n\n- Antecedentes clinicos y quirurgicos\n\n- Infecciones durante el embarazo y parto\n\n- Tipo de nutricion e higuiene\n\nHistoria psicosocial\n\n- Tabaquismo -----RCIU\n\n- Drogas\n\n- Alcohol-----sindrome alcoholico fetal\n\n### Examen físico\n\nExamen odontológico ganancia de peso (9 – 14 kilos) normal presión arterial (todas consultas del prenatal)\n\n- HTA > o igual 140/90 mmhg\n\n- Hipotension < 95/55 mmhg\n\n<!-- p:326 -->\n\nManiobras de leopold\n\n- Examen de mama (primera consulta)\n\n- Pezones\n\n- Mastitis\n\n- Patologia tumoral benigna o maligna\n\n• examen ginecológico\n\n- Inspeccion\n\n- Papanicolau----colposcopia/biopsia\n\n• consulta prenatal\n\n- Presion arterial (rastreo)\n\n- Edad gestacional\n\n- Peso materno\n\n- Altura uterina\n\n- Maniobras de leopold\n\n- Frecuencia cardiaca fetal\n\n- Movimientos fetales\n\n<!-- p:327 -->\n\n- Signos de alarma\n\n- Antropometria fetal por ecografia\n\nPerimetro craneal diametro biparietal perimetro abdominal longitud del femur longitud cefalocaudal\n\nExámenes de laboratorio\n\n- Hematocrito/hemoglobina ----descartar anemia materna y fetal\n\n- Glucemia ------- diabetes gestacional (la primera consulta).\n\n- Ptog 75g -----(24 – 28 semanas)\n\nFactor rh/coombs indirecto /tipo sanguineo\n\n- Detectar incompatibilidad materna-fetal (vacuna gamaglobulina anti-D)\n\n- 28 semanas\n\n- Hasta 72 horas postparto\n\n![Figura 1](/resumen/gineco-obstetricia/p327-1.webp)\n\n<!-- p:328 -->\n\nUrocultivo/examen general de orina ver infeccion subclinica, evitar aborto, parto prematuro, enfermedades cronicas.\n\nPapanicolau----hasta 1 mes antes del trabajo de parto\n\n- Hacer colposcopia y biopsia\n\n- Infecciones:\n\n- Hepatitis B-antigeno de superficie\n\n- Sífilis\n\n- Vdrl-rpr-------- (no treponemicos)\n\n- Fta-abs/tpha (treponemicas)\n\n- VIH (primera consulta)\n\n- Rubeola (rastrea en el primer trimestre) ---- no vacunar a la paciente\n\nAborto – obito fetal retraso mental hipoacusia perdida de vision cardiopatia congenita\n\n- Enfermedad de Chagas\n\nPrematuridad bajo peso al nacer\n\n- Paludismo-----cloroquina/hidroxicloroquina\n\nRetardo del crecimiento intrauterino aborto\n\n<!-- p:329 -->\n\n- Toxoplasmosis (1° trimestre y 3er trimestre) ---elisa igm-igg\n\n(espiramicina/sulfadiazina/pirimetamina/ac.folico)\n\n- Aborto\n\n- Coriorretinitis\n\n- Perdida de vision\n\n- Microcefalia\n\n- Hidrocefalia\n\n• estreptococo B (causa de sepsis neonatal) –ampicilina- penicilina se rastrea en semana 35 – 37 semana de embarazo\n\n• profilaxis (vacunacion neonatal) antitetanica (toxoide tetanico) prevencion de tetanos neonatal y puerperal (2 dosis de vacuna)\n\n• rastreo prenatal-----ecografia transabdominal-11/14sem\n\n- Sindrome de down\n\n- Sindrome de edwards\n\n- Espina bifida (defecto del tubo neural)\n\n<!-- p:330 -->\n\n- Controles prenatales que se realizan (4- 6 controles)\n\n- Estudios que se pide en la primera consulta:\n\n1. Test de embarazo ---sangre\n\n2. Ecografia:\n\n- Ver edad gestacional---hasta la semana 10.\n\n- Morfologica---1er trimestre—11 semanas hasta 14.\n\n- Morfologico del 2trimestre---20-24 semanas\n\n- 3er trimestre----evalua crecimiento fetal\n\n3. Funcion renal (urea /creatinina)\n\n4. Rastrear enfermedades infecciosas\n\n- Recomendaciones:\n\n- Asistir al control prenatal pactado\n\n- Asistir al odontologo\n\n- Alimentacion balanceada\n\n- Higuiene\n\n- Evitar actividad fisica controlada\n\n- Evitar consumo de medicamentos, alcohol, tabaquismo, drogas\n\n- Administrar hierro y acido folico-----2 meses antes del embarazo.\n\n- Vacunas: antitetanica, influenza, anticoronavirica, dtpa\n\nAntihepatitis B, COVID"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/cesarea",
+      "slug": "cesarea",
+      "order": 7,
+      "title": "Cesarea",
+      "sourcePages": [
+        331,
+        332
+      ],
+      "markdown": "<!-- p:331 -->\n\n### Definicion\n\nEs la extraccion del producto de la concepcion por via abdominal y por medio de histerotomia con un feto con de mas de 20 semanas de gestacion y talla mayor a 25 CM, peso mayor a 500 gramos.\n\n### Tipos de inscision en la piel\n\n- Longitudinal: medial/ paramedial (en pacientes hemodinamente inestable)\n\n- Transversa: phfamnestiel.\n\n### Indicaciones de cesarea\n\n- Relativas:\n\n- VIH\n\n- Embarazo cronologicamente prolongada\n\n- Condilomatosis vulvovaginal extensa\n\n- Trastornos psiquiatricos\n\n- Antecedentes de perdida fetal recurrente\n\n- Herpes genital\n\n- Embarazo gemelar\n\n- Podalico\n\n- Absolutos:\n\n- Rotura uterina\n\n- Sufrimiento fetal agudo\n\n- DPPNI\n\n- Placenta previa oclusiva total sangrante\n\n- Desproporcion cefalo pelvica\n\n- Situacion transversa\n\n<!-- p:332 -->\n\n- Cesareas anteriores\n\n- Eclampsia/ sindrome de hellp\n\n![Figura 1](/resumen/gineco-obstetricia/p332-1.webp)"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/desprendimiento-prematuro-de-placenta-normoinserta",
+      "slug": "desprendimiento-prematuro-de-placenta-normoinserta",
+      "order": 8,
+      "title": "Desprendimiento prematuro de placenta normoinserta",
+      "sourcePages": [
+        333,
+        334,
+        335
+      ],
+      "markdown": "<!-- p:333 -->\n\n### Concepto\n\nSeparacion de la placenta normoinsertada despues de la semana 20 de gestacion y antes de la salida del feto, con mortalidad materna y fetal importante.\n\n### Clasificacion\n\nPage—categoriza la hemorragia\n\n- Grado o: asintomatico –coagulo\n\n- Grado 1: leve, sangrado discreto, sin hipertonia -<150 ML\n\n- Grado 2: intermediario----sangrado moderado con hipertonia.150-500ml\n\n- Grado 3: grave----sangrado intenso, con obito fetal.>500ml\n\n3a: sin coagulopatia 3b: con coagulopatia.\n\n- Factor de riesgo:\n\n- HTA--- (principal)\n\n- Trauma abdominal\n\n- Retraccion uterina subita/ intensa (polihidramnios-gemelar)\n\n- Rpmo-corioamnionitis\n\n- Tabaquismo\n\n- Cocaina\n\n- Edad>35 años\n\n<!-- p:334 -->\n\n### Fisiopatologia\n\nPlacenta se desprende----hemorragia decidual+hematoma/coagulo retroplacentario+ consumo de factores de coagulacion---sangre irrita\n\nMiometrio----causando hipertonia-contracciones----hipotonia postparto--cid\n\n### Cuadro clinico\n\n- Sangrado rojo oscuro---subito (oculto 20%)\n\n- Dolor abdominal-----puede haber parto rapido (avalancha)\n\n- Hipertonia uterina\n\n- Hipertension arterial\n\n- Sufrimiento fetal\n\n- Obito fetal.\n\n- Hemoamnio\n\n### Diagnostico\n\n- Clinico----lo mas importante y terminacion rapida de la gestacion\n\n- Ecografia-----solo realizar si hay dudas con placenta previa\n\n- Examenes complementares:\n\n- Sirven para evaluar gravedad del cuadro—no para diagnostico\n\n- Hemograma\n\n- Tipo sanguineo\n\n- Coagulograma\n\n- Examenes de rutina para enfermedad hipertensiva\n\n<!-- p:335 -->\n\n- Conducta:\n\n- Recordar si bolsa integra hacer amniotomia, para disminuir presion.\n\n- Feto vivo: cesarea de urgencia (mas frecuente).\n\n- Feto muerto: via vaginal, si cuello permeable, si no esta permeable----cesarea.\n\n- Realizar amniotomia para:\n\n- Reducir compresion de la cava inferior\n\n- Para evitar ampliacion del desprendimiento\n\n- Mejora hipertonia y acelera trabajo de parto---puede hacerse antes de la cesarea\n\n- Evidencia hemoamnio\n\n- Disminuye la presion intrauterina\n\n- Disminuye el riesgo de coagulopatia\n\n### Complicaciones\n\n- Shock hipovolemico\n\n- Insuficiencia renal aguda\n\n- Sindrome de sheehan (infarto hipofisiario)\n\n- Coagulacion intravascular diseminada\n\n- Utero de couvalaire\n\n### Atonia uterina\n\nMasaje de hamilton oxitocina misoprostol ergometrina B-lynch\n\n- Balon de bakry\n\n- Histerectomia"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/embarazo-ectopico",
+      "slug": "embarazo-ectopico",
+      "order": 9,
+      "title": "Embarazo ectopico",
+      "sourcePages": [
+        336,
+        337,
+        338
+      ],
+      "markdown": "<!-- p:336 -->\n\n### Conceptos\n\nEs la implantacion del blastocisto fuera de la cavidad uterina, pudiendo implantarse en: trompa de falopio (ampular), cervix uterino, ovarico, intersticial, abdominal.\n\n### Factores de riesgo\n\n- Enfermedad inflamatoria pelvica/adherencias\n\n- Citrato de clomifeno\n\n- Tabaquismo\n\n- Uso de diu\n\n- Cirugia tubaria embarazo ectopico previo\n\n- Endometriosis\n\n- Reproduccion asistida\n\n### Clinica\n\nAmenorrea+ dolor abdominal+ sangrado transvaginal (50%) podria haber: masa anexial palpable.\n\n- Embarazo ectopico roto====abdomen agudo hemorragico\n\n- Clinica:\n\n- Sangrado abundante-----shock hipovolemico\n\n- Defensa muscular/irritacion peritoneal\n\n### Signos\n\n- Signo de lafont (irritacion peritoneal y dolor en hmbro derecho)\n\n- Signo de Blumberg\n\n- Signo de cullen\n\n- Signo de proust-----dolor al tacto vaginal al comprimir saco de douglas.\n\n<!-- p:337 -->\n\n### Diagnostico\n\nClinica+ gonadotrofina corionica humana (>1500) + ecografia transvaginal.\n\n- Ecografia transvaginal:\n\nDoplervelocimetria- anillo tubario- saco gestacional.\n\n### Tratamiento\n\n### Variables\n\nEstabilidad hemodinamica beta hcg baja<1000 saco gestacional< 3,5cm\n\n### Medicamentoso\n\n- Si estabilidad hemodinamica\n\n- Beta hcg <5000\n\n- Saco gestacional (<3,5)\n\n- Trompa integra\n\n- Embrion sin fetocardia\n\n- Metotrexate---dar acido folico---se aplica de forma invasiva al saco gestacional o\n\nPor via intramuscular.\n\n### Cirugia conservadora (salpigostomia)\n\nTrompa integra+ deseo reproductivo+ estabilidad hemodinamica.\n\n<!-- p:338 -->\n\n- Cirugia radical (salpinguectomia):\n\nTrompa rota+embarazo ectopico recurrente+inestabilidad hemodinamica + paridad satisfecha."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/enfermedad-inflamatoria-pelvica",
+      "slug": "enfermedad-inflamatoria-pelvica",
+      "order": 10,
+      "title": "Enfermedad inflamatoria pelvica",
+      "sourcePages": [
+        339,
+        340,
+        341,
+        342
+      ],
+      "markdown": "<!-- p:339 -->\n\n### Concepto\n\nInflamacion/infeccion del endometrio, trompas de falopio, ovarios, con dolor pelvico, por germenes contraidos por via sexual: gonococo y clamidias y agentes polimicrobianos.\n\n### Factores de riesgo\n\n- Enfermedad de transmision sexual previa.\n\n- Sexarca precoz\n\n- Multiples parejas\n\n- Usuaria de diu.\n\n### Diagnostico\n\n3 mayores + 1 menor o 1 elaborado (que puedo ver).\n\n1. Criterios mayores: 3 dolores\n\nDolor hipogastrico. Dolor anexial. Dolor a la movilizacion del cervix.\n\n2. Criterios menores: ----señal de infeccion clinica o laboratorial.\n\n- Fiebre\n\n- Leucocitosis\n\n- VHS/PCR\n\n- Cervicitis\n\n- Comprobacion de gonococo, clamidia o micoplasma\n\n<!-- p:340 -->\n\n3. Criterios elaborados-----podemos ver la enfermedad.\n\n- Endometritis en la biopsia.\n\n- Abceso tubo-ovarico o en el fondo de saco------fundamental ecografia tv\n\n- Enfermedad en la laparoscopia.\n\n### Tratamiento\n\n### Clasificacion de monif\n\n- Hospitalizar: siempre\n\n- Embarazo\n\n- Ausencia de mejoria despues de 72 horas.\n\n- Baja adhesion al tratamiento\n\n- Estado general grave\n\n- Inmunocomprometidos\n\n### Esquemas\n\n- Tratamiento ambulatorial\n\nCeftriaxona------500 MG dosis unica. Metronidazol 500 cada 12hrs por 14 dias doxiciclina 100 MG cada 12 HRS por 14 dias\n\n- Tratamiento hospitalar\n\nCeftriaxona 1 gr EV por 14 dias metronidazol 400 MG cada 12 HRS por 14 dias\n\n<!-- p:341 -->\n\nDoxiciclina 100 MG cada 12 HRS por 14 dias clindamicina 900 MG cada 8 HRS EV gentamicina 2 MG KG + 1,5 MG KG cada 8 HRS\n\n- Tratamiento quirurgico: ----hacer laparoscopia\n\n- Falla del tratamiento clinico\n\n- Masa pelvica que persiste\n\n- Sospecha de rotura de abceo tubo ovarico\n\n- Abceso en el fondo de saco de douglas.\n\n- Hemoperitono\n\n### Complicaciones\n\n### Precoz\n\n- Abceso tubo-ovarico\n\n- Fase aguda del sindrome de fitz huhg curtis—exudado purulento en la capsula de\n\nGlisson.\n\n- Shock septico: muerte.\n\n### Tardias\n\n- Dispareunia\n\n- Dolor pelvico cronico\n\n- Infertilidad\n\n- Embarazo ectopico\n\n- Adherencias peritoneales.\n\n### Diagnostico diferencial\n\n- ITU\n\n- Embarazo ectopico\n\n<!-- p:342 -->\n\n- Apendicitis aguda\n\n- Quiste ovarico\n\n- Salpingitis\n\n- Torsion de ovario"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/enfermedades-de-transmision-sexual",
+      "slug": "enfermedades-de-transmision-sexual",
+      "order": 11,
+      "title": "Enfermedades de transmision sexual",
+      "sourcePages": [
+        343
+      ],
+      "markdown": "<!-- p:343 -->\n\n### Podemos clasificarlas\n\n- Vulvovaginitis---vaginosis---candidiasis—tricomoniasis---citolitica\n\n- Cervicitis-----uretritis---eip---gonococo—clamidia.\n\n- Ulceras----sifilis—chancro blando---herpes---linfogranuloma-donovaniosis\n\n- Virales----hiv----HPV---hepatitis B y C\n\n- Secrecion habitual durante la menacme:\n\n- Acidez vaginal -----PH <4,5\n\n- Lactobacilos\n\n- Pelos abundantes\n\n- Muco cervical\n\n- Investigacion de la leucorrea:\n\n1. Examen especular---leucorrea vaginal\n\n2. Microscopia directa----secrecion recolectada en la especuloscopia\n\n3. Test del PH\n\n4. Test de aminas o test de whiff----se coloca hidroxido de potasio"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/vaginosis-bacteriana",
+      "slug": "vaginosis-bacteriana",
+      "order": 12,
+      "title": "Vaginosis bacteriana",
+      "sourcePages": [
+        344
+      ],
+      "markdown": "<!-- p:344 -->\n\nCausa: polimicrobiana\n\n- Gardnerella\n\n- Bacteroides\n\n- Mobilincus\n\n- Mycoplasma hominis\n\n- Peptoestreptococo\n\n### Cuadro clinico\n\nGeneralmente asintomaticas.\n\n- Mal olor que empeora con la relacion sexual\n\n- Leucorrea gris e homogenea.\n\n### Diagnostico\n\nCriterios de amsel\n\n1. Leucorrea----blanco grisacea fina, homogenea.\n\n2. PH vaginal >4,5\n\n3. Test de aminas positivo\n\n4. Microscopio----celulas albo\n\n### Tratamiento\n\nNo tratar a la pareja/evitar alcohol/tratar en el embarazo\n\n- Metronidazol 500mg C/12 rs por 7 dias.\n\n- Metronidazol en crema vaginal 1 vez por noche durante 3 noches"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/candidiasis",
+      "slug": "candidiasis",
+      "order": 13,
+      "title": "Candidiasis",
+      "sourcePages": [
+        345
+      ],
+      "markdown": "<!-- p:345 -->\n\n- Agente Candida albicans/glagrata----episodios mas de 4 por año.\n\n### Factor de riesgo\n\n- Embarazo\n\n- Obesidad\n\n- Corticoides\n\n- Inmunodepresion\n\n- Habitos de higuiene\n\n- Antibioticos\n\n- Diabetes mellitus\n\n- Anticonceptivos dosis alta de estrogeno\n\n### Cuadro clinico\n\n- Prurito-disuria-disareunia-edema-hiperemia\n\n- No presenta mal olor\n\n- Leucorrea blanca, adherida y grumosa.\n\n### Diagnostico\n\n1. Prurito, leucorrea blanca adherida.\n\n2. PH vaginal <4,5\n\n3. Test de aminas negativo\n\n4. Microscopia directa------hifas y pseudohifas.\n\n### Tratamiento\n\n- Miconazol crema 2% por 7 noches.\n\n- Nistatina\n\nCrema 100000 ui en vagina por 14 noches"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/tricomoniasis",
+      "slug": "tricomoniasis",
+      "order": 14,
+      "title": "Tricomoniasis",
+      "sourcePages": [
+        346
+      ],
+      "markdown": "<!-- p:346 -->\n\n- Fluconazol 150 MG dosis unica.\n\n- Itraconazol 100 MG cada 12 HRS, solo 1 dia.\n\n### Candidiasis recurrente\n\n- Fluconazol---- d1 d4 d7\n\n- Itraconazol 1 comp cada 12 HRS por 1 solo dia.\n\n- Miconazol crema 10 a 14 dias\n\n+\n\n- Fluconazol 150 MG 1 vez por semana por 6 meses.\n\n- Miconazol crema 2 veces por semana por 6 meses\n\nOvulo vaginal 1 vez por semana por 6 meses.\n\nAgente: trichomonas vaginalis.\n\n### Cuadro clinico\n\n- Olor fetido\n\n- Colpitis atigrada---cervix en frambuesa---hiperemia\n\n- Leucorrea fetida\n\n### Diagnostico\n\n1. Leucorrea---amarilla/verdosa---cervix hiperemico\n\n2. PH >5\n\n3. Test de aminas puede ser positivo\n\n4. Microscopia-----protozoario movil"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/cervicitis",
+      "slug": "cervicitis",
+      "order": 15,
+      "title": "Cervicitis",
+      "sourcePages": [
+        347
+      ],
+      "markdown": "<!-- p:347 -->\n\n### Tratamiento\n\nTratar a la pareja----rastrear otras ETS—no alcohol\n\nTratar siempre a la embarazada\n\n- Metronidazol 400 MG dosis unica.\n\nMetronidazol 500 mg 1 comprimido cada 12 HRS por 7 dias\n\nAgentes: gonococo- clamidia.\n\n### Factores de riesgo\n\n- Enfermedad de transmision sexual\n\n- Sexarca precoz\n\n- Enf.inflamatoria pelvica\n\n- Pareja con enfermedad de transmision sexual\n\n### Clinica\n\n/diagnostico:\n\n- Leucorrea cervical purulenta\n\n- Cervix hiperemiado/friable\n\n- Sinusorragia\n\n- Dispareunia\n\n### Tratamiento\n\n+ ceftriaxona 500 MG IM dosis unica\n\nAzitromicina 500 MG 2 coprimidos via oral dosis unica. Doxiciclina 100 MG 2 veces por dia por 10 dias"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/chancro-blando",
+      "slug": "chancro-blando",
+      "order": 16,
+      "title": "Chancro blando",
+      "sourcePages": [
+        348
+      ],
+      "markdown": "<!-- p:348 -->\n\n- Complicacion:\n\n- Enfermedad inflamatoria pelvica\n\n- Uretritis\n\n- Cervicitis\n\n- Artritis\n\n- Conjuntivitis\n\n- Epididimitis\n\n- Que es la bartolinitis:\n\nInfeccion de la glandula de bartolino agente---- gonococo, clamidia.\n\n### Clinica\n\nDolor intenso\n\nConducta: drenaje, marsupializacion o bartolinectomia.\n\nAgente: haemophilus ducreyi.\n\n### Clinica /diagnostico\n\n### Diagnostico\n\nBacterioscopia (gram o Giemsa)\n\n### Tratamiento\n\nAzitromicina 500mg 2 comprimidos dosis unia o ceftriaxona.\n\n- Convocar, tratar pareja y rastrear otras patologias\n\nMultiples ulceras dolorosas, de fondo sucio + adenopatia que fistuliza por un orificio."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/herpes-genital",
+      "slug": "herpes-genital",
+      "order": 17,
+      "title": "Herpes genital",
+      "sourcePages": [
+        349
+      ],
+      "markdown": "<!-- p:349 -->\n\n### Agente\n\n- Herpes simple tipo 2 (genital)\n\n- Herpes simple tipo 1 (oral)\n\n### Clinica/diagnostico\n\n- Vesiculas y ulceras dolorosas y limpias\n\n- Adenopatias dolorosa que no fistuliza\n\n- Presentan multiples episodios evolutivos\n\n- Primoinfeccion------mialgia-artralgia, fiebre, escalofrios.\n\n### Metodos /diagnosticos\n\n- Citologia: diagnostico de zanck\n\n- Papanicolau\n\n- Serologia\n\n- Inmunoflurescencia directa\n\n### Tratamiento\n\n- Primoinfeccion/recurrencia:\n\nAciclovir 200 MG,2 comprimidos cada 8 HRS por dia por 7 a 10 dias + sintomaticos.\n\n- Supresion (>6 episodios/año):\n\nAciclovir 200 MG, 2 comprimidos cada 48 HRS por 6 meses.\n\n- Y en la embarazada ----a partir de la semana 36 para reducir la lesion activa, cercana al\n\nParto.\n\n- Lesion herpetica activa----- contraindica trabajo de parto por riesgo de meningoencefalitis,\n\nConjuntivitis y ulcera corneal."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/sifilis",
+      "slug": "sifilis",
+      "order": 18,
+      "title": "Sifilis",
+      "sourcePages": [
+        350,
+        351
+      ],
+      "markdown": "<!-- p:350 -->\n\nAgente: treponema pallidum.\n\n- Formas clinicas: ---siempre tratar a la pareja y rastrear otras infecciones\n\nPrimaria: ---ulcera dura, indolora, unica, desaparece sin tratamiento. Realizar examen por campo oscuro\n\nSecundaria: -----condiloma plano en manos y pies, roseola, sifilides, madarosis. Terciaria: ---- gomas, tabes dorsalis, aneurisma aortico, artropatia de charcot\n\n- Diagnostico laboratorial:\n\n- Treponemico---(fta-abs/ tpha) -----positiva primero\n\nNo treponemico-----(vdrl/ rpr)-positiva en 2 a 3 semana\n\n- Se recomienda -----ambos para el diagnostico, mujer embarazada iniciar tratamiento con\n\nEl primer test positivo.\n\n- Interpretacion serologica:\n\n- Treponemico – y no treponemico -:    no hay sifilis o ventana inmunologica\n\n- Treponemico – y no treponemico +:  inicio de infeccion o curada\n\n- Treponemico + y no treponemico -:   falso positivo\n\n- Treponemico + y no treponemico +:  no tratada o recientemente tratada\n\n- Treponemico---vdrl y rpr -----para rastreo.\n\n- No treponemico---fta-abs/tpha------tiene sifilis o tuvo sifilis.\n\n<!-- p:351 -->\n\n### Tratamiento\n\nOpcion en caso de no sensibilizar: esterato de eritromicina\n\n- Primaria, secundaria, latente reciente (<1 año) ---- penicilina benzatinica 1 a 2,4 millones ui\n\nIntramuscular.\n\n- Terciaria/latente tardia >1 año----penicilina benzatinica 2, 4 millones IM por 3 veces.\n\n- Control de cura:\n\n- Vdrl trimestral---3,6,9,12 meses.\n\n- Vdrl mensual en embarazadas\n\n- -cuando es inadecuado en mujer embarazada:\n\n- Incompleto o con otra medicacion.\n\n- Iniciado antes de 30 dias del trabajo de parto.\n\n- Control de cura\n\nDebe acontecer con la caida en la titulacion de 2 diluciones en hasta 6 meses o 2 diluciones en hasta 12 meses.\n\n- Sospecha de reinfeccion/reactivacion\n\n- Ausencia de caida del vdrl.\n\n- Aumento de dos o mas titulaciones.\n\n- Persistencia o recurrencia de los sintomas.\n\n- Reaccion de jarish-herxheimer\n\n- Muerte del treponema con liberacion de toxinas---empeoramiento de los sintomas--no se\n\nSuspende el tratamiento"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/linfogranuloma",
+      "slug": "linfogranuloma",
+      "order": 19,
+      "title": "Linfogranuloma",
+      "sourcePages": [
+        352
+      ],
+      "markdown": "<!-- p:352 -->\n\nAgente: clamidia trachomatis, serotipos l1, l2, l3\n\n### No confundir\n\nUretritis, cervicitis, enfermedad inflamatoria pelvica---serotipos: D y K.\n\n- Clinica/diagnostico:\n\n- Papula/ulcera indolora + adenopatia dolorosa que fistuliza---multiples orificios\n\n- Metodos diagnosticos posibles:\n\n- Bacterioscopia---inclusiones intracelulares.\n\n- Fijacion del complemento\n\n- Inmunofluorescencia\n\n- Cultivo----celulas de McCoy.\n\n### Tratamiento\n\nTratar a la pareja y rastrear otras enfermedades\n\nDoxiciclina 100 MG cada 12 HRS durante 21 dias. Azitromicina 500 MG 2 comprimidos por semana por 21 dias.\n\n- En embarazada: -----azitromicina 500 MG 2 comprimidos por semana por 21 dias."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/donovaniosis",
+      "slug": "donovaniosis",
+      "order": 20,
+      "title": "Donovaniosis",
+      "sourcePages": [
+        352,
+        353
+      ],
+      "markdown": "<!-- p:352 -->\n\nAgente: klebsiella granulomatis. Clinica/diagnostico: ------cuadro arrastrado ulcera profunda + indolora + y cronica+ cuerpos de Donovan\n\n### Metodos diagnosticos\n\nExtendido con colracion de Wright, Giemsa, Leishman----cuerpos intracelulares\n\n<!-- p:353 -->\n\n### Tratamiento\n\nAzitromicina 500 MG, 2 comprimidos por semana por 21 dias hasta la cicatrizacion. Doxiciclina 100 MG cada 12 HRS por 21 dias o hasta la cicatriz"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/hiperemesis-gravidica",
+      "slug": "hiperemesis-gravidica",
+      "order": 21,
+      "title": "Hiperemesis gravidica",
+      "sourcePages": [
+        354,
+        355,
+        356
+      ],
+      "markdown": "<!-- p:354 -->\n\n### Definición\n\nSindrome gestacional caracterizado por nauseas y vomitos intensos  durante el embarazo, que genera deshidratacion, perdida de peso y cetosis  a lo largo de embarazo.\n\n### Etiología\n\nFactores hormonales        factores infecciosos gonadotrofina corionica elevado       Helicobacter pylori aumento de estrogenos y prolactina aumento de hormonas tiroideas\n\n### Clasificación\n\nHiperemesis gravidica leve\n\n- Sin deshidratacion y perdida de peso corporal es menor a 5 %\n\nHiperemesis gravidica moderada\n\n- Signos de deshidratacion y perdida de peso entre 5-10 %\n\nHiperemesis gravidica severa\n\n- Deshidratacion severa, cetoacidosis, perdida de peso > 10%, oliguria y shock\n\n### Clínica\n\n- Vomitos incohercibles\n\n- Perdida de peso\n\n- Deshidratacion\n\n- Neuralgias, polineuritis -----defeiciencia de vitamina b12\n\n<!-- p:355 -->\n\n### Diagnostico\n\n- Vomitos incohercibles\n\n- Intolerancia parcial o total a la ingesta\n\n- No presenta otra sintomatologia\n\n- Laboratorio:\n\nHipokalemia, hipocloremia, hiponatremia, cetonas en orina, alcalosis metabolica aumento de hormonas tiroideas aumento de transaminasas----necrosis centrolobulillar\n\nCriterios de hospitalización perdida de peso>5% deshidratacion alteraciones electroliticas perdida de peso--- cetosis\n\n- Tratamiento de hiperemesis gravidica\n\n1. Suspension de la ingesta de alimento, reinicio gradual.\n\n2. Liquidos segun tolerancia, tiamina, multivitaminicos y electrolitos\n\n3. Antiemeticos—b6 + doxilamina—prometazina—metoclopramida--ondasetron\n\n4. En casos graves ----- nutricion parenteral\n\n5. Paciente deshidratada: internacion e inicio de 2 litros de ringer lactato pasar en 3\n\nHoras, para mantener diuresis de 100ml/hora\n\n6. Si da dextrosa: iniciar con tiamina 100mg por via EV---prevenir encefalopatia.\n\n7. Tratar deficiencia electrolitica---potasio, magnesio y fosforo.\n\n8. Corticoesteroides----metilprednisolona\n\n<!-- p:356 -->\n\nDéficit de tiamina----encefalopatia de wernicke\n\n- Nistagmus y oftalmoplejia (3°,4° y 6° par craneal)\n\n- Ataxia de la marcha\n\n- Confusion (trastornos psiquiatricos)"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/metodos-contraceptivos",
+      "slug": "metodos-contraceptivos",
+      "order": 22,
+      "title": "Metodos contraceptivos",
+      "sourcePages": [
+        357,
+        358,
+        359
+      ],
+      "markdown": "<!-- p:357 -->\n\nPara contracepcion y contraceptivos\n\n- Naturales\n\n- Temperatura basal ----efecto progestacional—evaluar temp. Todo el mes.\n\n- Amenorrea durante la lactancia (mela)---mas progesterona para ser efectivo\n\n- Ovulacion ----tabla (ogino knaus)\n\n- Moco cervical (billings)----moco elastico + riesgo de concepcion\n\n- De barrera -----evitar enfermedad de trasmision sexual\n\n- Preservativos masculinos y femeninos (97- 98%) ---efectividad\n\n- Diafragma + espermicidas\n\n- Dispositivo intrauterino (T de cobre) diu-----recambio cada 3, 5, 8, 10 años\n\n- Efectos adversos:\n\n- Sangrado anormal---levonorgestrel.\n\n- Sangrado abundante ---dismenorrea\n\n- Contraindicaciones:\n\n- Anomalias anatomicas\n\n- Enfermedad pelvica inflamatoria\n\n- Sangrado vaginal inexplicable\n\n- Embarazo\n\n- Cancer cervical, endometrial\n\n<!-- p:358 -->\n\n- Químicos y hormonales\n\n- -metodos muy seguros\n\n- Pearl<1%\n\n- Inyectables (estrogeno/progesterona)\n\n- Pildoras orales (estrogeno/progesterona) ---se toman durante 21 a 24 dias\n\n- Parches----solo estrogenos\n\n- Anillo vaginal-----libera estrogeno y progesterona\n\n- Implantes subdermicos (implantes de progesterona)\n\n- Diu hormonal----progesterona\n\n- Efectos adversos:\n\n- Sensibilidad mamaria, nauseas, cefalea, amenorrea, sangrado\n\nIntermitente(progesterona), aumento de presion arterial, edema, acne, nerviosismo, aumento de peso.\n\n- Contraindicaciones de anticonceptivos combinados:\n\n- <21 dias posparto\n\n- Trombosis venosa----tromboembolismo pulmonar\n\n- Cancer activo\n\n- Cancer de mama actual\n\n- Inmovilidad prolongada por cirugia\n\n- Migraña con aura\n\n- Tabaquismo mujeres >35 años\n\n<!-- p:359 -->\n\n- Hipertension grave\n\n- Miocardiopatia periparto\n\n- Accidente cerebrovascular\n\n- Definitivos o quirúrgicos\n\n- Ligadura de trompas (salpingoclasia)\n\n- Vasectomia (seccion del conducto deferente)\n\n- De emergencia\n\n- Levonorgestrel (pildora del dia despues)\n\n- Diu liberador de levonorgestrel---insercion dentro de los primeros 5 dias de la relacion\n\nSexual."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/miomas-uterinos",
+      "slug": "miomas-uterinos",
+      "order": 23,
+      "title": "Miomas uterinos",
+      "sourcePages": [
+        360,
+        361,
+        362
+      ],
+      "markdown": "<!-- p:360 -->\n\n### Conceptos\n\nSon tumores benignos, formado de fibras musculares lisas del utero con receptores para estrogeno.\n\n- Son el 95% de los tumores benignos del tracto genital.\n\n- Asintomaticos y frecuentes apartir de los 30 años.\n\n- Son neoplasias monoclonales no cancerosas, que presentan pseudocapsula, estructura\n\nQue facilita reseccion quirurgica.\n\n- Clasificacion según la localizacion:\n\n- Intramurales----+ frecuentes.\n\n- Submucosos\n\n- Subserosos\n\n- Cervicales\n\n- Factores asociados:\n\n- Herencia genetica\n\n- Raza negra>blanca\n\n- Poseer receptores de estrogeno, progesterona, y aromatasa.\n\n- Riesgo:\n\n- Menarca precoz\n\n- Nuliparidad\n\n- Obesidad\n\n- Proteccion:\n\n- Tabaquismo\n\n- Primapara precoz\n\n- Anticonceptivos\n\n<!-- p:361 -->\n\n### Cuadro clinico\n\n- La mayoria son pacientes asintomaticos\n\n- Subseroso------efecto compresivo/dolor pelvica.\n\n- Intramural---sangrado uterino anormal---dismenorrea.\n\n- Submucoso---sangrado uterino anormal---infertilidad.\n\n- Tipo de degeneracion:\n\n- Hialina-----mas frecuente.\n\n- Roja-----dolor abdominal en la gestacion/abdomen agudo en la embarazada.\n\n- Sarcomatosa----aumenta riesgo de cancer.\n\n### Diagnostico\n\n- Examen fisico-----utero aumentado de tamaño, irregular a la palpacion.\n\n- Ecografia transvaginal----nodulos hipoecoicos\n\nPolipo en la ecografia: hiperecogenico mioma en la ecografia: hipoecoico\n\n- Resonancia:\n\n- Mayor precision\n\n- Cuando hay mas de 4 miomas\n\n- Control de tratamiento\n\n- Para la decisión terapeutica\n\n- Clasificar al mioma\n\n- Histeroscopia:\n\n- Decision terapeutica\n\n- Vision del mioma submucoso\n\n- Confirmacion diagnostica\n\n<!-- p:362 -->\n\n- Evalua enfermedad asociadas\n\n- Clasifica el mioma\n\n- Estudio histopatologico con biopsia\n\n- Control de tratamiento y complicaciones\n\n- Tratamiento----- ver sintomas y deseo de gestacion\n\n- Asintomatico <5.5 CM -------no tratar\n\n- Sintomatico con sangrado leve a moderado-----expectante/dar anticonceptivo— de\n\nProgesterona.\n\n- Sintomatico con sangramiento intenso y nulipara----miomectomia.\n\n- Sintomatico con sangrado intenso y multipara-----histerectomia+reseccion\n\nMiomectomia----se fuese submucoso.\n\n- Embolizacion de miomas--- multiples/no pediculados/con deseo de gestacion.\n\n- Medicacion previo para la cirugia:\n\nAnalogo de gnrh---durante 3 meses.\n\n- Reduce el tumor y la anemia.\n\n- Puede complica la salida por reduccion y deshidratar pseudocapsula"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/mola-hidatiforme",
+      "slug": "mola-hidatiforme",
+      "order": 24,
+      "title": "Mola hidatiforme",
+      "sourcePages": [
+        363,
+        364,
+        365
+      ],
+      "markdown": "<!-- p:363 -->\n\n### Conceptos\n\nEs la proliferacion anormal del trofoblasto de la placenta, presentando degeneraciones hidropicas (vesiculas), con produccion excesiva de gonadotrofina corionica humana.\n\n### Clasificacion\n\n- Completa: 1 espermatozoide fecunda—ovulo sin material genetico\n\n(mas complicada) ---beta hcg muy elevada---46xx/xy\n\n- Parcial: 2 o mas espermatozoides normales---fecunda ovulo normal—triploide\n\n(mitad mola hidatiforme y mitad embrion) ---69xxy/XXX/xyy\n\n- Neoplasia trofoblastica gestacional---formas de presentacion\n\n- Mola invasora\n\n- Coriocarcinoma\n\n- Tumor del sitio placentario\n\n### Factores de riesgo\n\n- Edad >40 años\n\n- Mola anterior\n\n- Inseminacion artificial\n\n- Tabaquismo\n\n- Abortos previos\n\n### Clinica\n\n- Sangrado intermitente---con salida de vesiculas.\n\n- Utero blando y aumentado de tamaño\n\n- Hiperemesis----vomitos excesivos\n\n- Clinica de hipertiroidismo y aumento de la presion arterial\n\n<!-- p:364 -->\n\n- Ecografia transvaginal:\n\nImagen en tormenta de nieve o racimo de uvas\n\n- Quistes tecaluteinicos.\n\n### Laboratorio\n\n- Beta hcg elevada >200000 mui/ML\n\n### Diagnostico\n\nClinica+ ECO—tormenta de nieve+ histopatologico\n\n### Tratamiento\n\n- Vaciamiento uterino---aspiracion----histopatologia\n\n- Ameu, legrado\n\n- Histerectomia profilactica--- si paridad satisfecha, >de 40 años/si mola completa\n\n(20% de malignizacion).\n\n- Anexos---no retirar y no retirar quiste tecaluteinicos\n\n- Seguimiento:\n\n- Con beta hcg---semanal hasta quedar en cero el primer mes, despues cada mes hasta los 6\n\nMeses y control cada 2 meses hasta el año.\n\n- RX de torax---pesquiza de metastasis.\n\n- ¿cuando pensar en enfermedad trofoblastica gestacional?\n\n### Beta hcg\n\n- Elevacion por 2 semanas (>10%)\n\n- Estabilizacion de los niveles por 3 semanas (mas o menos 10%).\n\n- Ausencia de negativizacion en 6 meses\n\n- Presencia de metastasis (vagina>pulmon)\n\n- Ecografia con imagen intramiometrial\n\n<!-- p:365 -->\n\n- Indice de resistencia y de pulsatilidad bajos\n\n- Tipos:\n\n- Mola invasora---- mas frecuente (70-90%)\n\n- Coriocarcinoma----10- 30 %---metastasis a vagina y pulmon---buen % de cura\n\n- Tumor del sitio placentario----mas raro en frecuencia---aumento de lactogeno\n\nPlacentario humano----puede haber hipertension arterial\n\n### Tratamiento\n\n- Bajo riesgo: monoterapia ------metotrexate\n\n- Alto riesgo: poliquimioterapia"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/oligohidramnio",
+      "slug": "oligohidramnio",
+      "order": 25,
+      "title": "Oligohidramnio",
+      "sourcePages": [
+        366,
+        367
+      ],
+      "markdown": "<!-- p:366 -->\n\n### Concepto\n\nReduccion del liquido amniotico < de 300 ML en cavidad amniotica, con indice de liquido amniotico <de 5 CM.\n\nCausas: ----centralizacion con menor perfusion renal\n\n- Amniorrexis prematura\n\n- Insuficiencia placentaria\n\n- Malformaciones urinarias\n\n- Anomalias cromosomicas\n\n- Post maduro>42 semanas\n\n- Sindrome de transfusion gemelo- gemelar\n\n- IECA, indometacina\n\n### Diagnostico\n\nClinica----fondo uterino menor, en comparacion con la edad gestacional ecografia---confirma la reduccion de liquido\n\n- Entre 8 a 18= ila normal\n\n- 5 a 7cm = ila disminuido/reducido\n\n- <5cm o mayor bolson<2cm= oligohidramnio\n\n- Gravedad se evalua con:\n\n1. Cardiotocografia---parametro que se altera mas rapido.\n\n2. Perfil biofisico fetal\n\n- Tono fetal\n\n- Movimiento fetal\n\nCardioto cografia + 4 parametros ecograficos\n\n<!-- p:367 -->\n\n- Movimiento respiratorio\n\n- Liquido amniotico"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/parto-prematuro",
+      "slug": "parto-prematuro",
+      "order": 26,
+      "title": "Parto prematuro",
+      "sourcePages": [
+        368,
+        369
+      ],
+      "markdown": "<!-- p:368 -->\n\n### Concepto\n\nParto que se desarrolla entre semana 20 y antes de las 37 semanas.\n\n- Antes de la semana 20 ----consideramos aborto\n\n### Factores de riesgo\n\n- Parto prematuro anterior\n\n- Sobredistension uterina---polihidrmanios\n\n- Ruptura prematura de membranas\n\n- Infecciones\n\n- Factor cervical---incompetencia cervical\n\n- Anemia----desnutricion\n\n- Trauma abdominal\n\n### Cuadro clinico\n\n- Contracciones uterinas regulares< 37 semanas\n\n+\n\n- Dilatacion cervical/borramiento cervical\n\n### Rastreamiento\n\n- Medicion cervical por ecografia\n\n- 18- 24 semanas---<20-25mm riesgo mayor---progesterona\n\n- Dosar fibronectina fetal\n\n- --es un pegamento entre la placenta y el endometrio\n\n- Si alta significa probable inicio trabajo de parto\n\n<!-- p:369 -->\n\n### Prevencion\n\n- Reposo\n\n- Tratamiento de infecciones\n\n- Cerclaje uterino-----si parto prematuro previo y cuello corto\n\n- Progesterona vaginal------cuello corto o parto prematuro previo\n\n- Conducta:\n\n34 semanas-----parto entre semana 24 – 34:\n\n- Tocolisis---hasta 4-5 CM de dilatacion—membranas integras.\n\nContraindicada: sfa-corioamnionitis-rpmo-enfermedad materna complicada\n\n- Corticoterapia----disminuir hemorragia cerebral- enterocolitis.\n\n- Neuroproteccion---sulfato de magnesio—24 /32 semanas\n\n- Profilaxia para streptococo beta ----penicilina cristalina o ampicilina"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/partograma",
+      "slug": "partograma",
+      "order": 27,
+      "title": "Partograma",
+      "sourcePages": [
+        370,
+        371
+      ],
+      "markdown": "<!-- p:370 -->\n\n1. Es un registro grafico de la fase activa del trabajo de parto, se inicia con el trabajo de\n\nParto en fase activa con 3 a 4 cms de dilatacion.\n\n2. Linea de accion 4 horas despues de la linea de alerta.\n\n3. Linea de alerta marcar despues del primer cuadrado---triangulo siempre antes de la\n\nLinea de alerta\n\nEn la fase de dilatacion\n\nFase activa prolongada parada                   secundaria de la dilatacion\n\nEn el periodo expulsivo\n\nPeriodo pelvico prolongado     parada secundaria del descenso\n\n- Evalua:\n\n- Frecuencia cardiaca fetal\n\n- Contracciones\n\n- Medicaciones\n\n- Bolsa rota o integra\n\n- Liquido claro o meconial\n\n- Descenso de la presentacion---planos de hodge\n\n- Situaciones en el trabajo de parto:\n\n1. Fase activa prolongada\n\n- ---dilatacion cervical <1cm /hora---oxitocina\n\n2. Parada secundaria de la dilatacion\n\n- --dilatacion igual durante 2 horas----cesarea u oxitocina.\n\n<!-- p:371 -->\n\n3. Periodo pelvico prolongado---descenso lento, pero no para: --oxitocina/cesarea/forceps.\n\n4. Parada secundaria del descenso\n\n- ---mantenida por 1 hora en el periodo expulsivo---cesarea o forceps\n\n5. Parto en avalancha---nacimiento en menos de 4 horas.\n\n- -----despues de la fase activa del trabajo de parto\n\n- Distocias:\n\n1. De hombro:\n\n- Llamar ayuda\n\n- Mcroberts + presion suprapubica/rubin 1\n\n- Woods/rubin 2/jacquemier/ gaskin\n\n- No hacer kristeller\n\n2. Parto pelvico:\n\n### Brazos presos\n\n- Maniobra de bracht\n\n- Maniobra de rojas\n\n- Maniobra de pajot\n\n- Maniobra de deventer miller"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/placenta-previa",
+      "slug": "placenta-previa",
+      "order": 28,
+      "title": "Placenta previa",
+      "sourcePages": [
+        372,
+        373
+      ],
+      "markdown": "<!-- p:372 -->\n\n### Concepto\n\nImplantacion de la placenta en el segmento inferior del utero, en relacion al orificio cervical interno, por delante de la presentacion, confirmada despues de las 30 semanas (migracion placentaria).\n\n- Relacion con el numero de cesareas, vasa previa, acretismo placentario, ruptura\n\nPrematura de membranas\n\n### Clasificacion\n\n- Marginal---margen del orificio cervical\n\n- Parcial----parcialmente ocluido el orificio cervical interno\n\n- Total---cierra totalmente el orificio\n\n- Insercion baja o lateral---a mas o menos 2 CM del orificio cervical.\n\n- Factor de riesgo:\n\n- Cesareas anteriores\n\n- Cirugias uterinas\n\n- Multiparidad\n\n- Edad>35 años\n\n- Endometritis/ curetaje\n\n- Gran volumen placentario----tabaquismo-gemelar\n\n### Cuadro clinico\n\n- Sangrado rojo vivo, autolimitado\n\n- Indoloro\n\n- Inicio espontaneo+ con parada espontanea\n\n- Recurrente\n\n- Sin sufrimiento fetal o hipovolemia\n\n- Tono uterino normal\n\n<!-- p:373 -->\n\n### Diagnostico\n\n- Clinico-----no realizar tacto vaginal----contraindicado. -hacer\n\nExamen especular--- confirmar con ecografia tranvaginal\n\n- Conducta: corticoides y uteroinhibicion.\n\n- Si hemorragia importante--------parto cesarea\n\n### Si la gestacion esta estable\n\n- A termino------parto cesarea\n\n- Prematuro: depende del sangrado\n\nSi intenso------interrumpir----internar---estabilizar\n\n- Si escaso-------expectante-----internacion+estabilizacion hemodinamica+corticoide\n\n- Via de parto:\n\n- Total: cesarea\n\n- Parcial: cesarea\n\n- Marginal o lateral: parto normal + amniotomia\n\n### Complicaciones\n\n- Parto prematuro\n\n- Atonia postparto\n\n- Presentacion anomala---presentacion cormica o pelvica.\n\n- Distocia del parto\n\n- Puerperio anormal-----hemorragia----infeccion.\n\n- Acretismo placentario"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/papanicolau",
+      "slug": "papanicolau",
+      "order": 29,
+      "title": "Papanicolau",
+      "sourcePages": [
+        374,
+        375
+      ],
+      "markdown": "<!-- p:374 -->\n\nCitologia exfoliativa cervical para rastreo cervico- uterino\n\n- Indicado para:\n\n- Deteccion precoz de cancer de cuello uterino\n\n- Lesiones precancerosas\n\n- Lesiones benignas\n\n- Infecciones\n\nIndicaciones • inicio de la vida sexual activa • mujer de 25 a 64 años (con factores de riesgo para cancer) • mujer con examen previo (con citologia inadecuada)\n\n- Las muestras se toman de 3 sitios:\n\n• endocervix ------ citobrush • exocervix ------ espatula de ayre • tercio superior de la vagina\n\n- Recomendaciones antes del Papanicolau\n\n• mujer histerectomizada • no tener relaciones sexuales durante las primeras 24 horas anteriores al examen • no realizar en la menstruacion • no duchas ni medicamentos vaginales durante las primeras 48 horas que anteceden al examen.\n\n<!-- p:375 -->\n\n### Recomendaciones\n\n- Realizar anualmente la colpocitología.\n- Si hay anomalías en el informe, repetir en 6 meses.\n\n### Papanicolaou: informe citológico\n\n- Microbiológico: flora, bacilos de Döderlein, infección, clamidia, HPV.\n- Hormonal: estrógenos y progesterona.\n- Morfológico: alteraciones celulares epiteliales, benignidad o malignidad.\n\n### Clasificación neoplásica intraepitelial cervical\n\n| Sistema | Normal | Atipia benigna | Displasia leve | Displasia moderada | Displasia severa / CIS | Adenocarcinoma |\n|---|---|---|---|---|---|---|\n| OMS | Normal | Atipia | — | — | — | Adenocarcinoma |\n| Reagan | Clase I | Clase II | Clase III | Clase IV | Clase V | — |\n| Richart | Normal / atipia inflamatoria | Atipia escamosa | NIC I | NIC II | NIC III o CIS | — |"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/ruptura-de-membranas-ovulares",
+      "slug": "ruptura-de-membranas-ovulares",
+      "order": 30,
+      "title": "Ruptura de membranas ovulares",
+      "sourcePages": [
+        376,
+        377
+      ],
+      "markdown": "<!-- p:376 -->\n\nBethesda     parameros                        ascus  liebg  lieag normales cambios cel.benignos (inflamacio N atrofia)\n\n### Concepto\n\nRotura espontanea de las membranas despues de las 20 semanas y antes de la semana\n\n37.\n\n### Diagnostico\n\nAnamnesis + examen fisico + especuloscopia----patron de oro\n\n- Test de nitrazina-----aumento de PH vaginal: >6-6,5.\n\n- Test de cristalizacion\n\n- Test de amnisure---alfa microglobulina placentaria\n\n- Ecografia----oligohidramnio.\n\n- Dosaje de alfafetoproteina----enzima liberada por higado fetal.\n\n- Presencia de elementos fetales-----lanugo, celulas de la epidermis.\n\n- Conducta:\n\n- Corioamnionitis------fiebre + leucocitosis + taquicardia materna + o fetal, utero\n\nDoloroso +liquido fetido-----------parto por via vaginal (inmediatamente).\n\n- Sufrimiento fetal agudo------parto\n\n1. Entre semana 24 y semana 34 /36: sin infeccion y sin sufrimiento fetal\n\n- Corticoides\n\n- Antibiotico----ampicilina 2 gr C/6+ azitromicina 1gr VO.\n\n<!-- p:377 -->\n\n2. >34/36 semanas------parto.\n\n3. No hacer tocolisis---- es rotura de membranas, no trabajo de parto prematuro.\n\n- Descartar---sufrimiento fetal agudo/ corioamnionitis-----iniciar antibiotico.\n\n- Si la paciente no esta en trabajo de parto: --ver cuello: si dilatar o contracciones\n\n- Cuello grueso.\n\n- Cerrado\n\n- Posterior"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/rotura-uterina",
+      "slug": "rotura-uterina",
+      "order": 31,
+      "title": "Rotura uterina",
+      "sourcePages": [
+        378,
+        379
+      ],
+      "markdown": "<!-- p:378 -->\n\n### Concepto\n\nPatologia caracterizada por rotura del musculo uterino, generalmente en el trabajo de parto y rara vez durante la gestacion.\n\n### Clasificacion\n\nParcial----serosa preservada total-----rotura de serosa\n\n### Factores de riesgo\n\nCirugia uterina previa trauma abdominal parto obstruido mal manejo de oxitocina/prostaglandina maniobra de kristeller malformacion congenita malformacion uterina\n\n### Cuadro clinico\n\nTrauma—trabajo de parto\n\n- Dolor abdominal-----contracciones e hipertonia uterina---irritacion peritoneal sangrado\n\nAbdominal y genital\n\nA-durante el parto- (inminencia de rotura) --- dolor intenso/hipertonia\n\n1. Signo de bandl---anillo separa el cuerpo y del segmento (ampolleta)\n\n2. Signo frommel ---ligamento redondo distendidos. (anteriores)\n\n<!-- p:379 -->\n\nB-durante el parto (rotura consumada) dolor subito y lancinante parada de contractilidad y del trabajo de parto palpacion de partes fetales y shock materno bradicardia y obito fetal\n\n- Signo de clark ------- crepitacion a la palpacion abdominal.\n\n- Signo de reasens -----elevacion de la presentacion fetal al tacto\n\n### Tratamiento\n\n- Inminencia de rotura------cesarea de urgencia/ uteroliticos.\n\n- Consumada----histerorrafia o histerectomia\n\n- Transfusion de globulos rojos/plasma/ plaquetas"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/vasa-previa",
+      "slug": "vasa-previa",
+      "order": 32,
+      "title": "Vasa previa",
+      "sourcePages": [
+        380
+      ],
+      "markdown": "<!-- p:380 -->\n\n### Concepto\n\nTrauma o rotura de vasos previos desprotegidos sin gelatina de wharton, entre la presentacion y el cuello uterino.\n\n### Factores de riesgo\n\nPresentacion de placentas anomalas:\n\n- Bilobuladas\n\n- Sucenturiadas\n\n- Insercion velamentosa + importante---vaso sanguineo pasa entre las membranas.\n\n### Cuadro clinico\n\n- Sangrado vaginal pos amniorresis---sangrado rojo rutilante\n\n- Sufrimiento fetal\n\n### Diagnostico\n\nEcografia abdominal + doppler\n\n### Tratamiento\n\nCesarea electiva-----finalizar antes del trabajo de parto"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/sindrome-de-ovarios-poliquisticos",
+      "slug": "sindrome-de-ovarios-poliquisticos",
+      "order": 33,
+      "title": "Sindrome de ovarios poliquisticos",
+      "sourcePages": [
+        381,
+        382,
+        383
+      ],
+      "markdown": "<!-- p:381 -->\n\n### Concepto\n\nTrastorno endocrino-metabolico cronico mas frecuente en la mujer de edad fertil\n\n### Presentando\n\nHiperandrogenismo +resistencia a la insulina e infertilidad del 30 -40% de las mujeres.\n\n### Fisiopatologia\n\n- Aumento de amplitud de los pulsos de lh\n\n- Hiperinsulinemia y resistencia insulinica\n\n- Alteracion del citocromo p450-----aumento de androstenediona testosterona.\n\n- Disminucion de shbg----con aumento de testosterona y estrogeno libre.\n\nAumento de lh, hiperinsulinemia, aumento de androgenos====esteroidogenesis anomala\n\nAusencia de foliculo dominante >atresia folicular>ovarios poliquisticos>anovulacion\n\n### Cuadro clinico\n\n- Resistencia insulinica----acantosis nigricans-obesidad.\n\n- Hiperandrogensimo—acne, alopecia, hirsutismo, piel oleosa.\n\n- Anovulacion---proliferacion endometrial, irregularidad menstrual,\n\nInfertilidad.\n\n- Diagnostico ---------criterios de rotherdham:\n\n1. Ovarios poliquisticos en la ecografia---sin foliculo dominante\n\n- >12 foliculos de 2 a 9 MM o ovario >10cm3\n\nActualizacion (asrm y eshre) ----20 o mas foliculos\n\n<!-- p:382 -->\n\n2. Oligo-anovulacion\n\n3. Hiperandrogenismo clinico o bioquimico\n\n- Fenotipos:\n\nA---tiene los 3 criterios B---sin alteraciones en la ecografia C---sin anovulacion D---sin hiperandrogensimo\n\n### Diagnostico diferencial\n\n### Causa especificas de anovulacion hiperandrogenica\n\n- Enfermedades de la tiroides.\n\n- Disfuncion hipotalamica\n\n- Cushing\n\n- Insuficiencia ovarica prematura\n\n- Tumores secretores\n\n- Hiperprolactinemia\n\n### Laboratorio\n\nExcluir otras enfermedades que causen anovulacion\n\n- TSH\n\n- Prolactina\n\n- 17-oh progesterona (>200 excluir hac)\n\n- Cortisol---cushing\n\n- Aumento de testosterona----aumento de androstenediona---aumento de dheas.\n\n- Resistencia a la insulina\n\n- Aumento de lh—estrogeno\n\n- Aumento de prolactina-----a veces\n\n- Disminucion de shbg y de fsh.\n\n<!-- p:383 -->\n\n- Repercusiones clinicas:\n\nDiabetes mellitus---resistencia insulinica. Hipertension arterial dislipidemia obesidad enfermedad cardiovascular-----aumenta el riesgo. Anovulacion infertildad, hiperplasia/cancer de endometrio, cancer de ovario.\n\n- Estudiar:\n\n- Presion arterial\n\n- Medir circunferencia abdominal\n\n- Glucemia en ayunas\n\n- Ptog\n\n- Lipidograma\n\n### Tratamiento\n\nActividad fisica + dieta fraccionada + perdida de peso.\n\n- Control de resistencia insulinica: metformina\n\n- Hiperandrogenismo: anticonceptivo, drosperinona/ ciproterona (antiandrogenicas)\n\n- Tratamiento estetico.\n\n- Regular ciclo menstrual---anticonceptivos o progesterona aislada-----diu(levo)\n\n- Mejorar la ovulacion----clomifeno---letrozol + metformina- gonadotrofina o fertilizacion\n\nIn vitro."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/sindrome-de-mondor",
+      "slug": "sindrome-de-mondor",
+      "order": 34,
+      "title": "Sindrome de mondor",
+      "sourcePages": [
+        384,
+        385
+      ],
+      "markdown": "<!-- p:384 -->\n\n### Definicion\n\nSindrome toxemico hemolitico + hemolisis severa + shock +cid, causado por la bacteria Clostridium perfringens\n\n- Mortalidad de 60%.\n\n### Etiologia\n\n- Postparto (+ frecuente)\n\n- Postaborto\n\n- Clinica-----triada de mondor\n\n- Hemoglobinemia\n\n- Hemoglobunaria\n\n- Ictericia\n\n- Escalofrios\n\n- Fiebre alta\n\n- Polipnea/taquipnea\n\n- Oliguria\n\n- Cianosis\n\n### Laboratorio\n\n- Anemia\n\n- Leucocitosis\n\n- Ictericia\n\n- Albumina baja\n\n- Fibrinogeno disminuido\n\n<!-- p:385 -->\n\n### Complicaciones\n\n- Trastornos de la circulacion\n\n- Shock\n\n- Coagulacion intravascular diseminada\n\n- Acidosis metabolica\n\n- Insuficiencia renal aguda\n\n### Tratamiento\n\n- Internacion----UTI\n\n- Piperacilina + vanco\n\n- Imipenem + vanco\n\n- Cirugia-----histerectomia"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/endometriosis",
+      "slug": "endometriosis",
+      "order": 35,
+      "title": "Endometriosis",
+      "sourcePages": [
+        386
+      ],
+      "markdown": "<!-- p:386 -->\n\n### Concepto\n\nEnfermedad inflamatoria, estrogenodependiente, caracterizada por proliferacion de tejido endometrial fuera de la cavidad uterina. La localizacion mas frecuente es el ovario.\n\n### Clinica\n\n- Dolor pelvico cronico\n\n- Dismenorrea\n\n- Dispareunia\n\n- Obstruccion intestinal\n\n- Alteracion de la diuresis\n\n- Infertilidad\n\n### Diagnostico\n\nVideolaparoscopia-----manchas rojas, quistes, adherencias.\n\n### Fisiopatologia\n\nIncremento de los receptores de estrogeno y progesterona depende de la accion de los estrogenos para su crecimiento.\n\n### Tratamiento\n\nLaparascopia con destruccion de implantes y quistectomia."
+    },
+    {
+      "id": "gineco-obstetricia/resumen/trabajo-de-parto",
+      "slug": "trabajo-de-parto",
+      "order": 36,
+      "title": "Trabajo de parto",
+      "sourcePages": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393
+      ],
+      "markdown": "<!-- p:387 -->\n\n### Definición\n\nEs la expulsion del producto de la concepcion, despues de las 20 semanas de gestacion y con peso >500 gramos. Se produce por la disminucion de progesterona y aumento de la oxitocina.\n\n### Clasificación\n\n### Según la edad gestacional\n\n- Parto pretermino: (20-36 semanas)\n\n- Parto a termino: (37- 41 semanas)\n\n- Parto postermino: (>42 semanas)\n\nSegún la evolución eutocico: (parto normal con feto en presentacion cefalica) distocico: (anormalidad en el trabajo de parto)\n\nParto - signos clínicos\n\n- Rotura de membranas\n\n- Expulsion del tapon mucoso\n\n- Borramiento del cuello uterino\n\n<!-- p:388 -->\n\nCuello desfavorable bishop <6----misoprostol—cuello cerrado, posterior, grueso, sin dilatacion.\n\n- Cuello favorable-----bishop >9---- cuello apagado, anterior, fino--oxitocina.\n\n- Características del trabajo de parto\n\n- Se dividen en 3 periodos\n\nBorramiento y dilatacion (1° etpa): duracion 20-18 horas expulsion (2da etapa) duracion: 60-30 minutos\n\n- Encajamiento\n\n- Descenso\n\n- Flexion\n\n- Rotacion interna\n\n- Extension\n\n- Rotacion externa\n\n- Expulsion ----------administracion de oxitocina I.M\n\nAlumbramiento (3° etapa) desprendimiento de la placenta------- < 15 minutos\n\n- Baudeloque schultze: desprendimiento desde el centro (80%)\n\n- Baudeloque duncan: desprendimiento desde los bordes (20%)\n\n![Figura 1](/resumen/gineco-obstetricia/p388-1.webp)\n\n<!-- p:389 -->\n\n- Móvil fetal\n\nSituacion fetal: --------- longitudinal/ transverso/oblicuo presentacion fetal: --------- cefalica/podalica actitud fetal: ---------flexion/extension posicion fetal------: derecha/izquierda\n\n- Variedades de presentación y posición\n\nOccipito -iliaca izquierda anterior\n\n- Diagnósticos de presentación y posición fetal:\n\n1. Maniobra de leopold:\n\n1ra----bimanual—fondo uterino ----situacion 2da---bimanual----dorso del niño-----posicion 3ra----presentacion ------cefalica—asinclitismo anterior y posterior\n\n- Lambda: flexion completa ----fontanela posterior\n\n- Bregma: flexion incompleta -------fontanela anterior\n\n- Frente---glabela\n\n![Figura 2](/resumen/gineco-obstetricia/p389-1.webp)\n\n<!-- p:390 -->\n\n- Cara----mento\n\n4ta----bimanual---actitud fetal y encajamiento -----flexion generalizada.\n\n2. Exploracion por tacto vaginal\n\n- Dilatacion\n\n- Borramiento\n\n3. Ecografia abdominal (identificar poscion fetal)\n\n### Canal óseo ---- coxales-sacro-coxis---se divide en\n\n- Pelvis mayor (actua como recipiente del feto durante la gestacion)\n\n- Pelvis menor (por donde pasa por el feto)\n\n- Tipos de pelvis:\n\n- Ginecoide\n\n- Androide\n\n- Antropoide\n\n- Platipeloide\n\n### Trayecto blando\n\nSegmento inferior cuello uterino vagina region vulvoperineal\n\n- Trayecto duro: -----conjugada diagonalis para sacar la conjugada obstetrica.\n\n- 2 huesos iliacos\n\n- Sacro\n\n- Coccix\n\n- Pubis\n\n<!-- p:391 -->\n\n- Estrecho superior:\n\n- Conjugada obstetrica----10, 5 CM----cara interior de la sinfisis pubica al\n\nPromontorio del sacro.\n\n- Conjugada diagonalis----12 CM---de la cara inferior de la sinfisis pubica al\n\nPromontorio\n\n- Estrecho medio: -------espinas ciaticas---10,5 CM—3 de hodge-0 de delee.\n\n- Estrecho inferior: ----conjugada exitus----retropulsion del coccix.\n\n- Planos de hodge:\n\nConcepto de trabajo de parto inicio con 3 o 4 CM de dilatacion, con 3 o 4 contracciones en 10 minutos, de 40 segundos de duracion.\n\n![Figura 3](/resumen/gineco-obstetricia/p391-1.webp)\n\n<!-- p:392 -->\n\n- Desencadenado:\n\nPor aumento de prostaglandinas por aumento de cortisol por aumento de oxitocina disminucion de progesterona\n\nFenomenos del parto\n\n- Fenomenos fetales\n\n- Fenomenos mecanicos\n\n- Fenomenos plasticos\n\n- Fenomenos ovulares:\n\nFormacion de las bolsas de las aguas perdida de tapon mucoso\n\n- Fenomenos maternos\n\nPrenza abdominal contracciones uterinas formacion del segmento inferior modificacion del cuello modificacion del canal del parto\n\n### Fenomenos activos\n\n- Contracciones uterinas\n\n- Contracciones de los musculos abdominales\n\n<!-- p:393 -->\n\n### Fenomenos pasivos\n\nBorramiento y dilatacion del cuello ampliacion del segmento inferior eliminacion del tapon mucoso formacion y rotura de las bolsas de las aguas ampliacion de la vagina, vulva y perine\n\nFenomenos mecanicos y plasticos del feto\n\n- Cabalgamiento oseo que produce cefalohematoma/caput succedaneum\n\n- Puerperio\n\n### Causas de sangrado postparto\n\n- Prolongacion del TP\n\n- Retencion de restos ovulares\n\n- Lesion del canal cervical y vaginal\n\n- Atonia uterina-----+ frecuente\n\n- Clasificacion del puerperio:\n\nPuerperio inmediato----- primeras 24 HRS puerperio mediato (entre 2 -7 dias) puerperio alejado (hasta los 45 dias) puerperio tardio (hasta 1 año"
+    },
+    {
+      "id": "gineco-obstetricia/resumen/trastornos-hipertensivos-del-embarazo",
+      "slug": "trastornos-hipertensivos-del-embarazo",
+      "order": 37,
+      "title": "Trastornos hipertensivos del embarazo",
+      "sourcePages": [
+        394,
+        395,
+        396,
+        397,
+        398
+      ],
+      "markdown": "<!-- p:394 -->\n\n### Definición\n\nSindrome multisistemico de gravedad, especico del embarazo:\n\n- Con reduccion de la perfusion sistemica, generada por vasoespasmo y\n\nActivacion del sistema de coagulacion\n\n- Presente a partir de la semana 20 de embarazo, durante el parto o hasta 2\n\nSemanas despues de este.\n\n### Clasificación\n\nHipertension gestacional: has >20 semanas sin proteinuria eclampsia: preclampsia + convulsiones hipertension cronica: has <20 semanas, sin proteinuria preeclampsia añadida: htas agravada por preeclampsia\n\nPreeclampsia: has + proteinuria >20 semanas sin señales de gravedad---sin daño de organo blanco\n\n### Con señales de gravedad---lesion de organo\n\n- Pas>160/110\n\n- EAP, cianosis, dolor toracico\n\n- Oliguria <500 ML/24, ceatinina >1,2mg/dl\n\n### Eminencia de eclampsia\n\n- Cefalea\n\n- Obnubilacion\n\n- Escotomas\n\n- Vision borrosa\n\n- Epigastralgia\n\n- Dolor abdominal\n\n<!-- p:395 -->\n\n- Hiperreflexia\n\n### Sindrome de hellp\n\nHemolisis----ldh>600, esquistocitos, bt >1,2 aumento de transaminasas:>70 trombocitopenia: plaquetas<100000\n\n### Fisiopatologia\n\n2d onda---16-22 sem\n\n- La falta de dilatacion de las arterias espiraladas\n\n- Reduccion el flujo de volumen hacia el feto\n\n- Cursando insuficiencia placentaria\n\n- Restriccion del flujo fetal\n\n- Hipertension materna\n\n### Factores de riesgo\n\n- Primigesta/nulipara\n\n- Embarazo multiple\n\n- Multiparidad\n\n- Enfermedad trofoblastica del embarazo/gemelar—muchas vellosidades\n\nObesidad (>35 de IMC)\n\n### Diagnostico\n\n- Presion arterial sistolica >140/90 mmhg\n\n- Proteinuria >300 MG/dia o mas\n\n- Relacion proteinuria/creatinuria >0,3--- 2 o mas cruces, en labstick\n\nAusencia de ondas de migracion trofoblastica causando\n\n:\n\nRa onda\n\n-\n\n-\n\nSem\n\n.\n\n<!-- p:396 -->\n\n- Cuadro clinico-----isquemia y lesion endotelial sistemica\n\n### Riñon\n\n- Disminucion de la perfusion renal, disminucion de la tasa de filtrado.\n\n- Glomeruloesclerosis capilar----lesion tipica\n\n- Proteinuria >300 MG/24 HRS\n\n- Elevacion del acido urico\n\n### Higado\n\n- Necrosis periportal hemorragica + lesiones isquemicas\n\n- Elevacion de transaminasas + trombocitopenia + hemolisis-hellp\n\nCardiovascular/hematologica\n\n- Aumento de permeabilidad vascular /edema\n\n- Hemoconcentracion\n\n- Vasoconstriccion\n\n- Trombocitopenia-hemolisis microangipatica—hellp\n\n- Civd\n\nEndocrinas\n\n- Disminucion de secreccion de renina\n\n- Aumento de respuesta vascular de agentes vasopresores\n\nSNC cefalea trombos plaquetarios-vasoespasmo escotomas convulsion\n\n<!-- p:397 -->\n\nUteroplacentarias\n\n- Resistencia placentaria\n\n- Infartos placentarios\n\n- RCIU/aumento de la mortalidad\n\n### Laboratorio\n\nHemograma---anemia transaminasas ldh urea creatinina proteinuria espontanea tasa de filtrado glomerular calcemia\n\n- Valoración materna\n\nElectrocardiograma examen clinico-cardiologico fondo de ojo ecografia renal-hepatica\n\n- Valoración fetal\n\nEcografia fetal y doppler monitoreo fetal maduracion pulmonar\n\n<!-- p:398 -->\n\n### Tratamiento\n\n### Antihipertensivo\n\n- Alfametildopa\n\n- Nifedipino\n\nMaduracion pulmonar --- semana 24-- 34\n\n### Interrupcion de la gestacion/parto\n\n- <34 semanas + estabilidad hemodinamica---expectante\n\n- >34 semanas, deterioro de la clinica materna o fetal, lesion de organo blanco\n\n- Eclampsia o hellp-----estabilizacion clinica y parto\n\nCrisis hipertensivas (>160/110mmhg)—si menos de ese valor no es necesario\n\n- Labetalol\n\n- Nifedipino\n\n- Hidralazina\n\n- Prevencion de eclampsia y convulsiones:\n\n- Metodo zuspam---sulfato de magnesio---- si intoxicacion sulfato de magnesio\n\n### Medidas generales\n\n- Hospitalizar\n\n- Dieta hiposodica, normoproteica\n\n- Reposo absoluto-----decubito lateral izquierdo\n\n- Monitoreo de signos vitales + peso +movimientos\n\nFetales"
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "id": "medicina-interna/triada-letal-del-trauma",
+  "specialty": "medicina-interna",
+  "slug": "triada-letal-del-trauma",
+  "order": 13,
+  "title": "Tríada letal del trauma",
+  "sections": [
+    {
+      "id": "ampliacion",
+      "kind": "blocks",
+      "order": 1,
+      "title": "Ampliación curada",
+      "blocks": [
+        {
+          "id": "puntos-clave",
+          "title": "Puntos clave",
+          "markdown": "**Puntos clave:** la tríada letal clásica combina coagulopatía, acidosis metabólica e hipotermia; a ella se ha añadido la hipocalcemia, dando lugar al concepto de «diamante de la muerte»."
+        },
+        {
+          "id": "definicion-epidemiologia",
+          "title": "Definición / epidemiología",
+          "markdown": "**Definición / epidemiología:** aproximadamente un tercio de los pacientes con traumatismo grave llega al hospital en estado coagulopático, y la hemorragia sigue siendo una de las principales causas de muerte prevenible."
+        },
+        {
+          "id": "etiologia-fisiopatologia",
+          "title": "Etiología / fisiopatología",
+          "markdown": "**Etiología / fisiopatología:** la coagulopatía inducida por el trauma es multifactorial: activación de la vía de la proteína C, disfunción endotelial y plaquetaria, generación inapropiada de trombina, depleción de fibrinógeno y fibrinólisis excesiva. Se distinguen un fenotipo precoz hipocoagulable y un fenotipo tardío hipercoagulable."
+        },
+        {
+          "id": "clinica",
+          "title": "Clínica",
+          "markdown": "**Clínica:** sangrado no controlado, hipoperfusión, acidosis láctica e hipotermia; la hipocalcemia aparece con frecuencia durante la transfusión masiva y se asocia a peor evolución."
+        },
+        {
+          "id": "diagnostico-criterios",
+          "title": "Diagnóstico (criterios)",
+          "markdown": "**Diagnóstico (criterios):** las pruebas viscoelásticas (tromboelastografía y tromboelastometría rotacional) permiten valorar la coagulación en tiempo real y guiar la reposición de forma dirigida; las pruebas convencionales tardan hasta 60 minutos y no valoran la calidad del coágulo ni la función plaquetaria."
+        },
+        {
+          "id": "tratamiento-actualizado",
+          "title": "Tratamiento actualizado",
+          "markdown": "**Tratamiento actualizado:** reanimación de control de daños con hipotensión permisiva, cirugía de control de daños y transfusión precoz; se recomienda ácido tranexámico, reposición de fibrinógeno o crioprecipitado y corrección agresiva de la hipotermia, la acidosis y el calcio. Las estrategias de transfusión fija usan proporciones cercanas a 1:1:1 o 1:1:2 de plaquetas, plasma y hematíes."
+        },
+        {
+          "id": "complicaciones-prevencion",
+          "title": "Complicaciones / prevención",
+          "markdown": "**Complicaciones / prevención:** exanguinación, fracaso multiorgánico y muerte; la prevención se apoya en el control precoz del sangrado y en reducir al mínimo el tiempo transcurrido hasta la intervención."
+        },
+        {
+          "id": "perlas-y-errores-frecuentes",
+          "title": "Perlas y errores frecuentes",
+          "markdown": "**Perlas y errores frecuentes:** no hay que esperar a que se complete la tríada para actuar; la hipocalcemia se olvida con frecuencia y debe monitorizarse durante la transfusión masiva."
+        }
+      ]
+    }
+  ],
+  "contentVersion": "5b505b37ef6b"
+}
