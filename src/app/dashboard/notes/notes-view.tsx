@@ -55,7 +55,7 @@ export function NotesView() {
     <div className="flex flex-col gap-6 pt-7 pb-8 sm:pt-10">
       <header>
         <p className="text-xs font-black uppercase tracking-wider text-[#FF5216]">Tu biblioteca personal</p>
-        <h1 className="mt-1 text-3xl font-black tracking-tight">Tus Notas Clínicas</h1>
+        <h1 className="mt-1 text-3xl font-black tracking-tight sm:text-4xl">Tus Notas Clínicas</h1>
         <p className="mt-2 text-sm font-medium text-slate-500">Tus ideas clave, listas para volver a ellas.</p>
       </header>
       <div className="flex items-center gap-2">

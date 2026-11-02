@@ -2,8 +2,10 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useEffect, useRef, useState } from 'react'
 import type { LucideIcon } from 'lucide-react'
 import { Home, Menu, StickyNote, Target, Trophy } from 'lucide-react'
+import { stepNavScroll } from '@/lib/nav-scroll'
 
 type NavEntry = {
   href: string
@@ -17,7 +19,10 @@ const entries: NavEntry[] = [
     href: '/dashboard',
     label: 'Inicio',
     icon: Home,
-    isActive: (pathname) => pathname === '/dashboard' || pathname.startsWith('/dashboard/topics'),
+    isActive: (pathname) =>
+      pathname === '/dashboard' ||
+      pathname.startsWith('/dashboard/topics') ||
+      pathname.startsWith('/dashboard/lesson'),
   },
   {
     href: '/dashboard/quiz',
@@ -47,11 +52,38 @@ const entries: NavEntry[] = [
 
 export function BottomNav() {
   const pathname = usePathname()
+  const activeIndex = Math.max(0, entries.findIndex((entry) => entry.isActive(pathname)))
+  const [hidden, setHidden] = useState(false)
+  const scroll = useRef({ hidden: false, acc: 0 })
+  const lastY = useRef(0)
+
+  useEffect(() => {
+    lastY.current = window.scrollY
+    const onScroll = () => {
+      const y = window.scrollY
+      const next = stepNavScroll(scroll.current, y - lastY.current, y)
+      lastY.current = y
+      scroll.current = next
+      setHidden(next.hidden)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
-    <nav className="fixed inset-x-4 bottom-4 z-10 mx-auto flex max-w-md items-center justify-between rounded-[28px] border border-slate-100 bg-white/95 p-2 shadow-[0_14px_35px_rgba(15,23,42,0.12)] backdrop-blur sm:inset-x-auto sm:w-[390px]">
-      {entries.map((entry) => (
-        <NavItem key={entry.href} entry={entry} active={entry.isActive(pathname)} />
+    <nav
+      inert={hidden}
+      className={`fixed inset-x-4 bottom-4 z-10 mx-auto flex max-w-md items-center justify-between rounded-[28px] border border-slate-100 bg-white/95 p-2 shadow-[0_14px_35px_rgba(15,23,42,0.12)] backdrop-blur transition-transform duration-300 ease-out sm:inset-x-auto sm:w-[390px] ${
+        hidden ? 'translate-y-[calc(100%_+_2rem)]' : ''
+      }`}
+    >
+      <span
+        aria-hidden="true"
+        className="absolute inset-y-2 left-2 w-[calc((100%_-_1rem)/5)] rounded-2xl bg-[#FF5216] transition-transform duration-300 ease-out"
+        style={{ transform: `translateX(${activeIndex * 100}%)` }}
+      />
+      {entries.map((entry, index) => (
+        <NavItem key={entry.href} entry={entry} active={index === activeIndex} />
       ))}
     </nav>
   )
@@ -64,8 +96,8 @@ function NavItem({ entry, active }: { entry: NavEntry; active: boolean }) {
       href={entry.href}
       aria-label={entry.label}
       aria-current={active ? 'page' : undefined}
-      className={`flex min-w-0 flex-1 items-center justify-center rounded-2xl py-3 transition ${
-        active ? 'bg-[#FF5216] text-white' : 'text-muted-foreground hover:bg-slate-50 hover:text-slate-700'
+      className={`relative flex min-w-0 flex-1 items-center justify-center rounded-2xl py-3 transition ${
+        active ? 'text-white' : 'text-muted-foreground hover:bg-slate-50 hover:text-slate-700'
       }`}
     >
       <entry.icon className="size-5" />

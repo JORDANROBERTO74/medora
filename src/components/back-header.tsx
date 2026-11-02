@@ -8,7 +8,6 @@ type BackHeaderProps = {
   eyebrow: string
   title: string
   titleClassName?: string
-  sticky?: boolean
   trailing?: ReactNode
 }
 
@@ -18,15 +17,10 @@ export function BackHeader({
   eyebrow,
   title,
   titleClassName = 'text-2xl font-black',
-  sticky = false,
   trailing,
 }: BackHeaderProps) {
-  const headerClassName = sticky
-    ? 'sticky top-0 z-10 -mx-4 flex items-center gap-3 border-b border-slate-100 bg-slate-50/95 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6'
-    : 'flex items-center gap-3'
-
   return (
-    <header className={headerClassName}>
+    <header className="flex items-center gap-3">
       <Link
         href={href}
         aria-label={backLabel}

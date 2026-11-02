@@ -1,10 +1,10 @@
-import type { Metadata } from 'next'
-import { QuizView } from '../quiz-view'
+import type { Metadata } from "next";
+import { QuizView } from "../quiz-view";
 
 export const metadata: Metadata = {
-  title: 'Quiz aleatorio',
-}
+  title: "Quiz aleatorio",
+};
 
 export default function RandomQuizPage() {
-  return <QuizView eyebrow="Quiz · Aleatorio" />
+  return <QuizView eyebrow="Quiz · Aleatorio" />;
 }

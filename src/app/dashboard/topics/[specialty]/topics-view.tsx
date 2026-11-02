@@ -5,7 +5,7 @@ import type { Specialty } from '@/lib/content'
 
 export function TopicsView({ specialty }: { specialty: Specialty }) {
   return (
-    <div className="flex flex-col gap-6 pt-6">
+    <div className="flex flex-col gap-6 pt-7 sm:pt-10">
       <BackHeader
         href="/dashboard"
         backLabel="Volver al inicio"

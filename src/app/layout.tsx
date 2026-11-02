@@ -5,6 +5,7 @@ import {
   Inter as V0_Font_Inter,
   Source_Serif_4 as SourceSerif4,
 } from "next/font/google";
+import { ViewTransition } from "react";
 
 // variables consumed by --font-sans / --font-serif in globals.css
 const _inter = V0_Font_Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -52,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${_inter.variable} ${_sourceSerif.variable}`}>
       <body className="antialiased">
-        {children}
+        <ViewTransition>{children}</ViewTransition>
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>

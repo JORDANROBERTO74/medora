@@ -1,15 +1,142 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import { BackHeader } from '@/components/back-header'
-import { NoteDrawer } from '@/components/note-drawer'
-import type { Specialty, Topic } from '@/lib/content'
-import { Lightbulb, PanelRight, Plus, Image as ImageIcon } from 'lucide-react'
+import { useState } from "react";
+import { BackHeader } from "@/components/back-header";
+import { NotesDialogs } from "@/components/note-dialogs";
+import type { Specialty, Topic } from "@/lib/content";
+import { Lightbulb, PanelRight, Plus, Image as ImageIcon } from "lucide-react";
 
-export function LessonView({ specialty, topic }: { specialty: Specialty; topic: Topic }) {
-  const [notesOpen, setNotesOpen] = useState(false)
-  const [noteText, setNoteText] = useState('')
-  const [notes, setNotes] = useState(['La respuesta inflamatoria debe interpretarse junto con la historia clínica.', 'La resolución depende de eliminar el estímulo y limitar el daño tisular.'])
-  const addNote = () => { if (!noteText.trim()) return; setNotes((items) => [...items, noteText.trim()]); setNoteText('') }
-  return <div className="relative flex flex-col gap-7 pt-6 pb-12"><BackHeader href={`/dashboard/topics/${specialty.slug}`} backLabel="Volver a temas" eyebrow={specialty.name} title={topic.name} titleClassName="truncate text-xl font-black" sticky trailing={<button onClick={() => setNotesOpen(true)} aria-label="Ver notitas" className="relative flex size-11 items-center justify-center rounded-2xl border border-slate-100 bg-white shadow-sm"><PanelRight className="size-5" />{notes.length > 0 && <span className="absolute -right-1 -top-1 flex size-5 items-center justify-center rounded-full bg-[#FF5216] text-[10px] font-black text-white">{notes.length}</span>}</button>} /><article className="prose prose-slate max-w-none"><p className="text-sm font-black uppercase tracking-wider text-[#FF5216]">Resumen clínico · 12 min</p><h2 className="mt-3 text-4xl font-black tracking-tight text-slate-950">{topic.name}</h2><p className="mt-4 text-lg font-medium leading-8 text-slate-600">La inflamación aguda es una respuesta temprana de los tejidos vascularizados ante una agresión. Su objetivo es llevar proteínas plasmáticas y células defensivas al sitio de lesión para contener el daño, eliminar el estímulo y comenzar la reparación.</p><div className="my-8 flex min-h-48 items-center justify-center rounded-3xl border-2 border-dashed border-slate-200 bg-white text-center"><div><ImageIcon className="mx-auto size-8 text-slate-300" /><p className="mt-3 text-sm font-black text-muted-foreground">Placeholder de ilustración clínica</p><p className="mt-1 text-xs font-semibold text-muted-foreground">Diagrama de mediadores y cambios vasculares</p></div></div><h3 className="mt-8 text-2xl font-black text-slate-950">Respuesta vascular</h3><p className="mt-3 text-base font-medium leading-8 text-slate-600">Los cambios iniciales incluyen una vasoconstricción breve seguida de vasodilatación arteriolar. El aumento del flujo sanguíneo explica el rubor y el calor, mientras que el incremento de la permeabilidad permite la salida de líquido y proteínas hacia el intersticio.</p><div className="my-7 border-l-4 border-[#FF5216] bg-orange-50 px-5 py-4"><div className="flex items-center gap-2 text-sm font-black text-[#FF5216]"><Lightbulb className="size-4" /> Nota importante</div><p className="mt-2 text-sm font-semibold leading-6 text-slate-700">La pérdida de líquido intravascular puede ser clínicamente relevante cuando la respuesta es extensa o sostenida.</p></div><h3 className="mt-8 text-2xl font-black text-slate-950">Reclutamiento leucocitario</h3><p className="mt-3 text-base font-medium leading-8 text-slate-600">Los leucocitos se marginan, ruedan sobre el endotelio, se adhieren y atraviesan la pared vascular. Este proceso está regulado por selectinas, integrinas y quimiocinas. En las primeras horas suelen predominar los neutrófilos; posteriormente aumenta la participación de monocitos y macrófagos.</p><button onClick={() => setNotesOpen(true)} className="my-6 flex w-full items-center gap-3 border-y border-slate-200 py-4 text-left"><Plus className="size-5 text-[#FF5216]" /><span className="text-sm font-black text-slate-700">Añadir una notita en este punto</span></button><h3 className="mt-8 text-2xl font-black text-slate-950">Mediadores y resolución</h3><p className="mt-3 text-base font-medium leading-8 text-slate-600">Histamina, prostaglandinas, leucotrienos y citocinas coordinan los cambios locales. La respuesta debe apagarse cuando se elimina el estímulo; si persiste, puede producir lesión secundaria y progresar hacia inflamación crónica.</p><div className="my-7 flex min-h-40 items-center justify-center rounded-3xl border-2 border-dashed border-slate-200 bg-white text-center"><div><ImageIcon className="mx-auto size-8 text-slate-300" /><p className="mt-3 text-sm font-black text-muted-foreground">Placeholder de imagen</p><p className="mt-1 text-xs font-semibold text-muted-foreground">Esquema de resolución inflamatoria</p></div></div><h3 className="mt-8 text-2xl font-black text-slate-950">Para recordar</h3><p className="mt-3 text-base font-medium leading-8 text-slate-600">La inflamación es protectora cuando está localizada y es limitada. En la práctica, correlaciona siempre los signos cardinales con el tiempo de evolución, el foco probable y el estado general del paciente.</p></article><NoteDrawer open={notesOpen} onClose={() => setNotesOpen(false)} notes={notes} noteText={noteText} onNoteTextChange={setNoteText} onAdd={addNote} /></div>
+export function LessonView({
+  specialty,
+  topic,
+}: {
+  specialty: Specialty;
+  topic: Topic;
+}) {
+  const [notesOpen, setNotesOpen] = useState(false);
+  const [notes, setNotes] = useState([
+    "La respuesta inflamatoria debe interpretarse junto con la historia clínica.",
+    "La resolución depende de eliminar el estímulo y limitar el daño tisular.",
+  ]);
+  return (
+    <div className="relative flex flex-col gap-7 pt-7 pb-12 sm:pt-10">
+      <BackHeader
+        href={`/dashboard/topics/${specialty.slug}`}
+        backLabel="Volver a temas"
+        eyebrow={specialty.name}
+        title={topic.name}
+        titleClassName="truncate text-xl font-black"
+        trailing={
+          <button
+            onClick={() => setNotesOpen(true)}
+            aria-label="Ver notitas"
+            className="relative flex size-11 items-center justify-center rounded-2xl border border-slate-100 bg-white shadow-sm"
+          >
+            <PanelRight className="size-5" />
+            {notes.length > 0 && (
+              <span className="absolute -right-1 -top-1 flex size-5 items-center justify-center rounded-full bg-[#FF5216] text-[10px] font-black text-white">
+                {notes.length}
+              </span>
+            )}
+          </button>
+        }
+      />
+      <article className="prose prose-slate max-w-none">
+        <p className="text-sm font-black uppercase tracking-wider text-[#FF5216]">
+          Resumen clínico · 12 min
+        </p>
+        <h2 className="mt-3 text-4xl font-black tracking-tight text-slate-950">
+          {topic.name}
+        </h2>
+        <p className="mt-4 text-lg font-medium leading-8 text-slate-600">
+          La inflamación aguda es una respuesta temprana de los tejidos
+          vascularizados ante una agresión. Su objetivo es llevar proteínas
+          plasmáticas y células defensivas al sitio de lesión para contener el
+          daño, eliminar el estímulo y comenzar la reparación.
+        </p>
+        <div className="my-8 flex min-h-48 items-center justify-center rounded-3xl border-2 border-dashed border-slate-200 bg-white text-center">
+          <div>
+            <ImageIcon className="mx-auto size-8 text-slate-300" />
+            <p className="mt-3 text-sm font-black text-muted-foreground">
+              Placeholder de ilustración clínica
+            </p>
+            <p className="mt-1 text-xs font-semibold text-muted-foreground">
+              Diagrama de mediadores y cambios vasculares
+            </p>
+          </div>
+        </div>
+        <h3 className="mt-8 text-2xl font-black text-slate-950">
+          Respuesta vascular
+        </h3>
+        <p className="mt-3 text-base font-medium leading-8 text-slate-600">
+          Los cambios iniciales incluyen una vasoconstricción breve seguida de
+          vasodilatación arteriolar. El aumento del flujo sanguíneo explica el
+          rubor y el calor, mientras que el incremento de la permeabilidad
+          permite la salida de líquido y proteínas hacia el intersticio.
+        </p>
+        <div className="my-7 border-l-4 border-[#FF5216] bg-orange-50 px-5 py-4">
+          <div className="flex items-center gap-2 text-sm font-black text-[#FF5216]">
+            <Lightbulb className="size-4" /> Nota importante
+          </div>
+          <p className="mt-2 text-sm font-semibold leading-6 text-slate-700">
+            La pérdida de líquido intravascular puede ser clínicamente relevante
+            cuando la respuesta es extensa o sostenida.
+          </p>
+        </div>
+        <h3 className="mt-8 text-2xl font-black text-slate-950">
+          Reclutamiento leucocitario
+        </h3>
+        <p className="mt-3 text-base font-medium leading-8 text-slate-600">
+          Los leucocitos se marginan, ruedan sobre el endotelio, se adhieren y
+          atraviesan la pared vascular. Este proceso está regulado por
+          selectinas, integrinas y quimiocinas. En las primeras horas suelen
+          predominar los neutrófilos; posteriormente aumenta la participación de
+          monocitos y macrófagos.
+        </p>
+        <button
+          onClick={() => setNotesOpen(true)}
+          className="my-6 flex w-full items-center gap-3 border-y border-slate-200 py-4 text-left"
+        >
+          <Plus className="size-5 text-[#FF5216]" />
+          <span className="text-sm font-black text-slate-700">
+            Añadir una notita en este punto
+          </span>
+        </button>
+        <h3 className="mt-8 text-2xl font-black text-slate-950">
+          Mediadores y resolución
+        </h3>
+        <p className="mt-3 text-base font-medium leading-8 text-slate-600">
+          Histamina, prostaglandinas, leucotrienos y citocinas coordinan los
+          cambios locales. La respuesta debe apagarse cuando se elimina el
+          estímulo; si persiste, puede producir lesión secundaria y progresar
+          hacia inflamación crónica.
+        </p>
+        <div className="my-7 flex min-h-40 items-center justify-center rounded-3xl border-2 border-dashed border-slate-200 bg-white text-center">
+          <div>
+            <ImageIcon className="mx-auto size-8 text-slate-300" />
+            <p className="mt-3 text-sm font-black text-muted-foreground">
+              Placeholder de imagen
+            </p>
+            <p className="mt-1 text-xs font-semibold text-muted-foreground">
+              Esquema de resolución inflamatoria
+            </p>
+          </div>
+        </div>
+        <h3 className="mt-8 text-2xl font-black text-slate-950">
+          Para recordar
+        </h3>
+        <p className="mt-3 text-base font-medium leading-8 text-slate-600">
+          La inflamación es protectora cuando está localizada y es limitada. En
+          la práctica, correlaciona siempre los signos cardinales con el tiempo
+          de evolución, el foco probable y el estado general del paciente.
+        </p>
+      </article>
+      <NotesDialogs
+        open={notesOpen}
+        onOpenChange={setNotesOpen}
+        notes={notes}
+        onNotesChange={setNotes}
+      />
+    </div>
+  );
 }

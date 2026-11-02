@@ -18,7 +18,7 @@ export function QuizView({ eyebrow }: { eyebrow: string }) {
   const finish = checked && correct
 
   return (
-    <div className="flex flex-col gap-5 pt-6">
+    <div className="flex flex-col gap-5 pt-7 sm:pt-10">
       <BackHeader
         href="/dashboard/quiz"
         backLabel="Volver a selección de quiz"
