@@ -1,8 +1,10 @@
 'use server'
 
 import { cookies } from 'next/headers'
+import { after } from 'next/server'
 import { redirect } from 'next/navigation'
 import { createClient, getAuthUser } from '@/lib/supabase/server'
+import { sendPasswordChangedEmail, sendWelcomeEmail } from '@/lib/email/send'
 import {
   changePasswordSchema,
   fieldErrors,
@@ -89,6 +91,9 @@ export async function signupAction(input: unknown): Promise<AuthResult> {
   })
 
   if (error) return { error: SIGNUP_FAILED }
+
+  after(() => sendWelcomeEmail(parsed.data.email, parsed.data.fullName))
+
   if (!data.session) return { ok: true, pendingConfirmation: true }
   return { ok: true, redirectTo: '/dashboard' }
 }
@@ -112,7 +117,7 @@ export async function requestPasswordResetAction(input: unknown): Promise<AuthRe
   const supabase = await createClient()
   const origin = await requestOrigin()
   await supabase.auth.resetPasswordForEmail(parsed.data.email, {
-    redirectTo: `${origin}/auth/callback?next=/reset-password`,
+    redirectTo: `${origin}/auth/confirm`,
   })
 
   // Always the same answer: never reveal whether the account exists.
@@ -141,6 +146,9 @@ export async function resetPasswordAction(input: unknown): Promise<AuthResult> {
   const { error } = await supabase.auth.updateUser({ password: parsed.data.password })
   if (error) return { error: PASSWORD_UPDATE_FAILED }
 
+  const email = user.email
+  if (email) after(() => sendPasswordChangedEmail(email))
+
   await supabase.auth.signOut()
   cookieStore.delete({ name: RECOVERY_COOKIE, path: '/reset-password' })
   return { ok: true, redirectTo: '/login?reset=1' }
@@ -148,7 +156,8 @@ export async function resetPasswordAction(input: unknown): Promise<AuthResult> {
 
 export async function changePasswordAction(input: unknown): Promise<AuthResult> {
   const { user, supabase } = await getAuthUser()
-  if (!user?.email) return { error: UNAUTHENTICATED }
+  const email = user?.email
+  if (!user || !email) return { error: UNAUTHENTICATED }
 
   const parsed = changePasswordSchema.safeParse(input)
   if (!parsed.success) return { fieldErrors: fieldErrors(parsed.error) }
@@ -157,7 +166,7 @@ export async function changePasswordAction(input: unknown): Promise<AuthResult> 
   if (!limit.ok) return { error: tooManyAttempts(limit.retryAfterSec), retryAfterSec: limit.retryAfterSec }
 
   const { error: verifyError } = await supabase.auth.signInWithPassword({
-    email: user.email,
+    email,
     password: parsed.data.currentPassword,
   })
   if (verifyError) return { fieldErrors: { currentPassword: 'La contraseña actual no es correcta.' } }
@@ -167,5 +176,7 @@ export async function changePasswordAction(input: unknown): Promise<AuthResult> 
 
   // A password change must invalidate sessions on other devices.
   await supabase.auth.signOut({ scope: 'others' })
+
+  after(() => sendPasswordChangedEmail(email))
   return { ok: true }
 }

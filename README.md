@@ -19,6 +19,7 @@ All UI copy is Spanish; identifiers, routes and slugs are English (`/dashboard/t
 
 - Next.js 16 (App Router, Turbopack), React 19, TypeScript 5.7
 - Supabase Auth via `@supabase/ssr` (cookie sessions)
+- Resend + React Email for transactional email (`src/emails/`)
 - Tailwind CSS 4 with shadcn/base-nova components
 - zod for validation; Upstash Redis for rate limiting (in-memory fallback)
 - lucide-react icons; Inter for the UI, Source Serif 4 for the landing headline
@@ -40,7 +41,8 @@ Supabase project setup:
 2. Authentication → URL Configuration: Site URL `http://localhost:3000` and redirect URL `http://localhost:3000/auth/callback`.
 3. Apply the migration in `supabase/migrations/` (canonical email uniqueness).
 
-Full auth contract: [docs/AUTH.md](docs/AUTH.md).
+Full auth contract: [docs/AUTH.md](docs/AUTH.md). Emails: [docs/EMAILS.md](docs/EMAILS.md).
+Manual setup checklist (keys, deploy, hooks): [docs/MANUAL-STEPS.md](docs/MANUAL-STEPS.md).
 
 ## Deployment
 
@@ -67,7 +69,9 @@ Full auth contract: [docs/AUTH.md](docs/AUTH.md).
 src/
   app/            routes: landing, auth, dashboard (protected)
   components/     shared UI: bottom-nav, back-header, auth-shell, note-card, ...
+  emails/         React Email templates (welcome, reset, password changed)
   lib/auth/       zod schemas, server actions, rate limit, disposable domains
+  lib/email/      Resend sender and email link builders
   lib/supabase/   browser and server Supabase clients
   proxy.ts        session refresh + x-pathname (no route gating)
 supabase/

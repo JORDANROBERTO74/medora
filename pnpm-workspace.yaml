@@ -5,7 +5,9 @@ minimumReleaseAgeExclude:
   - next
 
 # unrs-resolver: napi-postinstall checks the platform binding, needed by eslint-plugin-import
+# esbuild: downloads/verifies its platform binary (required by react-email).
 allowBuilds:
+  esbuild: true
   unrs-resolver: true
 
 # Security audit fixes for transitive build-time dependencies (pnpm 11 reads
