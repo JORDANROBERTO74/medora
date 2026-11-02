@@ -42,6 +42,15 @@ Supabase project setup:
 
 Full auth contract: [docs/AUTH.md](docs/AUTH.md).
 
+## Deployment
+
+- Production origin: `https://medora.vercel.app` (app name, no custom domain).
+- Set `NEXT_PUBLIC_SITE_URL=https://medora.vercel.app` in the hosting environment.
+- Supabase: Site URL `https://medora.vercel.app`, redirect
+  `https://medora.vercel.app/auth/callback` (plus the Vercel preview wildcard).
+- Optional hardening: activate the deployed `before-user-created` Auth Hook and add the
+  Upstash credentials (details in [docs/AUTH.md](docs/AUTH.md)).
+
 ## Scripts
 
 | Command        | What it does                             |

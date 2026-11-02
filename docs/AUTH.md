@@ -112,12 +112,56 @@ Supabase project settings (applied 2026-11-02 via the Management API):
 
 ### Residual / platform-level
 
-- **Signup rate limiting is app-layer**: calling the Auth API directly bypasses it. Fix
-  requires a Supabase "before user created" Auth Hook (edge function) configured in the
-  project. Canonical and disposable rules are already DB-enforced.
+- **Signup rate limiting is app-layer**: calling the Auth API directly bypasses it.
+  The deployed `before-user-created` edge function closes this once activated (see below).
+  Canonical and disposable rules are already DB-enforced.
 - **Distributed rate limiting needs Upstash credentials**; without them the in-memory
   fallback is per instance.
 - Supabase keeps sessions valid until the JWT expires after sign-out (standard).
+
+## Signup hook (`before-user-created`)
+
+Deployed edge function: `supabase/functions/before-user-created/index.ts`
+(project `zmbmlwhwwdawpxvuwepp`, `verify_jwt: false` because GoTrue authenticates with
+the webhook signature).
+
+- Verifies `standardwebhooks` with `BEFORE_USER_CREATED_HOOK_SECRET`.
+- Caps signups per IP (5 / 15 min) through Upstash REST when
+  `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` are set as **edge function
+  secrets**; otherwise it allows the request (the DB guards still apply).
+- Rejects with `400` and a Spanish message when over the limit.
+
+### Activation (needs a Supabase personal access token)
+
+1. Dashboard → Authentication → Hooks → **Before user created**: enable, point to
+   `https://zmbmlwhwwdawpxvuwepp.supabase.co/functions/v1/before-user-created`, copy the
+   generated secret (`v1,whsec_…`) and add it as the edge function secret
+   `BEFORE_USER_CREATED_HOOK_SECRET`.
+2. With Upstash ready, also add `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`
+   as edge function secrets (they are separate from the app env).
+3. Equivalent Management API calls:
+   ```http
+   POST /v1/projects/{ref}/secrets
+   [{ "name": "BEFORE_USER_CREATED_HOOK_SECRET", "value": "v1,whsec_…" },
+    { "name": "UPSTASH_REDIS_REST_URL", "value": "…" },
+    { "name": "UPSTASH_REDIS_REST_TOKEN", "value": "…" }]
+
+   PATCH /v1/projects/{ref}/config/auth
+   { "hook_before_user_created_enabled": true,
+     "hook_before_user_created_uri": "https://{ref}.supabase.co/functions/v1/before-user-created",
+     "hook_before_user_created_secrets": [{ "value": "v1,whsec_…" }] }
+   ```
+4. Verify with six direct `POST /auth/v1/signup` calls from the same IP: the sixth must
+   be rejected; the UI flow is unchanged.
+
+## Production (app name, no custom domain)
+
+- `NEXT_PUBLIC_SITE_URL=https://medora.vercel.app` in the deployment environment.
+- Supabase Auth config:
+  `site_url = https://medora.vercel.app` and
+  `uri_allow_list = https://medora.vercel.app/auth/callback,https://*-<project>.vercel.app/auth/callback`
+  (previews). Apply with the dashboard or `PATCH /v1/projects/{ref}/config/auth`.
+- `requestOrigin()` throws in production without `NEXT_PUBLIC_SITE_URL`, by design.
 
 ## Database
 
