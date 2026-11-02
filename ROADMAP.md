@@ -28,6 +28,7 @@
 
 ## Related pending items
 
+- Manual setup checklist (Resend keys, Vercel deploy, Supabase hooks, Upstash): `docs/MANUAL-STEPS.md`.
 - User progress persistence (`profiles` + `events` tables) and replacing the demo numbers.
 - Real multi-question quiz engine (the current one is a single-question demo).
 - Orange `#FF5216` small text on light surfaces is ~3.2:1 (fails AA); keep it for fills and darken only text uses.
