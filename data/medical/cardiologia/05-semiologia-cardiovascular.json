@@ -30,7 +30,7 @@
         {
           "id": "clinica",
           "title": "Clínica",
-          "markdown": "**Clínica:** el S1 es intenso en la estenosis mitral y puede ser blando o ausente en la insuficiencia mitral por rigidez valvular, mientras que el desdoblamiento fisiológico del primer ruido (S1) es normal en muchos pacientes. Los clics son sistólicos, de tono más alto y duración más breve que los ruidos; los de la estenosis aórtica congénita o pulmonar son precoces y los del prolapso mitral, meso o telesistólicos, con desplazamiento hacia S1 al reducirse el volumen de llenado (bipedestación, Valsalva) y hacia S2 al aumentar (decúbito). Los soplos se describen por localización, cronología, intensidad, tono, duración e irradiación, y esa descripción suele bastar para orientar el diagnóstico."
+          "markdown": "**Clínica:** el S1 es intenso en la estenosis mitral y puede ser blando o ausente en la insuficiencia mitral por rigidez valvular, mientras que el desdoblamiento fisiológico es del segundo ruido (S2), normal en muchos pacientes. Los clics son sistólicos, de tono más alto y duración más breve que los ruidos; los de la estenosis aórtica congénita o pulmonar son precoces y los del prolapso mitral, meso o telesistólicos, con desplazamiento hacia S1 al reducirse el volumen de llenado (bipedestación, Valsalva) y hacia S2 al aumentar (decúbito). Los soplos se describen por localización, cronología, intensidad, tono, duración e irradiación, y esa descripción suele bastar para orientar el diagnóstico."
         },
         {
           "id": "diagnostico-criterios",

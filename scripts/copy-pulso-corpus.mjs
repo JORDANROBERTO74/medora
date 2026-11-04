@@ -18,6 +18,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { applyCorpusFixesToPayload } from "./corpus-fixes.mjs";
 
 const SRC = "E:\\Projects\\tools\\next\\pulso-app";
 const DEST = "E:\\Projects\\learning-saas\\Medora";
@@ -442,6 +443,11 @@ function checkCorpus(files, assets, hash, report, reading) {
 
 const { files, hash, report, reading } = buildCorpus();
 const assets = computeAssets();
+
+// Correcciones editoriales que deben sobrevivir a una recopia del corpus.
+let patched = 0;
+for (const [rel, payload] of files) patched += applyCorpusFixesToPayload(rel, payload);
+if (patched > 0) console.log(`Correcciones editoriales aplicadas: ${patched}`);
 
 if (report.droppedBlocks.length > 0) {
   console.warn(`Bloques descartados por quedar vacíos: ${report.droppedBlocks.length}`);
