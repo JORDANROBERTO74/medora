@@ -3,13 +3,14 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { getAuthUser } from "@/lib/supabase/server";
 import { signOutAction } from "@/lib/auth/actions";
+import { ThemePreference } from "@/components/theme-preference";
 import { ChangePasswordButton } from "./change-password-button";
 
 export const metadata: Metadata = {
-  title: "Más",
+  title: "Ajustes",
 };
 
-function MoreLink({ href, label }: { href: string; label: string }) {
+function SettingsLink({ href, label }: { href: string; label: string }) {
   return (
     <Link
       href={href}
@@ -32,7 +33,7 @@ function initialsOf(fullName: string, email: string) {
   return (fromName || email.slice(0, 2) || "?").toUpperCase();
 }
 
-export default async function MorePage() {
+export default async function SettingsPage() {
   const { user } = await getAuthUser();
   const fullName =
     typeof user?.user_metadata?.full_name === "string"
@@ -42,13 +43,13 @@ export default async function MorePage() {
   const displayName = fullName || email.split("@")[0] || "Tu cuenta";
 
   return (
-    <div className="flex flex-col gap-6 pt-7 pb-8 sm:pt-10">
+    <div className="flex flex-col gap-6 pt-7 sm:pt-10">
       <header>
         <p className="text-xs font-black uppercase tracking-wider text-[#FF5216]">
           Cuenta y ajustes
         </p>
         <h1 className="mt-1 text-3xl font-black tracking-tight sm:text-4xl">
-          Más
+          Ajustes
         </h1>
         <p className="mt-2 text-sm font-medium text-slate-500">
           Tu cuenta, tu sesión y accesos rápidos.
@@ -71,13 +72,21 @@ export default async function MorePage() {
 
       <section>
         <h2 className="mb-3 text-sm font-black uppercase tracking-wider text-slate-500">
-          Repaso
+          Preferencias
+        </h2>
+        <div className="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
+          <ThemePreference />
+        </div>
+      </section>
+
+      <section>
+        <h2 className="mb-3 text-sm font-black uppercase tracking-wider text-slate-500">
+          Accesos rápidos
         </h2>
         <div className="overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm">
-          <MoreLink href="/dashboard/notes" label="Mis notas" />
-          <MoreLink href="/dashboard/progress" label="Mi progreso" />
-          <MoreLink href="/dashboard/quiz" label="Quiz rápido" />
-          <MoreLink href="/dashboard/reading" label="Lectura larga" />
+          <SettingsLink href="/dashboard/notes" label="Notas" />
+          <SettingsLink href="/dashboard/progress" label="Mi progreso" />
+          <SettingsLink href="/dashboard/quiz" label="Quiz rápido" />
         </div>
       </section>
 

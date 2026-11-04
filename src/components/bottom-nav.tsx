@@ -1,80 +1,83 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { useEffect, useRef, useState } from 'react'
-import type { LucideIcon } from 'lucide-react'
-import { Home, Menu, StickyNote, Target, Trophy } from 'lucide-react'
-import { stepNavScroll } from '@/lib/nav-scroll'
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import type { LucideIcon } from "lucide-react";
+import { Home, NotebookPen, Brain, Trophy, Settings2 } from "lucide-react";
+import { stepNavScroll } from "@/lib/nav-scroll";
 
 type NavEntry = {
-  href: string
-  label: string
-  icon: LucideIcon
-  isActive: (pathname: string) => boolean
-}
+  href: string;
+  label: string;
+  icon: LucideIcon;
+  isActive: (pathname: string) => boolean;
+};
 
 const entries: NavEntry[] = [
   {
-    href: '/dashboard',
-    label: 'Inicio',
+    href: "/dashboard",
+    label: "Inicio",
     icon: Home,
     isActive: (pathname) =>
-      pathname === '/dashboard' ||
-      pathname.startsWith('/dashboard/topics') ||
-      pathname.startsWith('/dashboard/lesson'),
+      pathname === "/dashboard" || pathname.startsWith("/dashboard/reading"),
   },
   {
-    href: '/dashboard/quiz',
-    label: 'Quiz',
+    href: "/dashboard/quiz",
+    label: "Quiz",
+    icon: Brain,
+    isActive: (pathname) => pathname.startsWith("/dashboard/quiz"),
+  },
+  {
+    href: "/dashboard/notes",
+    label: "Notas",
+    icon: NotebookPen,
+    isActive: (pathname) =>
+      pathname.startsWith("/dashboard/notes") ||
+      pathname.startsWith("/dashboard/lesson"),
+  },
+  {
+    href: "/dashboard/progress",
+    label: "Progreso",
     icon: Trophy,
-    isActive: (pathname) => pathname.startsWith('/dashboard/quiz'),
+    isActive: (pathname) => pathname.startsWith("/dashboard/progress"),
   },
   {
-    href: '/dashboard/notes',
-    label: 'Notas',
-    icon: StickyNote,
-    isActive: (pathname) => pathname.startsWith('/dashboard/notes'),
+    href: "/settings",
+    label: "Ajustes",
+    icon: Settings2,
+    isActive: (pathname) => pathname.startsWith("/settings"),
   },
-  {
-    href: '/dashboard/progress',
-    label: 'Progreso',
-    icon: Target,
-    isActive: (pathname) => pathname.startsWith('/dashboard/progress'),
-  },
-  {
-    href: '/dashboard/more',
-    label: 'Más',
-    icon: Menu,
-    isActive: (pathname) => pathname.startsWith('/dashboard/more'),
-  },
-]
+];
 
 export function BottomNav() {
-  const pathname = usePathname()
-  const activeIndex = Math.max(0, entries.findIndex((entry) => entry.isActive(pathname)))
-  const [hidden, setHidden] = useState(false)
-  const scroll = useRef({ hidden: false, acc: 0 })
-  const lastY = useRef(0)
+  const pathname = usePathname();
+  const activeIndex = Math.max(
+    0,
+    entries.findIndex((entry) => entry.isActive(pathname)),
+  );
+  const [hidden, setHidden] = useState(false);
+  const scroll = useRef({ hidden: false, acc: 0 });
+  const lastY = useRef(0);
 
   useEffect(() => {
-    lastY.current = window.scrollY
+    lastY.current = window.scrollY;
     const onScroll = () => {
-      const y = window.scrollY
-      const next = stepNavScroll(scroll.current, y - lastY.current, y)
-      lastY.current = y
-      scroll.current = next
-      setHidden(next.hidden)
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+      const y = window.scrollY;
+      const next = stepNavScroll(scroll.current, y - lastY.current, y);
+      lastY.current = y;
+      scroll.current = next;
+      setHidden(next.hidden);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <nav
       inert={hidden}
       className={`fixed inset-x-4 bottom-4 z-10 mx-auto flex max-w-md items-center justify-between rounded-[28px] border border-slate-100 bg-white/95 p-2 shadow-[0_14px_35px_rgba(15,23,42,0.12)] backdrop-blur transition-transform duration-300 ease-out sm:inset-x-auto sm:w-[390px] ${
-        hidden ? 'translate-y-[calc(100%_+_2rem)]' : ''
+        hidden ? "translate-y-[calc(100%_+_2rem)]" : ""
       }`}
     >
       <span
@@ -83,10 +86,14 @@ export function BottomNav() {
         style={{ transform: `translateX(${activeIndex * 100}%)` }}
       />
       {entries.map((entry, index) => (
-        <NavItem key={entry.href} entry={entry} active={index === activeIndex} />
+        <NavItem
+          key={entry.href}
+          entry={entry}
+          active={index === activeIndex}
+        />
       ))}
     </nav>
-  )
+  );
 }
 
 // Icon-only items: label stays as aria-label, flex-1 keeps equal tap targets.
@@ -95,12 +102,14 @@ function NavItem({ entry, active }: { entry: NavEntry; active: boolean }) {
     <Link
       href={entry.href}
       aria-label={entry.label}
-      aria-current={active ? 'page' : undefined}
+      aria-current={active ? "page" : undefined}
       className={`relative flex min-w-0 flex-1 items-center justify-center rounded-2xl py-3 transition ${
-        active ? 'text-white' : 'text-muted-foreground hover:bg-slate-50 hover:text-slate-700'
+        active
+          ? "text-white"
+          : "text-muted-foreground hover:bg-slate-50 hover:text-slate-700"
       }`}
     >
       <entry.icon className="size-5" />
     </Link>
-  )
+  );
 }

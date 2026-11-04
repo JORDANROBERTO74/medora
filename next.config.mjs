@@ -28,6 +28,43 @@ const productionHeaders = [
 
 const nextConfig = {
   poweredByHeader: false,
+  async redirects() {
+    // Temporary (307) while the canonical URLs settle; switch to permanent at launch.
+    return [
+      { source: '/dashboard/reading', destination: '/dashboard', permanent: false },
+      { source: '/dashboard/more', destination: '/settings', permanent: false },
+      { source: '/dashboard/topics', destination: '/dashboard', permanent: false },
+      { source: '/dashboard/topics/:specialty', destination: '/dashboard/reading/:specialty', permanent: false },
+      { source: '/dashboard/reading/lectura', destination: '/dashboard', permanent: false },
+      {
+        source: '/dashboard/reading/lectura/:specialty/:chapter',
+        destination: '/dashboard/reading/:specialty/:chapter',
+        permanent: false,
+      },
+      {
+        source: '/dashboard/reading/lectura/:specialty',
+        destination: '/dashboard/reading/:specialty',
+        permanent: false,
+      },
+      {
+        source: '/dashboard/reading/resumen/:specialty/:chapter',
+        destination: '/dashboard/reading/summary/:specialty/:chapter',
+        permanent: false,
+      },
+      {
+        source: '/dashboard/reading/resumen/:specialty',
+        destination: '/dashboard/reading/summary/:specialty',
+        permanent: false,
+      },
+      { source: '/dashboard/reading/resumen', destination: '/dashboard/reading/summary', permanent: false },
+      {
+        source: '/dashboard/reading/repaso/:chapter',
+        destination: '/dashboard/reading/review/:chapter',
+        permanent: false,
+      },
+      { source: '/dashboard/reading/repaso', destination: '/dashboard/reading/review', permanent: false },
+    ]
+  },
   async headers() {
     return [
       {
