@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isCorrectAnswer, scoreFor } from './quiz'
+import { ROUND_SIZE, isCorrectAnswer, starsFor } from './quiz'
 
 describe('isCorrectAnswer', () => {
   it('accepts only the selected correct index', () => {
@@ -13,14 +13,34 @@ describe('isCorrectAnswer', () => {
   })
 })
 
-describe('scoreFor', () => {
-  it('awards 120 XP for a correct answer', () => {
-    expect(scoreFor(0, 0)).toBe(120)
-    expect(scoreFor(2, 2)).toBe(120)
+describe('starsFor', () => {
+  it('rates a perfect round at the maximum', () => {
+    expect(starsFor(5, 5)).toBe(5)
+    expect(starsFor(1, 1)).toBe(5)
   })
 
-  it('awards nothing for a wrong or missing answer', () => {
-    expect(scoreFor(3, 0)).toBe(0)
-    expect(scoreFor(null, 0)).toBe(0)
+  it('steps down with the share of correct answers', () => {
+    expect(starsFor(4, 5)).toBe(4)
+    expect(starsFor(3, 5)).toBe(3)
+    expect(starsFor(2, 5)).toBe(2)
+    expect(starsFor(1, 5)).toBe(1)
+  })
+
+  it('awards nothing for a round with no correct answer', () => {
+    expect(starsFor(0, 5)).toBe(0)
+    expect(starsFor(0, 1)).toBe(0)
+  })
+
+  it('refuses an impossible round instead of dividing by zero', () => {
+    expect(starsFor(3, 0)).toBe(0)
+  })
+
+  it('stays meaningful if the round size ever changes', () => {
+    expect(starsFor(2, 3)).toBe(3)
+    expect(starsFor(1, 10)).toBe(1)
+  })
+
+  it('matches the round the bank ships', () => {
+    expect(ROUND_SIZE).toBe(5)
   })
 })

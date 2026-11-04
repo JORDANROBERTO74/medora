@@ -2,9 +2,10 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { BookOpen, ChevronRight, Stethoscope, Zap } from 'lucide-react'
+import { BookOpen, ChevronRight, Stethoscope, Star } from 'lucide-react'
 import { clinicalCases } from '@/lib/cases'
 import { specialties } from '@/lib/content'
+import { ROUND_SIZE } from '@/lib/quiz'
 
 type Mode = 'quiz' | 'cases'
 
@@ -33,9 +34,9 @@ export function QuizMenuView() {
   const hero =
     mode === 'quiz'
       ? {
-          icon: <Zap className="size-5" fill="currentColor" />,
-          title: 'Gana XP y sube de nivel',
-          body: 'Mantén una racha de respuestas correctas para activar multiplicadores.',
+          icon: <Star className="size-5" fill="currentColor" />,
+          title: 'Gana estrellas y desbloquea logros',
+          body: 'Responde la ronda completa y guarda tu puntuación media en Progreso.',
         }
       : {
           icon: <Stethoscope className="size-5" />,
@@ -44,7 +45,7 @@ export function QuizMenuView() {
         }
 
   return (
-    <div className="flex flex-col gap-6 pt-7 pb-8 sm:pt-10">
+    <div className="flex flex-col gap-6 pt-7 sm:pt-10">
       <header>
         <p className="text-xs font-black uppercase tracking-wider text-[#FF5216]">Entrenamiento</p>
         <h1 className="mt-1 text-3xl font-black tracking-tight sm:text-4xl">Elige tu quiz</h1>
@@ -91,7 +92,9 @@ export function QuizMenuView() {
               </div>
               <div className="flex-1">
                 <h2 className="font-black">Quiz de {specialty.name}</h2>
-                <p className="mt-1 text-xs font-semibold text-muted-foreground">5 preguntas · +100 XP posibles</p>
+                <p className="mt-1 text-xs font-semibold text-muted-foreground">
+                  {ROUND_SIZE} preguntas · hasta {ROUND_SIZE} estrellas
+                </p>
               </div>
               <ChevronRight className="text-slate-300" />
             </Link>

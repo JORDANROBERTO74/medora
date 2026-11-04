@@ -7,6 +7,8 @@ import { BackHeader } from "@/components/back-header";
 import { Button } from "@/components/ui/button";
 import type { ClinicalCase } from "@/lib/cases";
 import { specialtyName } from "@/lib/content";
+import { lockScroll, unlockScroll } from "@/lib/scroll-lock";
+import { useUserData } from "@/lib/user-data/context";
 import { isCorrectAnswer } from "@/lib/quiz";
 
 const sections = [
@@ -22,8 +24,24 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
   const [hintOpen, setHintOpen] = useState(false);
   const hintButtonRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
+  /** Guards against a double click scoring the same case twice. */
+  const answered = useRef(false);
+  const { recordResult } = useUserData();
 
   const correct = isCorrectAnswer(selectedAnswer, clinicalCase.correctIndex);
+
+  const choose = (index: number) => {
+    if (answered.current) return;
+    answered.current = true;
+    setSelectedAnswer(index);
+    setChecked(true);
+    void recordResult(
+      "case",
+      `case:${clinicalCase.id}`,
+      index === clinicalCase.correctIndex ? 1 : 0,
+      1
+    );
+  };
 
   const closeHint = () => {
     setHintOpen(false);
@@ -42,6 +60,12 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
+  }, [hintOpen]);
+
+  useEffect(() => {
+    if (!hintOpen) return;
+    lockScroll();
+    return unlockScroll;
   }, [hintOpen]);
 
   return (
@@ -105,7 +129,7 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
                 type="button"
                 disabled={checked}
                 aria-pressed={chosen}
-                onClick={() => setSelectedAnswer(index)}
+                onClick={() => choose(index)}
                 className={`flex items-center gap-3 rounded-2xl border-2 p-4 text-left text-sm font-bold transition active:scale-[0.98] disabled:cursor-default disabled:active:scale-100 ${state}`}
               >
                 <span
@@ -124,7 +148,7 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
             );
           })}
         </div>
-        {checked ? (
+        {checked && (
           <div role="status" className="case-reveal mt-5 flex flex-col gap-3">
             <p
               className={`text-sm font-black ${correct ? "text-emerald-700" : "text-red-600"}`}
@@ -169,14 +193,6 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
               {clinicalCase.discussion}
             </p>
           </div>
-        ) : (
-          <Button
-            disabled={selectedAnswer === null}
-            onClick={() => setChecked(true)}
-            className="mt-5 h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-40"
-          >
-            Comprobar respuesta <ArrowRight data-icon="inline-end" />
-          </Button>
         )}
       </div>
       {checked && (
