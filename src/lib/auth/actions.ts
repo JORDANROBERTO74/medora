@@ -14,6 +14,7 @@ import {
   signupSchema,
 } from './schemas'
 import { safeNextPath } from './safe-next-path'
+import { setThemeCookie } from '@/lib/theme-cookie'
 import { isDisposableEmail } from './is-disposable-email'
 import { rateLimitAsync, hashKey } from './rate-limit'
 import { clientIp } from './client-ip'
@@ -57,11 +58,20 @@ export async function loginAction(input: unknown): Promise<AuthResult> {
   if (!emailLimit.ok) return { error: LOGIN_FAILED }
 
   const supabase = await createClient()
-  const { error } = await supabase.auth.signInWithPassword({
+  const { data, error } = await supabase.auth.signInWithPassword({
     email: parsed.data.email,
     password: parsed.data.password,
   })
   if (error) return { error: LOGIN_FAILED }
+
+  // Seed the pre-paint theme from the saved preference. Accounts without a
+  // saved theme keep whatever this device already has locally.
+  const { data: preference } = await supabase
+    .from('user_preferences')
+    .select('theme')
+    .eq('user_id', data.user.id)
+    .maybeSingle()
+  if (preference) await setThemeCookie(preference.theme)
 
   return { ok: true, redirectTo: safeNextPath(parsed.data.next) }
 }

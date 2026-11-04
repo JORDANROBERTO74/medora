@@ -1,54 +1,66 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { ArrowRight, Check } from "lucide-react";
 import { BackHeader } from "@/components/back-header";
 import { Markdown } from "@/components/markdown";
-import { NotesDialogs } from "@/components/note-dialogs";
-import type { Specialty, Topic } from "@/lib/content";
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/toast";
+import type { NextLesson, NoteCategory, Topic } from "@/lib/content";
+import { stripRepeatedTitle } from "@/lib/content/chapter-segments";
 import type { CorpusTopic } from "@/lib/content/types";
-import { PanelRight, Plus } from "lucide-react";
+import { useUserData } from "@/lib/user-data/context";
+import { lessonKey } from "@/lib/user-data/progress";
 
 export function LessonView({
-  specialty,
+  category,
   topic,
   content,
+  backHref,
+  backLabel,
+  next,
 }: {
-  specialty: Specialty;
+  category: NoteCategory;
   topic: Topic;
   content: CorpusTopic;
+  backHref: string;
+  backLabel: string;
+  next?: NextLesson;
 }) {
-  const [notesOpen, setNotesOpen] = useState(false);
-  const [notes, setNotes] = useState([
-    "Confirma el diagnóstico fuera de la consulta antes de iniciar tratamiento.",
-    "Revisa los signos de alarma antes de cerrar el tema.",
-  ]);
-
   const section = content.sections[0];
   const blocks = section?.blocks ?? [];
+  const contentKey = lessonKey(category.slug, topic.slug);
+  const { isComplete, markActivity } = useUserData();
+  const { toast } = useToast();
+  const [saving, setSaving] = useState(false);
+  const done = isComplete("lesson", contentKey);
+
+  const markAsReviewed = () => {
+    setSaving(true);
+    void markActivity("lesson", contentKey).then((ok) => {
+      setSaving(false);
+      if (!ok) {
+        toast.error("No se pudo marcar el tema", {
+          description: "Revisa tu conexión e inténtalo de nuevo.",
+        });
+      }
+    });
+  };
 
   return (
-    <div className="relative flex flex-col gap-7 pt-7 pb-12 sm:pt-10">
+    <div className="relative flex flex-col gap-7 pt-7 sm:pt-10">
       <BackHeader
-        href={`/dashboard/topics/${specialty.slug}`}
-        backLabel="Volver a temas"
-        eyebrow={specialty.name}
+        href={backHref}
+        backLabel={backLabel}
+        eyebrow={category.name}
         title={topic.name}
         titleClassName="truncate text-xl font-black"
-        trailing={
-          <button
-            onClick={() => setNotesOpen(true)}
-            aria-label="Ver notitas"
-            className="relative flex size-11 items-center justify-center rounded-2xl border border-slate-100 bg-white shadow-sm"
-          >
-            <PanelRight className="size-5" />
-            {notes.length > 0 && (
-              <span className="absolute -right-1 -top-1 flex size-5 items-center justify-center rounded-full bg-[#FF5216] text-[10px] font-black text-white">
-                {notes.length}
-              </span>
-            )}
-          </button>
-        }
       />
+      <p className="text-xs font-black uppercase tracking-wider text-slate-500">
+        Apunte de contenido · solo lectura
+      </p>
+
       <article className="max-w-none">
         {section?.note ? (
           <p className="border-l-4 border-[#FF5216] bg-orange-50 px-5 py-4 text-sm font-semibold leading-6 text-slate-700">
@@ -56,35 +68,63 @@ export function LessonView({
           </p>
         ) : null}
 
-        {blocks.map((block, index) => (
-          <section key={block.id} className={index === 0 && !section?.note ? "" : "mt-9"}>
-            <h2 className="text-2xl font-black tracking-tight text-slate-950">{block.title}</h2>
-            <Markdown>{block.markdown}</Markdown>
-            {index === 0 ? (
-              <button
-                onClick={() => setNotesOpen(true)}
-                className="my-6 flex w-full items-center gap-3 border-y border-slate-200 py-4 text-left"
-              >
-                <Plus className="size-5 text-[#FF5216]" />
-                <span className="text-sm font-black text-slate-700">
-                  Añadir una notita en este punto
-                </span>
-              </button>
-            ) : null}
-          </section>
-        ))}
+        {blocks.map((block, index) => {
+          const clean = stripRepeatedTitle(block);
+          return (
+            <section
+              key={block.id}
+              className={index === 0 && !section?.note ? "" : "mt-9"}
+            >
+              <h2 className="text-2xl font-black tracking-tight text-slate-950">
+                {block.title}
+              </h2>
+              <Markdown>{clean.markdown}</Markdown>
+            </section>
+          );
+        })}
 
         {blocks.length === 0 ? (
           <p className="text-sm font-semibold text-slate-500">Contenido en preparación.</p>
         ) : null}
       </article>
 
-      <NotesDialogs
-        open={notesOpen}
-        onOpenChange={setNotesOpen}
-        notes={notes}
-        onNotesChange={setNotes}
-      />
+      <section className="flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
+        <div className="min-w-0">
+          <p className="text-sm font-black">
+            {done ? "Tema repasado" : "¿Terminaste de leerlo?"}
+          </p>
+          <p className="mt-1 text-xs font-semibold text-slate-500">
+            {done
+              ? "Ya cuenta para tu progreso y tu racha."
+              : "Márcalo para sumarlo a tu progreso."}
+          </p>
+        </div>
+        <Button
+          onClick={markAsReviewed}
+          disabled={done || saving}
+          className={`h-11 shrink-0 rounded-full px-5 font-black ${
+            done
+              ? "bg-slate-100 text-slate-500"
+              : "bg-[#FF5216] text-white hover:bg-[#e94810]"
+          }`}
+        >
+          {done ? <Check data-icon="inline-start" /> : null}
+          {done ? "Repasado" : "Marcar como repasado"}
+        </Button>
+      </section>
+
+      {next ? (
+        <nav className="flex justify-end border-t border-slate-100 pt-5">
+          <Link
+            href={next.href}
+            title={next.label}
+            className="inline-flex max-w-full items-center gap-2 text-right sm:max-w-xs"
+          >
+            <span className="min-w-0 truncate text-sm font-black text-[#FF5216]">{next.label}</span>
+            <ArrowRight className="size-4 shrink-0 text-[#FF5216]" />
+          </Link>
+        </nav>
+      ) : null}
     </div>
   );
 }

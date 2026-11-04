@@ -5,7 +5,7 @@ describe('safeNextPath', () => {
   it('keeps same-origin paths, including query strings', () => {
     expect(safeNextPath('/dashboard')).toBe('/dashboard')
     expect(safeNextPath('/dashboard/quiz?mode=cases')).toBe('/dashboard/quiz?mode=cases')
-    expect(safeNextPath('/dashboard/topics/surgery')).toBe('/dashboard/topics/surgery')
+    expect(safeNextPath('/dashboard/reading/internal-medicine')).toBe('/dashboard/reading/internal-medicine')
   })
 
   it('falls back to the dashboard for anything else', () => {

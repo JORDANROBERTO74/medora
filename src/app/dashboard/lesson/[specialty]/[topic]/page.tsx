@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getSpecialty, getTopic, specialties } from "@/lib/content";
+import {
+  getNextLesson,
+  getNoteCategory,
+  getSpecialty,
+  getTopic,
+  noteCategories,
+} from "@/lib/content";
 import { getTopicContent } from "@/lib/content/corpus";
 import { LessonView } from "./lesson-view";
 
 export function generateStaticParams() {
-  return specialties.flatMap((specialty) =>
-    specialty.topics.map((topic) => ({
-      specialty: specialty.slug,
+  return noteCategories.flatMap((category) =>
+    category.topics.map((topic) => ({
+      specialty: category.slug,
       topic: topic.slug,
     })),
   );
@@ -19,7 +25,7 @@ export async function generateMetadata({
   params: Promise<{ specialty: string; topic: string }>;
 }): Promise<Metadata> {
   const { specialty: slug, topic: topicSlug } = await params;
-  return { title: getTopic(slug, topicSlug)?.name ?? "Lección" };
+  return { title: getTopic(slug, topicSlug)?.name ?? "Apunte" };
 }
 
 export default async function LessonPage({
@@ -28,10 +34,23 @@ export default async function LessonPage({
   params: Promise<{ specialty: string; topic: string }>;
 }) {
   const { specialty: slug, topic: topicSlug } = await params;
-  const specialty = getSpecialty(slug);
+  const category = getNoteCategory(slug);
   const topic = getTopic(slug, topicSlug);
   const content = getTopicContent(slug, topicSlug);
 
-  if (!specialty || !topic || !content) notFound();
-  return <LessonView specialty={specialty} topic={topic} content={content} />;
+  if (!category || !topic || !content) notFound();
+
+  const isSpecialty = Boolean(getSpecialty(slug));
+  const next = getNextLesson(slug, topicSlug);
+
+  return (
+    <LessonView
+      category={category}
+      topic={topic}
+      content={content}
+      next={next}
+      backHref={isSpecialty ? `/dashboard/reading/${slug}` : "/dashboard/notes"}
+      backLabel={isSpecialty ? "Volver a lectura" : "Volver a notas"}
+    />
+  );
 }
