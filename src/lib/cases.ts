@@ -64,7 +64,7 @@ export const clinicalCases: ClinicalCase[] = [
   },
   {
     id: 'diabetic-ketoacidosis',
-    specialtySlug: 'endocrinology',
+    specialtySlug: 'internal-medicine',
     title: 'Poliuria y deshidratación',
     history:
       'Mujer de 31 años con poliuria, polidipsia y pérdida de 5 kg en tres semanas. Cuadro de 24 horas con náuseas y somnolencia creciente.',
@@ -91,7 +91,7 @@ export const clinicalCases: ClinicalCase[] = [
   },
   {
     id: 'bacterial-meningitis',
-    specialtySlug: 'infectious-diseases',
+    specialtySlug: 'pediatrics',
     title: 'Fiebre e irritabilidad en lactante',
     history:
       'Lactante de 4 meses con fiebre de 39 °C de 24 horas, irritabilidad que no cede al sostenerlo y rechazo de las tomas. La madre refiere menos actividad de lo habitual.',

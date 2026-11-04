@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getNoteOrderMap } from '@/lib/notes/note-order.server'
 import { NotesView } from './notes-view'
 
 export const metadata: Metadata = {
@@ -6,5 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function NotesPage() {
-  return <NotesView />
+  return <NotesView orderMap={getNoteOrderMap()} />
 }

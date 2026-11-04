@@ -1,0 +1,84 @@
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
+import { ReadingChapter } from '@/components/reading-chapter'
+import { getSpecialty, specialties } from '@/lib/content'
+import { findReadingChapter, getChapterNotes, getFirstChapterOfNextSpecialty, getReading } from '@/lib/content/corpus'
+import { publicSlug } from '@/lib/content/slugs'
+
+export function generateStaticParams() {
+  return specialties.flatMap((specialty) => {
+    const file = getReading(specialty.slug, 'main')
+    return file
+      ? file.chapters.map((chapter) => ({
+          specialty: specialty.slug,
+          chapter: publicSlug(chapter.slug),
+        }))
+      : []
+  })
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ specialty: string; chapter: string }>
+}): Promise<Metadata> {
+  const { specialty, chapter: chapterSlug } = await params
+  const file = getReading(specialty, 'main')
+  const chapter = file ? findReadingChapter(file, chapterSlug) : undefined
+  return { title: chapter?.title ?? 'Lectura' }
+}
+
+export default async function MainReadingChapterPage({
+  params,
+}: {
+  params: Promise<{ specialty: string; chapter: string }>
+}) {
+  const { specialty: specialtySlug, chapter: chapterSlug } = await params
+  const specialty = getSpecialty(specialtySlug)
+  const file = getReading(specialtySlug, 'main')
+  if (!specialty || !file) notFound()
+
+  const chapter = findReadingChapter(file, chapterSlug)
+  if (!chapter) notFound()
+
+  const index = file.chapters.indexOf(chapter)
+  const previous = file.chapters[index - 1]
+  const next = file.chapters[index + 1]
+  const nextSpecialty = next
+    ? undefined
+    : getFirstChapterOfNextSpecialty(specialtySlug, 'main')
+  const sourceHref = `/dashboard/reading/${specialtySlug}/${publicSlug(chapter.slug)}`
+
+  return (
+    <ReadingChapter
+      backHref={`/dashboard/reading/${specialtySlug}`}
+      backLabel="Volver a lectura"
+      eyebrow={specialty.name}
+      title={chapter.title}
+      markdown={chapter.markdown}
+      sourceHref={sourceHref}
+      notes={getChapterNotes(specialtySlug, chapter.slug)}
+      previous={
+        previous
+          ? {
+              href: `/dashboard/reading/${specialtySlug}/${publicSlug(previous.slug)}`,
+              label: 'Anterior',
+            }
+          : undefined
+      }
+      next={
+        next
+          ? {
+              href: `/dashboard/reading/${specialtySlug}/${publicSlug(next.slug)}`,
+              label: 'Siguiente',
+            }
+          : nextSpecialty
+            ? {
+                href: `/dashboard/reading/${nextSpecialty.specialty.slug}/${publicSlug(nextSpecialty.chapter.slug)}`,
+                label: nextSpecialty.specialty.name,
+              }
+            : undefined
+      }
+    />
+  )
+}

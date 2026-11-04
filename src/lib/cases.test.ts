@@ -46,13 +46,13 @@ describe('getCase', () => {
     expect(getCase('gastrointestinal-surgery')?.options[getCase('gastrointestinal-surgery')!.correctIndex]).toBe(
       'Apendicitis aguda'
     )
-    expect(getCase('infectious-diseases')?.options[getCase('infectious-diseases')!.correctIndex]).toBe(
+    expect(getCase('pediatrics')?.options[getCase('pediatrics')!.correctIndex]).toBe(
       'Meningitis bacteriana'
     )
   })
 
-  it('returns undefined for a specialty without a case', () => {
-    expect(getCase('cardiology')).toBeUndefined()
+  it('returns undefined for an unknown specialty', () => {
+    expect(getCase('radiology' as never)).toBeUndefined()
   })
 })
 

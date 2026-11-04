@@ -16,4 +16,15 @@ describe('Markdown', () => {
     expect(html).not.toContain('&lt;!--')
     expect(html).not.toContain('p:2')
   })
+
+  it('adds paragraph notes only to content, not headings or bold labels', () => {
+    const html = renderToStaticMarkup(
+      <Markdown noteContext={{ href: '/x', block: 0, title: 'Capítulo' }}>
+        {'### Título\n\nPárrafo uno.\n\n**Subtítulo**\n\nDefinición:\n\nPárrafo dos.'}
+      </Markdown>
+    )
+
+    const buttons = html.match(/Añadir nota a este párrafo/g) ?? []
+    expect(buttons).toHaveLength(2)
+  })
 })

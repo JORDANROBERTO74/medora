@@ -3,6 +3,7 @@
 import { useEffect, useId, useRef } from 'react'
 import type { ReactNode } from 'react'
 import { X } from 'lucide-react'
+import { lockScroll, unlockScroll } from '@/lib/scroll-lock'
 
 type DialogProps = {
   open: boolean
@@ -33,10 +34,16 @@ export function Dialog({ open, onClose, title, eyebrow, role = 'dialog', childre
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [open])
 
+  useEffect(() => {
+    if (!open) return
+    lockScroll()
+    return unlockScroll
+  }, [open])
+
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-30 flex items-center justify-center bg-slate-950/40 p-4" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/40 p-4" onClick={onClose}>
       <div
         role={role}
         aria-modal="true"

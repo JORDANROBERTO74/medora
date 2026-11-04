@@ -18,7 +18,7 @@ export function ReadingChapterList({
   items: ChapterItem[]
 }) {
   return (
-    <div className="flex flex-col gap-6 pt-7 pb-8 sm:pt-10">
+    <div className="flex flex-col gap-6 pt-7 sm:pt-10">
       <BackHeader
         href={backHref}
         backLabel={backLabel}

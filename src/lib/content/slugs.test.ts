@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { specialties } from '../content'
+import { noteCategories, specialties } from '../content'
 import { CONTENT_SLUGS, publicSlug } from './slugs'
 
 const DATA_DIR = path.join(process.cwd(), 'data', 'medical')
@@ -94,22 +94,47 @@ describe('content slug map', () => {
     )
   })
 
-  it('matches the client metadata used by the UI', () => {
-    const visible = index.specialties.filter((specialty) => specialty.kind === 'clinical')
+  it('maps the client note categories to the real corpus topics', () => {
+    const corpusCategories = new Set(index.specialties.map((specialty) => publicSlug(specialty.slug)))
+    const corpusTopics = new Map<string, string>()
+    const institutional = new Set<string>()
 
+    for (const specialty of index.specialties) {
+      for (const topic of manifests.get(specialty.id)?.topics ?? []) {
+        corpusTopics.set(publicSlug(topic.slug), topic.title)
+        if (specialty.kind === 'institutional') institutional.add(publicSlug(topic.slug))
+      }
+    }
+
+    expect(noteCategories).toHaveLength(5)
+
+    for (const category of noteCategories) {
+      expect(corpusCategories.has(category.slug), category.slug).toBe(true)
+      for (const topic of category.topics) {
+        expect(corpusTopics.get(topic.slug), topic.slug).toBe(topic.name)
+      }
+    }
+
+    const covered = noteCategories.flatMap((category) => category.topics.map((topic) => topic.slug))
+    expect(covered).toHaveLength(51)
+    expect(new Set(covered).size).toBe(51)
+
+    const expected = [...corpusTopics.keys()].filter((slug) => !institutional.has(slug))
+    expect([...covered].sort()).toEqual(expected.sort())
+  })
+
+  it('keeps the four reading specialties inside the note categories', () => {
     expect(specialties.map((specialty) => specialty.slug)).toEqual(
-      visible.map((specialty) => publicSlug(specialty.slug))
+      noteCategories.slice(0, 4).map((category) => category.slug)
     )
+  })
 
+  it('advertises the main reading size on the specialty cards', () => {
     for (const specialty of specialties) {
-      const corpus = visible.find((entry) => publicSlug(entry.slug) === specialty.slug)
+      const corpus = index.specialties.find((entry) => publicSlug(entry.slug) === specialty.slug)
       expect(corpus, specialty.slug).toBeDefined()
-      expect(specialty.topics.map((topic) => topic.slug)).toEqual(
-        (manifests.get(corpus!.id)?.topics ?? []).map((topic) => publicSlug(topic.slug))
-      )
-      expect(specialty.topics.map((topic) => topic.name)).toEqual(
-        (manifests.get(corpus!.id)?.topics ?? []).map((topic) => topic.title)
-      )
+      const lectura = readingFile(corpus!.id, 'lectura')
+      expect(specialty.detail, specialty.slug).toBe(`${lectura?.chapters.length} capítulos`)
     }
   })
 })

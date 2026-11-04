@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ReadingChapter } from '@/components/reading-chapter'
-import { findReadingChapter, getRepaso } from '@/lib/content/corpus'
+import { findReadingChapter, getReview } from '@/lib/content/corpus'
 import { publicSlug } from '@/lib/content/slugs'
 
 export function generateStaticParams() {
-  return (getRepaso()?.chapters ?? []).map((chapter) => ({
+  return (getReview()?.chapters ?? []).map((chapter) => ({
     chapter: publicSlug(chapter.slug),
   }))
 }
@@ -16,18 +16,18 @@ export async function generateMetadata({
   params: Promise<{ chapter: string }>
 }): Promise<Metadata> {
   const { chapter: chapterSlug } = await params
-  const file = getRepaso()
+  const file = getReview()
   const chapter = file ? findReadingChapter(file, chapterSlug) : undefined
   return { title: chapter?.title ?? 'Repaso' }
 }
 
-export default async function RepasoChapterPage({
+export default async function ReviewChapterPage({
   params,
 }: {
   params: Promise<{ chapter: string }>
 }) {
   const { chapter: chapterSlug } = await params
-  const file = getRepaso()
+  const file = getReview()
   if (!file) notFound()
 
   const chapter = findReadingChapter(file, chapterSlug)
@@ -39,19 +39,20 @@ export default async function RepasoChapterPage({
 
   return (
     <ReadingChapter
-      backHref="/dashboard/reading/repaso"
-      backLabel="Volver a repaso"
+      backHref="/dashboard/reading/review"
+      backLabel="Volver al repaso"
       eyebrow="Transversal"
       title={chapter.title}
       markdown={chapter.markdown}
+      sourceHref={`/dashboard/reading/review/${publicSlug(chapter.slug)}`}
       previous={
         previous
-          ? { href: `/dashboard/reading/repaso/${publicSlug(previous.slug)}`, label: 'Anterior' }
+          ? { href: `/dashboard/reading/review/${publicSlug(previous.slug)}`, label: 'Anterior' }
           : undefined
       }
       next={
         next
-          ? { href: `/dashboard/reading/repaso/${publicSlug(next.slug)}`, label: 'Siguiente' }
+          ? { href: `/dashboard/reading/review/${publicSlug(next.slug)}`, label: 'Siguiente' }
           : undefined
       }
     />
