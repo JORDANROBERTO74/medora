@@ -3,7 +3,8 @@
 Todo lo que requiere tus cuentas o claves. El código ya está implementado, testeado y
 publicado; estos pasos activan la infraestructura.
 
-Documentación técnica relacionada: [AUTH.md](./AUTH.md) · [EMAILS.md](./EMAILS.md).
+Documentación técnica relacionada: [AUTH.md](./AUTH.md) · [EMAILS.md](./EMAILS.md) ·
+[USER-DATA.md](./USER-DATA.md).
 
 ## Estado actual (ya hecho)
 
@@ -16,6 +17,11 @@ Documentación técnica relacionada: [AUTH.md](./AUTH.md) · [EMAILS.md](./EMAIL
 - **Edge Function** `before-user-created` desplegada y ACTIVE (hook aún sin activar).
 - **Emails** (Resend + React Email) implementados; sin `RESEND_API_KEY` los envíos se
   omiten sin romper el signup.
+- **Datos de usuario en Supabase**: migraciones `20261104000000_user_data.sql` y
+  `20261104010000_user_quiz_results.sql` aplicadas (`user_preferences`, `user_progress`,
+  `user_study_days`, `user_notes`, `user_quiz_results`, todas con RLS); progreso, racha,
+  notas personales, tema, rondas con estrellas y logros se guardan o se derivan de la
+  cuenta, y el tema se cachea en la cookie `medora-theme`.
 
 ## 1. Resend (correos)
 
@@ -71,7 +77,19 @@ Documentación técnica relacionada: [AUTH.md](./AUTH.md) · [EMAILS.md](./EMAIL
 - [ ] Signup nuevo → llega el correo de **bienvenida** (Resend).
 - [ ] "¿Olvidaste tu contraseña?" → llega el correo de **recuperación**; abrir el enlace
       desde **otro navegador** y cambiar la contraseña.
-- [ ] Cambiar contraseña desde Más → llega el aviso de **contraseña actualizada**.
+- [ ] Cambiar contraseña desde Ajustes → llega el aviso de **contraseña actualizada**.
+- [ ] Cambiar tema en Ajustes → se mantiene al recargar y sigue al sistema en **Sistema**.
+- [ ] Marcar un apunte con **Marcar como repasado** → sube el % de Inicio y de Progreso, y
+      aparece la racha (si es el primer día, "Empieza tu racha" pasa a "1 día de racha").
+- [ ] Abrir un capítulo de lectura y responder un quiz/caso → la racha se registra sin
+      tocar ningún botón.
+- [ ] Completar una ronda de quiz → tarjeta con las estrellas (p. ej. 3/5) y el detalle de
+      aciertos; en Progreso sube **preguntas resueltas** y la **puntuación media**, y se
+      desbloquean los logros que correspondan.
+- [ ] Crear una nota en un párrafo → aparece en **Mis notas** y sigue ahí tras recargar y
+      en otro navegador con la misma cuenta.
+- [ ] Iniciar sesión en un segundo navegador con una preferencia de tema guardada → aplica
+      el tema guardado sin tocar Ajustes.
 - [ ] 6 signups directos a `/auth/v1/signup` desde la misma IP → el 6º se rechaza
       (con Upstash configurado).
 - [ ] Supabase → Logs → Auth: ningún envío del mailer nativo de Supabase.
