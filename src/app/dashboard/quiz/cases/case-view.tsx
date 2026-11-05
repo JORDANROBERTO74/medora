@@ -12,12 +12,21 @@ import { useUserData } from "@/lib/user-data/context";
 import { isCorrectAnswer } from "@/lib/quiz";
 
 const sections = [
-  { label: "Historia", key: "history" },
+  { label: "Motivo de consulta", key: "reason" },
+  { label: "Enfermedad actual", key: "history" },
+  { label: "Antecedentes", key: "background" },
   { label: "Examen físico", key: "exam" },
   { label: "Laboratorio", key: "labs" },
+  { label: "Estudios", key: "studies" },
 ] as const;
 
-export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
+export function CaseView({
+  clinicalCase,
+  next,
+}: {
+  clinicalCase: ClinicalCase;
+  next?: { href: string; label: string };
+}) {
   const router = useRouter();
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
@@ -94,20 +103,35 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
           </button>
         </div>
         <div className="mt-4 flex flex-col gap-4">
-          {sections.map((section, index) => (
-            <div
-              key={section.key}
-              className={index > 0 ? "border-t border-slate-100 pt-4" : ""}
-            >
-              <h2 className="text-xs font-black uppercase tracking-wider text-slate-500">
-                {section.label}
-              </h2>
-              <p className="mt-1.5 text-sm font-medium leading-7 text-slate-600">
-                {clinicalCase[section.key]}
-              </p>
-            </div>
-          ))}
+          {sections
+            .map((section) => ({ ...section, text: clinicalCase[section.key] }))
+            .filter((section) => Boolean(section.text))
+            .map((section, index) => (
+              <div
+                key={section.key}
+                className={index > 0 ? "border-t border-slate-100 pt-4" : ""}
+              >
+                <h2 className="text-xs font-black uppercase tracking-wider text-slate-500">
+                  {section.label}
+                </h2>
+                <p className="mt-1.5 whitespace-pre-line text-sm font-medium leading-7 text-slate-600">
+                  {section.text}
+                </p>
+              </div>
+            ))}
         </div>
+        {clinicalCase.studyQuestions.length > 0 && (
+          <div className="mt-5 rounded-2xl bg-slate-50 p-4">
+            <p className="text-xs font-black uppercase tracking-wider text-slate-500">
+              En este caso te piden
+            </p>
+            <ol className="mt-2 flex list-decimal flex-col gap-1 pl-4 text-xs font-bold text-slate-600">
+              {clinicalCase.studyQuestions.map((item) => (
+                <li key={item.prompt}>{item.prompt}</li>
+              ))}
+            </ol>
+          </div>
+        )}
         <h2 className="mt-5 text-lg font-black leading-tight">
           {clinicalCase.question}
         </h2>
@@ -186,21 +210,39 @@ export function CaseView({ clinicalCase }: { clinicalCase: ClinicalCase }) {
                 })}
               </ul>
             </div>
-            <p className="rounded-2xl bg-slate-50 p-4 text-xs font-medium leading-5 text-slate-600">
-              <span className="font-black uppercase tracking-wider text-slate-500">
-                Conducta:{" "}
-              </span>
-              {clinicalCase.discussion}
-            </p>
+            {clinicalCase.studyQuestions.length > 0 ? (
+              <div className="rounded-2xl bg-slate-50 p-4">
+                <p className="text-xs font-black uppercase tracking-wider text-slate-500">
+                  Respuestas del caso
+                </p>
+                <div className="mt-3 flex flex-col gap-3">
+                  {clinicalCase.studyQuestions.map((item) => (
+                    <div key={item.prompt}>
+                      <p className="text-xs font-black text-slate-700">{item.prompt}</p>
+                      <p className="mt-1 text-xs font-medium leading-5 text-slate-600">
+                        {item.answer}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <p className="rounded-2xl bg-slate-50 p-4 text-xs font-medium leading-5 text-slate-600">
+                <span className="font-black uppercase tracking-wider text-slate-500">
+                  Conducta:{" "}
+                </span>
+                {clinicalCase.discussion}
+              </p>
+            )}
           </div>
         )}
       </div>
-      {checked && (
+      {checked && next && (
         <Button
-          onClick={() => router.push("/dashboard/quiz/cases/random")}
+          onClick={() => router.push(next.href)}
           className="case-reveal h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
         >
-          Siguiente <ArrowRight data-icon="inline-end" />
+          {next.label} <ArrowRight data-icon="inline-end" />
         </Button>
       )}
       {hintOpen && (

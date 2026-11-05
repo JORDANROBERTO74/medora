@@ -10,5 +10,11 @@ export const metadata: Metadata = {
 };
 
 export default function RandomCasePage() {
-  return <CaseView clinicalCase={pickRandomCase()} />;
+  // No reading order here, so "Siguiente" just deals another random case.
+  return (
+    <CaseView
+      clinicalCase={pickRandomCase()}
+      next={{ href: "/dashboard/quiz/cases/random", label: "Siguiente" }}
+    />
+  );
 }
