@@ -1,24 +1,18 @@
-import Link from 'next/link'
-import type { LucideIcon } from 'lucide-react'
-import { Baby, BookOpen, ChevronRight, Clipboard, Scissors } from 'lucide-react'
-import type { Specialty, SpecialtySlug } from '@/lib/content'
-
-const icons: Record<SpecialtySlug, LucideIcon> = {
-  'internal-medicine': Clipboard,
-  'gastrointestinal-surgery': Scissors,
-  'obstetrics-gynecology': Baby,
-  pediatrics: BookOpen,
-}
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
+import type { Specialty } from "@/lib/content";
+import { specialtyIcons } from "@/lib/specialty-icons";
+import { PercentBar } from "./percent-bar";
 
 export function SpecialtyCard({
   specialty,
   progress,
 }: {
-  specialty: Specialty
+  specialty: Specialty;
   /** Reviewed apuntes percentage, computed from the user's progress rows. */
-  progress: number
+  progress: number;
 }) {
-  const Icon = icons[specialty.slug]
+  const Icon = specialtyIcons[specialty.slug];
 
   return (
     <Link
@@ -30,18 +24,17 @@ export function SpecialtyCard({
       </div>
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2">
-          <span className="text-xs font-black text-[#FF5216]">{specialty.number}</span>
+          <span className="text-xs font-black text-[#FF5216]">
+            {specialty.number}
+          </span>
           <h3 className="font-extrabold leading-5">{specialty.name}</h3>
         </div>
-        <p className="mt-1 text-xs font-semibold text-muted-foreground">{specialty.detail}</p>
-        <div className="mt-3 flex items-center gap-2">
-          <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
-            <div className="h-full rounded-full bg-[#FF5216]" style={{ width: `${progress}%` }} />
-          </div>
-          <span className="text-[11px] font-black text-slate-500">{progress}%</span>
-        </div>
+        <p className="mt-1 text-xs font-semibold text-muted-foreground">
+          {specialty.detail}
+        </p>
+        <PercentBar percent={progress} />
       </div>
       <ChevronRight className="size-5 text-slate-300" />
     </Link>
-  )
+  );
 }
