@@ -20,9 +20,7 @@ const ICONS = [
   'military-medal',
   'pencil',
   'memo',
-  'shield',
   '1st-place-medal',
-  'trophy',
 ]
 
 const response = await fetch(
