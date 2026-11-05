@@ -17,12 +17,13 @@ function Stat({ value, label }: { value: string; label: string }) {
   )
 }
 
-export function ProgressView({ today }: { today: string }) {
-  const { progress, studyDays, results } = useUserData()
+export function ProgressView({ today, totalCases }: { today: string; totalCases: number }) {
+  const { progress, studyDays, results, cases } = useUserData()
   const summary = useMemo(() => buildProgressSummary(progress), [progress])
   const streak = useMemo(() => computeStreak(studyDays, today), [studyDays, today])
   const averageStars =
     results.rounds > 0 ? `${(results.stars / results.rounds).toFixed(1)} ★` : '—'
+  const solvedPercent = totalCases === 0 ? 0 : (cases.solved / totalCases) * 100
 
   return (
     <div className="flex flex-col gap-6 pt-7 sm:pt-10">
@@ -44,6 +45,23 @@ export function ProgressView({ today }: { today: string }) {
         <Stat value={`${summary.completed}`} label={`de ${summary.total} temas`} />
         <Stat value={String(results.questions)} label="preguntas resueltas" />
         <Stat value={averageStars} label="puntuación media" />
+      </section>
+
+      <section className="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
+        <div className="flex items-baseline justify-between gap-3">
+          <h2 className="text-sm font-black uppercase tracking-wider text-slate-500">
+            Casos clínicos
+          </h2>
+          <span className="text-xs font-black text-slate-500">
+            {cases.solved} de {totalCases} resueltos
+          </span>
+        </div>
+        <ProgressBar value={solvedPercent} className="mt-3" />
+        <p className="mt-2 text-xs font-semibold text-slate-500">
+          {cases.attempts === 0
+            ? 'Todavía no has resuelto ningún caso.'
+            : `${cases.correct} de ${cases.attempts} aciertos · ${cases.firstTry} a la primera`}
+        </p>
       </section>
 
       <section className="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">

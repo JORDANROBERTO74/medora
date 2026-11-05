@@ -1,12 +1,11 @@
 import { cache } from 'react'
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Database, ThemePreference } from '@/lib/supabase/database.types'
-import type { ProgressEntry, QuizStats, UserData } from './types'
+import type { ProgressEntry, UserData } from './types'
 import { NOTE_COLUMNS, toNote } from './note-row'
+import { buildCaseStats, buildQuizStats, type ResultRow } from './stats'
 
 type Client = SupabaseClient<Database>
-
-const EMPTY_STATS: QuizStats = { rounds: 0, questions: 0, correct: 0, stars: 0, best: 0 }
 
 /** One round trip per request, deduped across components in that request. */
 export const getUserData = cache(
@@ -28,8 +27,9 @@ export const getUserData = cache(
         .order('day', { ascending: true }),
       supabase
         .from('user_quiz_results')
-        .select('correct,total,stars')
-        .eq('user_id', userId),
+        .select('content_type,content_key,correct,total,stars,created_at')
+        .eq('user_id', userId)
+        .order('created_at', { ascending: true }),
     ])
 
     const failure = notes.error ?? progress.error ?? days.error ?? rounds.error
@@ -41,22 +41,21 @@ export const getUserData = cache(
       completedAt: row.completed_at,
     }))
 
-    const results: QuizStats = (rounds.data ?? []).reduce<QuizStats>(
-      (stats, row) => ({
-        rounds: stats.rounds + 1,
-        questions: stats.questions + row.total,
-        correct: stats.correct + row.correct,
-        stars: stats.stars + row.stars,
-        best: Math.max(stats.best, row.stars),
-      }),
-      { ...EMPTY_STATS }
-    )
+    const resultRows: ResultRow[] = (rounds.data ?? []).map((row) => ({
+      contentType: row.content_type,
+      contentKey: row.content_key,
+      correct: row.correct,
+      total: row.total,
+      stars: row.stars,
+      createdAt: row.created_at,
+    }))
 
     return {
       notes: (notes.data ?? []).map(toNote),
       progress: progressEntries,
       studyDays: (days.data ?? []).map((row) => row.day),
-      results,
+      results: buildQuizStats(resultRows),
+      cases: buildCaseStats(resultRows),
     }
   }
 )

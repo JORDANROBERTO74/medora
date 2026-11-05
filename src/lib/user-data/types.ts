@@ -8,16 +8,28 @@ export type ProgressEntry = {
 }
 
 /**
- * Derived from every recorded round, so "re-take" stays in the totals the way
- * a study log should. Average stars = stars / rounds.
+ * Quiz rounds only. Case attempts are kept apart (`CaseStats`) because a case
+ * is a one-question round: mixing them turned the average star rating into a
+ * pile of 5★/0★ values.
  */
 export type QuizStats = {
   rounds: number
   questions: number
   correct: number
   stars: number
-  /** Best round so far, 0–5. */
+  /** Best quiz round so far, 0–5. */
   best: number
+}
+
+export type CaseStats = {
+  /** Cases answered at least once. */
+  solved: number
+  /** Answers submitted across every attempt. */
+  attempts: number
+  /** Attempts that got the diagnosis right. */
+  correct: number
+  /** Cases right on the very first attempt. */
+  firstTry: number
 }
 
 /** Everything the dashboard needs, loaded once per app load. */
@@ -27,4 +39,5 @@ export type UserData = {
   /** Study days as YYYY-MM-DD, ordered oldest first. */
   studyDays: string[]
   results: QuizStats
+  cases: CaseStats
 }

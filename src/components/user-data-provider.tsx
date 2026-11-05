@@ -152,17 +152,36 @@ export function UserDataProvider({
       if (!result.ok) return false
 
       const stars = starsFor(correct, total)
-      setData((prev) => ({
-        ...prev,
-        ...applyActivity(prev, contentType, contentKey),
-        results: {
-          rounds: prev.results.rounds + 1,
-          questions: prev.results.questions + total,
-          correct: prev.results.correct + correct,
-          stars: prev.results.stars + stars,
-          best: Math.max(prev.results.best, stars),
-        },
-      }))
+      setData((prev) => {
+        const alreadyTried = prev.progress.some(
+          (entry) => entry.contentType === contentType && entry.contentKey === contentKey
+        )
+        const right = correct >= total
+
+        return {
+          ...prev,
+          ...applyActivity(prev, contentType, contentKey),
+          results:
+            contentType === 'quiz'
+              ? {
+                  rounds: prev.results.rounds + 1,
+                  questions: prev.results.questions + total,
+                  correct: prev.results.correct + correct,
+                  stars: prev.results.stars + stars,
+                  best: Math.max(prev.results.best, stars),
+                }
+              : prev.results,
+          cases:
+            contentType === 'case'
+              ? {
+                  solved: prev.cases.solved + (alreadyTried ? 0 : 1),
+                  attempts: prev.cases.attempts + 1,
+                  correct: prev.cases.correct + (right ? 1 : 0),
+                  firstTry: prev.cases.firstTry + (!alreadyTried && right ? 1 : 0),
+                }
+              : prev.cases,
+        }
+      })
       return true
     },
     []
@@ -182,6 +201,7 @@ export function UserDataProvider({
       progress: data.progress,
       studyDays: data.studyDays,
       results: data.results,
+      cases: data.cases,
       isComplete,
       addNote,
       updateNote,

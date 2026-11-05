@@ -3,11 +3,18 @@ import { achievementCounts, computeAchievements, type Achievement } from './achi
 import { specialties } from './content'
 import type { PersonalNote } from './notes/personal-notes'
 import { lessonKey } from './user-data/progress'
-import type { ProgressEntry, QuizStats, UserData } from './user-data/types'
+import type { ProgressEntry, CaseStats, QuizStats, UserData } from './user-data/types'
 
 const NO_RESULTS: QuizStats = { rounds: 0, questions: 0, correct: 0, stars: 0, best: 0 }
+const NO_CASES: CaseStats = { solved: 0, attempts: 0, correct: 0, firstTry: 0 }
 
-const EMPTY: UserData = { notes: [], progress: [], studyDays: [], results: NO_RESULTS }
+const EMPTY: UserData = {
+  notes: [],
+  progress: [],
+  studyDays: [],
+  results: NO_RESULTS,
+  cases: NO_CASES,
+}
 
 function withData(overrides: Partial<UserData>): UserData {
   return { ...EMPTY, ...overrides }
@@ -96,6 +103,16 @@ describe('computeAchievements', () => {
 
     const complete = computeAchievements(withData({ progress }), 0)
     expect(unlockedIds(complete)).toContain('full-specialty')
+  })
+
+  it('lets a solved case unlock the first correct answer but not a perfect round', () => {
+    const list = computeAchievements(
+      withData({ cases: { solved: 1, attempts: 1, correct: 1, firstTry: 1 } }),
+      0
+    )
+
+    expect(unlockedIds(list)).toContain('first-correct')
+    expect(unlockedIds(list)).not.toContain('perfect-round')
   })
 
   it('unlocks a perfect round only at the maximum rating', () => {

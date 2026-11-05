@@ -65,9 +65,9 @@ export function computeAchievements(data: UserData, streak: number): Achievement
     build(
       'first-correct',
       'Primera respuesta correcta',
-      'Acierta al menos una pregunta.',
+      'Acierta al menos una pregunta o un caso clínico.',
       BadgeCheck,
-      data.results.correct >= 1
+      data.results.correct + data.cases.correct >= 1
     ),
     build(
       'perfect-round',
