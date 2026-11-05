@@ -24,7 +24,17 @@ function getRedis(): Redis | null {
   if (sharedRedis !== undefined) return sharedRedis
   const url = process.env.UPSTASH_REDIS_REST_URL?.trim()
   const token = process.env.UPSTASH_REDIS_REST_TOKEN?.trim()
-  sharedRedis = url && token ? new Redis({ url, token }) : null
+  if (!url || !token) {
+    sharedRedis = null
+    return sharedRedis
+  }
+  try {
+    sharedRedis = new Redis({ url, token })
+  } catch {
+    // A malformed URL must never take auth down: fall back to the memory bucket.
+    console.warn('[rate-limit] invalid Upstash config, falling back to memory')
+    sharedRedis = null
+  }
   return sharedRedis
 }
 

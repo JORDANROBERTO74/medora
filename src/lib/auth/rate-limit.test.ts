@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { rateLimitAsync } from './rate-limit'
 
 describe('rateLimitAsync (in-memory fallback)', () => {
@@ -15,6 +15,20 @@ describe('rateLimitAsync (in-memory fallback)', () => {
     if (!blocked.ok) {
       expect(blocked.retryAfterSec).toBeGreaterThan(0)
       expect(blocked.retryAfterSec).toBeLessThanOrEqual(60)
+    }
+  })
+
+  it('falls back to memory when the Upstash URL is malformed', async () => {
+    vi.stubEnv('UPSTASH_REDIS_REST_URL', '1')
+    vi.stubEnv('UPSTASH_REDIS_REST_TOKEN', 'token')
+    vi.resetModules()
+    try {
+      const fresh = await import('./rate-limit')
+      await expect(
+        fresh.rateLimitAsync(`misconfigured-${Date.now()}`, { limit: 1, windowMs: 60_000 }),
+      ).resolves.toEqual({ ok: true })
+    } finally {
+      vi.unstubAllEnvs()
     }
   })
 })
