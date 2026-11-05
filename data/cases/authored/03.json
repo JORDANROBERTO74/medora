@@ -1,0 +1,52 @@
+{
+  "order": 3,
+  "id": "subarachnoid-hemorrhage-sudden-headache",
+  "title": "Desviación de la comisura labial y cefalea intensa",
+  "reason": "Desviación de la comisura labial, cefalea intensa",
+  "history": "Paciente masculino de 67 años que consulta por un cuadro clínico de 2 horas de evolución, caracterizado por cefalea súbita intensa, náuseas y vómitos, acompañado de disartria y desviación de la comisura labial.",
+  "background": "Hipertensión arterial mal controlada. Infarto agudo de miocardio hace 10 años, con angioplastia en la descendente anterior.",
+  "exam": "PA 210/110 mmHg · FC 100 lpm · FR 18 rpm · SatO₂ 93 %\nNeurológico: Glasgow 13, rigidez de nuca, desviación de la comisura labial.\nTAC de cerebro: imagen hiperdensa en las cisternas basales.",
+  "labs": "Glucemia 110 mg/dL. Urea y creatinina normales. Electrocardiograma sin alteraciones.",
+  "studies": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Hemorragia subaracnoidea por rotura aneurismática",
+    "Hemorragia intracerebral hipertensiva",
+    "Meningitis bacteriana aguda",
+    "Infarto cerebral isquémico"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La cefalea súbita e intensa con rigidez de nuca, vómitos y deterioro de conciencia, junto con sangre hiperdensa en las cisternas basales, define una hemorragia subaracnoidea; la hipertensión de 210/110 explica el factor de riesgo.",
+    "La hemorragia intracerebral hipertensiva suele asentar en el parénquima —putamen, tálamo, protuberancia o cerebelo— y dar un déficit focal de instalación progresiva; aquí la sangre está en las cisternas y no en el parénquima.",
+    "La meningitis aguda comparte cefalea y rigidez de nuca, pero cursa con fiebre y el líquido cefalorraquídeo es inflamatorio, no hemorrágico; la TAC no muestra sangre en las cisternas.",
+    "El infarto isquémico puede debutar con disartria y desviación de la comisura labial, pero la TAC sería normal o hipodensa en las primeras horas, no hiperdensa en las cisternas."
+  ],
+  "hint": "Fíjate en el inicio en segundos, la rigidez de nuca y el lugar donde se deposita la sangre en la TAC.",
+  "discussion": "Ingreso en cuidados neurocríticos con control de la vía aérea, analgesia y presión arterial moderadamente controlada sin provocar hipotensión. Nimodipino durante 21 días para prevenir el vasoespasmo, y estudio del aneurisma con angio-TAC o angiografía para ocluirlo de forma precoz. Si la TAC fuera negativa con sospecha persistente, se realiza punción lumbar. Hay que vigilar el resangrado, el vasoespasmo y la hidrocefalia.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Hemorragia subaracnoidea por rotura aneurismática. La cefalea súbita e intensa con náuseas y vómitos, la rigidez de nuca, el Glasgow de 13 y la imagen hiperdensa en las cisternas basales de la TAC configuran el cuadro."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Hemorragia intracerebral hipertensiva, meningitis aguda, infarto cerebral isquémico, trombosis venosa cerebral y encefalopatía hipertensiva. La instalación en segundos, la ausencia de fiebre y la distribución cisternal de la sangre separan la hemorragia subaracnoidea de las demás."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Rotura de un aneurisma sacular de la circulación cerebral, sobre todo en las bifurcaciones del polígono de Willis. En este paciente consta hipertensión arterial mal controlada —210/110 mmHg al ingreso— y cardiopatía isquémica previa con angioplastia, marcadores de enfermedad vascular. Tabaquismo, alcohol, edad avanzada y antecedente familiar de aneurisma son los otros factores clásicos."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología del cuadro clínico?",
+      "answer": "La rotura vierte sangre arterial en el espacio subaracnoideo y eleva bruscamente la presión intracraneal: de ahí la cefalea máxima en segundos, los vómitos y el deterioro de conciencia. La sangre irrita las meninges y produce rigidez de nuca. La hemoglobina en las cisternas desencadena vasoespasmo entre los días 3 y 14 con isquemia cerebral, y puede obstruir la reabsorción del líquido cefalorraquídeo y causar hidrocefalia. La disartria y la desviación de la comisura labial corresponden al compromiso focal asociado al sangrado."
+    },
+    {
+      "prompt": "¿Cuál es la conducta ante el cuadro clínico?",
+      "answer": "Soporte vital con vía aérea permeable, analgesia y control moderado de la presión arterial evitando la hipotensión, en un medio con vigilancia neurológica. Nimodipino 60 mg cada 4 horas durante 21 días, prevención del estreñimiento y de los esfuerzos. Angio-TAC o angiografía para localizar el aneurisma y oclusión precoz por clipado o coil. Si la TAC es negativa y la sospecha persiste, punción lumbar a partir de las 12 horas; se vigilan resangrado, vasoespasmo e hidrocefalia."
+    }
+  ],
+  "diagnosis": "Hemorragia subaracnoidea por rotura aneurismática",
+  "corpusTopic": null,
+  "confidence": "alta"
+}

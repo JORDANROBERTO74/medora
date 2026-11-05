@@ -1,0 +1,52 @@
+{
+  "order": 10,
+  "id": "acute-cholangitis-choledocholithiasis",
+  "title": "Dolor abdominal de varios días con fiebre e ictericia",
+  "reason": "Dolor abdominal de varios días con fiebre e ictericia",
+  "history": "Paciente de 73 años, sexo femenino, que consulta por dolor abdominal de varios días de evolución con náuseas y vómitos biliosos abundantes, y fiebre de 38,9.",
+  "background": "Hipertensión arterial mal controlada, dislipidemia, prediabetes, bronquiectasias.",
+  "exam": "PA 130/80 mmHg · FC 81 lpm · T 37,8 °C · SatO₂ 93 %\nNeurológico: consciente, orientada.\nPiel y mucosas: hidratadas, normocoloreadas, ictericia generalizada.\nAbdomen: blando, depresible, doloroso a la palpación de hipocondrio derecho con irradiación hacia fosa ilíaca derecha, hipocondrio derecho y fosa ilíaca izquierda; McBurney positivo.\nEcografía abdominal: vesícula biliar distendida, con imágenes litiásicas en su interior, y dilatación de las vías biliares intrahepáticas.\nPor persistencia de la fiebre (39,8 °C), taquicardia (112 lpm) y del dolor se decide realizar CPRE, que informa colédoco dilatado (11 mm) y coledocolitiasis (dos cálculos de 10 mm); se realiza papilotomía y litotripsia mecánica.",
+  "labs": "",
+  "studies": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Colangitis aguda por coledocolitiasis",
+    "Colecistitis aguda litiásica",
+    "Pancreatitis aguda biliar",
+    "Apendicitis aguda"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La tríada de fiebre, ictericia generalizada y dolor en hipocondrio derecho, junto con la dilatación de la vía biliar y los cálculos en el colédoco confirmados por CPRE, define una colangitis aguda por coledocolitiasis; la fiebre de 39,8 °C con taquicardia de 112 lpm apunta a un cuadro séptico.",
+    "La colecistitis aguda da fiebre y dolor en hipocondrio derecho, pero la ictericia marcada y la dilatación de la vía biliar con cálculos en el colédoco no se explican por la inflamación vesicular aislada.",
+    "La pancreatitis aguda biliar puede acompañar a la coledocolitiasis, pero predomina el dolor epigástrico irradiado en cinturón y no explica la ictericia con dilatación de la vía biliar intrahepática.",
+    "La apendicitis aguda se apoyaría en el McBurney positivo y la irradiación a fosa ilíaca derecha, pero no produce ictericia generalizada ni dilatación de la vía biliar con coledocolitiasis."
+  ],
+  "hint": "Junta fiebre alta, ictericia y dolor en hipocondrio derecho, y busca después dónde está el obstáculo en la vía biliar.",
+  "discussion": "Reanimación con cristaloides, analgesia y antibioterapia de amplio espectro con cobertura de gramnegativos y anaerobios; el drenaje biliar por CPRE con esfinterotomía y extracción del cálculo no debe demorarse, sobre todo si hay sepsis. Tras el control del cuadro se plantea colecistectomía laparoscópica diferida y se vigila la aparición de pancreatitis post-CPRE.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Colangitis aguda por coledocolitiasis: fiebre de 39,8 °C, ictericia generalizada y dolor en hipocondrio derecho, con vía biliar intrahepática dilatada y colédoco de 11 mm con dos cálculos de 10 mm."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Colecistitis aguda, pancreatitis aguda biliar, coledocolitiasis sin colangitis, síndrome de Mirizzi, absceso hepático, hepatitis aguda y apendicitis aguda por el McBurney positivo y la irradiación a fosa ilíaca derecha."
+    },
+    {
+      "prompt": "¿Cuáles son los factores de riesgo y la etiología?",
+      "answer": "Litiasis biliar como causa de la obstrucción del colédoco; la edad de 73 años, el sexo femenino, la dislipidemia y la prediabetes son factores de riesgo de colelitiasis. La estasis biliar favorece la infección por enterobacterias."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El cálculo impactado en el colédoco provoca estasis biliar y sobrecrecimiento bacteriano —Escherichia coli, Klebsiella, Enterococcus y anaerobios—. La presión en la vía biliar aumenta y favorece el reflujo colangiovenoso y linfático, con bacteriemia y respuesta sistémica; la obstrucción explica la ictericia conjugada."
+    },
+    {
+      "prompt": "¿Cuál es la conducta clínica-quirúrgica?",
+      "answer": "Soporte hemodinámico, analgesia y antibióticos de amplio espectro, con drenaje biliar precoz por CPRE mediante esfinterotomía y extracción del cálculo. La vesícula se resuelve después con colecistectomía laparoscópica diferida, y en el postoperatorio se vigila la pancreatitis post-CPRE."
+    }
+  ],
+  "diagnosis": "Colangitis aguda por coledocolitiasis",
+  "corpusTopic": "via-biliar",
+  "confidence": "alta"
+}

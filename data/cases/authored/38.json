@@ -1,0 +1,52 @@
+{
+  "order": 38,
+  "id": "obstructive-uropathy-acute-kidney-injury",
+  "title": "Dolor lumbar derecho y hematuria macroscópica",
+  "reason": "Dolor de espalda",
+  "history": "Paciente de 34 años, sexo masculino, que consulta por un cuadro de 2 días de evolución caracterizado por dolor lumbar derecho de moderada intensidad, con hematuria macroscópica y reducción del ritmo diurético; no refiere fiebre ni equivalentes febriles. En las últimas horas agrega dolor muscular de predominio en miembros y refiere un episodio de palpitaciones.",
+  "background": "Dolor lumbar de 5 meses de evolución. Pielonefritis en dos oportunidades en los últimos meses. Diabetes LADA de reciente diagnóstico.",
+  "exam": "PA 130/80 mmHg · FC 98 lpm · FR 20 rpm · T 37 °C · SatO₂ 98 % (FiO₂ 0,21)\nNeurológico: Glasgow 15/15, orientado en tiempo, espacio y persona.\nPulmonar y cardiovascular: sin alteraciones.\nUrinario: ritmo diurético disminuido (600 mL/día).\nAbdomen: ruidos hidroaéreos presentes, blando y depresible, dolor espontáneo, sin dolor a la puñopercusión.",
+  "labs": "Cuerpos cetónicos negativos. Hematocrito 38 %; hemoglobina 12 g/dL. Sodio 132 mEq/L; potasio 6 mEq/L; cloro 106 mEq/L. Urea 60 mg/dL; creatinina 1,6 mg/dL; glucosa 150 mg/dL. EAB: pH 7,30; pCO₂ 32 mmHg; bicarbonato 18 mEq/L; exceso de base −3; pO₂ 85 mmHg; SatO₂ 98 %.",
+  "studies": "Imagen abdominal pendiente.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Lesión renal aguda por uropatía obstructiva, probablemente litiásica, con hipercalemia",
+    "Pielonefritis aguda complicada",
+    "Necrosis papilar renal",
+    "Rabdomiólisis con lesión renal aguda"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El dolor lumbar derecho con hematuria macroscópica y oliguria de instauración aguda, en un paciente con cólicos lumbares a repetición y dos pielonefritis recientes, dibuja una uropatía obstructiva —lo más frecuente, un cálculo—. La obstrucción explica la lesión renal aguda (creatinina 1,6 mg/dL, urea 60 mg/dL y diuresis de 600 mL/día), la hipercalemia de 6 mEq/L y la acidosis metabólica hiperclorémica de anión gap normal (132 − [106 + 18] = 8), por el descenso de la excreción de potasio y de protones.",
+    "La pielonefritis aguda justifica el dolor lumbar y los antecedentes, pero cursa con fiebre, escalofríos y leucocitosis; aquí la temperatura es de 37 °C, sin equivalentes febriles, y el cuadro no explica por sí solo la oliguria con potasio de 6 mEq/L.",
+    "La necrosis papilar es una alternativa razonable en un diabético con pielonefritis, porque produce hematuria, dolor lumbar y deterioro renal, pero suele acompañarse de fiebre y sepsis, y el diagnóstico se apoya en defectos papilares en la imagen, que aún está pendiente.",
+    "La rabdomiólisis explicaría el dolor muscular, la hipercalemia y la lesión renal aguda, pero no el dolor lumbar unilateral con hematuria macroscópica; además exige una creatincinasa muy elevada y una orina con sangre sin hematíes, datos que no constan en el caso."
+  ],
+  "hint": "Un dolor lumbar con hematuria y una diuresis de 600 mL/día obliga a mirar la vía urinaria como causa del fallo renal y del potasio de 6 mEq/L.",
+  "discussion": "Ante una hipercalemia de 6 mEq/L con dolor muscular y palpitaciones: monitorización continua con ECG, gluconato de calcio si hay cambios electrocardiográficos, insulina con glucosa y salbutamol nebulizado para desplazar el potasio al interior de la célula, y medidas de eliminación (diuresis, resinas, diálisis si es refractaria). En paralelo, imagen urgente de la vía urinaria y desobstrucción —catéter ureteral o nefrostomía—, que es el tratamiento definitivo de la lesión renal aguda postrenal. Evitar AINE, contraste y fármacos que retengan potasio, tratar la infección si se confirma y ajustar el tratamiento de la diabetes.",
+  "studyQuestions": [
+    {
+      "prompt": "Diagnóstico",
+      "answer": "Lesión renal aguda por uropatía obstructiva, probablemente litiásica, con hipercalemia y acidosis metabólica hiperclorémica. Lo apoyan el dolor lumbar derecho con hematuria macroscópica, la diuresis de 600 mL/día, la creatinina de 1,6 mg/dL con urea de 60 mg/dL, los antecedentes de cólicos lumbares y de pielonefritis a repetición, y la hipercalemia sintomática. La imagen abdominal está pendiente y es la que confirma el nivel y la causa de la obstrucción."
+    },
+    {
+      "prompt": "Diagnóstico diferencial",
+      "answer": "Pielonefritis aguda complicada, necrosis papilar renal, rabdomiólisis, nefritis intersticial aguda, infarto renal, glomerulonefritis aguda y acidosis tubular renal tipo 4. La necrosis papilar y la acidosis tubular tipo 4 son las más cercanas, porque comparten diabetes, hipercalemia y acidosis de anión gap normal; se separan por la fiebre, la imagen y el grado de disfunción renal."
+    },
+    {
+      "prompt": "Etiología y factores de riesgo",
+      "answer": "La causa más frecuente de obstrucción urinaria en un adulto joven es la litiasis, y el cálculo impactado en el uréter derecho explicaría el dolor y la hematuria. Las dos pielonefritis previas y el dolor lumbar de 5 meses sugieren además una anomalía persistente de la vía urinaria, como estenosis, litiasis de larga data o una cicatriz que deja un riñón con poca reserva funcional. La diabetes LADA favorece las infecciones urinarias y la necrosis papilar, y la deshidratación agrava la obstrucción y la hipercalemia."
+    },
+    {
+      "prompt": "Fisiopatología",
+      "answer": "La obstrucción eleva la presión intratubular y reduce el filtrado glomerular, con oliguria y retención de urea y creatinina. El menor aporte de sodio al túbulo distal y el daño tubular disminuyen la secreción de potasio, y el hipoaldosteronismo que acompaña a la lesión renal aguda la agrava, de ahí el potasio de 6 mEq/L. La caída de la excreción de amonio y de protones produce una acidosis metabólica hiperclorémica de anión gap normal, con hiperventilación compensadora que baja la pCO₂ a 32 mmHg. La hipercalemia despolariza la membrana muscular y cardíaca y explica el dolor muscular, la debilidad y las palpitaciones."
+    },
+    {
+      "prompt": "Tratamiento",
+      "answer": "La hipercalemia de 6 mEq/L con síntomas es una urgencia: ECG y monitorización, gluconato de calcio si hay cambios en el trazado, insulina con glucosa y salbutamol nebulizado para el traslado intracelular, y eliminación con diuresis, resinas o diálisis si es refractaria. En paralelo se pide imagen urgente de la vía urinaria y se desobstruye con catéter ureteral o nefrostomía, que es lo que resuelve la lesión renal aguda postrenal. Se evitan AINE, contraste yodado y fármacos que retengan potasio, se trata la infección si se confirma, se ajusta la insulinoterapia de su diabetes y se corrige la volemia con cristaloides isotónicos sin potasio."
+    }
+  ],
+  "diagnosis": "Lesión renal aguda por uropatía obstructiva litiásica con hipercalemia y acidosis metabólica hiperclorémica",
+  "corpusTopic": null,
+  "confidence": "media"
+}

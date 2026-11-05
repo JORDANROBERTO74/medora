@@ -1,0 +1,52 @@
+{
+  "order": 6,
+  "id": "pneumocystis-pneumonia-copd-hypercapnia",
+  "title": "Disnea progresiva y tos con expectoración",
+  "reason": "Tos y dificultad respiratoria",
+  "history": "Paciente de 40 años, sexo femenino, con antecedentes de tabaquismo, consumidora de heroína y cocaína inhalada, y antecedente de EPOC grave con FEV1 del 48 %. Acude a urgencias por disnea progresiva de 72 horas de evolución, tos con expectoración blanquecina, cefalea holocraneal, sensación febril, y agrega mialgias y artralgias con astenia intensa.",
+  "background": "",
+  "exam": "Glasgow 13/15 · PA 115/70 mmHg · FR 22 rpm · T 37,7 °C\nPulmonar: sibilancias inspiratorias y espiratorias, crepitantes de predominio basal.",
+  "labs": "Linfopenia. LDH y PCR elevadas. Gasometría arterial: pH 7,18; PCO2 118; PO2 71; BI 44.",
+  "studies": "Tórax: hiperinsuflación pulmonar e infiltrado intersticial bilateral de predominio",
+  "question": "La gasometría muestra pH 7,18, PCO₂ 118 mmHg, PO₂ 71 mmHg y bicarbonato 44 mEq/L. ¿Qué trastorno ácido-base describe?",
+  "options": [
+    "Acidosis respiratoria aguda sobre crónica",
+    "Acidosis metabólica con compensación respiratoria",
+    "Alcalosis respiratoria aguda",
+    "Acidosis respiratoria aguda sin componente crónico"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El pH bajo con una PCO₂ de 118 mmHg define acidosis respiratoria; un bicarbonato de 44 mEq/L no se alcanza en 72 horas, así que hay retención crónica previa: acidosis respiratoria aguda sobre crónica.",
+    "La acidosis metabólica daría bicarbonato bajo y una PCO₂ descendida por compensación, no una PCO₂ de 118 con bicarbonato de 44.",
+    "La alcalosis respiratoria cursa con pH alto y PCO₂ baja, lo contrario de esta gasometría.",
+    "Si fuera solo aguda, el bicarbonato estaría cerca de lo normal (22-26 mEq/L); un valor de 44 indica retención crónica de CO₂."
+  ],
+  "hint": "Un bicarbonato de 44 no se genera en 72 horas: piensa qué componente es antiguo.",
+  "discussion": "Oxígeno titulado con objetivo de saturación del 88-92 %, broncodilatadores y corticosteroides sistémicos, y ventilación no invasiva si el pH de 7,18 se mantiene y la paciente colabora. Se añade tratamiento antibiótico de la agudización y cobertura de Pneumocystis jirovecii, con estudio de inmunosupresión y de la cefalea. El Glasgow de 13/15 obliga a vigilar el nivel de conciencia y a descartar compromiso neurológico.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Neumonía por Pneumocystis jirovecii sobre una EPOC grave, con insuficiencia respiratoria hipercápnica agudizada: PCO2 de 118, pH de 7,18 y bicarbonato de 44, con linfopenia, LDH elevada e infiltrado intersticial bilateral."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Agudización de EPOC por infección bacteriana, neumonía viral bilateral, edema agudo de pulmón cardiogénico, tuberculosis pulmonar y neumonía atípica. La cefalea holocraneal con Glasgow de 13/15 obliga además a descartar una infección del sistema nervioso central."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Pneumocystis jirovecii es un hongo oportunista que ataca a pacientes con inmunosupresión celular; la linfopenia de esta paciente es la clave y debe completarse el estudio, incluida la infección por VIH. Suman riesgo el tabaquismo, la EPOC grave, el consumo de heroína y cocaína inhaladas y la desnutrición asociada al consumo de drogas."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El microorganismo se adhiere al neumocito tipo I y produce una alveolitis con exudado eosinófilo, lo que altera la difusión y genera hipoxemia con infiltrado intersticial bilateral. Sobre una EPOC con FEV1 del 48 % y atrapamiento aéreo, el aumento del trabajo respiratorio y la fatiga de los músculos respiratorios llevan a hipoventilación alveolar: el CO2 asciende a 118, el bicarbonato compensa hasta 44 de forma crónica y el pH cae a 7,18 cuando la compensación ya no alcanza."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Soporte con oxígeno titulado al 88-92 %, broncodilatadores, corticosteroides sistémicos y ventilación no invasiva si persiste la acidosis con pH de 7,18 y hay colaboración. Tratamiento antibiótico de la agudización y cobertura específica de Pneumocystis jirovecii, con valoración de corticosteroides asociados por la hipoxemia. Ingreso con monitorización, estudio de inmunosupresión y evaluación dirigida de la cefalea y del nivel de conciencia."
+    }
+  ],
+  "diagnosis": "Neumonía por Pneumocystis jirovecii sobre EPOC grave con insuficiencia respiratoria hipercápnica agudizada",
+  "corpusTopic": null,
+  "confidence": "media"
+}

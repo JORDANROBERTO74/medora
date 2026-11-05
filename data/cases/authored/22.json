@@ -1,0 +1,52 @@
+{
+  "order": 22,
+  "id": "palpitations-paroxysmal-svt",
+  "title": "Palpitaciones y taquiarritmia supraventricular",
+  "reason": "Palpitaciones",
+  "history": "Paciente de 63 años que consulta por un cuadro de 24 horas de evolución caracterizado por malestar general y palpitaciones. Se realiza electrocardiograma que evidencia taquiarritmia supraventricular con respuesta ventricular de 140.",
+  "background": "Hipertensión arterial de 5 años en tratamiento con enalapril. Tabaquismo de 10 cigarrillos al día. Bebedor diario de una copa de vino. Sedentarismo; IMC 26.",
+  "exam": "PA 125/80 mmHg · FC 66 lpm · FR 20 rpm · T normal · SatO₂ 99 %\nCardiovascular: no se auscultan soplos carotídeos; ritmo cardíaco sinusal sin soplos.\nPulmonar: normoventilación, sin ruidos sobreañadidos.\nPulsos: periféricos presentes y simétricos, sin edemas.",
+  "labs": "",
+  "studies": "",
+  "question": "El ECG registra una taquiarritmia supraventricular con respuesta ventricular de 140 lpm que revierte antes del ingreso. ¿Cómo se clasifica el episodio?",
+  "options": [
+    "Taquiarritmia supraventricular",
+    "Taquiarritmia ventricular",
+    "Bradiarritmia sintomática",
+    "Bloqueo auriculoventricular completo"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El propio ECG la define como supraventricular y la frecuencia de 140 lpm la convierte en taquiarritmia; que revierta sola y el episodio ceda la clasifica como paroxística.",
+    "La taquiarritmia ventricular tiene origen en el ventrículo y un trazado distinto; el informe del ECG la descarta explícitamente.",
+    "La bradiarritmia cursa con frecuencias bajas, no con 140 lpm.",
+    "El bloqueo auriculoventricular completo produce bradicardia y disociación, no una respuesta ventricular de 140 lpm."
+  ],
+  "hint": "El ECG ya dice de dónde viene y a qué velocidad va: clasifica, no adivines el subtipo.",
+  "discussion": "El episodio revirtió de forma espontánea, así que la conducta es documentarlo y buscar la causa: electrocardiograma de 12 derivaciones, monitorización o Holter, función tiroidea y electrolitos. Si reaparece con inestabilidad, cardioversión sincronizada; si está estable, maniobras vagales y adenosina. Se controlan los desencadenantes —tabaco, alcohol, hipertensión— y se valora ablación si las recurrencias son frecuentes.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Taquicardia supraventricular paroxística: una taquiarritmia supraventricular de 140 lpm documentada por electrocardiograma, que revirtió espontáneamente a ritmo sinusal a 66 lpm."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Fibrilación auricular paroxística, flutter auricular con bloqueo 2:1, taquicardia sinusal por causa secundaria y taquicardia por reentrada nodal o por vía accesoria. También se consideran el hipertiroidismo, la anemia y el consumo de estimulantes como causas de taquicardia."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "El mecanismo habitual es un circuito de reentrada en el nodo auriculoventricular o a través de una vía accesoria; en esta viñeta no hay cardiopatía estructural demostrada. Como factores del paciente constan la hipertensión arterial de 5 años, el tabaquismo de 10 cigarrillos al día, el consumo diario de alcohol, el sedentarismo y la edad de 63 años, todos ellos capaces de favorecer o desencadenar el episodio."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "Un impulso prematuro entra en un circuito de reentrada, nodal o auriculoventricular, y lo recorre de forma circular; cada vuelta despolariza los ventrículos, de modo que la frecuencia ventricular depende de la velocidad del circuito y no del nodo sinusal. La conducción es por vía suprahisiana, por lo que el complejo QRS es estrecho. La arritmia suele empezar y terminar de forma brusca, y al cesar el circuito el nodo sinusal retoma el mando."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Con el paciente ya en ritmo sinusal, la conducta es documentar el episodio con electrocardiograma, monitorización u Holter y descartar causas secundarias con función tiroidea, hemograma y electrolitos. En una recurrencia inestable se impone cardioversión sincronizada; en una recurrencia estable, maniobras vagales y adenosina. Se corrigen los desencadenantes —tabaco, alcohol, control de la hipertensión— y se plantea ablación del circuito si las crisis se repiten."
+    }
+  ],
+  "diagnosis": "Taquicardia supraventricular paroxística",
+  "corpusTopic": null,
+  "confidence": "media"
+}

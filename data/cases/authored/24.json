@@ -1,0 +1,52 @@
+{
+  "order": 24,
+  "id": "acute-ischemic-stroke-right-mca",
+  "title": "Pérdida del equilibrio y hemiparesia izquierda",
+  "reason": "Pérdida del equilibrio",
+  "history": "Paciente de 44 años, sexo femenino, que consulta por un cuadro clínico de inicio súbito con pérdida del equilibrio, acompañado de hemiparesia en hemicuerpo izquierdo y asociado a cefalea holocraneal.",
+  "background": "Cefalea crónica (migrañosa) con auras visuales desde la juventud. Hace 8 años presentó un episodio de cefalea de características migrañosas con trastorno del habla, paresia e hipoestesia en la extremidad superior izquierda.",
+  "exam": "PA 107/67 mmHg · T 36 °C · Glucemia 74 mg/dL\nNeurológico: vigil y orientada en tiempo, espacio y persona; lenguaje normal, disartria moderada; pupilas isocóricas y normorreactivas; campimetría por confrontación con hemianopsia homónima izquierda.\nSistema vestibular hipofuncionante.\nParesia facial periférica izquierda completa.\nHemiparesia braquiocrural izquierda con hemihipoestesia izquierda; reflejos 2/5 globales.",
+  "labs": "",
+  "studies": "Doppler transcraneal: oclusión de la arteria cerebral media derecha.\nResonancia magnética cerebral: lesión isquémica en lóbulo frontal derecho y en sustancia blanca, con retraso del tiempo circulatorio en el territorio irrigado por la arteria cerebral media.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Infarto cerebral isquémico en territorio de la arteria cerebral media derecha",
+    "Hemiplejía migrañosa con aura persistente",
+    "Hemorragia intracerebral lobar derecha",
+    "Isquemia vertebrobasilar (síndrome de Wallenberg)"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El déficit de instauración súbita que reúne hemiparesia, hemihipoestesia y hemianopsia homónima izquierdas, con disartria, traduce una lesión hemisférica derecha; el Doppler documenta la oclusión de la arteria cerebral media derecha y la resonancia la lesión isquémica con retraso circulatorio en ese territorio.",
+    "La hemiplejía migrañosa reproduce el déficit de forma transitoria durante el aura, sin oclusión arterial ni lesión establecida; aquí el déficit es persistente y la imagen muestra un infarto.",
+    "La hemorragia lobar derecha también produce hemiparesia y cefalea, pero la resonancia describe una lesión isquémica sin sangre y el Doppler una oclusión arterial.",
+    "El síndrome de Wallenberg cursa con disartria, vértigo y afectación facial, pero sus signos son cruzados —hemicara ipsilateral y hemicuerpo contralateral— y no explica la hemiparesia ni la hemianopsia homónima del mismo lado."
+  ],
+  "hint": "El inicio súbito y la suma de déficit motor, sensitivo y campimétrico en el mismo hemicuerpo apuntan a una lesión única de un hemisferio, no a un aura.",
+  "discussion": "Código ictus: TC craneal sin contraste para descartar hemorragia y valorar trombólisis intravenosa dentro de las primeras 4,5 horas si no hay contraindicaciones; en oclusión de gran vaso, trombectomía mecánica según ventana y criterios de imagen. Ingreso en unidad de ictus con antiagregación precoz y control de glucemia y temperatura; no descender la presión arterial salvo cifras muy elevadas o antes de la reperfusión. Estudio etiológico —ECG, Holter, ecocardiograma y troncos supraaórticos— para la prevención secundaria.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico de la paciente?",
+      "answer": "Infarto cerebral isquémico agudo en el territorio de la arteria cerebral media derecha, con hemiparesia, hemihipoestesia y hemianopsia homónima izquierdas y disartria. El Doppler transcraneal documenta la oclusión de la arteria cerebral media derecha y la resonancia magnética la lesión isquémica frontal derecha con retraso del tiempo circulatorio en ese territorio. El antecedente de migraña con aura no explica un déficit persistente con infarto establecido."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Hemiplejía migrañosa o aura persistente, que es transitoria y no deja lesión en la imagen; hemorragia intracerebral lobar; crisis epiléptica focal con parálisis de Todd; hipoglucemia —aquí la glucemia es de 74 mg/dL— y síndrome de Wallenberg o isquemia vertebrobasilar, con signos cruzados."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Oclusión de la arteria cerebral media derecha, de mecanismo aterotrombótico o embólico. La migraña con aura se asocia a mayor riesgo de ictus isquémico, en especial en mujeres jóvenes y si se suman tabaquismo o anticoncepción hormonal, factores que no constan en esta paciente. El episodio de hace 8 años sugiere un déficit neurológico transitorio previo, y el estudio etiológico debe buscar la fuente embólica y el estado vascular."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La oclusión arterial interrumpe el flujo en el territorio de la cerebral media y deja un núcleo infartado rodeado de una zona de penumbra con perfusión crítica. La hemiparesia y la hemihipoestesia izquierdas corresponden a la afectación del hemisferio derecho, y la hemianopsia homónima a la vía óptica retroquiasmática derecha. Sin reperfusión, la penumbra evoluciona a necrosis en pocas horas."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Código ictus con TC craneal urgente para excluir hemorragia. Trombólisis intravenosa dentro de las primeras 4,5 horas si no hay contraindicaciones y trombectomía mecánica en la oclusión de gran vaso, según ventana y criterios de imagen. Ingreso en unidad de ictus, antiagregación, control de glucemia y temperatura, sin descender la presión salvo cifras muy elevadas o antes de reperfundir, y estudio etiológico para la prevención secundaria."
+    }
+  ],
+  "diagnosis": "Infarto cerebral isquémico en territorio de la arteria cerebral media derecha",
+  "corpusTopic": "avc-ave",
+  "confidence": "alta"
+}

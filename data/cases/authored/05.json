@@ -1,0 +1,52 @@
+{
+  "order": 5,
+  "id": "dengue-warning-signs-abdominal-pain",
+  "title": "Dolor abdominal y fiebre de seis días",
+  "reason": "Dolor abdominal y fiebre",
+  "history": "Paciente de 30 años, sexo masculino, que consulta por un cuadro de 6 días de evolución caracterizado por dolor abdominal tipo cólico, epigástrico, de moderada intensidad (7/10), irradiado a flancos y mesogastrio, con náuseas, vómitos y alzas térmicas de 39 °C.",
+  "background": "No refiere antecedentes de interés.",
+  "exam": "PA 130/70 mmHg · FC 95 lpm · FR 25 rpm · T 38,5 °C\nPiel y mucosas: palidez cutánea generalizada.\nAbdomen: globoso, peristaltismo presente, blando, depresible, doloroso a la palpación superficial y profunda en epigastrio y flancos, sin hepatomegalia ni signos de irritación peritoneal.",
+  "labs": "Hipertransaminasemia. Hematocrito 35,4 %; hemoglobina 12 g/dL; plaquetas 97 000; leucocitos 4000. Sodio 132 mEq/L. Creatinina 8,6 mg/dL. Coagulograma normal.",
+  "studies": "Ecografía abdominal: líquido libre en escasa cantidad. Se solicita panel viral para arbovirosis.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Dengue con signos de alarma en fase crítica",
+    "Leptospirosis grave (enfermedad de Weil)",
+    "Pielonefritis aguda complicada",
+    "Pancreatitis aguda intersticial"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Al sexto día de fiebre, el descenso térmico con dolor abdominal, vómitos, líquido libre en la ecografía, plaquetas de 97 000, leucocitos de 4000 y transaminasas elevadas corresponde a la fase crítica del dengue con signos de alarma, en la que la extravasación plasmática explica el líquido libre; la palidez cutánea acompaña la fase de defervescencia.",
+    "La leptospirosis comparte fiebre, dolor abdominal, trombocitopenia y fallo renal, y es la alternativa más cercana, pero suele añadir ictericia con bilirrubina elevada, mialgias intensas y sufusión conjuntival, y el cuadro hematológico con líquido libre apunta a extravasación plasmática por dengue.",
+    "La pielonefritis aguda da fiebre y dolor en el flanco, pero cursa con leucocitosis, síntomas urinarios y piuria, y no explica la leucopenia, la trombocitopenia ni las transaminasas elevadas.",
+    "La pancreatitis aguda reproduce el dolor epigástrico irradiado a flancos, los vómitos y el líquido libre, pero requeriría amilasa y lipasa elevadas, y no explica las citopenias ni la hipertransaminasemia del caso."
+  ],
+  "hint": "Sitúa el día de la enfermedad junto al hemograma: la caída de plaquetas y leucocitos con líquido libre no encaja en un abdomen quirúrgico.",
+  "discussion": "Cristaloides isotónicos ajustados al estado hemodinámico, paracetamol como único antitérmico y analgésico, y prohibición de AINE, aspirina e inyecciones intramusculares. Control diario de hematocrito, plaquetas y diuresis hasta 24-48 horas después de la defervescencia, vigilando el shock por extravasación. La lesión renal aguda obliga a ajustar líquidos, evitar nefrotóxicos y valorar depuración extrarrenal; no se transfunden plaquetas de forma profiláctica ni se usan corticoides.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál sería el diagnóstico presuntivo?",
+      "answer": "Dengue con signos de alarma en fase crítica. El sexto día de fiebre con defervescencia, dolor abdominal, vómitos, líquido libre en la ecografía, plaquetas de 97 000, leucocitos de 4000 e hipertransaminasemia configuran el cuadro, y la solicitud de panel viral para arbovirosis lo respalda. La creatinina de 8,6 mg/dL añade una lesión renal aguda que complica la evolución."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Leptospirosis grave, pielonefritis aguda, pancreatitis aguda, colecistitis o colangitis, apendicitis o abdomen quirúrgico incipiente, fiebre tifoidea y otras arbovirosis como chikungunya y Zika. La leptospirosis es la alternativa más difícil de separar, porque comparte fiebre, dolor abdominal, trombocitopenia y fallo renal."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Infección por virus del dengue (DENV 1-4) transmitida por mosquitos Aedes, sobre todo Aedes aegypti, de hábitos diurnos. El riesgo de dengue grave aumenta con una segunda infección por un serotipo distinto, la edad extrema, el embarazo y las comorbilidades. La exposición en zonas endémicas y el control deficiente de criaderos son los factores epidemiológicos principales."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología de la enfermedad?",
+      "answer": "La infección por DENV induce una respuesta inflamatoria con aumento de la permeabilidad capilar, que en la fase crítica —entre el tercer y el séptimo día, coincidiendo con la defervescencia— produce extravasación de plasma al intersticio y a las cavidades serosas. Esa extravasación explica el líquido libre, la hemoconcentración relativa y el riesgo de shock. La trombocitopenia y la leucopenia acompañan el cuadro, y la hipoperfusión y la inflamación sistémica pueden lesionar el riñón y el hígado."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Hidratación con cristaloides isotónicos según el estado hemodinámico, paracetamol como antipirético y analgésico, y evitar AINE, aspirina e inyecciones intramusculares por el riesgo hemorrágico. Monitorizar hematocrito, plaquetas, diuresis y signos de alarma hasta 24-48 horas después de la defervescencia, y manejar el shock con bolos de cristaloides. En este paciente se añade el manejo de la lesión renal aguda, con ajuste de líquidos, retirada de nefrotóxicos y valoración de depuración extrarrenal; no se usan corticoides ni transfusión profiláctica de plaquetas."
+    }
+  ],
+  "diagnosis": "Dengue con signos de alarma en fase crítica, con lesión renal aguda",
+  "corpusTopic": "arbovirosis",
+  "confidence": "media"
+}

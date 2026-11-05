@@ -1,0 +1,51 @@
+{
+  "order": 26,
+  "id": "hyperthyroidism-weight-loss-vomiting",
+  "title": "Disminución de peso y vómitos severos",
+  "reason": "Disminución de peso y vómitos severos",
+  "history": "Paciente femenina de 59 años que acude por disminución de peso, dolor epigástrico y vómitos severos de 3 semanas de evolución, con crisis de nerviosismo en los últimos días, insomnio e hiperdefecación.",
+  "exam": "PA 130/72 mmHg · FC 110 lpm · T 37,9 °C\nAbdomen: doloroso a la palpación.\nNeurológico: temblor fino de las manos e hiperreflexia.",
+  "labs": "",
+  "studies": "Ecografía abdominal: normal.\nEndoscopia digestiva alta: normal.\nGammagrafía de tiroides: glándula con hiperfunción difusa.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Hipertiroidismo por enfermedad de Graves",
+    "Feocromocitoma",
+    "Síndrome carcinoide",
+    "Trastorno de ansiedad"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La pérdida de peso con hiperdefecación, el temblor fino, la hiperreflexia, la taquicardia con presión conservada, el nerviosismo y el insomnio configuran un hipertiroidismo, y la gammagrafía con hiperfunción difusa apunta a la enfermedad de Graves y descarta el bocio nodular.",
+    "El feocromocitoma produce crisis de nerviosismo, temblor, taquicardia y pérdida de peso, pero cursa con hipertensión paroxística —aquí la presión es 130/72— y no da hiperfunción tiroidea difusa en la gammagrafía.",
+    "El síndrome carcinoide explica la hiperdefecación y el enrojecimiento, pero no el temblor fino, la hiperreflexia ni una glándula tiroides hiperfuncionante.",
+    "El trastorno de ansiedad justifica el nerviosismo, el insomnio, el temblor y la taquicardia, pero no la pérdida de peso con hiperdefecación ni el hallazgo gammagráfico."
+  ],
+  "hint": "Agrupa temblor fino, hiperreflexia, taquicardia e hiperdefecación: los cuatro apuntan a un mismo exceso hormonal, y la gammagrafía señala de dónde viene.",
+  "discussion": "Metimazol 10-30 mg/día con propranolol para el temblor y la taquicardia, más hidratación y antieméticos por los vómitos severos; control de función tiroidea cada 4-6 semanas. Tratamiento definitivo con yodo radiactivo o tiroidectomía, y advertencia sobre agranulocitosis y hepatotoxicidad.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Hipertiroidismo por enfermedad de Graves (bocio difuso tóxico), con pérdida de peso, vómitos severos, temblor fino, hiperreflexia, taquicardia e hiperdefecación, y gammagrafía tiroidea con hiperfunción difusa."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Feocromocitoma, síndrome carcinoide, trastorno de ansiedad o crisis de angustia, diabetes mellitus descompensada, síndrome de intestino irritable y otras causas de hipertiroidismo, como el bocio multinodular tóxico y la tiroiditis. Las causas digestivas de vómitos y pérdida de peso quedan descartadas por la endoscopia y la ecografía normales."
+    },
+    {
+      "prompt": "¿Cuáles son los factores de riesgo y la etiología?",
+      "answer": "Enfermedad de Graves, de origen autoinmune, con anticuerpos contra el receptor de TSH que estimulan la glándula. Predomina en mujeres, sobre todo entre los 30 y los 60 años. El tabaquismo, el estrés y la predisposición genética —antecedentes familiares de enfermedad tiroidea— son factores de riesgo; en esta paciente no constan antecedentes personales ni familiares."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "Los anticuerpos estimulan el receptor de TSH y la glándula sintetiza y libera hormona tiroidea en exceso. El hipermetabolismo explica la pérdida de peso, la hiperdefecación y la taquicardia; la mayor sensibilidad adrenérgica, el temblor fino, el nerviosismo, el insomnio y la hiperreflexia. El vómito severo añade intolerancia digestiva y deshidratación, y la fiebre de 37,9 °C obliga a vigilar una tormenta tiroidea."
+    },
+    {
+      "prompt": "¿Cuál es la conducta y el tratamiento?",
+      "answer": "Tionamida —metimazol 10-30 mg/día— para bloquear la síntesis hormonal, betabloqueante para el temblor y la taquicardia, hidratación y antieméticos por los vómitos. Control de función tiroidea cada 4-6 semanas y aviso de agranulocitosis y hepatotoxicidad. Tratamiento definitivo con yodo radiactivo o tiroidectomía según el tamaño del bocio y las preferencias."
+    }
+  ],
+  "diagnosis": "Hipertiroidismo por enfermedad de Graves (bocio difuso tóxico)",
+  "corpusTopic": null,
+  "confidence": "media"
+}

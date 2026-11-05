@@ -1,0 +1,52 @@
+{
+  "order": 7,
+  "id": "acute-biliary-pancreatitis-choledocholithiasis",
+  "title": "Dolor epigástrico, vómitos e ictericia",
+  "reason": "Dolor abdominal",
+  "history": "Paciente de sexo masculino, de 41 años de edad, que ingresa a terapia intensiva por presentar dolor epigástrico intenso, vómitos, fiebre, ictericia y síndrome de respuesta inflamatoria de 48 horas de evolución. Antecedentes: obesidad y diabetes mellitus en tratamiento con biguanidas.",
+  "background": "",
+  "exam": "PA 100/60 mmHg · FC 112 lpm · FR 26 rpm · T 37,8 °C · SatO₂ 99 %\nAbdomen: ruidos hidroaéreos disminuidos, distendido, doloroso a la palpación en cuadrantes superiores.",
+  "labs": "Leucocitos 23 000 (neutrófilos 82 %). Amilasa 1500, lipasa 2200. Bilirrubina total 6 mg/dL con predominio de directa. Triglicéridos 1731.",
+  "studies": "Ecografía abdominal: dilatación de la vía biliar intra y extrahepática, coledocolitiasis y páncreas edematoso. Tomografía de abdomen: Balthazar D. CPRE: colocación de stent plástico por coledocolitiasis gigante impactada y edema duodenal. El paciente evoluciona estable hasta el día 35, cuando presenta fiebre, dolor y distensión abdominal.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Pancreatitis aguda de origen biliar",
+    "Colangitis aguda por coledocolitiasis",
+    "Pancreatitis aguda por hipertrigliceridemia",
+    "Colecistitis aguda complicada"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El dolor epigástrico intenso con vómitos, la amilasa de 1500 y la lipasa de 2200 junto con el páncreas edematoso definen una pancreatitis aguda, y la coledocolitiasis con dilatación de la vía biliar intra y extrahepática establece su origen biliar; la bilirrubina directa explica la ictericia.",
+    "La colangitis comparte fiebre, ictericia y dolor del hipocondrio derecho, y aquí coexiste con la obstrucción, pero no explica por sí sola la elevación marcada de amilasa y lipasa ni el páncreas edematoso, que definen la pancreatitis.",
+    "Los triglicéridos de 1731 podrían causar pancreatitis, pero la litiasis coledociana documentada por imagen y la dilatación de la vía biliar señalan el origen biliar; la hipertrigliceridemia no explica el patrón colestásico.",
+    "La colecistitis aguda da fiebre, leucocitosis y dolor en el hipocondrio derecho, pero cursa sin dilatación de la vía biliar ni coledocolitiasis y no eleva amilasa y lipasa de esta magnitud."
+  ],
+  "hint": "Cruza las enzimas pancreáticas con la ictericia: la dilatación de la vía biliar y el cálculo en el colédoco indican de dónde viene el cuadro.",
+  "discussion": "Cristaloides, analgesia, monitorización y control de la glucemia y los triglicéridos. La vía biliar obstruida se descomprime por CPRE —aquí con stent plástico por el cálculo gigante impactado— y la colecistectomía diferida completa el tratamiento. Ante la fiebre con dolor y distensión al día 35 hay que descartar necrosis pancreática infectada: TC con contraste, hemocultivos, antibióticos con penetración pancreática y drenaje percutáneo o necrosectomía diferida.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Pancreatitis aguda de origen biliar por coledocolitiasis gigante impactada, con síndrome de respuesta inflamatoria sistémica e ictericia obstructiva. El páncreas edematoso y la dilatación de la vía biliar sostienen el diagnóstico. La fiebre con dolor y distensión al día 35 hace sospechar una complicación infecciosa de la colección pancreática."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Colangitis aguda, colecistitis aguda, pancreatitis por hipertrigliceridemia o alcohólica, úlcera péptica perforada, isquemia mesentérica y cólico biliar complicado. En la evolución tardía se añaden el seudoquiste pancreático, la necrosis pancreática infectada y el absceso intraabdominal."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "La causa es la litiasis coledociana, que en este paciente se ve favorecida por la obesidad y la diabetes mellitus. Los triglicéridos de 1731 actúan como factor agravante y como etiología alternativa. El tamaño gigante del cálculo con impactación y edema duodenal dificultó el drenaje biliar y condicionó la colocación de un stent plástico."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El cálculo impactado en el colédoco eleva la presión del conducto pancreático y desencadena la activación intrapancreática de las enzimas digestivas, con autodigestión, edema y necrosis. La obstrucción biliar asociada produce hiperbilirrubinemia directa e ictericia. La liberación de mediadores inflamatorios explica el síndrome de respuesta inflamatoria, y la sobreinfección de la necrosis explica el deterioro tardío."
+    },
+    {
+      "prompt": "¿Cuál es la conducta y el tratamiento del caso clínico?",
+      "answer": "Soporte con cristaloides, analgesia, monitorización y control metabólico, con descompresión de la vía biliar por CPRE y extracción del cálculo. Se programa la colecistectomía diferida para evitar la recurrencia. Si al día 35 aparecen fiebre, dolor y distensión, se realiza TC con contraste y hemocultivos, se inician antibióticos con penetración pancreática y se valora drenaje percutáneo o necrosectomía diferida."
+    }
+  ],
+  "diagnosis": "Pancreatitis aguda de origen biliar por coledocolitiasis",
+  "corpusTopic": "via-biliar",
+  "confidence": "alta"
+}

@@ -1,0 +1,52 @@
+{
+  "order": 8,
+  "id": "acute-viral-hepatitis-jaundice",
+  "title": "Astenia, ictericia y artralgias",
+  "reason": "Debilidad, cansancio",
+  "history": "Paciente de 25 años que consulta por un cuadro clínico de 48 horas de evolución caracterizado por astenia, anorexia y adinamia extrema, con artralgias de pequeñas articulaciones e ictericia. Refiere además episodios de alzas térmicas no cuantificadas.",
+  "background": "Apendicitis aguda a los 15 años.",
+  "exam": "PA 110/0 mmHg · FC 70 lpm · FR 20 rpm · SatO₂ 99 %\nPiel y mucosas: ictéricas, hidratadas.\nAbdomen: ruidos hidroaéreos presentes; blando, depresible, doloroso a la palpación de cuadrantes superiores con predominio derecho.\nRespiratorio: sin alteraciones.",
+  "labs": "Proteínas totales 6 mg/dL. Bilirrubina directa 4 mg/dL. Albúmina 4,0. Bilirrubina total 6 mg/dL. Transaminasas: TGO 3450, TGP 3300. TP 14 segundos, TTPA 30 segundos. Amilasa 50, lipasa 140.",
+  "studies": "Ecografía abdominal: leve inflamación hepática, sin dilatación de las vías extrahepáticas; páncreas de ecogenicidad normal.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Hepatitis aguda viral",
+    "Colangitis aguda por coledocolitiasis",
+    "Hepatitis autoinmune",
+    "Hepatitis tóxica por fármacos"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El pródromo de astenia, anorexia, fiebre y artralgias de pequeñas articulaciones, seguido de ictericia con bilirrubina directa predominante y transaminasas en miles, es el patrón de una hepatitis aguda viral; la ecografía descarta la obstrucción biliar.",
+    "La colangitis comparte fiebre, ictericia y dolor en el hipocondrio derecho, pero cursa con dilatación de la vía biliar y colestasis, no con transaminasas de 3450 y 3300 con vía biliar no dilatada.",
+    "La hepatitis autoinmune da el mismo patrón hepatocelular, pero suele instaurarse de forma subaguda, sin fiebre alta ni pródromo artralgico, y predomina en mujeres; se confirma con autoanticuerpos e IgG.",
+    "La hepatitis tóxica produce también necrosis hepatocelular, pero exige el antecedente de fármaco o tóxico —aquí no consta— y no explica el pródromo febril con artralgias."
+  ],
+  "hint": "Ictericia con transaminasas en miles y una ecografía sin dilatación biliar apuntan al parénquima hepático, no a la vía biliar.",
+  "discussion": "Ingreso con medidas de higiene y aislamiento de contacto, hidratación y control de electrolitos, glucemia y coagulación; suspender hepatotóxicos y ajustar fármacos. Solicitar serología de hepatitis A, B, C y E, autoanticuerpos y perfil tóxico, y vigilar la encefalopatía o el descenso del TP. La mayoría de las hepatitis virales agudas se resuelven con tratamiento de soporte.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Hepatitis aguda de probable origen viral, con ictericia, fiebre y artralgias, necrosis hepatocelular marcada (TGO 3450, TGP 3300) y vía biliar no dilatada en la ecografía."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Colangitis aguda por coledocolitiasis, hepatitis autoinmune, hepatitis tóxica o medicamentosa, hepatitis isquémica, pancreatitis aguda y otras causas de ictericia obstructiva o hemolítica."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Infección por virus hepatotropos —A, B, C o E—, que la viñeta no permite precisar sin serología; el pródromo con artralgias de pequeñas articulaciones es característico de la hepatitis B. La edad joven y la exposición fecal-oral u oral-sangre son los factores de riesgo habituales; el antecedente de apendicitis no se relaciona."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La respuesta inmunitaria frente a los hepatocitos infectados produce necrosis y liberación de transaminasas. La colestasis intrahepática eleva la bilirrubina conjugada y la ictericia. Los complejos inmunes explican la fiebre y las artralgias del pródromo, y la afectación grave puede alterar la síntesis de factores de coagulación."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Tratamiento de soporte: hidratación, control de electrolitos y glucemia, y vigilancia de la coagulación y del estado neurológico. Se suspenden los hepatotóxicos y se evita el alcohol, con serología viral y estudio etiológico dirigido. La hepatitis fulminante —encefalopatía o TP prolongado— obliga a valorar traslado a unidad de trasplante."
+    }
+  ],
+  "diagnosis": "Hepatitis aguda viral",
+  "corpusTopic": null,
+  "confidence": "media"
+}

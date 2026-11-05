@@ -1,0 +1,52 @@
+{
+  "order": 28,
+  "id": "mallory-weiss-upper-gi-bleeding",
+  "title": "Hematemesis y dolor torácico",
+  "reason": "Hematemesis y dolor torácico",
+  "history": "Paciente de 45 años que consulta por un cuadro de 6 horas de evolución caracterizado por dolor torácico en la región precordial, de moderada a gran intensidad, que se inicia en el contexto de vómitos intensos y recurrentes de contenido alimentario tras una ingesta copiosa de alcohol, con hematemesis de 100 a 200 mL y astenia extrema.",
+  "background": "Diabetes tipo LADA diagnosticada a los 42 años, en tratamiento con insulina NPH. Consumo social de alcohol.",
+  "exam": "PA 80/40 mmHg · FC 130 lpm · FR 28 rpm · T 36 °C · SatO₂ 93 %\nCardiovascular: R1 y R2 sin soplos, pulsos disminuidos y filiformes en las extremidades, sin ingurgitación yugular, sin edemas.\nRespiratorio: sin particularidades.\nAbdomen: ruidos hidroaéreos presentes, blando, depresible, doloroso en epigastrio de forma espontánea, no a la palpación superficial ni profunda.\nNeurológico: Glasgow 12/15.",
+  "labs": "Glucemia 140 mg/dL. Hb 8 g/dL; Hto 28 %. Urea 60; creatinina 1,5. Na 134; K 3,3; Cl 100.",
+  "studies": "Endoscopia digestiva alta: sangrado a chorro, con dificultad de visualización en la región del esfínter esofágico inferior; se instila adrenalina. Radiografía de tórax sin alteraciones.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Síndrome de Mallory-Weiss con hemorragia digestiva alta y shock hipovolémico",
+    "Síndrome de Boerhaave",
+    "Hemorragia digestiva por várices esofágicas",
+    "Úlcera péptica sangrante"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Los vómitos intensos y repetidos tras una ingesta copiosa de alcohol, el dolor precordial y la hematemesis configuran un desgarro de la unión esofagogástrica; la endoscopia muestra sangrado a chorro en el esfínter esofágico inferior y la radiografía de tórax es normal. La presión de 80/40 mmHg con pulso filiforme y 130 lpm añade un shock hipovolémico.",
+    "El síndrome de Boerhaave es una rotura transmural del esófago distal, con dolor torácico intenso y shock, pero cursa con neumomediastino, enfisema subcutáneo o derrame pleural; aquí la radiografía de tórax es normal y la endoscopia describe un sangrado, no una perforación.",
+    "Las várices esofágicas sangran de forma masiva en pacientes con hipertensión portal; aquí no hay antecedentes de hepatopatía ni estigmas de cirrosis, y el desencadenante son los vómitos, no la rotura de una variz.",
+    "La úlcera péptica puede sangrar y dar hematemesis, pero el dolor epigástrico suele preceder al sangrado y la endoscopia habría mostrado el cráter ulceroso; aquí el episodio está precedido por vómitos repetidos y el sangrado se localiza en el esfínter esofágico inferior."
+  ],
+  "hint": "Distingue una lesión mucosa que sangra de una perforación: la radiografía de tórax y el mediastino deciden.",
+  "discussion": "Reanimación con cristaloides y hemoderivados según el estado hemodinámico, con control de la vía aérea si el deterioro de conciencia lo exige. Inhibidor de bomba de protones intravenoso y endoscopia urgente con hemostasia (adrenalina, clips o ligadura); si falla, embolización arterial o cirugía. Control de la glucemia y abordaje posterior del consumo de alcohol.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Síndrome de Mallory-Weiss: desgarro longitudinal de la mucosa en la unión esofagogástrica tras vómitos repetidos, con hemorragia digestiva alta y shock hipovolémico (PA 80/40 mmHg, FC 130 lpm, Hb 8 g/dL)."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Síndrome de Boerhaave (rotura esofágica), hemorragia por várices esofágicas, úlcera péptica sangrante, gastropatía erosiva o hemorrágica alcohólica, lesión de Dieulafoy y desgarro de la unión por otras causas, como la iatrogenia o la reanimación cardiopulmonar."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "El desgarro se produce por un aumento brusco de la presión intraabdominal e intragástrica contra un esfínter esofágico cerrado, como ocurre con los vómitos intensos. Los factores de riesgo son el consumo excesivo de alcohol, la ingestión copiosa de alimentos, la gastritis, la hernia hiatal y cualquier proceso que provoque vómitos repetidos; aquí se suman la diabetes LADA y la deshidratación por el vómito."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El esfuerzo del vómito eleva de golpe la presión dentro del estómago y la transmite al cardias, que no se relaja; la mucosa, más frágil que la capa muscular, se desgarra en la unión esofagogástrica. El desgarro compromete vasos submucosos y produce hematemesis, que puede ser a chorro si alcanza una arteriola, con pérdida de volumen y shock. El dolor precordial o epigástrico aparece por la distensión y la irritación de la zona."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Reanimación hemodinámica con cristaloides y transfusión según necesidad —aquí Hb 8 g/dL con shock—, corrección del potasio de 3,3 mEq/L y control de la glucemia. Inhibidor de bomba de protones intravenoso y endoscopia urgente con hemostasia: adrenalina, clips, ligadura o escleroterapia. La mayoría de los casos cede; si el sangrado persiste, se recurre a embolización angiográfica o cirugía. Después, abordaje del consumo de alcohol y seguimiento de la diabetes."
+    }
+  ],
+  "diagnosis": "Síndrome de Mallory-Weiss con hemorragia digestiva alta y shock hipovolémico",
+  "corpusTopic": null,
+  "confidence": "alta"
+}

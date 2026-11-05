@@ -1,0 +1,52 @@
+{
+  "order": 29,
+  "id": "post-traumatic-acute-subdural-hematoma",
+  "title": "Pérdida súbita de la conciencia con convulsión",
+  "reason": "Pérdida súbita de la conciencia",
+  "history": "Paciente de 60 años, sexo masculino, que consulta por un cuadro clínico de 20 minutos de evolución caracterizado por pérdida súbita de la conciencia, con caída desde su propia altura y contusión en la región temporoparietal derecha, y un episodio de convulsión tónico-clónica. Un familiar lo socorre y lo traslada a la emergencia del hospital.",
+  "background": "Diabetes mellitus tipo 1 insulinorrequiriente en tratamiento con NPH. Dislipidemia en tratamiento con simvastatina.",
+  "exam": "PA 110/70 mmHg · FC 111 lpm · FR 22 rpm · T 36 °C · SatO₂ 91 % (98 % con mascarilla de Venturi)\nNeurológico: Glasgow 11/15, desorientado, sin déficit motor, sensitivo ni sensorial; reflejos conservados.\nCardiopulmonar: sin alteraciones.\nPiel y mucosas: sudorosas.",
+  "labs": "Na 140 · glucemia 18 · K 4 · urea 50 · Cl 106 · creatinina 1,6 · TFG 70 mL/kg · Hb 12 · Hto 37 %.",
+  "studies": "TC de cerebro: imagen hiperdensa en la región temporoparietal derecha, con forma de semiluna.",
+  "question": "El paciente llega con bajo nivel de conciencia y una glucemia de 18 mg/dL. ¿Cuál es la primera medida?",
+  "options": [
+    "Glucosa intravenosa inmediata",
+    "TC de cráneo antes de tratar",
+    "Manitol en bolo",
+    "Intubación orotraqueal electiva"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La hipoglucemia grave es reversible y potencialmente letal: se corrige de inmediato, sin esperar a la imagen, y se reevalúa el nivel de conciencia.",
+    "La TC es necesaria, pero posponer el tratamiento de una glucemia de 18 mg/dL para hacerla retrasa una medida que puede revertir el coma en minutos.",
+    "El manitol se reserva para la hipertensión intracraneal con signos de herniación; no es la primera medida en un paciente hipoglucémico.",
+    "La intubación se indica por protección de la vía aérea o fallo respiratorio, no de entrada por un bajo nivel de conciencia reversible."
+  ],
+  "hint": "Antes de la imagen, corrige lo que se revierte en minutos.",
+  "discussion": "Vía aérea, oxígeno y normocapnia, control de la glucemia y valoración neuroquirúrgica inmediata. El hematoma subdural agudo sintomático se evacúa mediante craneotomía o craniectomía; el manitol o la solución salina hipertónica se reservan para signos de hipertensión intracraneal y la crisis se controla con antiepilépticos. Vigilancia en unidad de cuidados intensivos con tomografía de control.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Hematoma subdural agudo traumático derecho, tras una caída desde su propia altura con impacto temporoparietal, en un paciente con Glasgow de 11/15 y crisis convulsiva al inicio del cuadro."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Hematoma epidural agudo, hemorragia subaracnoidea, contusión cerebral con hematoma intraparenquimatoso, accidente cerebrovascular isquémico o hemorrágico y coma hipoglucémico en un diabético insulinorrequiriente. La forma biconvexa y el intervalo lúcido orientan al epidural, mientras que la glucemia capilar descarta la hipoglucemia."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Traumatismo craneoencefálico por caída desde la propia altura, con impacto directo en la región temporoparietal derecha que rompe las venas puente. La edad, la diabetes mellitus y el deterioro del nivel de conciencia al ingreso empeoran el pronóstico; en este caso no consta tratamiento anticoagulante."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El desplazamiento brusco del encéfalo rompe las venas puente que cruzan el espacio subdural y la sangre se acumula entre la duramadre y la aracnoides, adoptando la forma de semiluna sobre la convexidad. La colección ejerce efecto de masa, eleva la presión intracraneal y desplaza la línea media, lo que explica el descenso del nivel de conciencia; la irritación de la corteza desencadena la convulsión."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Asegurar la vía aérea, la oxigenación y la perfusión, con control de la glucemia y de la crisis convulsiva. La valoración neuroquirúrgica es urgente: se evacúa el hematoma por craneotomía o craniectomía cuando supera los 10 mm de grosor, desplaza la línea media más de 5 mm o provoca deterioro neurológico. Para la hipertensión intracraneal se usan cabecera elevada, manitol o solución salina hipertónica, y el paciente queda en vigilancia intensiva con tomografía de control."
+    }
+  ],
+  "diagnosis": "Hematoma subdural agudo traumático derecho",
+  "corpusTopic": "traumatismo-encefalocraneal",
+  "confidence": "media"
+}

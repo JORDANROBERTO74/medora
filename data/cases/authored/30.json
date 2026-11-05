@@ -1,0 +1,52 @@
+{
+  "order": 30,
+  "id": "decompensated-cirrhosis-suspected-peritonitis",
+  "title": "Astenia y adinamia",
+  "reason": "Astenia y adinamia",
+  "history": "Paciente de 63 años, sexo masculino, que consulta a la emergencia por un cuadro clínico de 24 horas de evolución caracterizado por astenia y adinamia, y que agrega un episodio de alza térmica cuantificada de 38,5 °C.",
+  "background": "Hipertensión portal con múltiples episodios de sangrado por varices esofágicas y síndrome ascítico-edematoso. Alcoholismo desde hace 32 años, con ingesta de 5 de cada 7 días.",
+  "exam": "PA 135/90 mmHg · FC 100 lpm · FR 20 rpm · T 37,8 °C\nNeurológico: Glasgow 12/15, desorientado, pupilas isocóricas y normorreflexas.\nPiel y mucosas: hidratadas, pálidas e ictéricas, sin adenopatías cervicales.\nCardíaco: ruidos cardíacos rítmicos, sin soplos.\nPulmonar: murmullo vesicular presente.\nAbdomen: ruidos hidroaéreos disminuidos, distensión abdominal marcada, matidez desplazable en ambos flancos y en hipogastrio.\nExtremidades: disminución del trofismo muscular en ambos miembros inferiores, con desaparición del vello corporal y circulación colateral abdominal.",
+  "labs": "BT 6,06 mg/dL; bilirrubina indirecta 4,7 mg/dL; glucosa 140 mg/dL; proteínas 6,8 g/dL; albúmina 2,6 g/dL; calcio 8,5 mg/dL; creatinina 1,6 mg/dL; Na 127 mEq/L; K 4,85 mEq/L; Cl 95 mEq/L; leucocitos 9400/µL; eritrocitos 4,5 millones/µL; Hto 32 %; Hb 8,2 g/dL; plaquetas 80 000/µL; TGO 421 U/L; TGP 177 U/L; FAL 316 U/L.",
+  "studies": "Endoscopia digestiva alta: mucosa eritematosa, con erosión en la superficie de la mucosa y coágulos sanguíneos adheridos a varices esofágicas.",
+  "question": "Con estos hallazgos, ¿cuál es la conducta inicial más adecuada?",
+  "options": [
+    "Paracentesis diagnóstica con recuento de polimorfonucleares y cultivo, e inicio de antibiótico empírico",
+    "Endoscopia digestiva alta urgente con ligadura de varices",
+    "Lactulosa y rifaximina, sin otros estudios, por la encefalopatía hepática",
+    "Tomografía abdominal con contraste para descartar absceso o perforación"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Todo cirrótico con ascitis que ingresa, y más aún si tiene fiebre y encefalopatía, necesita una paracentesis diagnóstica: un recuento de polimorfonucleares de 250/µL o más define peritonitis bacteriana espontánea e indica antibiótico empírico precoz.",
+    "La endoscopia ya se realizó y describe varices con coágulos adheridos, sin sangrado activo; la ligadura se plantea en la hemorragia aguda, no como primer paso ante fiebre y desorientación.",
+    "La lactulosa y la rifaximina tratan la encefalopatía, pero no buscan su desencadenante: en un cirrótico con fiebre y ascitis hay que descartar infección del líquido ascítico antes de limitarse al tratamiento sintomático.",
+    "La tomografía no es el primer estudio: retrasa el diagnóstico de una infección frecuente y añade contraste a un paciente con creatinina de 1,6 mg/dL."
+  ],
+  "hint": "En un cirrótico con ascitis, fiebre y desorientación, pregúntate qué estudio cambia la conducta en la primera hora.",
+  "discussion": "Paracentesis diagnóstica precoz con recuento de polimorfonucleares y cultivo; si son 250/µL o más, ceftriaxona y albúmina. En paralelo, lactulosa y rifaximina para la encefalopatía, control de electrolitos y de la función renal, y tratamiento del desencadenante. Evitar sedantes y fármacos nefrotóxicos, y valorar la hemorragia reciente con coágulos en las varices.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Cirrosis hepática de origen alcohólico descompensada, con hipertensión portal, ascitis, ictericia, hipoalbuminemia de 2,6 g/dL, trombocitopenia y encefalopatía hepática (Glasgow 12/15). La fiebre de 38,5 °C obliga a descartar una peritonitis bacteriana espontánea, que el caso no permite confirmar porque no hay análisis del líquido ascítico. La anemia de 8,2 g/dL y los coágulos adheridos a las varices sugieren además una hemorragia digestiva reciente."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Peritonitis bacteriana espontánea frente a peritonitis secundaria, hepatitis alcohólica aguda, hemorragia digestiva por varices, síndrome hepatorrenal y encefalopatía metabólica por hiponatremia de 127 mEq/L o por sedantes. También hay que descartar otros focos infecciosos —urinario, pulmonar, cutáneo— y una trombosis portal, que explicaría el dolor y la descompensación."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "El alcoholismo de 32 años con ingesta de 5 de cada 7 días es la causa más probable de la cirrosis, y la hipertensión portal con varices y ascitis confirma la enfermedad avanzada. Los episodios previos de sangrado por varices, la desnutrición que traduce la pérdida de trofismo muscular y la hipoalbuminemia son factores de riesgo de infección del líquido ascítico y de encefalopatía."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El daño hepatocelular crónico por alcohol produce fibrosis y hipertensión portal, de la que derivan las varices esofágicas y la ascitis por retención hidrosalina. El hígado pierde capacidad de síntesis —albúmina de 2,6 g/dL— y de detoxificación, y el amonio no aclarado, sumado a la hiponatremia, explica la encefalopatía. La translocación bacteriana desde el intestino, favorecida por la hipertensión portal, es el mecanismo de la peritonitis bacteriana espontánea, que a su vez precipita la descompensación."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Paracentesis diagnóstica con recuento de polimorfonucleares y cultivo; si alcanzan 250/µL o más, ceftriaxona con albúmina intravenosa y ajuste según el antibiograma. Lactulosa y rifaximina para la encefalopatía, corrección de la hiponatremia con restricción hídrica y control de la función renal. Si se confirma hemorragia por varices, ligadura endoscópica con vasoactivo y profilaxis antibiótica; abstinencia alcohólica, soporte nutricional y valoración para trasplante."
+    }
+  ],
+  "diagnosis": "Cirrosis hepática alcohólica descompensada con encefalopatía hepática y sospecha de peritonitis bacteriana espontánea",
+  "corpusTopic": "hepatopatias",
+  "confidence": "media"
+}

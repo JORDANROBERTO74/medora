@@ -1,0 +1,52 @@
+{
+  "order": 27,
+  "id": "acute-heart-failure-atrial-fibrillation",
+  "title": "Disnea progresiva con palpitaciones y síncope",
+  "reason": "Disnea",
+  "history": "Paciente de 50 años que consulta por un cuadro clínico de 24 horas de evolución caracterizado por progresión de la disnea de clase funcional 1 a 3, con palpitaciones y tos seca, y un episodio de síncope con restitución ad integrum, sin foco motor, sensitivo ni sensorial.",
+  "background": "Hipertensión arterial en tratamiento con losartán. Infarto agudo de miocardio con colocación de stent en la arteria descendente anterior, tercio medio (2018). Tabaquismo de 20 paquetes/año.",
+  "exam": "PA 100/60 mmHg · FC 115 lpm · FR 26 rpm · T 36 °C · SatO₂ 91 %\nPulmonar: mecánica ventilatoria regular, crepitantes bilaterales en los campos pulmonares inferiores.\nCardiovascular: R3, sin soplos, ingurgitación yugular 2/3.\nElectrocardiograma: taquiarritmia irregular.\nEcocardiograma: FEVI 40 %, dilatación de cavidades derechas.\nCatéter de Swan-Ganz: presión de enclavamiento pulmonar 50 mmHg.\nRadiografía de tórax: imagen de oligohemia (signo de Westermark).",
+  "labs": "",
+  "studies": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Edema agudo de pulmón cardiogénico por fibrilación auricular rápida",
+    "Tromboembolia pulmonar aguda",
+    "Exacerbación aguda de enfermedad pulmonar obstructiva crónica",
+    "Neumonía bilateral con derrame pleural"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La disnea de esfuerzo que progresa en 24 horas, los crepitantes bilaterales, el R3, la ingurgitación yugular, la FEVI del 40 % y una presión de enclavamiento de 50 mmHg configuran un edema agudo de pulmón cardiogénico, desencadenado por la taquiarritmia irregular.",
+    "La tromboembolia pulmonar explica la disnea, el síncope, la hipoxemia, la dilatación de cavidades derechas y el signo de Westermark, pero no una presión de enclavamiento de 50 mmHg ni los crepitantes bilaterales con R3.",
+    "El tabaquismo de 20 paquetes/año y la tos seca permiten plantearla, pero la mecánica ventilatoria es regular, hay R3 e ingurgitación yugular y las presiones de llenado están elevadas.",
+    "La neumonía justificaría la hipoxemia y los crepitantes, pero no hay fiebre ni datos de laboratorio que la respalden y no explica la presión de enclavamiento ni la taquiarritmia."
+  ],
+  "hint": "Compara la fracción de eyección con la presión de enclavamiento: el problema está en las presiones de llenado, y el electrocardiograma señala el desencadenante.",
+  "discussion": "Oxígeno o ventilación no invasiva según la tolerancia, furosemida intravenosa y control de la frecuencia ventricular; se valora anticoagulación por la fibrilación auricular y se busca el desencadenante (isquemia, infección, transgresión). En la fracción de eyección reducida se evitan verapamilo y diltiazem.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Edema agudo de pulmón cardiogénico por fibrilación auricular con respuesta ventricular rápida, en un paciente con cardiopatía isquémica y fracción de eyección del 40 %."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Tromboembolia pulmonar aguda, exacerbación de enfermedad pulmonar obstructiva crónica, neumonía con derrame pleural, síndrome coronario agudo y taponamiento cardíaco."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Cardiopatía isquémica con infarto previo y stent en la descendente anterior, hipertensión arterial y tabaquismo de 20 paquetes/año, que dejan una fracción de eyección reducida. La fibrilación auricular actúa como desencadenante al acortar el llenado diastólico."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La disfunción sistólica y la taquicardia acortan el tiempo de llenado y elevan la presión auricular izquierda, que se transmite al capilar pulmonar y produce trasudación alveolar con crepitantes e hipoxemia. El gasto cardíaco bajo y la congestión explican el síncope y la ingurgitación yugular."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Soporte respiratorio con oxígeno o ventilación no invasiva, diurético de asa intravenoso, control de la frecuencia ventricular y tratamiento del desencadenante; anticoagulación según el riesgo tromboembólico y optimización posterior del tratamiento de la insuficiencia cardíaca."
+    }
+  ],
+  "diagnosis": "Edema agudo de pulmón cardiogénico por fibrilación auricular rápida",
+  "corpusTopic": "insuficiencia-cardiaca",
+  "confidence": "media"
+}

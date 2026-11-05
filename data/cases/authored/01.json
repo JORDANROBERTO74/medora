@@ -1,0 +1,48 @@
+{
+  "order": 1,
+  "id": "anaphylaxis-generalized-erythema",
+  "title": "Inconsciencia y eritema generalizado",
+  "reason": "Inconsciencia y eritema generalizado",
+  "history": "Paciente de 39 años, sexo masculino, que consulta por un cuadro de 5 horas de evolución caracterizado por prurito y eritema palmar que se extiende a todo el cuerpo, y que agrega convulsión. Es trasladado del domicilio al hospital.",
+  "background": "Alergia a alimentos de mar y maní.",
+  "exam": "PA 60/30 mmHg · FC 100 lpm · FR 25 rpm · T 36 °C\nNeurológico: Glasgow 7/15.\nPiel y mucosas: rubicunda, eritema generalizado que predomina en miembros superiores.\nRespiratorio: frecuencia respiratoria elevada, patrón costoabdominal, expansibilidad torácica disminuida.",
+  "labs": "Leucocitosis con eosinofilia. Gasometría con insuficiencia respiratoria.",
+  "studies": "RX de tórax: hiperinsuflación y síndrome de distrés respiratorio.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Anafilaxia con shock distributivo",
+    "Angioedema hereditario",
+    "Síndrome carcinoide",
+    "Crisis asmática grave"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El prurito y el eritema generalizados tras exponerse a alérgenos conocidos, la hipotensión marcada, el deterioro de conciencia y el broncoespasmo configuran una anafilaxia con shock distributivo.",
+    "El angioedema hereditario cursa sin prurito ni urticaria y no se desencadena por alérgenos: se debe a un déficit de C1-inhibidor.",
+    "El síndrome carcinoide produce flushing y sibilancias, pero no prurito generalizado ni hipotensión de instauración rápida tras un alérgeno.",
+    "La crisis asmática explica la disnea y las sibilancias, pero no el eritema generalizado, el prurito ni el shock."
+  ],
+  "hint": "Fíjate en el desencadenante (alérgenos conocidos), el prurito generalizado y una presión de 60/30.",
+  "discussion": "Adrenalina intramuscular en la cara anterolateral del muslo lo antes posible, repetible a los 5-15 minutos; retirar el alérgeno, oxígeno, cristaloides y soporte de la vía aérea. Observación por riesgo de reacción bifásica.",
+  "studyQuestions": [
+    {
+      "prompt": "Nombre el diagnóstico presuntivo",
+      "answer": "Anafilaxia con shock distributivo desencadenada por alérgenos alimentarios (marisco y maní)."
+    },
+    {
+      "prompt": "Nombre los diagnósticos diferenciales",
+      "answer": "Crisis asmática grave, angioedema (hereditario o por IECA), shock séptico o cardiogénico, síndrome carcinoide y reacción vasovagal."
+    },
+    {
+      "prompt": "Nombre la etiología y los factores de riesgo",
+      "answer": "Reacción de hipersensibilidad mediada por IgE frente a alérgenos alimentarios. La atopia, el asma y una alergia alimentaria conocida —que aquí consta en los antecedentes— son factores de riesgo."
+    },
+    {
+      "prompt": "Nombre la conducta con el paciente",
+      "answer": "Adrenalina intramuscular precoz, retirada del alérgeno, oxígeno y cristaloides; soporte de la vía aérea si hay compromiso y observación por riesgo de reacción bifásica."
+    }
+  ],
+  "diagnosis": "Anafilaxia con shock distributivo",
+  "corpusTopic": null,
+  "confidence": "alta"
+}

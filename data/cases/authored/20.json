@@ -1,0 +1,51 @@
+{
+  "order": 20,
+  "id": "sars-cov-2-pneumonia-pleural-effusion",
+  "title": "Fiebre, dolor pleurítico y disnea",
+  "reason": "Fiebre, dolor pleurítico y disnea",
+  "history": "Paciente de 63 años, sexo femenino, que consulta por un cuadro de 5 días de evolución caracterizado por febrícula (37,7 °C), tos no productiva, náuseas, cefalea, astenia y artromialgias, al que se añaden en las últimas 48 horas dolor pleurítico en la región costal derecha y disnea progresiva hasta mínimos esfuerzos, con trepopnea derecha.",
+  "exam": "PA 117/77 mmHg · FC 90 lpm · FR 35 rpm · SatO₂ 85 % (99 % con reservorio)\nPiel y mucosas: hidratada y perfundida.\nPulmonar: hipofonía en la base derecha con disminución de las vibraciones vocales; crepitantes en el campo medio derecho y en la base izquierda.\nMama: masa pétrea de 3 cm en el cuadrante superoexterno de la mama derecha.",
+  "labs": "Dímero D y LDH elevados. Urea y creatinina elevadas. Gasometría: hipoxemia con alcalosis respiratoria.",
+  "studies": "Radiografía de tórax: infiltrado alveolointersticial bilateral, más marcado en el lóbulo superior izquierdo, con derrame pleural derecho y atelectasia del lóbulo inferior derecho.\nAngio-TC de arterias pulmonares: solicitada por la hipoxemia con alcalosis respiratoria, el dolor pleurítico, el derrame pleural unilateral y el dímero D elevado, en contexto epidemiológico de SARS-CoV-2.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Neumonía por SARS-CoV-2 con derrame pleural derecho",
+    "Tromboembolia pulmonar con infarto pulmonar",
+    "Carcinoma de mama con derrame pleural maligno",
+    "Neumonía bacteriana con derrame paraneumónico"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El cuadro febril de cinco días con mialgias, el infiltrado alveolointersticial bilateral, la hipoxemia con alcalosis respiratoria, la LDH elevada y el contexto epidemiológico de SARS-CoV-2 configuran una neumonía viral; el derrame derecho con atelectasia explica la hipofonía, la disminución de las vibraciones vocales y la trepopnea.",
+    "La tromboembolia explica el dolor pleurítico, la hipoxemia y el dímero D elevado, pero no la fiebre de cinco días, las mialgias ni el infiltrado bilateral; el dímero D es inespecífico en la infección y la angio-TC se solicitó precisamente para descartarla.",
+    "La masa pétrea obliga a estudiarla, pero un derrame maligno no produce un cuadro febril agudo con mialgias e infiltrado bilateral; además, el derrame es unilateral y se acompaña de atelectasia pasiva.",
+    "La neumonía bacteriana con derrame paraneumónico es posible, pero el patrón intersticial bilateral, el contexto epidémico y la ausencia de expectoración purulenta favorecen la etiología viral."
+  ],
+  "hint": "Separa el proceso agudo febril del hallazgo mamario y comprueba qué explica un infiltrado bilateral con hipoxemia.",
+  "discussion": "Ingreso con oxigenoterapia para mantener una saturación superior al 92-94 %, corticoide sistémico si precisa oxígeno, profilaxis tromboembólica y control analítico y gasométrico. El derrame derecho se maneja según su tamaño y repercusión, y la atelectasia pasiva se resuelve al tratar la causa. La masa mamaria pétrea se estudia con triple evaluación —clínica, imagen y biopsia— una vez superada la fase aguda.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Neumonía por SARS-CoV-2 con derrame pleural derecho y atelectasia del lóbulo inferior derecho. El cuadro agudo febril con mialgias y el infiltrado alveolointersticial bilateral en contexto epidémico son los datos que lo sostienen."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Tromboembolia pulmonar con infarto, neumonía bacteriana con derrame paraneumónico, derrame pleural maligno por carcinoma de mama, insuficiencia cardíaca con edema pulmonar y neumonitis por otros virus. La masa mamaria hace obligado considerar el origen maligno del derrame."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Infección por SARS-CoV-2 en una paciente de 63 años, en un contexto epidemiológico compatible. La edad y la afectación pulmonar bilateral con hipoxemia son los factores que condicionan la gravedad. La masa mamaria es un hallazgo independiente que exige estudio, no un factor de riesgo del cuadro respiratorio agudo."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El virus lesiona el epitelio alveolar y desencadena una respuesta inflamatoria difusa que altera la relación ventilación-perfusión y produce hipoxemia; la hiperventilación compensadora genera alcalosis respiratoria. El derrame pleural derecho comprime el lóbulo inferior y añade un componente restrictivo, con hipofonía, disminución de las vibraciones vocales y trepopnea."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Oxigenoterapia titulada, corticoide sistémico si requiere oxígeno, profilaxis tromboembólica y control de la gasometría y de la función renal. Se trata el derrame según su tamaño y repercusión y se vigila la sobreinfección bacteriana. La masa mamaria se completa con triple evaluación tras la fase aguda."
+    }
+  ],
+  "diagnosis": "Neumonía por SARS-CoV-2 con derrame pleural derecho y atelectasia, con masa mamaria derecha pendiente de estudio",
+  "corpusTopic": "pneumonia",
+  "confidence": "media"
+}

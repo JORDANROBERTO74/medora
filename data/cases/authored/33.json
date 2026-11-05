@@ -1,0 +1,52 @@
+{
+  "order": 33,
+  "id": "prerenal-aki-diarrhea-diuretics-nsaids",
+  "title": "Diarrea prolongada y oliguria",
+  "reason": "Diarrea de 23 días",
+  "history": "Paciente de 63 años que consulta por un cuadro de 20 días de evolución caracterizado por náuseas y vómitos abundantes junto con deposiciones diarreicas líquidas (4 o 5 al día), sin productos patológicos. No refiere alzas térmicas y agrega disminución del ritmo diurético. Se le prescribieron diuréticos por la disminución de la diuresis, sin presentar mejoría del cuadro, por lo que asiste a emergencias.",
+  "background": "Hipertensión arterial en tratamiento farmacológico. Diabetes mellitus tipo 2 de 7 años de evolución en tratamiento con antidiabéticos orales, sin nefropatía conocida. Hepatopatía conocida. Herpes zóster en 2007. Función renal previa: creatinina 1,2. Tratamiento actual: AINEs por un proceso doloroso en la rodilla.",
+  "exam": "TA 90/50 mmHg · FC 100 lpm · T 36 °C\nGeneral: consciente, orientado en espacio, tiempo y persona; buen estado general, normoperfundido, deshidratado, eupneico; signo del pliegue positivo.\nCardiovascular: R1 y R2 normofonéticos, carótidas rítmicas y simétricas, no se auscultan soplos.\nPulmonar: murmullo vesicular conservado, no se auscultan soplos.\nAbdomen: blando, globoso y depresible, no doloroso a la palpación superficial ni profunda; no se palpan masas ni megalias, ruidos hidroaéreos presentes, no se palpa globo vesical, puñopercusión renal negativa, no ascitis, sin signos de peritonismo.\nExtremidades: no edemas, no signos de TVP, pulsos pedios positivos.",
+  "labs": "Leucocitos 10 400. Hemoglobina 13,7. Hematocrito 40,2. VCM 88. HCM 29,9. CHCM 34. Plaquetas 270 000.\nOrina: pH 5,5; albúmina ++; glucosa, acetona y bilirrubina negativas.",
+  "studies": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Insuficiencia renal aguda prerrenal por depleción de volumen",
+    "Necrosis tubular aguda",
+    "Nefritis intersticial aguda por AINEs",
+    "Pielonefritis aguda"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La diarrea prolongada con vómitos, la hipotensión de 90/50 mmHg, la deshidratación con pliegue positivo y la oliguria, sumadas al uso de AINEs y diuréticos, describen una caída del volumen circulante eficaz: el riñón pierde perfusión antes que parénquima.",
+    "La necrosis tubular aguda es la evolución de la isquemia mantenida, pero el cuadro es de instauración reciente, sin datos de lesión establecida, y se explica por la hipovolemia mientras no haya fracaso de la reposición.",
+    "La nefritis intersticial por AINEs suele acompañarse de fiebre, exantema, eosinofilia y alteraciones del sedimento; aquí la temperatura es normal, no hay lesiones cutáneas y el contexto de pérdida de volumen es evidente.",
+    "La pielonefritis cursa con fiebre, dolor lumbar y puñopercusión renal positiva; en este paciente la temperatura es normal, el abdomen no duele y la puñopercusión es negativa."
+  ],
+  "hint": "Piensa en qué necesita el riñón para filtrar antes de suponer que está lesionado: volumen, presión de perfusión y fármacos que cierran la arteriola aferente.",
+  "discussion": "Suspender los AINEs y los diuréticos y restituir volumen con cristaloides isotónicos, con control de diuresis, peso, presión arterial y función renal; la respuesta a la expansión confirma el origen prerrenal. Los diuréticos no tienen papel en la oliguria por hipovolemia y agravan la depleción. Si la diarrea persiste, estudiar su causa y vigilar la conversión a necrosis tubular.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Insuficiencia renal aguda prerrenal por deshidratación secundaria a diarrea prolongada con vómitos, agravada por diuréticos y AINEs en un paciente hipertenso y diabético tipo 2. La hipotensión, el signo del pliegue positivo y la oliguria sostienen el diagnóstico, que se confirma con la respuesta a la reposición de volumen."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Necrosis tubular aguda, nefritis intersticial aguda por AINEs, pielonefritis aguda y glomerulonefritis, además de una insuficiencia renal crónica reagudizada sobre la creatinina previa de 1,2. En el terreno digestivo hay que descartar diarrea infecciosa, inflamatoria, malabsortiva o por neuropatía diabética, que son las que explican la depleción."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Diarrea de tres semanas con vómitos que provoca pérdida de agua y sodio. A ello se suman los diuréticos indicados por la oliguria y los AINEs del dolor de rodilla, que inhiben las prostaglandinas vasodilatadoras de la arteriola aferente y reducen el filtrado glomerular. La edad, la hipertensión y la diabetes tipo 2 de 7 años de evolución disminuyen la reserva renal, y la hepatopatía conocida puede reducir aún más el volumen circulante eficaz."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La pérdida digestiva de volumen baja el volumen circulante eficaz y la presión de perfusión renal. El riñón responde con vasoconstricción de la arteriola aferente mediada por angiotensina II y catecolaminas, y con reabsorción de sodio y agua en el túbulo proximal, lo que produce oliguria con orina concentrada y pobre en sodio. Los AINEs bloquean la prostaglandina que mantiene dilatada la aferente y los diuréticos profundizan la depleción: la filtración cae sin daño estructural todavía, y se restituye al corregir el volumen."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Suspender AINEs y diuréticos y expandir con cristaloides isotónicos guiados por la diuresis, la presión arterial y el estado de hidratación, con control diario de peso, creatinina y electrolitos, incluido el potasio. Tratar la causa de la diarrea y los vómitos y corregir los trastornos hidroelectrolíticos. Si la oliguria persiste pese a la reposición, sospechar necrosis tubular. Los diuréticos no se usan en la oliguria prerrenal y los vasopresores se reservan para la hipotensión refractaria."
+    }
+  ],
+  "diagnosis": "Insuficiencia renal aguda prerrenal por deshidratación (diarrea, diuréticos y AINEs)",
+  "corpusTopic": null,
+  "confidence": "media"
+}

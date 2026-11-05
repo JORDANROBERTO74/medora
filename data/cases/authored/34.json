@@ -1,0 +1,51 @@
+{
+  "order": 34,
+  "id": "community-acquired-pneumonia-parapneumonic-effusion",
+  "title": "Tos, fiebre y dolor torácico pleurítico",
+  "reason": "Tos y dolor torácico",
+  "history": "Paciente de 20 años, sexo masculino, que consulta por un cuadro de 72 horas de evolución caracterizado por tos seca, fiebre de hasta 38,5 °C y dolor torácico izquierdo irradiado a la espalda, en relación con los movimientos respiratorios.",
+  "background": "No refiere hábitos tóxicos ni alergias conocidas. No HTA, no DM. Hepatitis hace 20 años. Apendicectomía. Medicamentos habituales: anticonceptivos orales.",
+  "exam": "Glasgow 15/15 · FC 92 lpm · TA 110/80 mmHg · FR 20 rpm · SatO₂ 95 % · T 37,5 °C\nGeneral: consciente y orientada, sudorosa, bien hidratada y perfundida.\nCardiovascular: R1 y R2 normofonéticos en los cuatro focos, sin ingurgitación yugular, sin adenopatías, sin soplos.\nPulmonar: matidez a la percusión, disminución del murmullo vesicular y de las vibraciones vocales en los dos tercios inferiores del pulmón izquierdo.\nAbdomen: blando, depresible, sin masas ni megalias; ruidos hidroaéreos normales.\nExtremidades: sin edemas ni signos de trombosis profunda, pulsos positivos.",
+  "labs": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Neumonía adquirida en la comunidad con derrame pleural paraneumónico",
+    "Neumotórax espontáneo izquierdo",
+    "Derrame pleural tuberculoso",
+    "Tromboembolia pulmonar con infarto pulmonar"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El cuadro agudo de 72 horas con tos seca, fiebre de 38,5 °C y dolor pleurítico, junto con matidez y disminución del murmullo vesicular y de las vibraciones vocales en los dos tercios inferiores del pulmón izquierdo, traduce un proceso de condensación con derrame pleural asociado, propio de una neumonía con derrame paraneumónico.",
+    "El neumotórax da dolor pleurítico e hipofonía, pero a la percusión sería hiperresonante y no mate, y las vibraciones vocales estarían abolidas sin fiebre de 38,5 °C.",
+    "El derrame tuberculoso es un exudado que puede cursar con fiebre y dolor pleurítico, pero suele ser subagudo, en un paciente con factores de riesgo epidemiológico que aquí no constan; el inicio en 72 horas con fiebre alta favorece una causa bacteriana.",
+    "La tromboembolia con infarto pulmonar explica el dolor pleurítico y la hipofonía, pero no la fiebre de 38,5 °C con matidez extensa ni la disminución de las vibraciones vocales en dos tercios del hemitórax; el paciente no presenta signos de trombosis en las extremidades."
+  ],
+  "hint": "Separa lo que indica condensación de lo que indica líquido pleural: la percusión y las vibraciones vocales no se comportan igual en ambos.",
+  "discussion": "Confirmar con radiografía de tórax y hemograma, y valorar la gravedad con CURB-65: en un paciente joven sin comorbilidad, tratamiento ambulatorio con amoxicilina o amoxicilina-clavulánico y analgesia. Si el derrame es significativo, toracocentesis diagnóstica con bioquímica, Gram y cultivo, y drenaje si el pH es inferior a 7,20, la glucosa inferior a 60 mg/dL, la LDH superior a 1.000 U/L o hay pus. Control clínico en 48-72 horas y seguimiento radiológico hasta la resolución.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Neumonía adquirida en la comunidad con derrame pleural paraneumónico izquierdo. Lo sostienen el síndrome febril agudo de 72 horas con tos seca y dolor pleurítico, junto con un síndrome de condensación con matidez, disminución del murmullo vesicular y de las vibraciones vocales en los dos tercios inferiores del pulmón izquierdo. La disminución de las vibraciones vocales añade un componente de derrame pleural, que en este contexto es paraneumónico. Faltan radiografía, hemograma y estudio del líquido pleural para confirmarlo."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Neumotórax espontáneo, tromboembolia pulmonar con infarto pulmonar, derrame pleural tuberculoso, derrame pleural maligno, neumonía atípica o vírica, absceso pulmonar y pleuritis por otras causas. También cuadros de dolor torácico no pleural, como pericarditis o costocondritis, aunque no explican la fiebre ni los hallazgos auscultatorios. La matidez con vibraciones vocales disminuidas orienta a líquido pleural y no a un neumotórax."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "La causa más frecuente es la infección por Streptococcus pneumoniae, seguida de Haemophilus influenzae, Mycoplasma pneumoniae y, en pacientes con comorbilidad, bacilos gramnegativos y anaerobios por microaspiración. Los factores de riesgo son la edad extrema, el tabaquismo, el alcoholismo, la enfermedad pulmonar crónica, la diabetes, la inmunosupresión, la disfagia y la mala higiene bucal. En este paciente no constan hábitos tóxicos, diabetes ni otra comorbilidad, de modo que el episodio se explica por una neumonía comunitaria en un adulto joven previamente sano."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La microaspiración de flora orofaríngea alcanza el espacio alveolar, donde la respuesta inflamatoria produce exudado y consolidación del parénquima. La inflamación aumenta la permeabilidad de la pleura y genera un exudado pleural paraneumónico que comprime el pulmón subyacente. Ese líquido explica la matidez, la disminución del murmullo vesicular y la caída de las vibraciones vocales. Si progresa, el exudado se hace fibrinopurulento y puede organizarse en empiema, lo que condiciona la necesidad de drenaje."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Antibiótico empírico precoz: amoxicilina o amoxicilina-clavulánico, con un macrólido si se sospecha un agente atípico. Añadir analgesia y control térmico, y valorar el ingreso según CURB-65 y la repercusión clínica. La radiografía de tórax confirma el diagnóstico y cuantifica el derrame; si es significativo, se realiza toracocentesis con bioquímica, Gram y cultivo. Se drena si el pH es inferior a 7,20, la glucosa inferior a 60 mg/dL, la LDH superior a 1.000 U/L o hay pus, y se revisa la evolución en 48-72 horas."
+    }
+  ],
+  "diagnosis": "Neumonía adquirida en la comunidad con derrame pleural paraneumónico izquierdo",
+  "corpusTopic": "pneumonia",
+  "confidence": "media"
+}

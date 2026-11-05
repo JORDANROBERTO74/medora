@@ -1,0 +1,52 @@
+{
+  "order": 37,
+  "id": "placental-abruption-uterine-hypertonia",
+  "title": "Contracciones y sangrado vaginal a las 36 semanas",
+  "reason": "Contracciones y sangrado vaginal en el embarazo",
+  "history": "Paciente de 28 años, sexo femenino, con embarazo de 36 semanas, que consulta por un cuadro clínico de 8 horas de evolución caracterizado por dolor abdominal tipo contracción (2/10/40 segundos), de moderada intensidad, con salida del tapón mucoso y salida de sangre roja rutilante sin coágulos.",
+  "background": "G2 P0 C1 E0 A0. Gestación previa con preeclampsia leve.",
+  "exam": "PA 150/70 mmHg · FC 108 lpm · FR 24 rpm · T 36 °C · SatO₂ 99 %\nNeurológico: paciente somnolienta, Glasgow 12/15, sin foco motor, sensitivo ni sensorial.\nCardiovascular: R1 y R2 en los cuatro focos sin soplos, sin ingurgitación yugular, pulso radial filiforme.\nRespiratorio: buena mecánica ventilatoria, murmullo vesicular conservado.\nAbdomen: globoso a expensas del útero grávido, RHA+, altura uterina 34 cm, útero hipertónico.",
+  "labs": "Hb 8 · Hto 28 % · urea 50 · creatinina 1,5 · ionograma normal.",
+  "studies": "IA transvaginal: escala de Page grado 2.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Desprendimiento prematuro de placenta normoinserta",
+    "Placenta previa",
+    "Rotura uterina",
+    "Vasa previa"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Las contracciones con útero hipertónico, el sangrado genital y una escala de Page grado 2 en la ecografía transvaginal definen el desprendimiento prematuro de placenta; la hipertensión actual y la preeclampsia de la gestación previa son factores de riesgo, y la anemia con creatinina de 1,5 reflejan la pérdida sanguínea.",
+    "La placenta previa produce sangrado rojo indoloro con útero blando y no hipertónico, y su diagnóstico es la inserción placentaria baja en la ecografía; aquí el útero está hipertónico y la escala de Page corresponde a desprendimiento.",
+    "La rotura uterina se sospecha por dolor súbito, cese de las contracciones y alteración del registro fetal; el antecedente de cesárea es un factor de riesgo, pero el cuadro aquí es de contracciones mantenidas con hipertonía y sangrado escaso.",
+    "La vasa previa sangra al romperse las membranas y compromete al feto de forma rápida, sin hipertonía uterina ni una escala de Page grado 2."
+  ],
+  "hint": "El útero hipertónico junto con el antecedente hipertensivo orienta a la separación de la placenta, no a un problema de inserción.",
+  "discussion": "Estabilización con dos accesos venosos, cristaloides y hemocomponentes cruzados, control de diuresis y sulfato de magnesio si cumple criterios de preeclampsia grave. La conducta es finalizar el embarazo: cesárea urgente ante inestabilidad materna o compromiso fetal, y manejo expectante con corticoides solo si el sangrado es escaso y la madre y el feto están estables. Vigilar coagulación por el riesgo de coagulopatía de consumo.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico del paciente?",
+      "answer": "Desprendimiento prematuro de placenta normoinserta (abruptio placentae) en el tercer trimestre, con útero hipertónico, sangrado genital y escala de Page grado 2. Se acompaña de hipertensión arterial, anemia (Hb 8, Hto 28 %) y deterioro del sensorio con pulso filiforme, que traducen la pérdida sanguínea."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Placenta previa, rotura uterina, vasa previa, trabajo de parto pretérmino y sangrado del canal genital por cervicitis o lesión. La placenta previa y la vasa previa se descartan por ecografía, y la rotura uterina por la persistencia de las contracciones y la hipertonía."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Rotura de vasos deciduales favorecida por hipertensión y preeclampsia, antecedente de preeclampsia, cesárea previa, multiparidad, edad materna avanzada, tabaquismo, cocaína, corioamnionitis y rotura prematura de membranas. En esta paciente los factores identificables son la presión de 150/70 y la preeclampsia leve de la gestación anterior."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La rotura de vasos en la interfase decidua-miometrio forma un hematoma que separa la placenta de la pared uterina. La sangre se infiltra en el miometrio y genera hipertonía y dolor mantenido, y la pérdida sanguínea explica la anemia, la hipoperfusión y el deterioro del sensorio. El consumo de factores de coagulación puede llevar a coagulopatía, y la separación reduce el intercambio fetoplacentario."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Reanimación con cristaloides y hemocomponentes, control de la presión arterial y sulfato de magnesio si hay preeclampsia grave, con vigilancia de diuresis y coagulación. La conducta es finalizar el embarazo, con cesárea urgente si la madre o el feto están comprometidos. El manejo expectante con corticoides se reserva para el sangrado escaso con madre y feto estables."
+    }
+  ],
+  "diagnosis": "Desprendimiento prematuro de placenta normoinserta con útero hipertónico",
+  "corpusTopic": "hemorragias-segunda-mitad",
+  "confidence": "alta"
+}

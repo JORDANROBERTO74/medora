@@ -1,0 +1,52 @@
+{
+  "order": 32,
+  "id": "neurocysticercosis-focal-seizure",
+  "title": "Crisis convulsiva focal con pérdida de conciencia y cefalea",
+  "reason": "Pérdida de conciencia",
+  "history": "Paciente de 8 años que consulta por un cuadro clínico caracterizado por presentar movimientos tónico-clónicos en miembros superiores e inferiores, con versión oculocefálica ipsilateral a los paroxismos motores y generalización secundaria con pérdida de conciencia y postración poscrítica. Al recuperar conciencia refiere cefalea temporal derecha.",
+  "background": "No refiere antecedentes.",
+  "exam": "Afebril. Glasgow 14/15. Pupilas isocóricas y normorreactivas, sin signos de focalidad.\nPiel y mucosas: hidratadas, normocoloreadas.",
+  "labs": "Laboratorios normales.",
+  "studies": "TAC de cerebro sin contraste: lesión nodular hipodensa de aspecto quístico con un elemento nodulillar mural sólido, de localización parietotemporal derecha, con edema vasogénico asociado; además, lesiones hipodensas quísticas con calcio puntiforme localizadas en lóbulo frontal.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Neurocisticercosis parenquimatosa",
+    "Tuberculoma cerebral",
+    "Absceso cerebral",
+    "Astrocitoma de bajo grado"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El quiste con un nódulo mural sólido —el escólex— y el edema vasogénico perilesional, junto con lesiones quísticas calcificadas a distancia en el lóbulo frontal, son la imagen típica de la neurocisticercosis en distintos estadios evolutivos y explican la crisis focal del paciente.",
+    "El tuberculoma suele aparecer como lesión con realce en anillo y calcificación central, habitualmente con clínica de hipertensión intracraneal y antecedente de tuberculosis; no reproduce el quiste con nódulo mural ni las calcificaciones puntiformes dispersas.",
+    "El absceso cerebral se acompaña de fiebre, signos infecciosos y laboratorio alterado, ausentes aquí, y en la tomografía muestra una colección con realce en anillo y edema, no un nódulo mural dentro de un quiste.",
+    "El astrocitoma de bajo grado puede verse como quiste con nódulo mural, pero el nódulo suele captar contraste y no se acompaña de otras lesiones calcificadas puntiformes; además, la multiplicidad y el estadio evolutivo favorecen la parasitosis."
+  ],
+  "hint": "Un quiste con un nódulo mural sólido más otras lesiones calcificadas, en un niño afebril con laboratorio normal, orienta a un parásito y no a un tumor ni a una infección bacteriana.",
+  "discussion": "Iniciar anticonvulsivo para el control de las crisis y valorar albendazol con dexametasona si la lesión quística está viable y hay edema. Se vigila la hipertensión intracraneal y se reserva la cirugía para la hidrocefalia o la lesión única resecable. Las lesiones solo calcificadas no reciben antiparasitario; se estudia y se trata al portador adulto y se dan medidas de higiene.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Neurocisticercosis parenquimatosa con una lesión quística viable parietotemporal derecha y lesiones calcificadas frontales, que debuta con una crisis focal secundariamente generalizada y cefalea poscrítica."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Tuberculoma, absceso cerebral, astrocitoma o glioma de bajo grado, metástasis, quiste aracnoideo o epidermoide y toxoplasmosis en el paciente inmunosuprimido."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Infección del sistema nervioso central por la forma larvaria de Taenia solium, tras la ingesta de huevos en agua o alimentos contaminados o por manos sucias. El contacto con un portador de teniasis, el hacinamiento, el saneamiento deficiente y la residencia en zona endémica son los factores de riesgo; la edad pediátrica y la falta de antecedentes explican que la crisis sea la primera manifestación."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "Los huevos ingeridos liberan oncósferas que atraviesan la mucosa intestinal y alcanzan el parénquima cerebral, donde se transforman en cisticercos. Mientras el parásito es viable la respuesta inflamatoria es escasa; al degenerar, el edema y la reacción inflamatoria irritan la corteza y provocan crisis focales, que se generalizan por propagación. La lesión evoluciona a un quiste con escólex y, finalmente, a un nódulo calcificado."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Anticonvulsivo para el control de las crisis y, si la lesión quística está viable con edema, albendazol asociado a dexametasona. Se vigila la hipertensión intracraneal y se opera si hay hidrocefalia o una lesión única resecable. Las lesiones solo calcificadas no reciben antiparasitario; se trata al portador adulto y se refuerzan las medidas de higiene y saneamiento."
+    }
+  ],
+  "diagnosis": "Neurocisticercosis parenquimatosa con crisis focal secundariamente generalizada",
+  "corpusTopic": null,
+  "confidence": "media"
+}

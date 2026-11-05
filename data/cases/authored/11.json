@@ -1,0 +1,52 @@
+{
+  "order": 11,
+  "id": "iron-deficiency-anemia-gastric-neoplasm",
+  "title": "Astenia de 2 meses",
+  "reason": "Astenia de 2 meses",
+  "history": "Paciente de 41 años, sexo femenino, que consulta por astenia de 2 meses de evolución, sin anorexia ni pérdida de peso y sin alteración del hábito intestinal. Actualmente en lactancia materna de su hija de 3 años.",
+  "background": "No refiere antecedentes de interés.",
+  "exam": "PA 100/60 mmHg · FC 105 lpm · FR 20 rpm · T 37 °C · SatO₂ 98 %\nPiel y mucosas: hidratadas, pálidas.\nResto del examen físico sin alteraciones.",
+  "labs": "Hemoglobina 6 g/dL. Urea 60 mg/dL. Creatinina 1,6 mg/dL. Ionograma normal. Sangre oculta en heces: positiva.",
+  "studies": "Endoscopia digestiva alta y colonoscopia: neoplasia en cuerpo gástrico.\nTAC de abdomen: no evidencia de metástasis. Se indica cirugía laparoscópica.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Anemia ferropénica secundaria a neoplasia gástrica",
+    "Anemia ferropénica por lactancia prolongada y déficit dietético",
+    "Anemia megaloblástica por déficit de vitamina B12",
+    "Anemia por enfermedad crónica"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La hemoglobina de 6 g/dL con palidez y taquicardia, la sangre oculta en heces positiva, la lesión neoplásica del cuerpo gástrico y la mejoría con hierro configuran una anemia ferropénica por sangrado digestivo crónico.",
+    "La lactancia prolongada y el déficit dietético pueden agravar una ferropenia, pero no explican la sangre oculta en heces positiva ni la neoplasia gástrica demostrada por endoscopia.",
+    "La anemia megaloblástica por déficit de vitamina B12 da anemia macrocítica, a menudo con afectación neurológica; aquí la pérdida digestiva de sangre y la respuesta al hierro apuntan a ferropenia.",
+    "La anemia de enfermedad crónica acompaña a procesos inflamatorios o tumorales, pero cursa con depósitos de hierro bloqueados y no con sangrado digestivo oculto que responde al hierro."
+  ],
+  "hint": "Fíjate en la pérdida crónica de sangre y en cómo respondió la anemia al hierro.",
+  "discussion": "Anemia ferropénica grave sintomática: valorar transfusión si hay inestabilidad o hemoglobina muy baja y corregir el déficit con hierro intravenoso, seguido de hierro oral. El tratamiento de fondo es oncológico: cirugía laparoscópica tras la estadificación, que aquí no muestra metástasis. Control de la hemoglobina, erradicación de Helicobacter pylori si procede y seguimiento posterior.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Anemia ferropénica grave secundaria a neoplasia del cuerpo gástrico, con sangrado digestivo crónico oculto. Lo apoyan la hemoglobina de 6 g/dL, la sangre oculta en heces positiva, la lesión endoscópica y la mejoría de los parámetros de anemia con hierro."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Anemia megaloblástica por déficit de vitamina B12 o folato, anemia de trastornos crónicos, anemia hemolítica, anemia por insuficiencia renal —la creatinina es de 1,6 mg/dL— y mielodisplasia. También otras causas de sangrado digestivo crónico, como úlcera péptica, angiodisplasia o varices."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Adenocarcinoma gástrico como causa del sangrado crónico. Son factores de riesgo la infección por Helicobacter pylori, la gastritis atrófica, el tabaco, el consumo de alimentos salados o ahumados, el antecedente familiar de cáncer gástrico y el grupo sanguíneo A. La lactancia y las pérdidas menstruales pueden agravar la ferropenia, pero no la explican por sí solas."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El tumor ulcera la mucosa gástrica y sangra de forma continua y oculta, de modo que la pérdida de hierro supera su absorción. Se agotan los depósitos de hierro y la eritropoyesis se vuelve ferropénica, con anemia microcítica e hipocrómica. La hemoglobina baja reduce el transporte de oxígeno y produce astenia, palidez y taquicardia compensadora."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Corregir la anemia con hierro intravenoso —ya recibido— y después hierro oral, con transfusión si hay inestabilidad hemodinámica o hemoglobina muy baja. El tratamiento de fondo es la resección quirúrgica laparoscópica tras la estadificación, que en este caso no muestra metástasis. Se añade erradicación de Helicobacter pylori si está presente y control posterior de la hemoglobina."
+    }
+  ],
+  "diagnosis": "Anemia ferropénica secundaria a neoplasia gástrica",
+  "corpusTopic": "anemia-ferropenica",
+  "confidence": "alta"
+}

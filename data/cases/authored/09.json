@@ -1,0 +1,51 @@
+{
+  "order": 9,
+  "id": "acute-liver-failure-coagulopathy",
+  "title": "Dolor abdominal, fiebre y hematemesis",
+  "reason": "Dolor abdominal y hematemesis",
+  "history": "Paciente de 47 años, sexo femenino, que consulta por un cuadro de 48 horas de evolución de fiebre acompañada de dolor abdominal, vómitos oscuros y epistaxis, que agrega melena, dolor abdominal y hematemesis.",
+  "exam": "PA 110/65 mmHg · FC 100 lpm · T 37,7 °C · SatO₂ 95 % · glucemia capilar 110 mg/dL\nNeurológico: consciente, orientada.\nPiel y mucosas: ictericia.\nCardiológico: R1 y R2 sin soplos.\nAbdomen: distendido, doloroso a la palpación en hipocondrio derecho, hepatomegalia, ruidos hidroaéreos disminuidos.",
+  "labs": "Hematocrito 32,4 %; hemoglobina 11; leucocitos 1200 (neutrófilos 36,9 %, linfocitos 56 %); VCM 118; plaquetas 22 000. TP 46,5; INR 4; TTPA 69,73. Glucosa 38; Na 128; K 3,9. Bilirrubina total 4,56; bilirrubina directa 3,55. TGO 258; TGP 76; amilasa 57; proteínas totales 8,1. Gasometría: pH 7,14; pCO₂ 37; pO₂ 35,4; bicarbonato 12,6; exceso de base −15,5.",
+  "studies": "Radiografía de abdomen y decúbito lateral: ascitis y obstrucción paralítica de intestino delgado. En la sala de urgencias se avisa de parada cardiorrespiratoria.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Insuficiencia hepática aguda grave con coagulopatía",
+    "Hemorragia digestiva alta por úlcera péptica",
+    "Colangitis aguda ascendente",
+    "Sepsis abdominal con coagulación intravascular diseminada"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La ictericia con bilirrubina de predominio directo, el INR de 4, la hipoglucemia de 38, la ascitis y la progresión a parada cardiorrespiratoria traducen un fallo hepatocelular agudo grave; la hemorragia —hematemesis, melena y epistaxis— se explica por la coagulopatía.",
+    "La úlcera péptica explica la hematemesis y la melena, pero no la ictericia, la hipoglucemia de 38, la ascitis ni un INR de 4.",
+    "La colangitis comparte fiebre, ictericia y dolor en hipocondrio derecho, pero no se documenta dilatación de la vía biliar y no explica el fallo de síntesis con hipoglucemia ni la ascitis.",
+    "La sepsis con coagulación intravascular diseminada justifica la trombocitopenia y la coagulopatía, pero no explica por sí sola la ictericia con transaminasas elevadas, la hipoglucemia ni la ascitis."
+  ],
+  "hint": "Cruza la ictericia con el INR de 4 y la glucosa de 38: el hígado ha dejado de sintetizar factores de coagulación y de producir glucosa.",
+  "discussion": "Asegurar la vía aérea y la hemodinámica, corregir la hipoglucemia y administrar vitamina K, plasma fresco congelado y plaquetas si hay sangrado activo. Iniciar omeprazol y practicar endoscopia digestiva una vez estabilizada, con N-acetilcisteína si se sospecha paracetamol. Traslado a cuidados intensivos y contacto con un centro de trasplante hepático, tratando el desencadenante.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Insuficiencia hepática aguda grave con fallo de síntesis —INR de 4 e hipoglucemia de 38 mg/dL— y hemorragia digestiva por la coagulopatía, con ascitis e íleo paralítico. La evolución a parada cardiorrespiratoria refleja el fallo multiorgánico. Los datos del caso no permiten establecer la etiología."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Hemorragia digestiva alta por úlcera péptica o por varices, colangitis aguda, pancreatitis aguda, sepsis abdominal con coagulación intravascular diseminada y hepatopatía crónica descompensada. En zona endémica hay que considerar dengue grave, fiebre amarilla y leptospirosis, además de hepatitis viral o tóxica."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "El caso no permite precisar la causa: hay que descartar hepatitis viral, tóxicos como paracetamol, alcohol o setas, fármacos, hepatitis autoinmune, enfermedad de Wilson, isquemia hepática y obstrucción venosa. No constan antecedentes de hepatopatía, transfusiones, viajes ni ingesta de tóxicos, que son los datos que orientarían el estudio. La fiebre de 48 horas y la citopenia obligan a descartar también una causa infecciosa o hematológica."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El daño hepatocelular masivo suprime la síntesis de factores de coagulación, albúmina y glucosa, de donde vienen el INR de 4, la hipoglucemia y la ascitis. La hipertensión portal y la coagulopatía explican la hemorragia digestiva y el íleo paralítico, y la hipoperfusión añade la acidosis metabólica del pH 7,14. El amonio no aclarado y los mediadores inflamatorios explican la encefalopatía que puede preceder al deterioro final."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Soporte en cuidados intensivos con vía aérea protegida, cristaloides, corrección de la hipoglucemia y de los electrolitos. Vitamina K, plasma fresco congelado y plaquetas si hay sangrado activo, junto con omeprazol y endoscopia digestiva tras la estabilización. N-acetilcisteína si se sospecha paracetamol, tratamiento del desencadenante y valoración urgente en un centro de trasplante hepático, evitando sedantes y fármacos hepatotóxicos."
+    }
+  ],
+  "diagnosis": "Insuficiencia hepática aguda grave con coagulopatía y hemorragia digestiva",
+  "corpusTopic": "hepatopatias",
+  "confidence": "media"
+}

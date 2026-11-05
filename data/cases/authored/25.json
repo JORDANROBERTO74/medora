@@ -1,0 +1,48 @@
+{
+  "order": 25,
+  "id": "acute-pulmonary-edema-rapid-atrial-fibrillation",
+  "title": "Disnea súbita y palpitaciones",
+  "reason": "Disnea súbita y palpitaciones",
+  "history": "Cuadro de 2 días de evolución caracterizado por aumento progresivo de la disnea, ortopnea y edemas. El día de hoy inicia con palpitaciones rápidas, mareo intenso y sudoración fría.",
+  "background": "Cardiopatía isquémica con infarto previo hace 3 años (FEVI previa 35 %). Hipertensión arterial de 8 años de evolución tratada con enalapril. Hipotiroidismo tratado con levotiroxina.",
+  "exam": "PA 82/55 mmHg · FC 148 lpm (irregular) · FR 28 rpm · T 36,6 °C · SatO₂ 86 %\nGeneral: mal estado general, consciente pero somnolienta.\nCuello: ingurgitación yugular marcada.\nCardiovascular: soplo holosistólico mitral.\nRespiratorio: crepitantes en ambas bases pulmonares.\nExtremidades: edema de miembros inferiores +++.",
+  "labs": "Na 126 mEq/L · K 4,8 mEq/L · creatinina 1,9 mg/dL · BNP 3100 pg/mL · troponina elevada · INR 1,0.",
+  "studies": "ECG: taquicardia irregular de QRS estrecho, ausencia de onda P.\nRX de tórax: cardiomegalia y edema alveolar difuso.\nEcocardiograma: FEVI 25 %, dilatación severa de cavidades izquierdas, insuficiencia mitral funcional moderada e hipertensión pulmonar (65 mmHg).",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Edema agudo de pulmón cardiogénico precipitado por fibrilación auricular rápida",
+    "Tromboembolia pulmonar masiva",
+    "Neumonía bilateral grave con sepsis",
+    "Síndrome coronario agudo complicado con edema pulmonar"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La disnea progresiva con ortopnea, la ingurgitación yugular, el edema alveolar difuso, el BNP de 3100 pg/mL y una FEVI del 25 % definen insuficiencia cardíaca congestiva; el ECG muestra fibrilación auricular con respuesta ventricular de 148 lpm, que es la que descompensa el cuadro, y la hipotensión con somnolencia indica shock cardiogénico.",
+    "La tromboembolia pulmonar da disnea y taquicardia, pero no edema alveolar difuso, cardiomegalia, ingurgitación yugular marcada ni un BNP tan elevado.",
+    "La neumonía grave cursa con fiebre y foco infeccioso, ausentes aquí, y no explica la cardiomegalia, el soplo mitral ni la fibrilación auricular.",
+    "La troponina elevada es frecuente en la insuficiencia cardíaca descompensada y en la fibrilación auricular por lesión miocárdica tipo 2; sin dolor torácico ni cambios isquémicos en el ECG, no sostiene un síndrome coronario agudo como causa del cuadro."
+  ],
+  "hint": "Separa la congestión (BNP, edema alveolar, ingurgitación yugular) de la arritmia que la descompensó.",
+  "discussion": "Oxígeno y ventilación no invasiva, furosemida intravenosa y noradrenalina si persiste la hipotensión. Control de la frecuencia con digoxina o amiodarona, evitando betabloqueantes y calcioantagonistas no dihidropiridínicos en el shock. Buscar el desencadenante, corregir la hiponatremia con cautela y controlar la función renal.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Edema agudo de pulmón cardiogénico por insuficiencia cardíaca con fracción de eyección reducida descompensada, precipitado por fibrilación auricular con respuesta ventricular rápida, con shock cardiogénico asociado."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Tromboembolia pulmonar, neumonía grave con sepsis, síndrome coronario agudo, taponamiento cardíaco, crisis hipertensiva con edema pulmonar y edema pulmonar no cardiogénico (SDRA)."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Miocardiopatía isquémica con infarto previo: la FEVI cayó del 35 % al 25 % y hay dilatación severa de cavidades izquierdas con insuficiencia mitral funcional. La fibrilación auricular, favorecida por la dilatación auricular, elimina el componente auricular y acorta la diástole, lo que descompensa la insuficiencia cardíaca. La hipertensión arterial, la hiponatremia y la disfunción renal añadida agravan el pronóstico. El hipotiroidismo en tratamiento obliga a verificar la adherencia a la levotiroxina."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Se trata un shock cardiogénico con congestión: oxígeno y ventilación no invasiva, furosemida intravenosa, noradrenalina para mantener la perfusión y control de la frecuencia con digoxina o amiodarona; los betabloqueantes y los calcioantagonistas no dihidropiridínicos están contraindicados con esta presión. Hay que buscar y tratar el desencadenante, corregir la hiponatremia con cautela, vigilar la función renal y valorar la anticoagulación por la fibrilación auricular."
+    }
+  ],
+  "diagnosis": "Edema agudo de pulmón cardiogénico por insuficiencia cardíaca descompensada precipitado por fibrilación auricular rápida",
+  "corpusTopic": "insuficiencia-cardiaca",
+  "confidence": "alta"
+}

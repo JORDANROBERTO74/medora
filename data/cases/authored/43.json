@@ -1,0 +1,52 @@
+{
+  "order": 43,
+  "id": "acute-pulmonary-edema-cardiogenic-shock-chagas",
+  "title": "Disnea de pequeños esfuerzos con esputo asalmonado",
+  "reason": "Disnea",
+  "history": "Paciente de 70 años que consulta por un cuadro clínico de disnea de pequeños esfuerzos y disnea paroxística nocturna, asociado a tos con expectoración asalmonada, con mala mecánica ventilatoria y edemas de miembros inferiores hasta la raíz del muslo.",
+  "background": "Insuficiencia cardíaca. Enfermedad de Chagas de 30 años de evolución.",
+  "exam": "PA 70/40 mmHg · FC 160 lpm · FR 30 rpm · T 36 °C · SatO₂ 88 % con FiO₂ 0,40\nNeurológico: somnoliento, orientado, resto sin particularidades.\nRespiratorio: mala mecánica ventilatoria por tiraje intercostal y supraclavicular, regular entrada de aire, crepitantes, roncus y sibilancias.\nCardiovascular: R1 y R2 en los cuatro focos, silencios impresionan libres, ingurgitación yugular 2/3 con colapso, edemas de miembros inferiores hasta la raíz del muslo.\nUrinario: diuresis +, puño-percusión negativa.",
+  "labs": "pH 7,35 · CO₂ 35 mmHg · bicarbonato 18 mEq/L · pO₂ 55 mmHg · SatO₂ 89 % · urea 60 mg/dL · creatinina 1,6 mg/dL.",
+  "studies": "ECG: ausencia de onda P, complejo QRS estrecho (menos de 0,2 s).",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Edema agudo de pulmón cardiogénico con shock cardiogénico por miocardiopatía chagásica descompensada",
+    "Tromboembolia pulmonar aguda con cor pulmonale",
+    "Neumonía grave con síndrome de distrés respiratorio agudo",
+    "Exacerbación de enfermedad pulmonar obstructiva crónica con broncoespasmo"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La disnea paroxística nocturna, el esputo asalmonado, los crepitantes bilaterales, la ingurgitación yugular y los edemas hasta la raíz del muslo son congestión pulmonar y sistémica; con presión de 70/40 mmHg, somnolencia, oliguria y creatinina de 1,6 mg/dL el cuadro es un edema agudo de pulmón con shock cardiogénico, sobre una miocardiopatía chagásica de 30 años.",
+    "La tromboembolia pulmonar explica la hipoxemia, la taquicardia y la ingurgitación yugular, pero no el esputo asalmonado, los crepitantes difusos ni los edemas hasta la raíz del muslo, que son de congestión izquierda.",
+    "La neumonía con distrés justificaría la hipoxemia y los crepitantes, pero faltan fiebre y foco infeccioso, y no explica la ingurgitación yugular, los edemas masivos ni el antecedente de insuficiencia cardíaca y Chagas.",
+    "Los roncus y las sibilancias pueden confundir, pero el CO₂ de 35 mmHg y el pH de 7,35 descartan la acidosis respiratoria de la exacerbación, y la congestión sistémica no forma parte de ella."
+  ],
+  "hint": "El esputo asalmonado y los crepitantes señalan el pulmón, pero la ingurgitación yugular, los edemas hasta la raíz del muslo y la presión de 70/40 mmHg señalan el corazón.",
+  "discussion": "Soporte respiratorio con oxígeno y ventilación no invasiva, e invasiva si hay deterioro; noradrenalina para sostener la perfusión y diurético de asa intravenoso una vez corregida la hipotensión, con control de diuresis, electrolitos y función renal. Control de la frecuencia ventricular con amiodarona o digoxina, evitando betabloqueantes y calcioantagonistas no dihidropiridínicos en el shock. Traslado a unidad coronaria, búsqueda del desencadenante y valoración de anticoagulación.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Edema agudo de pulmón cardiogénico con shock cardiogénico, en el contexto de una miocardiopatía chagásica de 30 años de evolución con insuficiencia cardíaca crónica. La presión de 70/40 mmHg, la somnolencia, la diuresis escasa y la creatinina de 1,6 mg/dL expresan la hipoperfusión. La taquicardia de 160 lpm sin onda P y de QRS estrecho actúa como desencadenante."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Tromboembolia pulmonar aguda, neumonía grave con síndrome de distrés respiratorio agudo, exacerbación de enfermedad pulmonar obstructiva crónica con broncoespasmo, síndrome coronario agudo complicado con edema pulmonar, taponamiento cardíaco y edema pulmonar no cardiogénico. La crisis hipertensiva con edema pulmonar no encaja con una presión de 70/40 mmHg."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Miocardiopatía chagásica crónica por Trypanosoma cruzi, con 30 años de evolución e insuficiencia cardíaca ya establecida en los antecedentes. La fibrosis y la disfunción sistólica dejan cavidades dilatadas, favorecen las arritmias auriculares y ventriculares y reducen la reserva cardíaca. La taquicardia rápida acorta el llenado diastólico y descompensa el cuadro. La edad, la disfunción renal y la hipoxemia agravan el pronóstico."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La disfunción sistólica eleva la presión de llenado del ventrículo izquierdo y la transmite al capilar pulmonar, con trasudación alveolar que produce la disnea paroxística nocturna, los crepitantes y el esputo asalmonado. La taquicardia de 160 lpm acorta aún más el llenado y agrava la congestión, mientras el gasto cardíaco cae y aparece hipoperfusión tisular. Esa hipoperfusión explica la acidosis metabólica con bicarbonato de 18 mEq/L y CO₂ de 35 mmHg —compensación respiratoria adecuada— y la elevación de urea y creatinina. Con pO₂ de 55 mmHg y FiO₂ de 0,40 hay insuficiencia respiratoria parcial."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Soporte respiratorio con oxígeno y ventilación no invasiva, y ventilación invasiva si hay deterioro o agotamiento. Noradrenalina para mantener la perfusión y diurético de asa intravenoso una vez sostenida la presión, con control estricto de diuresis, electrolitos y función renal. Control de la frecuencia ventricular con amiodarona o digoxina; los betabloqueantes y los calcioantagonistas no dihidropiridínicos están contraindicados en el shock. Se buscan y tratan los desencadenantes, se valora anticoagulación y se completa el estudio de la miocardiopatía."
+    }
+  ],
+  "diagnosis": "Edema agudo de pulmón cardiogénico con shock cardiogénico por miocardiopatía chagásica descompensada",
+  "corpusTopic": "insuficiencia-cardiaca",
+  "confidence": "media"
+}

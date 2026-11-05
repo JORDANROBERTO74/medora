@@ -1,0 +1,52 @@
+{
+  "order": 4,
+  "id": "septic-shock-severe-community-pneumonia",
+  "title": "Disminución de conciencia, dolor torácico y hemoptisis",
+  "reason": "Disminución de conciencia",
+  "history": "Paciente de 35 años, sexo masculino, derivado a urgencias tras haber sido encontrado en la calle con disminución de la conciencia; agrega dolor en hemitórax derecho, hemoptisis y dolor abdominal. Pocos minutos después de la llegada presenta deterioro del nivel de conciencia.",
+  "background": "Alcoholismo y drogodependencia.",
+  "exam": "PA 80/40 mmHg · FC 138 lpm · FR 30 rpm · T 38 °C\nNeurológico: Glasgow 12/15.\nRespiratorio: crepitantes en ambos campos pulmonares.",
+  "labs": "Neutropenia grave. Glucosa 19 (unidad no consignada). Trombocitopenia moderada. Creatinina 4,2. Gasometría: acidosis mixta; pH 6,7; PCO₂ 91; PO₂ 31; bicarbonato 6,7; Na 129. Lactato 25. TGO 138; LDH 390 (225).",
+  "studies": "Imagen de tórax: múltiples consolidaciones bilaterales en lóbulos inferiores y colapso del lóbulo superior derecho. Se inicia antibioticoterapia empírica con piperacilina-tazobactam. El paciente intercurre con parada cardiorrespiratoria; se realiza reanimación cardiopulmonar avanzada sin éxito.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Shock séptico por neumonía grave adquirida en la comunidad",
+    "Neumonía por Pneumocystis jirovecii",
+    "Endocarditis infecciosa derecha con embolias pulmonares sépticas",
+    "Neumonía aspirativa con absceso pulmonar por anaerobios"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Fiebre, hipotensión de 80/40 mmHg, lactocidemia de 25, acidosis mixta, creatinina de 4,2 y consolidaciones bilaterales con colapso lobar configuran un shock séptico con fallo multiorgánico de origen pulmonar en un paciente alcohólico y drogodependiente con neutropenia grave.",
+    "La neumonía por Pneumocystis jirovecii da infiltrado intersticial bilateral y hipoxemia desproporcionada, no consolidaciones lobares con colapso, y por sí sola no explica el dolor torácico focal ni la neutropenia.",
+    "La endocarditis derecha con embolias pulmonares sépticas es posible en un usuario de drogas intravenosas, pero produce infiltrados periféricos cambiantes y hemocultivos positivos, no consolidaciones bilaterales con colapso del lóbulo superior derecho.",
+    "La neumonía aspirativa por anaerobios suele asentar en los segmentos dependientes del lóbulo inferior y evoluciona de forma subaguda; no justifica la fiebre alta con shock fulminante ni el colapso lobar descrito."
+  ],
+  "hint": "El foco está en el tórax, pero lo que mata es la reperfusión: cruza la presión de 80/40 con el lactato de 25 y la acidosis mixta.",
+  "discussion": "Reanimación inmediata con vía aérea, oxígeno, dos accesos venosos, cristaloides y vasopresores para sostener la presión; hemocultivos y cultivos dirigidos antes de los antibióticos, que deben administrarse en la primera hora con cobertura de gramnegativos y anaerobios. Corregir la glucemia, el sodio y el potasio, valorar transfusión por la trombocitopenia y trasladar a cuidados intensivos. En este caso la evolución fue hacia la parada cardiorrespiratoria refractaria.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Shock séptico por neumonía grave adquirida en la comunidad, con fallo multiorgánico: deterioro del nivel de conciencia, insuficiencia renal aguda, acidosis mixta y lactato de 25."
+    },
+    {
+      "prompt": "¿Cuáles serían los diagnósticos diferenciales?",
+      "answer": "Neumonía por Pneumocystis jirovecii, endocarditis infecciosa derecha con embolias pulmonares sépticas, neumonía aspirativa con absceso por anaerobios, tuberculosis pulmonar y tromboembolismo pulmonar con infarto. La neutropenia grave obliga además a considerar infecciones por gérmenes oportunistas."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "El cuadro corresponde a una neumonía bacteriana grave que evoluciona a sepsis; la viñeta no identifica el germen. Son factores de riesgo el alcoholismo, la drogodependencia y la neutropenia grave, que reducen la defensa frente a la colonización orofaríngea y favorecen la aspiración y la diseminación."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La microaspiración de secreciones colonizadas alcanza el alvéolo y produce consolidación e inundación del espacio aéreo, con hipoxemia y colapso lobar. La respuesta inflamatoria sistémica genera vasodilatación y extravasación capilar —shock distributivo—, hipoperfusión tisular con lactato de 25, acidosis mixta y fracaso renal agudo con creatinina de 4,2."
+    },
+    {
+      "prompt": "¿Cuál sería la conducta y el tratamiento?",
+      "answer": "Soporte vital inmediato: vía aérea, oxígeno, accesos venosos, cristaloides y noradrenalina para alcanzar presión de perfusión. Cultivos y antibioticoterapia empírica de amplio espectro en la primera hora, con cobertura de gramnegativos y anaerobios, junto con corrección de glucemia y electrolitos y valoración transfusional. Traslado a cuidados intensivos y reevaluación del foco."
+    }
+  ],
+  "diagnosis": "Shock séptico por neumonía grave adquirida en la comunidad",
+  "corpusTopic": "pneumonia",
+  "confidence": "media"
+}

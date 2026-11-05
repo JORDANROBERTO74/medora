@@ -1,0 +1,51 @@
+{
+  "order": 31,
+  "id": "type-1-diabetes-new-onset",
+  "title": "Pérdida de peso y poliuria en un adulto joven",
+  "reason": "Pérdida de peso y orinas abundantes",
+  "history": "Paciente de 23 años, sexo masculino, que consulta por un cuadro de 3 días de evolución caracterizado por poliuria y astenia intensa, con pérdida de 5 kg de peso en la última semana, motivo por el cual acude al hospital.",
+  "background": "Múltiples infecciones virales en la infancia (paperas).",
+  "exam": "PA 115/70 mmHg · FC 108 lpm · FR 28 rpm · T 36,5 °C · SatO₂ 99 % (FiO₂ 0,21)\nNeurológico: Glasgow 15/15; motor, sensitivo y reflejos conservados.\nCardiovascular: R1 y R2 normofonéticos, sin soplos.\nAbdomen y respiratorio: sin particularidades.\nUrinario: ritmo diurético aumentado.\nPiel: sin acantosis nigricans.",
+  "labs": "Glucemia 232 mg/dL. HbA1c 6,8 %. Anticuerpos negativos. Péptido C basal (valor no consignado).",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Diabetes mellitus tipo 1 de debut",
+    "Diabetes mellitus tipo 2",
+    "Diabetes autoinmune latente del adulto (LADA)",
+    "Diabetes insípida central"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La poliuria con astenia intensa, la pérdida de 5 kg en una semana y una glucemia de 232 mg/dL en un adulto joven y sin acantosis nigricans configuran el debut de una diabetes por déficit de insulina. La HbA1c de 6,8 % es baja para esa glucemia, lo que indica que la hiperglucemia es muy reciente y encaja con un fallo brusco de la célula beta.",
+    "La diabetes tipo 2 suele instalarse de forma insidiosa en un paciente con obesidad y acantosis nigricans, con una HbA1c más alta para el tiempo de evolución; la pérdida de 5 kg en una semana no forma parte de ese patrón.",
+    "El LADA aparece en el adulto y se define por autoanticuerpos positivos frente a la célula beta, que aquí son negativos, con una progresión más lenta hacia la insulinodependencia.",
+    "La diabetes insípida central produce poliuria por déficit de hormona antidiurética, pero cursa sin hiperglucemia y no explica la glucemia de 232 mg/dL ni la pérdida de peso rápida."
+  ],
+  "hint": "Fíjate en la forma de inicio: poliuria de días, 5 kg perdidos en una semana y una HbA1c baja para la glucemia que presenta.",
+  "discussion": "Valoración hospitalaria del debut: gasometría y cetonemia para descartar cetoacidosis, hidratación y insulina en pauta basal-bolo con análogos, más educación diabetológica antes del alta. Se completa el estudio con péptido C, autoanticuerpos, función tiroidea y anticuerpos antitransglutaminasa, y se busca el desencadenante. La negatividad de los autoanticuerpos no descarta el déficit de insulina: obliga a repetir el péptido C y a revisar el subtipo según la evolución.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Diabetes mellitus tipo 1 de debut en un varón de 23 años con poliuria de tres días, astenia intensa y pérdida de 5 kg en una semana, glucemia de 232 mg/dL y HbA1c de 6,8 %. El inicio agudo, la pérdida de peso rápida y la ausencia de acantosis nigricans orientan a un déficit de insulina. Los autoanticuerpos negativos y el péptido C, cuyo valor no consta, son los datos que faltan para confirmar el subtipo."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Diabetes mellitus tipo 2 del adulto joven, diabetes autoinmune latente del adulto (LADA), diabetes monogénica tipo MODY, diabetes secundaria a pancreatitis o a fármacos y diabetes insípida. También se consideran las causas de poliuria sin hiperglucemia —diuresis osmótica de otro origen, hipercalcemia, hipopotasemia y polidipsia primaria—, que la glucemia de 232 mg/dL deja en segundo plano."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Destrucción de la célula beta en un individuo genéticamente susceptible, con factores ambientales que precipitan el debut; el antecedente de infecciones virales en la infancia, entre ellas las paperas, es uno de los propuestos. La edad joven, el comienzo abrupto y la pérdida de peso rápida son los datos clínicos que apoyan el mecanismo. Con autoanticuerpos negativos hay que contemplar una forma idiopática, la denominada tipo 1B."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El déficit de insulina impide la entrada de glucosa en músculo y tejido adiposo y desinhibe la producción hepática de glucosa, con hiperglucemia. La carga filtrada supera la capacidad de reabsorción tubular y la glucosa arrastra agua y electrolitos —diuresis osmótica—, de donde vienen la poliuria, la deshidratación y la pérdida de peso. La falta de insulina activa además la lipólisis y la cetogénesis, que en el debut pueden llevar a cetoacidosis, mientras la astenia refleja el déficit de sustrato energético intracelular."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Reposición de volumen e insulina desde el inicio, en pauta basal-bolo con análogos y ajuste por glucemia capilar; el debut se valora en el hospital para descartar cetoacidosis con gasometría y cetonemia. Se completa el estudio con péptido C, autoanticuerpos, función tiroidea, anticuerpos antitransglutaminasa y perfil lipídico, y se trata el desencadenante si lo hay. La educación diabetológica —autocontrol, técnica de inyección, manejo de la hipoglucemia y conteo de hidratos de carbono— forma parte del tratamiento. El seguimiento debe confirmar el subtipo si la evolución no es la esperada."
+    }
+  ],
+  "diagnosis": "Diabetes mellitus tipo 1 de debut",
+  "corpusTopic": null,
+  "confidence": "media"
+}

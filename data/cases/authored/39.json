@@ -1,0 +1,51 @@
+{
+  "order": 39,
+  "id": "transient-ischemic-attack-left-carotid",
+  "title": "Ptosis palpebral y alteración de la visión",
+  "reason": "Ptosis palpebral y alteración de la visión",
+  "history": "Paciente de 55 años, sexo femenino, que consulta por un cuadro clínico de 1 hora de evolución caracterizado por disminución de la agudeza visual izquierda con ptosis palpebral izquierda, sin hemiplejía, hemiparesia ni hemihipoestesia. La paciente refiere mejoría del cuadro clínico durante la estadía en la sala de espera.",
+  "background": "Diabetes mellitus en tratamiento con insulina NPH. Hipertensión arterial en tratamiento con IECA y amlodipino. Insuficiencia cardíaca congestiva en tratamiento.",
+  "exam": "PA 160/90 mmHg · FC 98 lpm · FR 20 rpm · T 36,5 °C · SatO₂ 98 %\nNeurológico: Glasgow 15/15, orientada en tiempo, espacio y persona, sin déficit motor, sensitivo ni sensorial; reflejos conservados; sin ptosis palpebral ni midriasis izquierda.\nPulmonar, cardiovascular y abdominal: sin alteraciones.",
+  "labs": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Ataque isquémico transitorio del territorio carotídeo izquierdo",
+    "Ictus isquémico establecido de la arteria cerebral media izquierda",
+    "Neuropatía isquémica del III par craneal izquierdo por diabetes",
+    "Crisis migrañosa con aura visual"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La pérdida brusca de la agudeza visual con ptosis del mismo lado en una paciente con diabetes, hipertensión e insuficiencia cardíaca, que se resuelve por completo en menos de una hora y deja la exploración neurológica normal, define un ataque isquémico transitorio del territorio carotídeo izquierdo.",
+    "El ictus establecido deja un déficit persistente y una lesión en la neuroimagen; aquí la paciente mejora en la sala de espera y el examen neurológico al momento de la valoración es normal.",
+    "La neuropatía isquémica del III par es frecuente en el diabético, pero cursa con ptosis y diplopía sin pérdida de agudeza visual, suele ser dolorosa y tarda semanas en recuperarse, no una hora.",
+    "La migraña con aura visual produce un escotoma centelleante que se desplaza y suele acompañarse de cefalea; no provoca ptosis ni se limita a la pérdida de visión de un ojo."
+  ],
+  "hint": "Un déficit focal de instauración brusca que desaparece por completo y deja la exploración normal no es un ictus establecido; valora los factores de riesgo vascular y que el síntoma afecta a un solo ojo.",
+  "discussion": "El ataque isquémico transitorio es una urgencia: el riesgo de ictus es máximo en las primeras 48 horas. Ingreso o valoración urgente con TC o RM cerebral, ECG, ecocardiograma y eco-Doppler de troncos supraaórticos. Antiagregación con ácido acetilsalicílico y estatina de alta potencia —anticoagulación si se documenta fibrilación auricular— y control estricto de la presión arterial y la glucemia, sin descensos bruscos en la fase aguda.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico de la paciente?",
+      "answer": "Ataque isquémico transitorio del territorio carotídeo izquierdo, manifestado como pérdida transitoria de la agudeza visual con ptosis palpebral ipsolateral y resolución completa en menos de una hora, con exploración neurológica normal en el momento de la valoración. La diabetes mellitus, la hipertensión arterial y la insuficiencia cardíaca son los factores de riesgo que lo explican."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Ictus isquémico establecido, que dejaría un déficit persistente y una lesión en la neuroimagen; neuropatía isquémica del III par craneal por diabetes, con ptosis y diplopía pero sin pérdida de agudeza visual y de recuperación lenta; migraña con aura visual, con escotoma centelleante y cefalea; hipoglucemia en una paciente tratada con insulina; y amaurosis fugax, que es la forma monocular del mismo mecanismo isquémico carotídeo."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Isquemia cerebral focal y reversible por un embolismo o una trombosis transitoria en el territorio de la carótida izquierda, con restitución del flujo antes de que se produzca necrosis. Los factores de riesgo son los de la paciente: diabetes mellitus insulinorrequiriente, hipertensión arterial, insuficiencia cardíaca congestiva —posible fuente cardioembólica— y la edad. La hipertensión y la diabetes también favorecen la enfermedad ateromatosa del tronco carotídeo."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "Una reducción transitoria del flujo en la arteria oftálmica, rama de la carótida interna, produce isquemia de la retina y pérdida de la agudeza visual de ese ojo; la afectación de las estructuras dependientes del mismo territorio puede acompañarse de ptosis. Cuando la perfusión se restablece antes de que el tejido se necrose, el déficit revierte sin dejar lesión. La misma fuente embólica puede después ocluir una arteria cerebral y producir un ictus establecido, por eso el episodio anuncia un riesgo inmediato."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Ingreso o valoración urgente en unidad de ictus, con TC o RM cerebral para descartar hemorragia y lesión establecida, ECG, ecocardiograma y eco-Doppler de troncos supraaórticos para buscar la fuente. Se inicia antiagregación con ácido acetilsalicílico y estatina de alta potencia; si se documenta fibrilación auricular se anticoagula. Hay que controlar la presión arterial y la glucemia sin descensos bruscos y corregir los factores de riesgo; la endarterectomía o el stent carotídeo se valoran si hay estenosis significativa sintomática."
+    }
+  ],
+  "diagnosis": "Ataque isquémico transitorio del territorio carotídeo izquierdo",
+  "corpusTopic": "avc-ave",
+  "confidence": "media"
+}

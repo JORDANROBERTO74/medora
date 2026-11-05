@@ -1,0 +1,52 @@
+{
+  "order": 21,
+  "id": "diabetic-ketoacidosis-debut",
+  "title": "Poliuria y polidipsia",
+  "reason": "Poliuria y polidipsia",
+  "history": "Paciente de 38 años, sexo masculino, que acude a emergencia por un cuadro de 2 días de evolución caracterizado por malestar general, poliuria y polidipsia intensa.",
+  "background": "No refiere antecedentes de interés.",
+  "exam": "PA 120/70 mmHg · FC 95 lpm · T 37,8 °C · SatO₂ 98 %\nPiel y mucosas: deshidratadas.\nAbdomen: dolor abdominal espontáneo, ruidos hidroaéreos presentes, blando y depresible, no doloroso a la palpación superficial ni profunda.",
+  "labs": "Glucemia 611 mg/dL. HbA1c 12 %. Hemograma normal. pH 7,11; bicarbonato 9,5 mEq/L; anión gap 17; lactato 2,3 mmol/L. Orina: cuerpos cetónicos +++ y glucosa +++.",
+  "studies": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Cetoacidosis diabética",
+    "Estado hiperosmolar hiperglucémico",
+    "Acidosis láctica",
+    "Cetoacidosis alcohólica"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Hiperglucemia de 611 mg/dL, cetonuria marcada, pH 7,11 y bicarbonato de 9,5 mEq/L definen cetoacidosis diabética; la HbA1c del 12 % sugiere un debut.",
+    "El estado hiperosmolar alcanza glucemias más altas y osmolaridad elevada, pero sin cetosis ni acidosis metabólica significativa.",
+    "La acidosis láctica da pH bajo con lactato elevado; aquí el lactato es 2,3 mmol/L y la cetosis es la que explica la acidosis.",
+    "La cetoacidosis alcohólica cursa con cetosis y acidosis, pero con glucemia normal o baja, no con 611 mg/dL."
+  ],
+  "hint": "Cruza glucemia, cetonuria y gasometría: los tres tienen que encajar en el mismo cuadro.",
+  "discussion": "Hidratación con cristaloides isotónicos y corrección del potasio antes de iniciar insulina —no se inicia con potasio inferior a 3,3 mEq/L—; después infusión de insulina rápida con control horario de glucemia y electrolitos, y búsqueda del factor desencadenante. El bicarbonato se reserva para pH inferior a 6,9.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico del paciente?",
+      "answer": "Cetoacidosis diabética como debut de diabetes mellitus, con deshidratación y acidosis metabólica de anión gap elevado."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Estado hiperosmolar hiperglucémico, acidosis láctica, cetoacidosis alcohólica, acidosis por tóxicos (metanol o salicilatos) y cetosis de ayuno."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Déficit absoluto de insulina —aquí un debut diabético con HbA1c del 12 %— desencadenado por infección, transgresión dietética o mal cumplimiento. La deshidratación y la propia cetosis agravan el cuadro."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El déficit de insulina impide la entrada de glucosa en la célula y activa la lipólisis, con producción de cuerpos cetónicos —sobre todo 3-β-hidroxibutirato— que consumen bicarbonato y generan acidosis de anión gap elevado. La diuresis osmótica provoca deshidratación y pérdida de potasio."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Cristaloides isotónicos, corrección del potasio antes de la insulina —no se inicia si el potasio es inferior a 3,3 mEq/L— y perfusión de insulina rápida; control horario de glucemia, cetonemia y electrolitos. Se busca y se trata el desencadenante, y el bicarbonato se reserva para un pH inferior a 6,9."
+    }
+  ],
+  "diagnosis": "Cetoacidosis diabética",
+  "corpusTopic": "metabolic-acidosis",
+  "confidence": "alta"
+}

@@ -1,0 +1,52 @@
+{
+  "order": 36,
+  "id": "obesity-hypoventilation-syndrome",
+  "title": "Disnea de esfuerzo y dolor torácico",
+  "reason": "Disnea y dolor torácico esporádico",
+  "history": "Paciente de 54 años, sexo masculino, que consulta por un cuadro clínico de 4 semanas de evolución caracterizado por disnea de medianos esfuerzos, sin progresión, que agrega dolor torácico precordial, opresivo, sin irradiación, en reposo.",
+  "background": "Tabaquismo desde los 20 años. Obesidad central.",
+  "exam": "PA 140/90 mmHg · FC 95 lpm · FR 22 rpm · T 36,5 °C · SatO₂ 92 % (FiO₂ 0,21)\nNeurológico: sin alteraciones.\nRespiratorio: buena mecánica ventilatoria, hipoventilación en ambos campos pulmonares, sin ruidos adventicios.\nAbdomen: sin alteraciones.\nCardiovascular: R1 y R2 en los cuatro focos, sin soplos; sin ingurgitación yugular, sin crepitantes; diuresis positiva.",
+  "labs": "Gasometría arterial pendiente (estado ácido-base).",
+  "studies": "Radiografía de tórax: sin alteraciones.\nElectrocardiograma: leve infradesnivel del segmento ST con alteración de la onda T, sin secuelas de infarto previo.",
+  "question": "La gasometría está pendiente. Si el cuadro es un síndrome de hipoventilación por obesidad, ¿qué alteración esperaría?",
+  "options": [
+    "Hipercapnia con hipoxemia y acidosis respiratoria crónica compensada",
+    "Hipoxemia sin hipercapnia",
+    "Alcalosis respiratoria por hiperventilación",
+    "Acidosis metabólica con anión gap elevado"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La hipoventilación alveolar reduce el recambio de gas y retiene CO₂: aparece hipercapnia con hipoxemia y, cuando es crónica, el riñón compensa reteniendo bicarbonato.",
+    "La hipoxemia sin hipercapnia corresponde a un trastorno de la difusión o del cociente ventilación/perfusión, no a un fallo de la bomba ventilatoria.",
+    "La alcalosis respiratoria aparece por hiperventilación, lo contrario de la hipoventilación que describe la exploración.",
+    "La acidosis metabólica con anión gap elevado no deriva de hipoventilar; aquí el trastorno primario es respiratorio."
+  ],
+  "hint": "Si la bomba falla, se retiene CO₂.",
+  "discussion": "Confirmar con gasometría arterial —hipercapnia con bicarbonato compensador—, espirometría y, si hay datos de apnea, polisomnografía; valorar ecocardiograma por la posible hipertensión pulmonar. Tratar con pérdida de peso, ventilación no invasiva nocturna si hay hipercapnia sintomática y oxígeno titulado sin sobretratar. Estudiar en paralelo el dolor torácico y los cambios del ST como posible enfermedad coronaria.",
+  "studyQuestions": [
+    {
+      "prompt": "Diagnóstico presuntivo",
+      "answer": "Síndrome de hipoventilación por obesidad con insuficiencia respiratoria crónica hipercápnica, en un varón de 54 años con obesidad central y tabaquismo. La disnea de medianos esfuerzos, la hipoventilación en ambos campos pulmonares, la saturación de 92 % y la radiografía normal apuntan a una hipoventilación alveolar y no a una enfermedad del parénquima. La gasometría arterial pendiente debe mostrar una PaCO₂ elevada con bicarbonato compensador; el dolor torácico y los cambios del ST obligan a descartar cardiopatía isquémica concomitante."
+    },
+    {
+      "prompt": "Diagnóstico diferencial",
+      "answer": "EPOC, insuficiencia cardíaca con fracción de eyección preservada, tromboembolia pulmonar crónica, apnea obstructiva del sueño, hipoventilación de origen neuromuscular o central e hipotiroidismo. La EPOC y la apnea obstructiva del sueño pueden coexistir con el síndrome de hipoventilación por obesidad, de modo que la espirometría y la polisomnografía completan el estudio."
+    },
+    {
+      "prompt": "Etiología y factores de riesgo",
+      "answer": "La obesidad central es el factor principal: la grasa torácica y abdominal reduce la distensibilidad de la pared torácica y el volumen de reserva espiratorio. El tabaquismo añade riesgo de EPOC y de enfermedad coronaria, y la hipertensión de 140/90 mmHg forma parte del mismo perfil metabólico. La resistencia a la leptina y la alteración del centro respiratorio explican por qué estos pacientes no compensan la hipercapnia."
+    },
+    {
+      "prompt": "Fisiopatología",
+      "answer": "La carga mecánica de la obesidad aumenta el trabajo respiratorio y reduce la capacidad residual funcional, sobre todo en decúbito. El centro respiratorio responde menos a la hipercapnia y a la hipoxemia, la ventilación alveolar cae y el CO₂ asciende; el riñón retiene bicarbonato y compensa la acidosis respiratoria. La hipoxemia crónica puede producir vasoconstricción pulmonar, hipertensión pulmonar y cor pulmonale, y explicar parte de los cambios del ST."
+    },
+    {
+      "prompt": "Tratamiento",
+      "answer": "Gasometría arterial para confirmar la hipercapnia y valorar la compensación; espirometría, polisomnografía y ecocardiograma según los hallazgos. El tratamiento de base es la pérdida de peso —dieta, ejercicio y cirugía bariátrica en casos seleccionados— y la ventilación no invasiva nocturna cuando hay hipercapnia sintomática. Se añade oxígeno titulado sin sobretratar, tratamiento de la apnea del sueño y control de la hipertensión y del riesgo cardiovascular; el dolor torácico con cambios del ST se estudia en paralelo."
+    }
+  ],
+  "diagnosis": "Síndrome de hipoventilación por obesidad con insuficiencia respiratoria crónica hipercápnica",
+  "corpusTopic": null,
+  "confidence": "media"
+}

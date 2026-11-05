@@ -1,0 +1,51 @@
+{
+  "order": 44,
+  "id": "diabetic-ketoacidosis-acute-kidney-injury",
+  "title": "Orina abundante y malestar general",
+  "reason": "Orina abundante y malestar general",
+  "history": "Paciente de 50 años, sexo masculino, que consulta por un cuadro clínico de 72 horas de evolución caracterizado por astenia y adinamia, que agrega en las últimas 12 horas polidipsia, polifagia y poliuria, motivo por el cual acude a emergencia.",
+  "background": "Diabetes mellitus en tratamiento con antidiabéticos orales.",
+  "exam": "PA 90/60 mmHg · FC 110 lpm · FR 28 rpm · T 37 °C · SatO₂ 95 %\nNeurológico: Glasgow 12/15, somnoliento, orientado; resto sin particularidades.\nRespiratorio: taquipnea de 28 rpm con mecánica ventilatoria regular y buena entrada de aire bilateral.\nAbdomen: ruidos hidroaéreos presentes, blando y depresible, dolor espontáneo, no doloroso a la palpación superficial ni profunda.",
+  "labs": "Hemoglobina 12 g/dL; leucocitos 19 000/µL con neutrófilos 85 %. Gasometría: pH 7,10; PO₂ 80 mmHg; PCO₂ 11 mmHg; bicarbonato 7 mEq/L; exceso de bases −21 mEq/L. Na 130 mEq/L; urea 150 mg/dL; creatinina 2 mg/dL.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Cetoacidosis diabética",
+    "Acidosis láctica por metformina",
+    "Estado hiperosmolar hiperglucémico",
+    "Acidosis urémica por insuficiencia renal aguda"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El cortejo de poliuria, polidipsia y polifagia de instauración aguda en un diabético tratado con antidiabéticos orales, con deshidratación, taquipnea y acidosis metabólica grave (pH 7,10; bicarbonato 7 mEq/L; PCO₂ 11 mmHg como compensación respiratoria), corresponde a una cetoacidosis diabética.",
+    "La acidosis láctica por metformina es una causa de acidosis de anión gap elevado en el diabético con fallo renal, pero no explica el inicio agudo de poliuria, polidipsia y polifagia ni la respiración de Kussmaul.",
+    "El estado hiperosmolar produce deshidratación e hiperglucemia intensas, pero sin acidosis metabólica significativa; aquí el pH es 7,10 y el bicarbonato 7 mEq/L.",
+    "La acidosis urémica da acidosis de anión gap elevado en la insuficiencia renal avanzada, pero una urea de 150 mg/dL con creatinina de 2 mg/dL no la justifica por sí sola ni explica el cuadro osmótico previo."
+  ],
+  "hint": "Fíjate en la secuencia: 72 horas de astenia y solo 12 de poliuria, en un diabético que llega deshidratado, taquipneico y con el sensorio deprimido.",
+  "discussion": "Cristaloides isotónicos y corrección del potasio antes de la insulina —no se inicia con potasio inferior a 3,3 mEq/L—, seguidos de perfusión de insulina rápida con control horario de glucemia y electrolitos. Hay que buscar y tratar el desencadenante y vigilar el sensorio; el bicarbonato se reserva para pH inferior a 6,9.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico?",
+      "answer": "Cetoacidosis diabética en un paciente de 50 años con diabetes mellitus tratada con antidiabéticos orales, deshidratado, con taquipnea, sensorio deprimido y acidosis metabólica grave (pH 7,10; bicarbonato 7 mEq/L). Se acompaña de insuficiencia renal aguda (urea 150 mg/dL, creatinina 2 mg/dL) y de leucocitosis con neutrofilia, que obliga a descartar un proceso infeccioso desencadenante."
+    },
+    {
+      "prompt": "¿Cuál es el diagnóstico diferencial?",
+      "answer": "Estado hiperosmolar hiperglucémico, acidosis láctica —incluida la asociada a metformina en el contexto de fallo renal—, acidosis urémica, cetoacidosis alcohólica y acidosis por tóxicos como metanol o salicilatos. En un paciente con alteración del sensorio también hay que descartar hipoglucemia, sepsis y un evento neurológico agudo."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Déficit relativo de insulina en un diabético tipo 2 tratado con antidiabéticos orales, precipitado por infección, mal cumplimiento, transgresión dietética o fármacos. La deshidratación, la insuficiencia renal aguda y la propia edad agravan el cuadro. La cetoacidosis no es exclusiva de la diabetes tipo 1: en la tipo 2 aparece sobre todo con infecciones o estrés intercurrente."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El déficit de insulina con exceso de hormonas contrarreguladoras activa la lipólisis y la cetogénesis, y los cuerpos cetónicos consumen bicarbonato y generan acidosis metabólica de anión gap elevado. La hiperglucemia provoca diuresis osmótica, con deshidratación y pérdidas de sodio y potasio. La acidosis y la deshidratación deprimen el sensorio, y la taquipnea es la compensación respiratoria, reflejada en el PCO₂ de 11 mmHg."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento?",
+      "answer": "Hidratación con cristaloides isotónicos y corrección del potasio antes de iniciar la insulina —no se inicia con potasio inferior a 3,3 mEq/L—; después, perfusión de insulina rápida con control horario de glucemia, electrolitos y estado ácido-base. Se busca y se trata el desencadenante y el bicarbonato se reserva para pH inferior a 6,9."
+    }
+  ],
+  "diagnosis": "Cetoacidosis diabética",
+  "corpusTopic": "metabolic-acidosis",
+  "confidence": "media"
+}

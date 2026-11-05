@@ -1,0 +1,47 @@
+{
+  "order": 35,
+  "id": "megaloblastic-anemia-b12-deficiency",
+  "title": "Astenia progresiva",
+  "reason": "Astenia progresiva",
+  "history": "Paciente de 60 años, sexo femenino, que consulta por un cuadro de 3 a 4 meses de evolución caracterizado por astenia progresiva con fatiga y debilidad muscular marcada, con empeoramiento en los últimos 15 días a la realización de pequeños esfuerzos. Agrega pérdida de peso de 4-5 kilos, pequeñas hemorragias puntiformes con pequeños traumatismos en extremidades inferiores, así como pequeños sangrados gingivales con el cepillado de dientes. Presenta además deposiciones múltiples de características diarreicas, sin moco ni sangre, durante 4 días.",
+  "background": "No refiere alergias.",
+  "exam": "PA 125/70 mmHg · FC 115 lpm · T 37,4 °C · SatO₂ 97 %\nGeneral: buen estado general, palidez mucocutánea, buena perfusión periférica, bien hidratada.\nCabeza y cuello: sin alteraciones; no adenopatías cervicales ni supraclaviculares, no bocio; sin adenopatías axilares.\nCardiovascular: ruidos cardíacos rítmicos, soplo sistólico en la base, sin irradiación, de intensidad 2/6.\nPulmonar: murmullo vesicular conservado.\nAbdomen: blando, depresible, no doloroso a la palpación, hepatomegalia, no esplenomegalia; Murphy y Blumberg negativos, no ascitis, ruidos hidroaéreos aumentados, no adenopatías inguinales.\nExtremidades inferiores: no edemas ni signos de TVP, pulsos pedios positivos, hemorragias petequiales.",
+  "labs": "",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Anemia megaloblástica por déficit de vitamina B12",
+    "Leucemia aguda",
+    "Anemia aplásica",
+    "Síndrome mielodisplásico"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "La anemia con palidez, taquicardia y soplo sistólico, la trombocitopenia con petequias y sangrado gingival, la diarrea con pérdida de peso y una debilidad muscular de meses de evolución encajan con una anemia megaloblástica; la hepatomegalia sin esplenomegalia puede reflejar hematopoyesis extramedular en los casos graves.",
+    "La leucemia aguda produce pancitopenia y hepatomegalia, pero suele evolucionar en semanas, con fiebre, adenopatías o esplenomegalia, y no explica la diarrea ni la debilidad muscular de meses de evolución.",
+    "La anemia aplásica da pancitopenia, pero no cursa con hepatomegalia, diarrea ni déficit neurológico, y la médula ósea sería hipocelular.",
+    "El síndrome mielodisplásico es propio de esta edad y causa citopenias, pero no explica la diarrea, la pérdida de peso ni la debilidad muscular, y la hepatomegalia es atípica."
+  ],
+  "hint": "Separa los síndromes anémico, hemorrágico y digestivo, y busca una sola causa que explique los tres a la vez.",
+  "discussion": "Confirmar con hemograma —macrocitosis y neutrófilos hipersegmentados—, reticulocitos, LDH, haptoglobina y niveles de vitamina B12 y ácido fólico; si hay duda, aspirado medular. Tratar con cianocobalamina intramuscular y vigilar el potasio en las primeras 48 horas, porque desciende al iniciar la respuesta medular. No dar folato solo, porque corrige la anemia y deja progresar la lesión neurológica. Buscar la causa con anticuerpos anti-célula parietal y anti-factor intrínseco, y endoscopia si procede.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Anemia megaloblástica por déficit de vitamina B12, probablemente por anemia perniciosa. Lo sugieren la palidez con taquicardia y soplo sistólico, las petequias y el sangrado gingival por trombocitopenia, la diarrea con pérdida de peso y la debilidad muscular de meses de evolución. La hepatomegalia sin esplenomegalia puede corresponder a hematopoyesis extramedular. Falta confirmarlo con hemograma, frotis y niveles de vitamina B12."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Leucemia aguda, síndrome mielodisplásico, anemia aplásica, mielofibrosis, infiltración medular por linfoma o metástasis y otras causas de pancitopenia, como hiperesplenismo —poco probable sin esplenomegalia—, lupus o fármacos. La diarrea y la debilidad muscular de meses de evolución, junto con la ausencia de adenopatías y de esplenomegalia, favorecen un origen carencial."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Déficit de vitamina B12 por malabsorción: anemia perniciosa por gastritis atrófica autoinmune con anticuerpos contra la célula parietal y el factor intrínseco, gastrectomía, resección ileal, enfermedad de Crohn, sobrecrecimiento bacteriano, parasitosis por Diphyllobothrium latum, dieta vegetariana estricta o fármacos como metformina e inhibidores de la bomba de protones. La edad avanzada, el sexo femenino y el antecedente de enfermedad tiroidea u otras enfermedades autoinmunes son factores de riesgo de anemia perniciosa."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "El déficit de vitamina B12 bloquea la síntesis de timidilato y de ADN, de modo que los precursores maduran despacio y aparecen macrocitos, neutrófilos hipersegmentados y una eritropoyesis ineficaz que destruye precursores dentro de la médula. Esa eritropoyesis ineficaz produce anemia, leucopenia y trombocitopenia, con LDH elevada y reticulocitos bajos. En el sistema nervioso, la B12 es necesaria para la metilación de la mielina y su falta causa degeneración combinada subaguda, con debilidad, pérdida de la sensibilidad vibratoria y propioceptiva, y ataxia. En la mucosa digestiva se produce atrofia y diarrea."
+    }
+  ],
+  "diagnosis": "Anemia megaloblástica por déficit de vitamina B12 (probable anemia perniciosa)",
+  "corpusTopic": null,
+  "confidence": "media"
+}

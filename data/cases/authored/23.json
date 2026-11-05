@@ -1,0 +1,52 @@
+{
+  "order": 23,
+  "id": "hashimoto-thyroiditis-adolescent-obesity",
+  "title": "Incremento ponderal, estreñimiento y oligomenorrea",
+  "reason": "Incremento ponderal",
+  "history": "Paciente de 14 años, sexo femenino, que consulta a una clínica de obesidad refiriendo incremento ponderal, estreñimiento, oligomenorrea y cefalea.",
+  "background": "Producto de embarazo de 39 semanas de gestación; la madre cursó con preeclampsia. No recibió lactancia materna. Sedentaria.",
+  "exam": "Signos vitales estables. IMC 38,5.\nCuello: giba dorsal, bocio.\nPiel y mucosas: secas, acantosis nigricans en cuello y axila.\nOsteoarticular: genu valgo. Escala de Ferriman: no valorable.\nRelación circunferencia de cintura/talla 0,65; percentil de cintura superior al percentil 90 para edad y sexo.",
+  "labs": "Anticuerpos anti-TPO (antiperoxidasa) elevados. Glucosa 90 mg/dL. HOMA-IR 3,66. Hemoglobina glicosilada 5,2 %. Triglicéridos 90 mg/dL. Colesterol total 152 mg/dL. HDL 38 mg/dL. LDL 96 mg/dL. TGO 21.",
+  "studies": "Ecografía tiroidea: incremento de los lóbulos tiroideos a expensas del lóbulo derecho, con nódulos tiroideos sin calcificación ni vascularidad incrementada. Ecografía obstétrica: sin alteraciones.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Tiroiditis crónica de Hashimoto",
+    "Síndrome de ovario poliquístico",
+    "Síndrome de Cushing",
+    "Obesidad exógena con resistencia a la insulina"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "El bocio nodular con anticuerpos anti-TPO elevados, junto con piel seca, estreñimiento, oligomenorrea y aumento de peso, define una tiroiditis crónica de Hashimoto; el estado funcional debe confirmarse con TSH y T4 libre.",
+    "El síndrome de ovario poliquístico comparte la obesidad, la oligomenorrea y la resistencia a la insulina, pero exige hiperandrogenismo —aquí la escala de Ferriman no es valorable— o ovarios poliquísticos, y la ecografía pélvica es normal; además no explica el bocio ni los anticuerpos antitiroideos.",
+    "El síndrome de Cushing produce obesidad central, giba dorsal, oligomenorrea y acantosis, pero suele acompañarse de hipertensión, estrías, debilidad proximal y freno del crecimiento, y no justifica el bocio ni la positividad de los anti-TPO.",
+    "La obesidad con resistencia a la insulina explica el IMC, la acantosis, el HOMA-IR de 3,66 y el HDL bajo, pero no el bocio, los nódulos tiroideos, los anti-TPO elevados ni el estreñimiento con piel seca."
+  ],
+  "hint": "La obesidad y la resistencia a la insulina están claras, pero no explican el bocio, la piel seca ni el estreñimiento.",
+  "discussion": "Solicitar TSH y T4 libre para definir el estado funcional e iniciar levotiroxina si hay hipotiroidismo, con control a las 6-8 semanas. Vigilar el nódulo tiroideo con ecografía y función tiroidea. En paralelo, tratar la obesidad y la resistencia a la insulina con cambios de estilo de vida, y descartar las complicaciones metabólicas asociadas.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico presuntivo?",
+      "answer": "Tiroiditis crónica de Hashimoto con bocio nodular y síntomas sugestivos de hipotiroidismo, en una adolescente con obesidad y resistencia a la insulina. El estado funcional tiroideo queda pendiente de TSH y T4 libre."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Síndrome de ovario poliquístico, síndrome de Cushing, hiperprolactinemia, obesidad exógena con resistencia a la insulina, bocio multinodular no tóxico, bocio por déficit de yodo y enfermedad de Graves."
+    },
+    {
+      "prompt": "¿Cuál es la etiología y los factores de riesgo?",
+      "answer": "Enfermedad autoinmune frente a la peroxidasa tiroidea, más frecuente en mujeres y en quienes tienen otros trastornos autoinmunes o antecedente familiar. La obesidad y el sedentarismo explican la resistencia a la insulina y el componente metabólico, pero no son causa del bocio ni de los anticuerpos."
+    },
+    {
+      "prompt": "¿Cuál es la fisiopatología?",
+      "answer": "La infiltración linfocitaria y la destrucción folicular mediadas por autoinmunidad frente a la peroxidasa producen bocio y, cuando el déficit hormonal se instala, un descenso de T4 con aumento de TSH. El hipotiroidismo enlentece el metabolismo y provoca aumento de peso, estreñimiento, piel seca y alteraciones del ciclo menstrual. La obesidad añade resistencia a la insulina, que se traduce en acantosis nigricans y dislipidemia."
+    },
+    {
+      "prompt": "¿Cuál es el tratamiento y la conducta?",
+      "answer": "Confirmar con TSH y T4 libre; si hay hipotiroidismo, levotiroxina ajustada por peso y edad con control analítico a las 6-8 semanas. Seguimiento ecográfico del nódulo tiroideo y derivación si cambia de características. Abordaje de la obesidad con dieta, actividad física y control de glucemia, lípidos y presión arterial, con seguimiento por endocrinología pediátrica."
+    }
+  ],
+  "diagnosis": "Tiroiditis crónica de Hashimoto con bocio nodular en una adolescente con obesidad y resistencia a la insulina",
+  "corpusTopic": "hypothyroidism",
+  "confidence": "media"
+}

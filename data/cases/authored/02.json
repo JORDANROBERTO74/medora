@@ -1,0 +1,52 @@
+{
+  "order": 2,
+  "id": "upper-gi-bleeding-gastric-ulcer",
+  "title": "Sangrado digestivo y heces sanguinolentas",
+  "reason": "Sangrado digestivo y heces sanguinolentas",
+  "history": "Paciente de 45 años que consulta por un cuadro de 2 semanas de evolución caracterizado por mialgias, artralgias y cefaleas, al que se añaden dolor epigástrico, náuseas y vómitos. Refiere además melena en varias ocasiones y hematemesis de unos 200 mL.",
+  "background": "Artrosis en tratamiento con AINE.",
+  "exam": "PA 90/50 mmHg · FC 101 lpm · T 35,5 °C · SatO₂ 91 %\nPiel y mucosas: deshidratadas, palidez.\nAbdomen: ruidos hidroaéreos presentes, blando y depresible; tacto rectal positivo.\nCardiovascular: taquicárdico, R1 y R2 sin soplos.",
+  "labs": "Hematocrito 27 %. Hemoglobina 7,6 g/dL. Urea 48 mg/dL. Creatinina 0,8 mg/dL.",
+  "studies": "Endoscopia digestiva alta: lesiones hemorrágicas en antro gástrico y curvatura menor.",
+  "question": "¿Cuál es el diagnóstico más probable?",
+  "options": [
+    "Hemorragia digestiva alta por úlcera gástrica",
+    "Hemorragia digestiva baja por enfermedad diverticular",
+    "Varices esofágicas por cirrosis",
+    "Síndrome de Mallory-Weiss por vómitos"
+  ],
+  "correctIndex": 0,
+  "rationales": [
+    "Melena y hematemesis con anemización (hemoglobina 7,6 g/dL) y lesiones hemorrágicas en antro y curvatura menor: el sangrado es alto y de origen gástrico.",
+    "La enfermedad diverticular sangra en el colon y produce rectorragia, no hematemesis; además la endoscopia alta no la vería.",
+    "Las varices exigen hipertensión portal y no hay datos de cirrosis; la lesión descrita es gástrica y no varicosa.",
+    "El Mallory-Weiss es un desgarro esofagogástrico tras vómitos, pero la endoscopia describe lesiones en antro y curvatura menor, no un desgarro."
+  ],
+  "hint": "Distingue sangrado alto de bajo por lo que sale y por lo que ve la endoscopia.",
+  "discussion": "Estabilización hemodinámica con dos accesos, cristaloides y transfusión según necesidad; inhibidor de bomba de protones intravenoso y endoscopia terapéutica precoz. Se suspende el AINE y se trata el Helicobacter pylori si se confirma.",
+  "studyQuestions": [
+    {
+      "prompt": "¿Cuál es el diagnóstico probable?",
+      "answer": "Hemorragia digestiva alta por úlcera gástrica, con anemia aguda y signos de shock hipovolémico incipiente."
+    },
+    {
+      "prompt": "¿Cuáles son los diagnósticos diferenciales?",
+      "answer": "Varices esofagogástricas, síndrome de Mallory-Weiss, gastropatía erosiva por AINE, tumor gástrico sangrante y hemorragia digestiva baja."
+    },
+    {
+      "prompt": "¿Etiología y factores de riesgo?",
+      "answer": "Lesión de la mucosa gástrica por AINE en un paciente con artrosis; la infección por Helicobacter pylori, el tabaco y la edad añaden riesgo. La anemia previa y la deshidratación reducen la tolerancia a la pérdida."
+    },
+    {
+      "prompt": "¿Fisiopatología del cuadro clínico?",
+      "answer": "La úlcera erosiona un vaso submucoso: la sangre digerida produce melena y, si el volumen es alto, hematemesis. La pérdida aguda reduce la volemia y el transporte de oxígeno, con taquicardia, hipotensión y palidez. La urea elevada con creatinina normal —cociente superior a 40— orienta a sangrado digestivo alto."
+    },
+    {
+      "prompt": "¿Conducta en el cuadro clínico?",
+      "answer": "Reanimación con cristaloides, control de la hemoglobina y transfusión si procede, inhibidor de bomba de protones intravenoso y endoscopia urgente con hemostasia. Suspender el AINE y erradicar Helicobacter pylori si se confirma."
+    }
+  ],
+  "diagnosis": "Hemorragia digestiva alta por úlcera gástrica",
+  "corpusTopic": null,
+  "confidence": "alta"
+}
