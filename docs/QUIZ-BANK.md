@@ -7,7 +7,7 @@ Contrato de contenido para `src/lib/quiz-bank/`. Léelo entero antes de escribir
 ```
 src/lib/quiz-bank/
   seed.ts                        ← las 20 originales (no se tocan)
-  index.ts                       ← agrega los lotes y exporta roundFor / randomRound
+  index.ts                       ← agrega los lotes y exporta quizGroups / randomQuizGroup
   internal-medicine/<lote>.ts
   gastrointestinal-surgery/<lote>.ts
   obstetrics-gynecology/<lote>.ts
