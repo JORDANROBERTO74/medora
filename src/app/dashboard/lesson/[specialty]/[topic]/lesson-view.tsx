@@ -105,7 +105,7 @@ export function LessonView({
           className={`h-11 shrink-0 rounded-full px-5 font-black ${
             done
               ? "bg-slate-100 text-slate-500"
-              : "bg-[#FF5216] text-white hover:bg-[#e94810]"
+              : "bg-accent-strong text-white"
           }`}
         >
           {done ? <Check data-icon="inline-start" /> : null}

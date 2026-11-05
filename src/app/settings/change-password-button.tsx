@@ -67,7 +67,7 @@ export function ChangePasswordButton() {
         {done ? (
           <>
             <p className="mt-4 text-sm font-medium leading-6 text-slate-600">Tu contraseña se actualizó.</p>
-            <Button onClick={close} className="mt-5 h-11 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]">
+            <Button onClick={close} className="mt-5 h-11 w-full rounded-full bg-accent-strong font-black">
               Entendido
             </Button>
           </>
@@ -112,7 +112,7 @@ export function ChangePasswordButton() {
             <Button
               type="submit"
               disabled={pending}
-              className="h-11 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-60"
+              className="h-11 w-full rounded-full bg-accent-strong font-black disabled:opacity-60"
             >
               {pending ? 'Guardando…' : 'Guardar'}
             </Button>

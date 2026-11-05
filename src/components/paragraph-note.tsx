@@ -92,7 +92,7 @@ export function ParagraphNote({
           type="button"
           aria-label="Añadir nota a este párrafo"
           onClick={() => setComposerOpen(true)}
-          className="absolute right-0 top-3 flex size-8 items-center justify-center rounded-xl text-slate-300 opacity-60 transition hover:bg-orange-50 hover:text-[#FF5216] focus-visible:opacity-100 sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-within:opacity-100"
+          className="note-hint absolute right-0 top-3 flex size-8 items-center justify-center rounded-xl text-slate-300 opacity-60 transition hover:bg-orange-50 hover:text-[#FF5216] focus-visible:opacity-100 sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-within:opacity-100"
         >
           <MessageSquarePlus className="size-4" />
         </button>
@@ -182,7 +182,7 @@ export function ParagraphNote({
           <Button
             onClick={saveNote}
             disabled={!noteText.trim()}
-            className="h-11 flex-1 rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-40"
+            className="h-11 flex-1 rounded-full bg-accent-strong font-black disabled:opacity-40"
           >
             Guardar
           </Button>
@@ -227,7 +227,7 @@ export function ParagraphNote({
               });
             }}
             disabled={!editText.trim()}
-            className="h-11 flex-1 rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-40"
+            className="h-11 flex-1 rounded-full bg-accent-strong font-black disabled:opacity-40"
           >
             Guardar
           </Button>

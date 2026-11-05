@@ -113,7 +113,7 @@ export function Dashboard({
         </p>
         <Button
           onClick={() => router.push(next?.href ?? '/dashboard/quiz')}
-          className="mt-5 h-11 rounded-full bg-white px-5 font-black text-[#FF5216] hover:bg-orange-50"
+          className="cta-on-accent mt-5 h-11 rounded-full bg-white px-5 font-black text-[#FF5216] hover:bg-orange-50"
         >
           Repasar ahora <ArrowRight data-icon="inline-end" />
         </Button>

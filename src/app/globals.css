@@ -89,6 +89,11 @@
   --chart-4: #1e40af;
   --chart-5: #1e3a8a;
   --radius: 1rem;
+  /* Brand orange for solid buttons: #ff5216 only reaches 3.2:1 against white
+     text; this darker tone reaches 4.7:1. Accents and icons keep #ff5216. */
+  --accent-strong: #d63c08;
+  --accent-strong-hover: #c23406;
+  --progress-track: #e2e8f0;
   --sidebar: #f9fafb;
   --sidebar-foreground: #333333;
   --sidebar-primary: #3b82f6;
@@ -132,6 +137,9 @@
   --chart-4: #1d4ed8;
   --chart-5: #1e40af;
   --sidebar: #171717;
+  --accent-strong: #d63c08;
+  --accent-strong-hover: #c23406;
+  --progress-track: #3d3d3d;
   --sidebar-foreground: #e5e5e5;
   --sidebar-primary: #3b82f6;
   --sidebar-primary-foreground: #ffffff;
@@ -294,7 +302,7 @@
 }
 
 .dark .bg-slate-900 {
-  background-color: #1f1f1f;
+  background-color: #1b2431;
 }
 
 .dark .bg-slate-950 {
@@ -345,7 +353,7 @@
 }
 
 .dark .border-slate-100 {
-  border-color: #333333;
+  border-color: #3f3f46;
 }
 
 .dark .ring-slate-100 {
@@ -353,7 +361,7 @@
 }
 
 .dark .border-slate-200 {
-  border-color: #404040;
+  border-color: #52525b;
 }
 
 .dark .border-slate-300,
@@ -385,5 +393,62 @@
 
 .dark .hover\:text-slate-700:hover {
   color: var(--foreground);
+}
+
+/* Alpha variants of the orange tint keep the exact-token rule from missing them
+   (achievement tiles and the inline note were turning beige). */
+.dark .bg-orange-50\/50 {
+  background-color: rgb(255 82 22 / 0.1);
+}
+
+.dark .bg-orange-50\/70 {
+  background-color: rgb(255 82 22 / 0.14);
+}
+
+.dark .border-orange-100 {
+  border-color: rgb(255 82 22 / 0.35);
+}
+
+.dark .border-orange-200 {
+  border-color: rgb(255 82 22 / 0.45);
+}
+
+.dark .ring-orange-100,
+.dark .focus\:ring-orange-100:focus {
+  --tw-ring-color: rgb(255 82 22 / 0.35);
+}
+
+/* Dialog and sheet scrims need more weight on a dark page. */
+.dark .bg-slate-950\/40 {
+  background-color: rgb(0 0 0 / 0.65);
+}
+
+/* Progress tracks: #333 on the #262626 card was invisible. */
+.progress-track {
+  background-color: var(--progress-track);
+}
+
+/* Solid brand buttons: darker orange so white text clears 4.5:1. */
+.bg-accent-strong {
+  background-color: var(--accent-strong);
+}
+
+.bg-accent-strong:hover {
+  background-color: var(--accent-strong-hover);
+}
+
+/* The CTA inside the orange hero stays white in dark; the card colour would
+   swallow it. */
+.dark .cta-on-accent,
+.dark .cta-on-accent:hover {
+  background-color: #ffffff;
+  color: #ff5216;
+}
+
+/* On touch screens the paragraph note button cannot rely on hover. */
+@media (max-width: 639px) {
+  .dark .note-hint {
+    opacity: 1;
+  }
 }
 

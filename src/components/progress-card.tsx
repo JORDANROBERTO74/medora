@@ -19,7 +19,7 @@ export function ProgressCard({ completed, total, noun, footnote }: ProgressCardP
         {completed} de {total}{" "}
         <span className="text-sm font-bold text-slate-500">{noun}</span>
       </p>
-      <div className="mt-3 h-2 rounded-full bg-slate-200">
+      <div className="progress-track mt-3 h-2 rounded-full">
         <div
           className="h-full rounded-full bg-[#FF5216] transition-all"
           style={{ width: `${percent}%` }}

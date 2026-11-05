@@ -103,7 +103,7 @@ export function QuizView({
           </p>
           <Button
             onClick={() => router.push(backHref)}
-            className="mt-6 h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
+            className="mt-6 h-12 w-full rounded-full bg-accent-strong font-black"
           >
             Elegir otro quiz
           </Button>
@@ -118,7 +118,7 @@ export function QuizView({
               {correctCount}/{total}
             </span>
           </div>
-          <div className="h-2 rounded-full bg-slate-200">
+          <div className="progress-track h-2 rounded-full">
             <div
               className="h-full rounded-full bg-[#FF5216] transition-all"
               style={{ width: `${((index + (checked ? 1 : 0)) / total) * 100}%` }}
@@ -174,7 +174,7 @@ export function QuizView({
                 </button>
                 <Button
                   onClick={advance}
-                  className="mt-3 h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
+                  className="mt-3 h-12 w-full rounded-full bg-accent-strong font-black"
                 >
                   {isLast ? 'Ver resultado' : 'Siguiente pregunta'}{' '}
                   <ArrowRight data-icon="inline-end" />

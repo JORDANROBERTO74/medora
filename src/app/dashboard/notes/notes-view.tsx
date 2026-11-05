@@ -340,7 +340,7 @@ export function NotesView({ orderMap }: { orderMap: NoteOrderMap }) {
               setNoteText("");
               setComposerOpen(true);
             }}
-            className="h-11 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
+            className="h-11 w-full rounded-full bg-accent-strong font-black"
           >
             <Plus data-icon="inline-start" /> Nueva nota
           </Button>
@@ -428,7 +428,7 @@ export function NotesView({ orderMap }: { orderMap: NoteOrderMap }) {
               });
             }}
             disabled={!noteText.trim()}
-            className="h-11 flex-1 rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-40"
+            className="h-11 flex-1 rounded-full bg-accent-strong font-black disabled:opacity-40"
           >
             Guardar
           </Button>
@@ -470,7 +470,7 @@ export function NotesView({ orderMap }: { orderMap: NoteOrderMap }) {
               });
             }}
             disabled={!editText.trim()}
-            className="h-11 flex-1 rounded-full bg-[#FF5216] font-black hover:bg-[#e94810] disabled:opacity-40"
+            className="h-11 flex-1 rounded-full bg-accent-strong font-black disabled:opacity-40"
           >
             Guardar
           </Button>

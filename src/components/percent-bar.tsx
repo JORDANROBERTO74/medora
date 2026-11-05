@@ -5,7 +5,7 @@
 export function PercentBar({ percent }: { percent: number }) {
   return (
     <div className="mt-3 flex items-center gap-2">
-      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
+      <div className="progress-track h-1.5 flex-1 overflow-hidden rounded-full">
         <div
           className="h-full rounded-full bg-[#FF5216]"
           style={{ width: `${percent}%` }}

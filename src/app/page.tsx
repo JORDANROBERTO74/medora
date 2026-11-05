@@ -36,7 +36,7 @@ export default function LandingPage() {
           <div className="mt-9 flex flex-wrap items-center gap-3">
             <Link
               href="/signup"
-              className="rounded-full bg-[#FF5216] px-6 py-3.5 text-sm font-black text-white hover:bg-[#e94810]"
+              className="rounded-full bg-accent-strong px-6 py-3.5 text-sm font-black text-white"
             >
               Empezar a repasar
             </Link>
@@ -62,7 +62,7 @@ export default function LandingPage() {
             <span>Quiz · Cirugía</span>
             <span>Pregunta 2 de 5</span>
           </figcaption>
-          <div className="mt-3 h-1.5 rounded-full bg-slate-100">
+          <div className="progress-track mt-3 h-1.5 rounded-full">
             <div className="h-full w-2/5 rounded-full bg-[#FF5216]" />
           </div>
           <h2 className="mt-5 text-lg font-extrabold leading-snug">¿Qué describe mejor la inflamación aguda?</h2>

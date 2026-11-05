@@ -61,7 +61,7 @@ export function SignupView() {
         </p>
         <Link
           href="/login"
-          className="mt-5 inline-flex h-13 w-full items-center justify-center rounded-full bg-[#FF5216] text-base font-black text-white hover:bg-[#e94810]"
+          className="mt-5 inline-flex h-13 w-full items-center justify-center rounded-full bg-accent-strong text-base font-black text-white"
         >
           Ir a iniciar sesión
         </Link>
@@ -135,7 +135,7 @@ export function SignupView() {
         <Button
           type="submit"
           disabled={pending}
-          className="h-13 w-full rounded-full bg-[#FF5216] text-base font-black hover:bg-[#e94810] disabled:opacity-60"
+          className="h-13 w-full rounded-full bg-accent-strong text-base font-black disabled:opacity-60"
         >
           {pending ? 'Creando…' : 'Crear cuenta'}
         </Button>

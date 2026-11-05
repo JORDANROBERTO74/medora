@@ -88,7 +88,7 @@ export function ResetPasswordView() {
         <Button
           type="submit"
           disabled={pending}
-          className="h-13 w-full rounded-full bg-[#FF5216] text-base font-black hover:bg-[#e94810] disabled:opacity-60"
+          className="h-13 w-full rounded-full bg-accent-strong text-base font-black disabled:opacity-60"
         >
           {pending ? 'Guardando…' : 'Guardar contraseña'}
         </Button>

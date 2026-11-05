@@ -240,7 +240,7 @@ export function CaseView({
       {checked && next && (
         <Button
           onClick={() => router.push(next.href)}
-          className="case-reveal h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
+          className="case-reveal h-12 w-full rounded-full bg-accent-strong font-black"
         >
           {next.label} <ArrowRight data-icon="inline-end" />
         </Button>
@@ -281,7 +281,7 @@ export function CaseView({
             </p>
             <Button
               onClick={closeHint}
-              className="mt-5 h-11 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
+              className="mt-5 h-11 w-full rounded-full bg-accent-strong font-black"
             >
               Entendido
             </Button>

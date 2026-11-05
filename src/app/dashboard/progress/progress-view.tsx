@@ -85,7 +85,7 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
 
       <Link
         href="/dashboard/quiz"
-        className="rounded-full bg-[#FF5216] px-5 py-3.5 text-center text-sm font-black text-white hover:bg-[#e94810]"
+        className="rounded-full bg-accent-strong px-5 py-3.5 text-center text-sm font-black text-white"
       >
         Repasar ahora
       </Link>
