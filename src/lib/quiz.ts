@@ -1,6 +1,6 @@
 // Pure quiz rules, no React: unit-testable.
 
-/** Questions per round; the bank currently holds exactly this many per specialty. */
+/** Questions per quiz; `quizGroups` cuts the bank to this size. */
 export const ROUND_SIZE = 5
 
 export function isCorrectAnswer(selectedAnswer: number | null, correctIndex: number): boolean {

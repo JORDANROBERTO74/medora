@@ -1,7 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import { getTopic, specialties } from './content'
 import { ROUND_SIZE } from './quiz'
-import { questionBank, randomRound, roundFor } from './quiz-bank'
+import {
+  allQuizGroups,
+  getQuizGroup,
+  questionBank,
+  quizGroups,
+  quizKey,
+  randomQuizGroup,
+} from './quiz-bank'
 
 /** Case, accent and punctuation insensitive, so paraphrased prompts still collide. */
 const normalize = (value: string): string =>
@@ -99,20 +106,71 @@ describe('questionBank', () => {
   })
 })
 
-describe('roundFor', () => {
-  it('returns a complete round for every specialty', () => {
+describe('quizGroups', () => {
+  it('cuts every question into exactly one quiz', () => {
     for (const specialty of specialties) {
-      const round = roundFor(specialty.slug, ROUND_SIZE)
-      expect(round).toHaveLength(ROUND_SIZE)
-      expect(round.every((question) => questionBank[specialty.slug].includes(question))).toBe(true)
+      const questions = quizGroups(specialty.slug).flatMap((group) => group.questions)
+      expect(questions, specialty.slug).toHaveLength(questionBank[specialty.slug].length)
+      expect(new Set(questions.map((question) => question.prompt)).size, specialty.slug).toBe(
+        questions.length
+      )
     }
+  })
+
+  it('never asks more than a round in one quiz', () => {
+    for (const group of allQuizGroups()) {
+      expect(group.questions.length, group.id).toBeGreaterThan(0)
+      expect(group.questions.length, group.id).toBeLessThanOrEqual(ROUND_SIZE)
+    }
+  })
+
+  it('spreads an apunte evenly instead of leaving a stub', () => {
+    for (const specialty of specialties) {
+      const sizes = new Map<string, number[]>()
+      for (const group of quizGroups(specialty.slug)) {
+        sizes.set(group.topic, [...(sizes.get(group.topic) ?? []), group.questions.length])
+      }
+      for (const [topic, topicSizes] of sizes) {
+        const label = `${specialty.slug}/${topic}`
+        expect(Math.max(...topicSizes), label).toBeLessThanOrEqual(ROUND_SIZE)
+        expect(Math.max(...topicSizes) - Math.min(...topicSizes), label).toBeLessThanOrEqual(1)
+      }
+    }
+  })
+
+  it('keeps a quiz inside one apunte', () => {
+    for (const group of allQuizGroups()) {
+      for (const question of group.questions) {
+        expect(question.source.topic, group.id).toBe(group.topic)
+        expect(question.source.specialty, group.id).toBe(group.specialty)
+      }
+    }
+  })
+
+  it('names quizzes stably so saved progress survives a reload', () => {
+    const ids = quizGroups('internal-medicine').map((group) => group.id)
+    expect(new Set(ids).size).toBe(ids.length)
+    for (const id of ids) expect(id).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*-\d+$/)
+    expect(quizGroups('internal-medicine').map((group) => group.id)).toEqual(ids)
+  })
+
+  it('builds the key it will be saved under', () => {
+    const [first] = quizGroups('pediatrics')
+    expect(quizKey(first.specialty, first.id)).toBe(`quiz:${first.specialty}:${first.id}`)
   })
 })
 
-describe('randomRound', () => {
-  it('draws the requested number of distinct questions', () => {
-    const round = randomRound(ROUND_SIZE)
-    expect(round).toHaveLength(ROUND_SIZE)
-    expect(new Set(round.map((question) => question.prompt)).size).toBe(ROUND_SIZE)
+describe('getQuizGroup', () => {
+  it('finds a quiz inside its specialty', () => {
+    const [first] = quizGroups('internal-medicine')
+    expect(getQuizGroup('internal-medicine', first.id)?.questions).toEqual(first.questions)
+    expect(getQuizGroup('gastrointestinal-surgery', first.id)).toBeUndefined()
+    expect(getQuizGroup('internal-medicine', 'does-not-exist')).toBeUndefined()
+  })
+})
+
+describe('randomQuizGroup', () => {
+  it('returns a quiz from the dataset', () => {
+    expect(allQuizGroups()).toContainEqual(randomQuizGroup())
   })
 })

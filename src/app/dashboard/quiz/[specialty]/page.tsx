@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getSpecialty, specialties } from "@/lib/content";
-import { ROUND_SIZE } from "@/lib/quiz";
-import { roundFor } from "@/lib/quiz-bank";
-import { QuizView } from "../quiz-view";
-
-// Reshuffled per request: without this the round would be frozen at build time.
-export const dynamic = "force-dynamic";
+import { getSpecialty, getTopic, specialties } from "@/lib/content";
+import { quizGroups, quizKey } from "@/lib/quiz-bank";
+import { QuizList, type QuizListSection } from "./quiz-list";
 
 export function generateStaticParams() {
   return specialties.map((specialty) => ({ specialty: specialty.slug }));
@@ -22,7 +18,7 @@ export async function generateMetadata({
   return { title: specialty ? `Quiz de ${specialty.name}` : "Quiz" };
 }
 
-export default async function QuizPage({
+export default async function QuizListPage({
   params,
 }: {
   params: Promise<{ specialty: string }>;
@@ -30,11 +26,27 @@ export default async function QuizPage({
   const { specialty: slug } = await params;
   const specialty = getSpecialty(slug);
   if (!specialty) notFound();
+
+  // Quizzes follow the syllabus order, sectioned by the apunte's own tag.
+  const sections = new Map<string, QuizListSection["items"]>();
+  for (const group of quizGroups(specialty.slug)) {
+    const topic = getTopic(specialty.slug, group.topic);
+    const tag = topic?.tag ?? "Otros temas";
+    const items = sections.get(tag) ?? [];
+    items.push({
+      id: group.id,
+      title: topic?.name ?? group.topic,
+      reason: `Quiz ${group.index} · ${group.questions.length} preguntas`,
+      contentKey: quizKey(specialty.slug, group.id),
+      href: `/dashboard/quiz/${specialty.slug}/${group.id}`,
+    });
+    sections.set(tag, items);
+  }
+
   return (
-    <QuizView
-      eyebrow={`Quiz · ${specialty.name}`}
-      activityKey={`quiz:${specialty.slug}`}
-      questions={roundFor(specialty.slug, ROUND_SIZE)}
+    <QuizList
+      specialtyName={specialty.name}
+      sections={[...sections.entries()].map(([tag, items]) => ({ tag, items }))}
     />
   );
 }

@@ -20,10 +20,15 @@ export function QuizView({
   eyebrow,
   activityKey,
   questions,
+  backHref = "/dashboard/quiz",
+  backLabel = "Volver a selección de quiz",
 }: {
   eyebrow: string
   activityKey: string
   questions: QuizQuestion[]
+  /** Where both "volver" and "elegir otro quiz" land; a specialty quiz goes back to its list. */
+  backHref?: string
+  backLabel?: string
 }) {
   const router = useRouter()
   const [index, setIndex] = useState(0)
@@ -69,8 +74,8 @@ export function QuizView({
   return (
     <div className="flex flex-col gap-5 pt-7 sm:pt-10">
       <BackHeader
-        href="/dashboard/quiz"
-        backLabel="Volver a selección de quiz"
+        href={backHref}
+        backLabel={backLabel}
         eyebrow={eyebrow}
         title="Ronda de preguntas"
         titleClassName="text-xl font-black"
@@ -97,7 +102,7 @@ export function QuizView({
             {correctCount} de {total} correctas
           </p>
           <Button
-            onClick={() => router.push('/dashboard/quiz')}
+            onClick={() => router.push(backHref)}
             className="mt-6 h-12 w-full rounded-full bg-[#FF5216] font-black hover:bg-[#e94810]"
           >
             Elegir otro quiz

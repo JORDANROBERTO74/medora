@@ -1,4 +1,5 @@
-import type { QuizQuestion, SpecialtySlug } from '@/lib/content'
+import { getSpecialty, specialties, type QuizQuestion, type SpecialtySlug } from '@/lib/content'
+import { ROUND_SIZE } from '../quiz'
 import {
   internalMedicineSeed,
   obstetricsSeed,
@@ -47,21 +48,71 @@ export const questionBank: Record<SpecialtySlug, QuizQuestion[]> = {
   pediatrics: [...pediatricsSeed, ...pedsPediatrics, ...pedsInfectology],
 }
 
-function shuffle<T>(items: readonly T[]): T[] {
-  const copy = [...items]
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+/**
+ * One playable quiz: `ROUND_SIZE` questions of a single topic, cut in a fixed order.
+ * Grouping is what makes progress countable — a specialty used to be an endless random
+ * draw, so there was no denominator to compare a user's progress against.
+ *
+ * shortcut: ids are positional (`cardiology-2`), so adding or removing a question shifts
+ * every later quiz of that topic and orphans its saved progress; the bank is frozen and
+ * verified, revisit only if questions start changing again.
+ */
+export type QuizGroup = {
+  /** URL segment inside its specialty. */
+  id: string
+  specialty: SpecialtySlug
+  /** Topic slug the questions belong to; a group never mixes apuntes. */
+  topic: string
+  /** 1-based position inside the topic, shown as "Quiz 2". */
+  index: number
+  questions: QuizQuestion[]
+}
+
+/** Key stored in `user_progress` / `user_quiz_results` for one played quiz. */
+export function quizKey(specialty: SpecialtySlug, quizId: string): string {
+  return `quiz:${specialty}:${quizId}`
+}
+
+/** Every quiz of a specialty, ordered like the apuntes of its syllabus. */
+export function quizGroups(specialty: SpecialtySlug): QuizGroup[] {
+  const bank = questionBank[specialty]
+  const groups: QuizGroup[] = []
+
+  for (const topic of getSpecialty(specialty)?.topics ?? []) {
+    const questions = bank.filter((question) => question.source.topic === topic.slug)
+    // Spread the apunte over the fewest quizzes of up to ROUND_SIZE: cutting it in
+    // blocks of five would leave a one-question stub at the end of most topics.
+    const count = Math.ceil(questions.length / ROUND_SIZE)
+    const base = Math.floor(questions.length / count)
+    const extra = questions.length % count
+
+    let start = 0
+    for (let index = 1; index <= count; index += 1) {
+      const size = base + (index <= extra ? 1 : 0)
+      groups.push({
+        id: `${topic.slug}-${index}`,
+        specialty,
+        topic: topic.slug,
+        index,
+        questions: questions.slice(start, start + size),
+      })
+      start += size
+    }
   }
-  return copy
+
+  return groups
 }
 
-/** A specialty round, reshuffled per request so answers cannot be memorised by position. */
-export function roundFor(specialty: SpecialtySlug, size: number): QuizQuestion[] {
-  return shuffle(questionBank[specialty]).slice(0, size)
+export function getQuizGroup(specialty: SpecialtySlug, quizId: string): QuizGroup | undefined {
+  return quizGroups(specialty).find((group) => group.id === quizId)
 }
 
-/** Questions pulled from every specialty at once. */
-export function randomRound(size: number): QuizQuestion[] {
-  return shuffle(Object.values(questionBank).flat()).slice(0, size)
+/** Every quiz of every specialty; the random draw reads this instead of loose questions. */
+export function allQuizGroups(): QuizGroup[] {
+  return specialties.flatMap((specialty) => quizGroups(specialty.slug))
+}
+
+export function randomQuizGroup(): QuizGroup {
+  const groups = allQuizGroups()
+  return groups[Math.floor(Math.random() * groups.length)]
 }

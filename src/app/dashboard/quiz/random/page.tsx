@@ -1,21 +1,17 @@
 import type { Metadata } from "next";
-import { ROUND_SIZE } from "@/lib/quiz";
-import { randomRound } from "@/lib/quiz-bank";
-import { QuizView } from "../quiz-view";
+import { redirect } from "next/navigation";
+import { randomQuizGroup } from "@/lib/quiz-bank";
 
-// Per-request pick: without this the questions would be frozen at build time.
+// Per-request pick: without this the target quiz would be frozen at build time.
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Quiz aleatorio",
 };
 
+// One landing point for every quiz: "aleatorio" only chooses which one you get,
+// so the result still counts towards that specialty's progress.
 export default function RandomQuizPage() {
-  return (
-    <QuizView
-      eyebrow="Quiz · Aleatorio"
-      activityKey="quiz:random"
-      questions={randomRound(ROUND_SIZE)}
-    />
-  );
+  const group = randomQuizGroup();
+  redirect(`/dashboard/quiz/${group.specialty}/${group.id}`);
 }
