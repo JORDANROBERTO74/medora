@@ -16,6 +16,27 @@ export type RoundContentType = "quiz" | "case";
 export type Database = {
   public: {
     Tables: {
+      user_achievements: {
+        Row: {
+          user_id: string;
+          achievement_id: string;
+          unlocked_at: string;
+          seen_at: string | null;
+        };
+        Insert: {
+          user_id: string;
+          achievement_id: string;
+          unlocked_at?: string;
+          seen_at?: string | null;
+        };
+        Update: {
+          user_id?: string;
+          achievement_id?: string;
+          unlocked_at?: string;
+          seen_at?: string | null;
+        };
+        Relationships: [];
+      };
       user_preferences: {
         Row: {
           user_id: string;

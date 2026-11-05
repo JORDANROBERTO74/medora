@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import type { LucideIcon } from "lucide-react";
 import { Home, NotebookPen, Brain, Trophy, Settings2 } from "lucide-react";
 import { stepNavScroll } from "@/lib/nav-scroll";
+import { useUserData } from "@/lib/user-data/context";
 
 type NavEntry = {
   href: string;
@@ -52,6 +53,7 @@ const entries: NavEntry[] = [
 
 export function BottomNav() {
   const pathname = usePathname();
+  const { unseenAchievements } = useUserData();
   const activeIndex = Math.max(
     0,
     entries.findIndex((entry) => entry.isActive(pathname)),
@@ -90,6 +92,7 @@ export function BottomNav() {
           key={entry.href}
           entry={entry}
           active={index === activeIndex}
+          badge={entry.href === "/dashboard/progress" ? unseenAchievements : 0}
         />
       ))}
     </nav>
@@ -97,11 +100,24 @@ export function BottomNav() {
 }
 
 // Icon-only items: label stays as aria-label, flex-1 keeps equal tap targets.
-function NavItem({ entry, active }: { entry: NavEntry; active: boolean }) {
+function NavItem({
+  entry,
+  active,
+  badge,
+}: {
+  entry: NavEntry;
+  active: boolean;
+  badge: number;
+}) {
+  const label =
+    badge > 0
+      ? `${entry.label}, ${badge} ${badge === 1 ? "logro nuevo" : "logros nuevos"}`
+      : entry.label;
+
   return (
     <Link
       href={entry.href}
-      aria-label={entry.label}
+      aria-label={label}
       aria-current={active ? "page" : undefined}
       className={`relative flex min-w-0 flex-1 items-center justify-center rounded-2xl py-3 transition ${
         active
@@ -110,6 +126,14 @@ function NavItem({ entry, active }: { entry: NavEntry; active: boolean }) {
       }`}
     >
       <entry.icon className="size-5" />
+      {badge > 0 && (
+        <span
+          aria-hidden="true"
+          className="absolute right-1 top-1 flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-[#FF5216] px-1 text-[10px] font-black leading-none text-white ring-2 ring-white"
+        >
+          {badge > 9 ? "9+" : badge}
+        </span>
+      )}
     </Link>
   );
 }

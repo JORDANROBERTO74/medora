@@ -7,7 +7,9 @@ import type {
   PersonalNoteSource,
 } from '@/lib/notes/personal-notes'
 import type { ProgressContentType, RoundContentType } from '@/lib/supabase/database.types'
-import type { CaseStats, ProgressEntry, QuizStats } from './types'
+import type { SpecialtyCatalogEntry } from '@/lib/achievements'
+import type { Achievement } from '@/lib/achievements'
+import type { AchievementRecord, CaseStats, ProgressEntry, QuizStats } from './types'
 
 export type UserDataValue = {
   notes: PersonalNote[]
@@ -18,6 +20,15 @@ export type UserDataValue = {
   results: QuizStats
   /** Clinical cases, kept apart from quiz rounds. */
   cases: CaseStats
+  /** Persisted unlocks, including ones the user has not seen yet. */
+  achievements: AchievementRecord[]
+  /** Achievements computed from the current data (same instance the sync uses). */
+  achievementList: Achievement[]
+  /** Denominators for the per-specialty badges, computed on the server. */
+  catalog: SpecialtyCatalogEntry[]
+  /** Unlocks the user has not opened Progreso to read yet. */
+  unseenAchievements: number
+  markAchievementsSeen: () => Promise<boolean>
   isComplete: (contentType: ProgressContentType, contentKey: string) => boolean
   addNote: (
     text: string,
@@ -45,6 +56,11 @@ const INERT: UserDataValue = {
   studyDays: [],
   results: { rounds: 0, questions: 0, correct: 0, stars: 0, best: 0 },
   cases: { solved: 0, attempts: 0, correct: 0, firstTry: 0 },
+  achievements: [],
+  achievementList: [],
+  catalog: [],
+  unseenAchievements: 0,
+  markAchievementsSeen: async () => false,
   isComplete: () => false,
   addNote: async () => null,
   updateNote: async () => null,

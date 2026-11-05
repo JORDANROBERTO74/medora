@@ -40,4 +40,11 @@ export type UserData = {
   studyDays: string[]
   results: QuizStats
   cases: CaseStats
+  /** Persisted unlocks; `seenAt` null means the user has not opened Progreso yet. */
+  achievements: AchievementRecord[]
+}
+
+export type AchievementRecord = {
+  id: string
+  seenAt: string | null
 }

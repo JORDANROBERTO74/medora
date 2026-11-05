@@ -53,6 +53,12 @@ export const activitySchema = z.object({
   contentKey: z.string().min(1).max(300),
 })
 
+/** Achievement ids are authored in code; the action only accepts the shape. */
+export const achievementIdsSchema = z
+  .array(z.string().regex(/^[a-z0-9-]{2,60}$/))
+  .min(1)
+  .max(80)
+
 /** Stars are derived server-side from correct/total, never sent by the client. */
 export const roundResultSchema = z.object({
   contentType: z.enum(['quiz', 'case']),

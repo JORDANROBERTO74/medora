@@ -10,7 +10,7 @@ type Client = SupabaseClient<Database>
 /** One round trip per request, deduped across components in that request. */
 export const getUserData = cache(
   async (supabase: Client, userId: string): Promise<UserData> => {
-    const [notes, progress, days, rounds] = await Promise.all([
+    const [notes, progress, days, rounds, achievements] = await Promise.all([
       supabase
         .from('user_notes')
         .select(NOTE_COLUMNS)
@@ -30,9 +30,14 @@ export const getUserData = cache(
         .select('content_type,content_key,correct,total,stars,created_at')
         .eq('user_id', userId)
         .order('created_at', { ascending: true }),
+      supabase
+        .from('user_achievements')
+        .select('achievement_id,seen_at')
+        .eq('user_id', userId),
     ])
 
-    const failure = notes.error ?? progress.error ?? days.error ?? rounds.error
+    const failure =
+      notes.error ?? progress.error ?? days.error ?? rounds.error ?? achievements.error
     if (failure) throw new Error(`No se pudo cargar tu progreso: ${failure.message}`)
 
     const progressEntries: ProgressEntry[] = (progress.data ?? []).map((row) => ({
@@ -56,6 +61,10 @@ export const getUserData = cache(
       studyDays: (days.data ?? []).map((row) => row.day),
       results: buildQuizStats(resultRows),
       cases: buildCaseStats(resultRows),
+      achievements: (achievements.data ?? []).map((row) => ({
+        id: row.achievement_id,
+        seenAt: row.seen_at,
+      })),
     }
   }
 )

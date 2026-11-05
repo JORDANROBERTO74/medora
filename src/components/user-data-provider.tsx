@@ -9,6 +9,8 @@ import {
   type ReactNode,
 } from 'react'
 import { isLegacyApunteNote } from '@/lib/notes/note-scope'
+import { computeAchievements, type SpecialtyCatalogEntry } from '@/lib/achievements'
+import { useToast } from '@/components/ui/toast'
 import {
   NOTES_STORAGE_KEY,
   parsePersonalNotes,
@@ -21,12 +23,14 @@ import {
   addNoteAction,
   deleteNoteAction,
   importNotesAction,
+  markAchievementsSeenAction,
   markActivityAction,
   recordResultAction,
+  syncAchievementsAction,
   updateNoteAction,
 } from '@/lib/user-data/actions'
 import { UserDataContext, type UserDataValue } from '@/lib/user-data/context'
-import { todayInAppZone } from '@/lib/user-data/streak'
+import { computeStreak, todayInAppZone } from '@/lib/user-data/streak'
 import type { UserData } from '@/lib/user-data/types'
 
 /** Streak day plus progress entry for content that was just studied. */
@@ -56,13 +60,20 @@ function applyActivity(
  */
 export function UserDataProvider({
   initial,
+  today,
+  catalog,
   children,
 }: {
   initial: UserData
+  /** Server-computed app-zone date, so the streak agrees between SSR and hydration. */
+  today: string
+  catalog: SpecialtyCatalogEntry[]
   children: ReactNode
 }) {
   const [data, setData] = useState(initial)
   const importAttempted = useRef(false)
+  const syncing = useRef(false)
+  const { toast } = useToast()
 
   // One-time move of this device's notes into the account.
   useEffect(() => {
@@ -195,6 +206,63 @@ export function UserDataProvider({
     [data.progress]
   )
 
+  const recorded = useMemo(
+    () => new Set(data.achievements.map((item) => item.id)),
+    [data.achievements]
+  )
+  const streak = useMemo(() => computeStreak(data.studyDays, today), [data.studyDays, today])
+  const achievements = useMemo(
+    () => computeAchievements({ data, streak, catalog }, recorded),
+    [data, streak, catalog, recorded]
+  )
+
+  // Persist each unlock once: `recorded` is what keeps a reload from inserting
+  // and toasting the same achievements again.
+  useEffect(() => {
+    if (syncing.current) return
+    const pending = achievements.filter(
+      (item) => item.unlocked && !recorded.has(item.id)
+    )
+    if (pending.length === 0) return
+
+    syncing.current = true
+    void syncAchievementsAction(pending.map((item) => item.id)).then((result) => {
+      syncing.current = false
+      if (!result.ok) return
+      setData((prev) => ({
+        ...prev,
+        achievements: [
+          ...prev.achievements,
+          ...pending
+            .filter((item) => !prev.achievements.some((saved) => saved.id === item.id))
+            .map((item) => ({ id: item.id, seenAt: null })),
+        ],
+      }))
+      if (pending.length === 1) {
+        toast.success('¡Logro desbloqueado!', { description: pending[0].name })
+      } else {
+        toast.success(`${pending.length} logros desbloqueados`, {
+          description: pending.map((item) => item.name).join(', '),
+        })
+      }
+    })
+  }, [achievements, recorded, toast])
+
+  const markAchievementsSeen = useCallback(async () => {
+    const result = await markAchievementsSeenAction()
+    if (!result.ok) return false
+    const seenAt = new Date().toISOString()
+    setData((prev) => ({
+      ...prev,
+      achievements: prev.achievements.map((item) =>
+        item.seenAt === null ? { ...item, seenAt } : item
+      ),
+    }))
+    return true
+  }, [])
+
+  const unseenAchievements = data.achievements.filter((item) => item.seenAt === null).length
+
   const value = useMemo<UserDataValue>(
     () => ({
       notes: data.notes,
@@ -202,6 +270,11 @@ export function UserDataProvider({
       studyDays: data.studyDays,
       results: data.results,
       cases: data.cases,
+      achievements: data.achievements,
+      achievementList: achievements,
+      catalog,
+      unseenAchievements,
+      markAchievementsSeen,
       isComplete,
       addNote,
       updateNote,
@@ -209,7 +282,19 @@ export function UserDataProvider({
       markActivity,
       recordResult,
     }),
-    [data, isComplete, addNote, updateNote, deleteNote, markActivity, recordResult]
+    [
+      data,
+      achievements,
+      catalog,
+      unseenAchievements,
+      markAchievementsSeen,
+      isComplete,
+      addNote,
+      updateNote,
+      deleteNote,
+      markActivity,
+      recordResult,
+    ]
   )
 
   return <UserDataContext.Provider value={value}>{children}</UserDataContext.Provider>

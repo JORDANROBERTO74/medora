@@ -21,13 +21,18 @@ Everything a user produces lives in Supabase behind row-level security. The app 
 - `public.user_quiz_results` — one row per answered round (`content_type` in `quiz` | `case`).
   Append-only: a re-take adds a row, so the totals can never drift from the history.
   `supabase/migrations/20261104010000_user_quiz_results.sql`.
+- `public.user_achievements` — `(user_id, achievement_id)` with `unlocked_at` and `seen_at`.
+  The rules still live in code, but this row is what makes an unlock **permanent** (a broken
+  streak never revokes it), what fires the toast exactly once, and what feeds the unseen
+  counter on the Progreso nav item until the user opens that page.
+  `supabase/migrations/20261105000000_user_achievements.sql`.
 
-RLS on all five tables: `select`, `insert`, `update` and (notes only) `delete`, each scoped
+RLS on all six tables: `select`, `insert`, `update` and (notes only) `delete`, each scoped
 to `(select auth.uid()) = user_id`. `user_quiz_results` is insert + select only: a result
 can be recorded but never edited or removed. `anon` has no grants; the trigger functions
 are revoked from `public`, `anon` and `authenticated`.
 
-Types: `src/lib/supabase/database.types.ts` is hand-written for these five tables —
+Types: `src/lib/supabase/database.types.ts` is hand-written for these six tables —
 regenerate with `supabase gen types typescript --remote=<project-ref>` once a PAT is
 available.
 
@@ -68,10 +73,19 @@ available.
 - `recordResultAction` upserts `user_progress` (which stamps the study day) and appends the
   result in the same action. It is rate-limited to 30 rounds per minute per account, the one
   write a script could otherwise flood.
-- Achievements (`src/lib/achievements.ts`) are **computed** from notes, progress, streak and
-  results. No table and no unlock writes: the collection is a pure function of data the
-  provider already holds. The trade-off is that it cannot show *when* an achievement
-  unlocked, only that it is unlocked.
+- Achievements (`src/lib/achievements/`) are **derived** from notes, progress, streak and
+  results by `computeAchievements`, grouped in families (constancia, volumen, precisión,
+  casos, lecturas, temas, notas, colección) plus three badges per specialty. The
+  denominators of the specialty badges (`topics`, `quizzes`, `cases`) are computed in
+  `dashboard/layout.tsx` and passed down, so the 501-question bank never reaches the client.
+- The derived list is compared with `user_achievements`: anything earned but not stored is
+  inserted (idempotent, `on conflict do nothing`) and toasted. A stored id wins over the
+  derived value forever, which is why the table exists.
+- Icons are Fluent Emoji Flat (MIT) inlined as SVG; `scripts/generate-achievement-icons.mjs`
+  regenerates `src/lib/achievements/icon-data.ts` from Iconify. No runtime API call.
+- Trade-off: the action validates only the id shape, so a crafted call could insert a valid
+  id the user did not earn. There are no rewards attached, so the blast radius is a cosmetic
+  badge; hardening would mean re-running the rules on the server.
 
 ## Theme
 

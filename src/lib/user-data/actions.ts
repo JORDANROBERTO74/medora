@@ -9,6 +9,7 @@ import type { PersonalNote } from '@/lib/notes/personal-notes'
 import { setThemeCookie } from '@/lib/theme-cookie'
 import { NOTE_COLUMNS, toNote } from './note-row'
 import {
+  achievementIdsSchema,
   activitySchema,
   importNotesSchema,
   noteIdSchema,
@@ -205,6 +206,52 @@ export async function recordResultAction(input: unknown): Promise<ActionResult> 
     total,
     stars: starsFor(correct, total),
   })
+
+  if (error) return { ok: false, error: SAVE_FAILED }
+  return { ok: true }
+}
+
+/**
+ * Persists the achievements the client just computed. Ids are only checked for
+ * shape: the rules live in code, so this cannot validate the metric server-side.
+ * shortcut: a crafted call could store a valid id the user did not earn; there is
+ * nothing to win (cosmetic badge), so we accept it until rewards exist.
+ */
+export async function syncAchievementsAction(input: unknown): Promise<ActionResult> {
+  const parsed = achievementIdsSchema.safeParse(input)
+  if (!parsed.success) return { ok: false, error: 'Logro no válido.' }
+
+  const { supabase, user } = await getAuthUser()
+  if (!user) return { ok: false, error: 'Tu sesión expiró. Inicia sesión de nuevo.' }
+
+  const limit = await rateLimitAsync(`achievements:${user.id}`, {
+    limit: 20,
+    windowMs: 60_000,
+  })
+  if (!limit.ok) return { ok: false, error: tooManyAttempts(limit.retryAfterSec) }
+
+  const { error } = await supabase.from('user_achievements').upsert(
+    parsed.data.map((achievementId) => ({
+      user_id: user.id,
+      achievement_id: achievementId,
+    })),
+    { onConflict: 'user_id,achievement_id', ignoreDuplicates: true }
+  )
+
+  if (error) return { ok: false, error: SAVE_FAILED }
+  return { ok: true }
+}
+
+/** Opening the progress page clears the nav badge. */
+export async function markAchievementsSeenAction(): Promise<ActionResult> {
+  const { supabase, user } = await getAuthUser()
+  if (!user) return { ok: false, error: 'Tu sesión expiró. Inicia sesión de nuevo.' }
+
+  const { error } = await supabase
+    .from('user_achievements')
+    .update({ seen_at: new Date().toISOString() })
+    .eq('user_id', user.id)
+    .is('seen_at', null)
 
   if (error) return { ok: false, error: SAVE_FAILED }
   return { ok: true }

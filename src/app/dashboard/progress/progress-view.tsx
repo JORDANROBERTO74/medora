@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { Achievements } from '@/components/achievements'
 import { ProgressBar } from '@/components/progress-bar'
@@ -18,9 +18,21 @@ function Stat({ value, label }: { value: string; label: string }) {
 }
 
 export function ProgressView({ today, totalCases }: { today: string; totalCases: number }) {
-  const { progress, studyDays, results, cases } = useUserData()
+  const {
+    progress,
+    studyDays,
+    results,
+    cases,
+    markAchievementsSeen,
+  } = useUserData()
   const summary = useMemo(() => buildProgressSummary(progress), [progress])
   const streak = useMemo(() => computeStreak(studyDays, today), [studyDays, today])
+
+  // Entering this page is what clears the nav badge.
+  useEffect(() => {
+    void markAchievementsSeen()
+  }, [markAchievementsSeen])
+
   const averageStars =
     results.rounds > 0 ? `${(results.stars / results.rounds).toFixed(1)} ★` : '—'
   const solvedPercent = totalCases === 0 ? 0 : (cases.solved / totalCases) * 100
@@ -81,7 +93,7 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
         </div>
       </section>
 
-      <Achievements streak={streak} />
+      <Achievements />
 
       <Link
         href="/dashboard/quiz"
