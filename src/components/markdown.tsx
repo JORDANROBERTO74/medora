@@ -1,6 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { ParagraphNote } from '@/components/paragraph-note'
+import { ZoomableImage } from '@/components/zoomable-image'
 import { createAnchor, isHeadingLikeMarkdown } from '@/lib/notes/anchors'
 
 export type ParagraphNoteContext = {
@@ -125,12 +126,9 @@ export function Markdown({
           <td className="border-b border-slate-100 px-4 py-3 align-top font-medium text-slate-600">{children}</td>
         ),
         img: ({ src, alt }) => (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={typeof src === 'string' ? src : undefined}
-            alt={alt ?? ''}
-            loading="lazy"
-            className="my-5 w-full rounded-2xl border border-slate-100"
+          <ZoomableImage
+            src={typeof src === "string" ? src : undefined}
+            alt={alt}
           />
         ),
       }}
