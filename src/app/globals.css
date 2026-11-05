@@ -162,6 +162,52 @@
   input[type='reset'] {
     cursor: pointer;
   }
+
+  /* Mobile taps: no blue flash and no 300ms delay. */
+  a,
+  button,
+  [role='button'],
+  input[type='button'],
+  input[type='submit'],
+  input[type='reset'],
+  label[for],
+  summary {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  button,
+  [role='button'] {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  /* Every press dims a little so a tap never looks ignored; buttons also
+     shrink a hair. Reduced motion keeps the dim and drops the scale. */
+  a,
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']),
+  input[type='button'],
+  input[type='submit'],
+  input[type='reset'] {
+    transition: opacity 100ms ease;
+  }
+
+  a:active,
+  button:not(:disabled):active,
+  [role='button']:not([aria-disabled='true']):active,
+  input[type='button']:active,
+  input[type='submit']:active,
+  input[type='reset']:active {
+    opacity: 0.75;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    button:not(:disabled):active,
+    [role='button']:not([aria-disabled='true']):active {
+      transform: scale(0.97);
+    }
+  }
 }
 
 /* Dashboard route changes crossfade (ViewTransition): snappy, and instant when reduced motion is requested. */
