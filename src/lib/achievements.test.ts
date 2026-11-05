@@ -199,6 +199,12 @@ describe('computeAchievements', () => {
     expect(ids).toContain(`${specialty.slug}-casos`)
   })
 
+  it('uses the brain for pediatrics quizzes and the shield for the rest', () => {
+    const list = run(EMPTY)
+    expect(list.find((item) => item.id === 'pediatrics-quizzes')?.icon).toBe('brain')
+    expect(list.find((item) => item.id === 'internal-medicine-quizzes')?.icon).toBe('shield')
+  })
+
   it('unlocks the collection tiers from the number of achievements already earned', () => {
     const five = withData({
       notes: makeNotes(1),

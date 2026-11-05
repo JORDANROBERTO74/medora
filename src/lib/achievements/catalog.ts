@@ -1,4 +1,5 @@
 import { clinicalCases } from '@/lib/cases'
+import type { SpecialtySlug } from '@/lib/content'
 import type { ProgressEntry } from '@/lib/user-data/types'
 import type {
   Achievement,
@@ -10,6 +11,11 @@ import type {
 const caseSpecialty = new Map(
   clinicalCases.map((clinicalCase) => [clinicalCase.id, clinicalCase.specialtySlug])
 )
+
+/** Same icon family, different metaphor per specialty where it reads better. */
+const QUIZ_ICONS: Partial<Record<SpecialtySlug, Achievement['icon']>> = {
+  pediatrics: 'brain',
+}
 
 const countLessons = (progress: ProgressEntry[]) =>
   progress.filter((entry) => entry.contentType === 'lesson').length
@@ -158,7 +164,7 @@ export function computeAchievements(
         'quizzes',
         `Quizzes de ${entry.name}`,
         `Completa los ${entry.quizzes} quizzes de ${entry.name}.`,
-        'shield',
+        QUIZ_ICONS[entry.slug] ?? 'shield',
         quizzesDone,
         entry.quizzes
       ),

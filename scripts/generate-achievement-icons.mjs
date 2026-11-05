@@ -16,6 +16,7 @@ const ICONS = [
   'bullseye',
   'gem-stone',
   'stethoscope',
+  'brain',
   'military-medal',
   'pencil',
   'memo',
