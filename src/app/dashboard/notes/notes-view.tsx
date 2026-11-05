@@ -306,7 +306,7 @@ export function NotesView({ orderMap }: { orderMap: NoteOrderMap }) {
                           <Link
                             key={topic.slug}
                             href={`/dashboard/lesson/${category.slug}/${topic.slug}`}
-                            className="flex items-center gap-3 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-sm hover:border-slate-200"
+                            className="card-lift flex items-center gap-3 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-sm hover:border-slate-200"
                           >
                             <Lock
                               className="size-4 shrink-0 text-slate-300"

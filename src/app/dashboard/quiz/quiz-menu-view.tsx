@@ -109,7 +109,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
         <div className="flex flex-col gap-3">
           <Link
             href="/dashboard/quiz/random"
-            className="flex items-center gap-4 rounded-3xl border-2 border-[#FF5216] bg-orange-50 p-5 text-left"
+            className="card-lift flex items-center gap-4 rounded-3xl border-2 border-[#FF5216] bg-orange-50 p-5 text-left"
           >
             <div className="flex size-12 items-center justify-center rounded-2xl bg-[#FF5216] text-white">
               <Shuffle />
@@ -137,7 +137,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
               <Link
                 key={specialty.slug}
                 href={`/dashboard/quiz/${specialty.slug}`}
-                className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
+                className="card-lift flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
               >
                 <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-100">
                   <SpecialtyIcon
@@ -161,7 +161,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
         <div className="flex flex-col gap-3">
           <Link
             href="/dashboard/quiz/cases/random"
-            className="flex items-center gap-4 rounded-3xl border-2 border-[#FF5216] bg-orange-50 p-5 text-left"
+            className="card-lift flex items-center gap-4 rounded-3xl border-2 border-[#FF5216] bg-orange-50 p-5 text-left"
           >
             <div className="flex size-12 items-center justify-center rounded-2xl bg-[#FF5216] text-white">
               <Shuffle />
@@ -195,7 +195,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
                 <Link
                   key={specialty.slug}
                   href={`/dashboard/quiz/cases/${specialty.slug}`}
-                  className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
+                  className="card-lift flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
                 >
                   <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-100">
                     <SpecialtyIcon

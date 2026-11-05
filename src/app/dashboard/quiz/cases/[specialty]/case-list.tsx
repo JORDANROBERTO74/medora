@@ -49,7 +49,7 @@ export function CaseList({
             <li key={item.id}>
               <Link
                 href={item.href}
-                className="flex items-center justify-between gap-3 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-sm hover:border-slate-200"
+                className="card-lift flex items-center justify-between gap-3 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-sm hover:border-slate-200"
               >
                 <span className="flex min-w-0 flex-col gap-0.5">
                   <span className="truncate text-sm font-bold text-slate-700">

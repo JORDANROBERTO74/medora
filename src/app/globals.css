@@ -210,6 +210,33 @@
   }
 }
 
+/* Every navigation card answers the pointer and the tap the same way: a small
+   lift with a deeper shadow where a real hover exists, and a press in touch.
+   Cards that do not navigate must not use it. */
+@utility card-lift {
+  transition:
+    translate 150ms ease,
+    box-shadow 150ms ease,
+    opacity 100ms ease;
+
+  @media (hover: hover) {
+    &:hover {
+      translate: 0 -2px;
+      /* Overrides the shadow utility the card already has (shadow-sm). */
+      --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+  }
+
+  &:active {
+    scale: 0.985;
+    opacity: 0.9;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
 /* Dashboard route changes crossfade (ViewTransition): snappy, and instant when reduced motion is requested. */
 ::view-transition-group(*),
 ::view-transition-old(*),

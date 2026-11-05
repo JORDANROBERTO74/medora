@@ -160,7 +160,7 @@ function BookCard({ href, title, detail }: { href: string; title: string; detail
   return (
     <Link
       href={href}
-      className="flex items-start gap-3 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
+      className="card-lift flex items-start gap-3 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
     >
       <div className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-orange-50 text-[#FF5216]">
         <BookOpen className="size-5" />

@@ -30,7 +30,7 @@ export default function SummaryIndexPage() {
           <Link
             key={specialty.slug}
             href={`/dashboard/reading/summary/${specialty.slug}`}
-            className="flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
+            className="card-lift flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
           >
             <div className="min-w-0 flex-1">
               <h2 className="font-black">{specialty.name}</h2>

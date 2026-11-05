@@ -17,7 +17,7 @@ export function SpecialtyCard({
   return (
     <Link
       href={`/dashboard/reading/${specialty.slug}`}
-      className="group flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+      className="group card-lift flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
     >
       <div className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-slate-100 text-slate-500 group-hover:bg-orange-50 group-hover:text-[#FF5216]">
         <Icon className="size-5" />
