@@ -3,53 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import type { LucideIcon } from "lucide-react";
-import { Home, NotebookPen, Brain, Trophy, Settings2 } from "lucide-react";
+import { navEntries as entries, type NavEntry } from "@/lib/nav";
 import { stepNavScroll } from "@/lib/nav-scroll";
 import { useUserData } from "@/lib/user-data/context";
-
-type NavEntry = {
-  href: string;
-  label: string;
-  icon: LucideIcon;
-  isActive: (pathname: string) => boolean;
-};
-
-const entries: NavEntry[] = [
-  {
-    href: "/dashboard",
-    label: "Inicio",
-    icon: Home,
-    isActive: (pathname) =>
-      pathname === "/dashboard" || pathname.startsWith("/dashboard/reading"),
-  },
-  {
-    href: "/dashboard/quiz",
-    label: "Quiz",
-    icon: Brain,
-    isActive: (pathname) => pathname.startsWith("/dashboard/quiz"),
-  },
-  {
-    href: "/dashboard/notes",
-    label: "Notas",
-    icon: NotebookPen,
-    isActive: (pathname) =>
-      pathname.startsWith("/dashboard/notes") ||
-      pathname.startsWith("/dashboard/lesson"),
-  },
-  {
-    href: "/dashboard/progress",
-    label: "Progreso",
-    icon: Trophy,
-    isActive: (pathname) => pathname.startsWith("/dashboard/progress"),
-  },
-  {
-    href: "/settings",
-    label: "Ajustes",
-    icon: Settings2,
-    isActive: (pathname) => pathname.startsWith("/settings"),
-  },
-];
 
 export function BottomNav() {
   const pathname = usePathname();
@@ -78,7 +34,7 @@ export function BottomNav() {
   return (
     <nav
       inert={hidden}
-      className={`fixed inset-x-4 bottom-4 z-10 mx-auto flex max-w-md items-center justify-between rounded-[28px] border border-slate-100 bg-white/95 p-2 shadow-[0_14px_35px_rgba(15,23,42,0.12)] backdrop-blur transition-transform duration-300 ease-out sm:inset-x-auto sm:w-[390px] ${
+      className={`fixed inset-x-4 bottom-4 z-10 mx-auto flex max-w-md items-center justify-between rounded-[28px] border border-slate-100 bg-white/95 p-2 shadow-[0_14px_35px_rgba(15,23,42,0.12)] backdrop-blur transition-transform duration-300 ease-out sm:max-w-[390px] lg:hidden ${
         hidden ? "translate-y-[calc(100%_+_2rem)]" : ""
       }`}
     >
