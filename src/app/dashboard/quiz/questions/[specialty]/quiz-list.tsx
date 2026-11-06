@@ -38,8 +38,8 @@ export function QuizList({
   return (
     <div className="flex flex-col gap-6 pt-7 sm:pt-10">
       <BackHeader
-        href="/dashboard/quiz"
-        backLabel="Volver a selección de quiz"
+        href="/dashboard/quiz/questions"
+        backLabel="Volver a preguntas"
         eyebrow={`${specialtyName}`}
         title="Quizzes"
         titleClassName="text-2xl font-black"

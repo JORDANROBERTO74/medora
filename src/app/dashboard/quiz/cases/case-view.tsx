@@ -23,9 +23,14 @@ const sections = [
 export function CaseView({
   clinicalCase,
   next,
+  backHref = "/dashboard/quiz/cases",
+  backLabel = "Volver a casos clínicos",
 }: {
   clinicalCase: ClinicalCase;
   next?: { href: string; label: string };
+  /** A case of a specialty list goes back to that list. */
+  backHref?: string;
+  backLabel?: string;
 }) {
   const router = useRouter();
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -48,7 +53,7 @@ export function CaseView({
       "case",
       `case:${clinicalCase.id}`,
       index === clinicalCase.correctIndex ? 1 : 0,
-      1
+      1,
     );
   };
 
@@ -80,8 +85,8 @@ export function CaseView({
   return (
     <div className="flex flex-col gap-5 pt-7 sm:pt-10">
       <BackHeader
-        href="/dashboard/quiz"
-        backLabel="Volver a selección de quiz"
+        href={backHref}
+        backLabel={backLabel}
         eyebrow={`Caso clínico · ${specialtyName(clinicalCase.specialtySlug)}`}
         title={clinicalCase.title}
         titleClassName="truncate text-xl font-black"
@@ -218,7 +223,9 @@ export function CaseView({
                 <div className="mt-3 flex flex-col gap-3">
                   {clinicalCase.studyQuestions.map((item) => (
                     <div key={item.prompt}>
-                      <p className="text-xs font-black text-slate-700">{item.prompt}</p>
+                      <p className="text-xs font-black text-slate-700">
+                        {item.prompt}
+                      </p>
                       <p className="mt-1 text-xs font-medium leading-5 text-slate-600">
                         {item.answer}
                       </p>

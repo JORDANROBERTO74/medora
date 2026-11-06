@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getCaseById, getFirstCaseOfNextSpecialty, nextCaseInSpecialty } from "@/lib/cases";
+import {
+  getCaseById,
+  getFirstCaseOfNextSpecialty,
+  nextCaseInSpecialty,
+} from "@/lib/cases";
 import { specialtyName } from "@/lib/content";
 import { CaseView } from "../../case-view";
 
@@ -31,7 +35,7 @@ export default async function CasePage({
   const next = following
     ? {
         href: `/dashboard/quiz/cases/${specialty}/${following.id}`,
-        label: "Siguiente",
+        label: "Siguiente caso",
       }
     : nextSpecialtyCase
       ? {
@@ -40,5 +44,12 @@ export default async function CasePage({
         }
       : undefined;
 
-  return <CaseView clinicalCase={clinicalCase} next={next} />;
+  return (
+    <CaseView
+      clinicalCase={clinicalCase}
+      next={next}
+      backHref={`/dashboard/quiz/cases/${specialty}`}
+      backLabel="Volver a los casos"
+    />
+  );
 }

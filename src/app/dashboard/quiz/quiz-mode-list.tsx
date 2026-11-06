@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import { Brain, ChevronRight, Shuffle, Star } from "lucide-react";
+import { BackHeader } from "@/components/back-header";
 import { PercentBar } from "@/components/percent-bar";
 import { clinicalCases } from "@/lib/cases";
 import { specialties, type SpecialtySlug } from "@/lib/content";
@@ -10,7 +10,7 @@ import { ROUND_SIZE } from "@/lib/quiz";
 import { specialtyIcons } from "@/lib/specialty-icons";
 import { useUserData } from "@/lib/user-data/context";
 
-type Mode = "quiz" | "cases";
+export type QuizMode = "quiz" | "cases";
 
 export type QuizCount = {
   slug: SpecialtySlug;
@@ -33,33 +33,14 @@ function caseLabel(count: number): string {
   return `Viñeta clínica · ${count} ${count === 1 ? "caso" : "casos"}`;
 }
 
-function ModeButton({
-  active,
-  onClick,
-  children,
+export function QuizModeList({
+  mode,
+  quizCounts = [],
 }: {
-  active: boolean;
-  onClick: () => void;
-  children: string;
+  mode: QuizMode;
+  /** Only needed by the question mode; the server computes the quiz keys. */
+  quizCounts?: QuizCount[];
 }) {
-  return (
-    <button
-      type="button"
-      aria-pressed={active}
-      onClick={onClick}
-      className={`flex-1 rounded-full py-2 text-sm font-black transition ${
-        active
-          ? "bg-white text-slate-950 shadow-sm"
-          : "text-slate-500 hover:text-slate-700"
-      }`}
-    >
-      {children}
-    </button>
-  );
-}
-
-export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
-  const [mode, setMode] = useState<Mode>("quiz");
   const { isComplete } = useUserData();
 
   const hero =
@@ -77,25 +58,12 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
 
   return (
     <div className="flex flex-col gap-6 pt-7 sm:pt-10">
-      <header>
-        <p className="text-xs font-black uppercase tracking-wider text-[#FF5216]">
-          Entrenamiento
-        </p>
-        <h1 className="mt-1 text-3xl font-black tracking-tight sm:text-4xl">
-          Elige tu quiz
-        </h1>
-        <p className="mt-2 text-sm font-medium text-slate-500">
-          Preguntas y casos clínicos, a tu ritmo.
-        </p>
-      </header>
-      <div className="flex rounded-full bg-slate-100 p-1">
-        <ModeButton active={mode === "quiz"} onClick={() => setMode("quiz")}>
-          Preguntas
-        </ModeButton>
-        <ModeButton active={mode === "cases"} onClick={() => setMode("cases")}>
-          Casos clínicos
-        </ModeButton>
-      </div>
+      <BackHeader
+        href="/dashboard/quiz"
+        backLabel="Volver a entrenamiento"
+        eyebrow="Entrenamiento"
+        title={mode === "quiz" ? "Preguntas" : "Casos clínicos"}
+      />
       <div className="rounded-3xl bg-[#FF5216] p-6 text-white">
         <div className="flex items-center gap-2 text-orange-100">
           {hero.icon}
@@ -108,7 +76,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
       {mode === "quiz" ? (
         <div className="flex flex-col gap-3">
           <Link
-            href="/dashboard/quiz/random"
+            href="/dashboard/quiz/questions/random"
             className="card-lift flex items-center gap-4 rounded-3xl border-2 border-[#FF5216] bg-orange-50 p-5 text-left"
           >
             <div className="flex size-12 items-center justify-center rounded-2xl bg-[#FF5216] text-white">
@@ -136,7 +104,7 @@ export function QuizMenuView({ quizCounts }: { quizCounts: QuizCount[] }) {
             return (
               <Link
                 key={specialty.slug}
-                href={`/dashboard/quiz/${specialty.slug}`}
+                href={`/dashboard/quiz/questions/${specialty.slug}`}
                 className="card-lift flex items-center gap-4 rounded-3xl border border-slate-100 bg-white p-5 text-left shadow-sm"
               >
                 <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-100">

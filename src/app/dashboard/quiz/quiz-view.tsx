@@ -20,8 +20,8 @@ export function QuizView({
   eyebrow,
   activityKey,
   questions,
-  backHref = "/dashboard/quiz",
-  backLabel = "Volver a selección de quiz",
+  backHref = "/dashboard/quiz/questions",
+  backLabel = "Volver a los quizzes",
 }: {
   eyebrow: string
   activityKey: string

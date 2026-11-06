@@ -65,7 +65,7 @@ available.
 - A round is one quiz: `ROUND_SIZE` (5) questions of a single apunte, cut in a fixed order
   by `quizGroups` (`src/lib/quiz-bank/`). It is saved under `quiz:<specialty>:<quiz-id>`
   (e.g. `quiz:internal-medicine:cardiology-2`), which is the key the list page counts, and
-  `/dashboard/quiz/random` redirects to a random quiz so it advances the same counters.
+  `/dashboard/quiz/questions/random` redirects to a random quiz so it advances the same counters.
   A clinical case is a one-question round.
 - Stars are computed server-side with `starsFor` (`src/lib/quiz.ts`) from `correct` / `total`,
   and a check constraint in the migration keeps the stored `stars` equal to that rating, so
