@@ -1,4 +1,5 @@
 import type { PersonalNote } from '@/lib/notes/personal-notes'
+import type { SpecialtySlug } from '@/lib/content'
 import type { ProgressContentType } from '@/lib/supabase/database.types'
 
 export type ProgressEntry = {
@@ -48,3 +49,19 @@ export type AchievementRecord = {
   id: string
   seenAt: string | null
 }
+
+/** One chapter the home card can send the reader to. */
+export type ReadingChapterRef = {
+  /** Progress key, `reading:<href>`. */
+  key: string
+  title: string
+}
+
+/** Chapters of the main reading book per specialty: count and suggest. */
+export type ReadingCatalogEntry = {
+  slug: SpecialtySlug
+  chapters: ReadingChapterRef[]
+}
+
+/** Chapters of the repaso books, suggested only after every apunte is done. */
+export type RepasoChapter = ReadingChapterRef & { book: string }

@@ -27,11 +27,12 @@ import {
   markActivityAction,
   recordResultAction,
   syncAchievementsAction,
+  touchStudyDayAction,
   updateNoteAction,
 } from '@/lib/user-data/actions'
 import { UserDataContext, type UserDataValue } from '@/lib/user-data/context'
 import { computeStreak, todayInAppZone } from '@/lib/user-data/streak'
-import type { UserData } from '@/lib/user-data/types'
+import type { ReadingCatalogEntry, RepasoChapter, UserData } from '@/lib/user-data/types'
 
 /** Streak day plus progress entry for content that was just studied. */
 function applyActivity(
@@ -62,12 +63,16 @@ export function UserDataProvider({
   initial,
   today,
   catalog,
+  readingCatalog,
+  repasoCatalog,
   children,
 }: {
   initial: UserData
   /** Server-computed app-zone date, so the streak agrees between SSR and hydration. */
   today: string
   catalog: SpecialtyCatalogEntry[]
+  readingCatalog: ReadingCatalogEntry[]
+  repasoCatalog: RepasoChapter[]
   children: ReactNode
 }) {
   const [data, setData] = useState(initial)
@@ -151,6 +156,17 @@ export function UserDataProvider({
     },
     []
   )
+
+  const touchStudyDay = useCallback(async () => {
+    const result = await touchStudyDayAction()
+    if (!result.ok) return false
+    setData((prev) => {
+      const today = todayInAppZone()
+      if (prev.studyDays.includes(today)) return prev
+      return { ...prev, studyDays: [...prev.studyDays, today].sort() }
+    })
+    return true
+  }, [])
 
   const recordResult = useCallback(
     async (
@@ -273,6 +289,8 @@ export function UserDataProvider({
       achievements: data.achievements,
       achievementList: achievements,
       catalog,
+      readingCatalog,
+      repasoCatalog,
       unseenAchievements,
       markAchievementsSeen,
       isComplete,
@@ -280,12 +298,15 @@ export function UserDataProvider({
       updateNote,
       deleteNote,
       markActivity,
+      touchStudyDay,
       recordResult,
     }),
     [
       data,
       achievements,
       catalog,
+      readingCatalog,
+      repasoCatalog,
       unseenAchievements,
       markAchievementsSeen,
       isComplete,
@@ -293,6 +314,7 @@ export function UserDataProvider({
       updateNote,
       deleteNote,
       markActivity,
+      touchStudyDay,
       recordResult,
     ]
   )

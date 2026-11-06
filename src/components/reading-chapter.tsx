@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { BackHeader } from '@/components/back-header'
-import { ActivityRecorder } from '@/components/activity-recorder'
+import { ReadingReadTracker } from '@/components/reading-read-tracker'
 import { ChapterNotesProvider, NotesIconButton } from '@/components/chapter-notes'
 import { InlineNoteCard } from '@/components/inline-note'
 import { Markdown } from '@/components/markdown'
@@ -35,7 +35,6 @@ export function ReadingChapter({
 
   return (
     <ChapterNotesProvider title={title} sourceHref={sourceHref} notes={notes}>
-      <ActivityRecorder contentType="reading" contentKey={`reading:${sourceHref}`} />
       <div className="flex flex-col gap-6 pt-7 sm:pt-10">
         <BackHeader
           href={backHref}
@@ -60,6 +59,8 @@ export function ReadingChapter({
           )
         )}
       </article>
+
+      <ReadingReadTracker contentKey={`reading:${sourceHref}`} />
 
       <nav className="flex items-center justify-between gap-3 border-t border-slate-100 pt-5">
         {previous ? (

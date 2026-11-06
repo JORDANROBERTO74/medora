@@ -150,6 +150,25 @@ export async function importNotesAction(
   return { ok: true, notes: data.map(toNote), skipped: false }
 }
 
+/**
+ * Stamps today's study day without completing any content: opening a chapter
+ * keeps the streak, but the chapter only counts once it is read to the end.
+ */
+export async function touchStudyDayAction(): Promise<ActionResult> {
+  const { supabase, user } = await getAuthUser()
+  if (!user) return { ok: false, error: 'Tu sesión expiró. Inicia sesión de nuevo.' }
+
+  const { error } = await supabase
+    .from('user_study_days')
+    .upsert(
+      { user_id: user.id },
+      { onConflict: 'user_id,day', ignoreDuplicates: true }
+    )
+
+  if (error) return { ok: false, error: SAVE_FAILED }
+  return { ok: true }
+}
+
 /** Stamps today's streak and marks the content as seen. */
 export async function markActivityAction(input: unknown): Promise<ActionResult> {
   const parsed = activitySchema.safeParse(input)

@@ -9,7 +9,7 @@ import type {
 import type { ProgressContentType, RoundContentType } from '@/lib/supabase/database.types'
 import type { SpecialtyCatalogEntry } from '@/lib/achievements'
 import type { Achievement } from '@/lib/achievements'
-import type { AchievementRecord, CaseStats, ProgressEntry, QuizStats } from './types'
+import type { AchievementRecord, CaseStats, ProgressEntry, QuizStats, ReadingCatalogEntry, RepasoChapter } from './types'
 
 export type UserDataValue = {
   notes: PersonalNote[]
@@ -26,6 +26,10 @@ export type UserDataValue = {
   achievementList: Achievement[]
   /** Denominators for the per-specialty badges, computed on the server. */
   catalog: SpecialtyCatalogEntry[]
+  /** Chapters of the main reading book per specialty, computed on the server. */
+  readingCatalog: ReadingCatalogEntry[]
+  /** Chapters of the repaso books, after every apunte. */
+  repasoCatalog: RepasoChapter[]
   /** Unlocks the user has not opened Progreso to read yet. */
   unseenAchievements: number
   markAchievementsSeen: () => Promise<boolean>
@@ -41,6 +45,8 @@ export type UserDataValue = {
     contentType: ProgressContentType,
     contentKey: string
   ) => Promise<boolean>
+  /** Stamps the study day without marking content as done (opening a chapter). */
+  touchStudyDay: () => Promise<boolean>
   recordResult: (
     contentType: RoundContentType,
     contentKey: string,
@@ -59,6 +65,8 @@ const INERT: UserDataValue = {
   achievements: [],
   achievementList: [],
   catalog: [],
+  readingCatalog: [],
+  repasoCatalog: [],
   unseenAchievements: 0,
   markAchievementsSeen: async () => false,
   isComplete: () => false,
@@ -66,6 +74,7 @@ const INERT: UserDataValue = {
   updateNote: async () => null,
   deleteNote: async () => false,
   markActivity: async () => false,
+  touchStudyDay: async () => false,
   recordResult: async () => false,
 }
 

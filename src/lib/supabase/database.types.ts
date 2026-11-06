@@ -83,7 +83,8 @@ export type Database = {
         };
         Insert: {
           user_id: string;
-          day: string;
+          /** Defaults to "today" in the app timezone; clients never send it. */
+          day?: string;
         };
         Update: {
           user_id?: string;
