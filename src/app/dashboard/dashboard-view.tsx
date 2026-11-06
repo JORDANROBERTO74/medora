@@ -3,13 +3,16 @@
 import { useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import { LevelAvatar } from '@/components/level-avatar'
 import { Button } from '@/components/ui/button'
 import { SpecialtyCard } from '@/components/specialty-card'
 import { specialties } from '@/lib/content'
+import { levelFor } from '@/lib/achievements'
 import { useUserData } from '@/lib/user-data/context'
-import { buildProgressSummary, nextReview } from '@/lib/user-data/progress'
+import { countReadingChapters } from '@/lib/user-data/reading-progress'
 import { computeStreak } from '@/lib/user-data/streak'
-import { ArrowRight, BookOpen, Flame } from 'lucide-react'
+import { nextStudyTask } from '@/lib/user-data/progress'
+import { ArrowRight, BookOpen, Flame, Stethoscope } from 'lucide-react'
 
 /** "Lunes, 21 de octubre" for a YYYY-MM-DD day, formatted in UTC to stay stable. */
 function dayLabel(day: string): string {
@@ -22,6 +25,13 @@ function dayLabel(day: string): string {
   return formatted.charAt(0).toUpperCase() + formatted.slice(1)
 }
 
+const NEXT_EYEBROW = {
+  reading: 'SIGUIENTE LECTURA',
+  apunte: 'SIGUIENTE REPASO',
+  book: 'LIBROS DE REPASO',
+  done: 'TODO COMPLETADO',
+} as const
+
 export function Dashboard({
   fullName,
   email,
@@ -32,26 +42,51 @@ export function Dashboard({
   today: string
 }) {
   const router = useRouter()
-  const { progress, studyDays } = useUserData()
-  const summary = useMemo(() => buildProgressSummary(progress), [progress])
+  const { progress, studyDays, readingCatalog, repasoCatalog, achievementList } = useUserData()
+  const reading = useMemo(() => {
+    const bySpecialty = new Map(
+      readingCatalog.map((entry) => [
+        entry.slug,
+        countReadingChapters(progress, entry.chapters.map((chapter) => chapter.key)),
+      ])
+    )
+    const total = readingCatalog.reduce((sum, entry) => sum + entry.chapters.length, 0)
+    const completed = readingCatalog.reduce(
+      (sum, entry) => sum + (bySpecialty.get(entry.slug) ?? 0),
+      0
+    )
+    return { bySpecialty, total, completed }
+  }, [readingCatalog, progress])
   const streak = useMemo(() => computeStreak(studyDays, today), [studyDays, today])
-  const next = useMemo(() => nextReview(progress), [progress])
+  const next = useMemo(
+    () => nextStudyTask(progress, readingCatalog, repasoCatalog),
+    [progress, readingCatalog, repasoCatalog]
+  )
+  const level = useMemo(() => levelFor(achievementList), [achievementList])
 
   const firstName = fullName.trim().split(/\s+/)[0] || email.split('@')[0] || 'de nuevo'
-  const initials = (
-    fullName
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean)
-      .slice(0, 2)
-      .map((part) => part[0])
-      .join('') || email.slice(0, 2)
-  ).toUpperCase()
 
-  const percent = summary.percent
+  const percent =
+    reading.total === 0 ? 0 : Math.round((reading.completed / reading.total) * 100)
   const specialtyPercent = new Map(
-    summary.bySpecialty.map((item) => [item.slug, item.percent] as const)
+    readingCatalog.map((entry) => {
+      const completed = reading.bySpecialty.get(entry.slug) ?? 0
+      return [
+        entry.slug,
+        entry.chapters.length === 0
+          ? 0
+          : Math.round((completed / entry.chapters.length) * 100),
+      ] as const
+    })
   )
+
+  const nextTitle = next.kind === 'done' ? '¡Completaste todo!' : next.title
+  const nextDetail =
+    next.kind === 'done'
+      ? 'Lectura, apuntes y libros al día.'
+      : next.kind === 'book'
+        ? next.context
+        : `${next.context} · ${next.kind === 'reading' ? 'Lectura' : 'Apunte'}`
 
   return (
     <div className="flex flex-col gap-7 pt-7 sm:pt-10">
@@ -67,9 +102,13 @@ export function Dashboard({
             Tu repaso clínico, un tema a la vez.
           </p>
         </div>
-        <div className="flex size-11 items-center justify-center rounded-2xl bg-slate-900 text-sm font-black text-white">
-          {initials}
-        </div>
+        <span
+          role="img"
+          aria-label="Medora"
+          className="flex size-11 items-center justify-center rounded-2xl bg-[#FF5216] text-white"
+        >
+          <Stethoscope className="size-5" />
+        </span>
       </header>
 
       <section className="relative overflow-hidden rounded-3xl bg-slate-900 p-6 text-white shadow-[0_12px_30px_rgba(15,23,42,0.12)]">
@@ -87,8 +126,11 @@ export function Dashboard({
               <span className="text-xl text-slate-400">%</span>
             </p>
           </div>
-          <div className="flex size-20 items-center justify-center rounded-full border-[7px] border-[#FF5216]/25 border-t-[#FF5216] text-lg font-black">
-            {percent}%
+          <div className="flex flex-col items-center gap-1.5">
+            <LevelAvatar level={level.current.index} className="size-16 rounded-full" />
+            <p className="text-[10px] font-black uppercase tracking-wider text-orange-100">
+              {level.current.name}
+            </p>
           </div>
         </div>
         <div className="mt-6 h-2 overflow-hidden rounded-full bg-white/10">
@@ -96,27 +138,26 @@ export function Dashboard({
         </div>
         <div className="mt-3 flex justify-between text-xs font-semibold text-slate-400">
           <span>
-            {summary.completed}{' '}
-            {summary.completed === 1 ? 'tema repasado' : 'temas repasados'}
+            {reading.completed}{' '}
+            {reading.completed === 1 ? 'capítulo leído' : 'capítulos leídos'}
           </span>
-          <span>Meta: {summary.total} temas</span>
+          <span>Meta: {reading.total} capítulos</span>
         </div>
       </section>
 
       <section className="rounded-3xl bg-[#FF5216] p-6 text-white shadow-[0_15px_35px_rgba(255,82,22,0.22)]">
-        <p className="text-sm font-bold text-orange-100">
-          {next?.allDone ? 'REPASO LIBRE' : 'SIGUIENTE REPASO'}
-        </p>
-        <h2 className="mt-2 text-2xl font-black">{next?.topicName}</h2>
-        <p className="mt-1 text-sm font-medium text-orange-100">
-          {next?.specialtyName} · Apunte
-        </p>
-        <Button
-          onClick={() => router.push(next?.href ?? '/dashboard/quiz')}
-          className="cta-on-accent mt-5 h-11 rounded-full bg-white px-5 font-black text-[#FF5216] hover:bg-orange-50"
-        >
-          Repasar ahora <ArrowRight data-icon="inline-end" />
-        </Button>
+        <p className="text-sm font-bold text-orange-100">{NEXT_EYEBROW[next.kind]}</p>
+        <h2 className="mt-2 text-2xl font-black">{nextTitle}</h2>
+        <p className="mt-1 text-sm font-medium text-orange-100">{nextDetail}</p>
+        {next.kind !== 'done' && (
+          <Button
+            onClick={() => router.push(next.href)}
+            className="cta-on-accent mt-5 h-11 rounded-full bg-white px-5 font-black text-[#FF5216] hover:bg-orange-50"
+          >
+            {next.kind === 'reading' ? 'Leer ahora' : 'Repasar ahora'}{' '}
+            <ArrowRight data-icon="inline-end" />
+          </Button>
+        )}
       </section>
 
       <section>

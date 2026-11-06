@@ -3,9 +3,27 @@ import { specialties } from '@/lib/content'
 import {
   buildProgressSummary,
   lessonKey,
-  nextReview,
+  nextStudyTask,
 } from './progress'
-import type { ProgressEntry } from './types'
+import type { ProgressEntry, ReadingCatalogEntry, RepasoChapter } from './types'
+
+const CATALOG: ReadingCatalogEntry[] = [
+  {
+    slug: 'internal-medicine',
+    chapters: [
+      { key: 'reading:/dashboard/reading/internal-medicine/tuberculosis', title: 'Tuberculosis' },
+      { key: 'reading:/dashboard/reading/internal-medicine/rabia', title: 'Rabia' },
+    ],
+  },
+]
+
+const REPASO: RepasoChapter[] = [
+  {
+    key: 'reading:/dashboard/reading/summary/internal-medicine/tuberculosis',
+    title: 'Tuberculosis',
+    book: 'Compendio Clínico',
+  },
+]
 
 function entry(type: ProgressEntry['contentType'], key: string): ProgressEntry {
   return { contentType: type, contentKey: key, completedAt: '2026-11-04T12:00:00.000Z' }
@@ -53,28 +71,54 @@ describe('buildProgressSummary', () => {
   })
 })
 
-describe('nextReview', () => {
-  it('starts at the first apunte', () => {
-    const next = nextReview([])
-    expect(next?.href).toBe('/dashboard/lesson/internal-medicine/cushing-triad')
-    expect(next?.allDone).toBe(false)
+describe('nextStudyTask', () => {
+  const allReading = CATALOG.flatMap((specialty) =>
+    specialty.chapters.map((chapter) => entry('reading', chapter.key))
+  )
+  const allLessons = specialties.flatMap((specialty) =>
+    specialty.topics.map((topic) => entry('lesson', lessonKey(specialty.slug, topic.slug)))
+  )
+
+  it('starts with the first chapter of the main reading book', () => {
+    expect(nextStudyTask([], CATALOG, REPASO)).toEqual({
+      kind: 'reading',
+      href: '/dashboard/reading/internal-medicine/tuberculosis',
+      title: 'Tuberculosis',
+      context: 'Medicina Interna / Semiología',
+    })
   })
 
-  it('skips reviewed apuntes', () => {
-    const next = nextReview([
-      entry('lesson', lessonKey('internal-medicine', 'cushing-triad')),
-      entry('lesson', lessonKey('internal-medicine', 'arterial-hypertension')),
-    ])
-    expect(next?.href).toBe('/dashboard/lesson/internal-medicine/charcot-triad-multiple-sclerosis')
-    expect(next?.allDone).toBe(false)
+  it('skips read chapters before moving to the apuntes', () => {
+    const next = nextStudyTask([entry('reading', CATALOG[0].chapters[0].key)], CATALOG, REPASO)
+    expect(next).toMatchObject({ kind: 'reading', title: 'Rabia' })
   })
 
-  it('falls back to a free re-read once everything is reviewed', () => {
-    const all = specialties.flatMap((specialty) =>
-      specialty.topics.map((topic) => entry('lesson', lessonKey(specialty.slug, topic.slug)))
+  it('suggests the first pending apunte once the reading is done', () => {
+    const next = nextStudyTask(allReading, CATALOG, REPASO)
+    expect(next).toEqual({
+      kind: 'apunte',
+      href: '/dashboard/lesson/internal-medicine/cushing-triad',
+      title: 'Tríada de Cushing',
+      context: 'Medicina Interna / Semiología',
+    })
+  })
+
+  it('falls back to the repaso books once apuntes are done too', () => {
+    const next = nextStudyTask([...allReading, ...allLessons], CATALOG, REPASO)
+    expect(next).toEqual({
+      kind: 'book',
+      href: '/dashboard/reading/summary/internal-medicine/tuberculosis',
+      title: 'Tuberculosis',
+      context: 'Compendio Clínico',
+    })
+  })
+
+  it('reports done when every book and apunte is read', () => {
+    const next = nextStudyTask(
+      [...allReading, ...allLessons, entry('reading', REPASO[0].key)],
+      CATALOG,
+      REPASO
     )
-    const next = nextReview(all)
-    expect(next?.allDone).toBe(true)
-    expect(next?.href).toBe('/dashboard/lesson/internal-medicine/cushing-triad')
+    expect(next).toEqual({ kind: 'done' })
   })
 })
