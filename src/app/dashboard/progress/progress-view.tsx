@@ -1,11 +1,17 @@
 'use client'
 
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { Achievements } from '@/components/achievements'
+import { AchievementIcon } from '@/components/achievement-icon'
+import { LevelLadder } from '@/components/level-ladder'
 import { ProgressBar } from '@/components/progress-bar'
+import { SpecialtyAchievements } from '@/components/specialty-achievements'
+import { Button } from '@/components/ui/button'
+import { Dialog } from '@/components/ui/dialog'
+import { recentAchievements } from '@/lib/achievements'
 import { useUserData } from '@/lib/user-data/context'
-import { buildProgressSummary } from '@/lib/user-data/progress'
+import { countReadingChapters } from '@/lib/user-data/reading-progress'
 import { computeStreak } from '@/lib/user-data/streak'
 
 function Stat({ value, label }: { value: string; label: string }) {
@@ -23,10 +29,25 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
     studyDays,
     results,
     cases,
+    readingCatalog,
+    achievements,
+    achievementList,
     markAchievementsSeen,
   } = useUserData()
-  const summary = useMemo(() => buildProgressSummary(progress), [progress])
   const streak = useMemo(() => computeStreak(studyDays, today), [studyDays, today])
+  const reading = useMemo(() => {
+    const total = readingCatalog.reduce((sum, entry) => sum + entry.chapters.length, 0)
+    const completed = readingCatalog.reduce(
+      (sum, entry) =>
+        sum + countReadingChapters(progress, entry.chapters.map((chapter) => chapter.key)),
+      0
+    )
+    return { completed, total }
+  }, [readingCatalog, progress])
+
+  // Snapshot before the seen effect clears the badge, so the dialog keeps its list.
+  const [recent] = useState(() => recentAchievements(achievementList, achievements))
+  const [recentOpen, setRecentOpen] = useState(recent.length > 0)
 
   // Entering this page is what clears the nav badge.
   useEffect(() => {
@@ -54,7 +75,7 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
           value={String(streak)}
           label={streak === 1 ? 'día de racha' : 'días de racha'}
         />
-        <Stat value={`${summary.completed}`} label={`de ${summary.total} temas`} />
+        <Stat value={String(reading.completed)} label={`de ${reading.total} capítulos`} />
         <Stat value={String(results.questions)} label="preguntas resueltas" />
         <Stat value={averageStars} label="puntuación media" />
       </section>
@@ -76,22 +97,9 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
         </p>
       </section>
 
-      <section className="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
-        <h2 className="text-sm font-black uppercase tracking-wider text-slate-500">
-          Por especialidad
-        </h2>
-        <div className="mt-4 flex flex-col gap-4">
-          {summary.bySpecialty.map((specialty) => (
-            <div key={specialty.slug}>
-              <div className="flex items-baseline justify-between">
-                <span className="text-sm font-extrabold">{specialty.name}</span>
-                <span className="text-xs font-black text-slate-500">{specialty.percent}%</span>
-              </div>
-              <ProgressBar value={specialty.percent} className="mt-2" />
-            </div>
-          ))}
-        </div>
-      </section>
+      <SpecialtyAchievements />
+
+      <LevelLadder />
 
       <Achievements />
 
@@ -101,6 +109,44 @@ export function ProgressView({ today, totalCases }: { today: string; totalCases:
       >
         Repasar ahora
       </Link>
+
+      {recent.length > 0 && (
+        <Dialog
+          open={recentOpen}
+          onClose={() => setRecentOpen(false)}
+          eyebrow="Logros"
+          title={
+            recent.length === 1
+              ? '¡Logro desbloqueado!'
+              : `${recent.length} logros desbloqueados`
+          }
+        >
+          <ul className="mt-4 flex max-h-72 flex-col gap-2 overflow-y-auto">
+            {recent.map((item) => (
+              <li
+                key={item.id}
+                className="flex items-start gap-3 rounded-2xl border border-slate-100 bg-slate-50 p-3"
+              >
+                <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-orange-50">
+                  <AchievementIcon icon={item.icon} className="size-7" />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-sm font-black leading-5">{item.name}</span>
+                  <span className="mt-0.5 block text-xs font-semibold leading-4 text-slate-500">
+                    {item.description}
+                  </span>
+                </span>
+              </li>
+            ))}
+          </ul>
+          <Button
+            onClick={() => setRecentOpen(false)}
+            className="mt-5 h-11 w-full rounded-full bg-accent-strong font-black"
+          >
+            Entendido
+          </Button>
+        </Dialog>
+      )}
     </div>
   )
 }

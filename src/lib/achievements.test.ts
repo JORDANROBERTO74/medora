@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   achievementCounts,
   computeAchievements,
+  recentAchievements,
   type Achievement,
   type SpecialtyCatalogEntry,
 } from './achievements'
@@ -9,7 +10,7 @@ import { specialties } from './content'
 import { clinicalCases } from './cases'
 import type { PersonalNote } from './notes/personal-notes'
 import { lessonKey } from './user-data/progress'
-import type { ProgressEntry, CaseStats, QuizStats, UserData } from './user-data/types'
+import type { AchievementRecord, ProgressEntry, CaseStats, QuizStats, UserData } from './user-data/types'
 
 const NO_RESULTS: QuizStats = { rounds: 0, questions: 0, correct: 0, stars: 0, best: 0 }
 const NO_CASES: CaseStats = { solved: 0, attempts: 0, correct: 0, firstTry: 0 }
@@ -228,5 +229,40 @@ describe('computeAchievements', () => {
     const plentyIds = unlockedIds(run(plenty, 30))
     expect(plentyIds).toEqual(expect.arrayContaining(['achievements-5', 'achievements-10']))
     expect(plentyIds).toContain('achievements-20')
+  })
+})
+
+describe('recentAchievements', () => {
+  function make(id: string, unlocked: boolean): Achievement {
+    return {
+      id,
+      name: id,
+      description: id,
+      group: 'volumen',
+      tier: 'bronze',
+      icon: 'fire',
+      unlocked,
+      progress: { current: unlocked ? 1 : 0, target: 1 },
+    }
+  }
+
+  it('returns unlocked achievements that have not been seen yet', () => {
+    const list = [make('a', true), make('b', true), make('c', false)]
+    const records: AchievementRecord[] = [
+      { id: 'a', seenAt: null },
+      { id: 'b', seenAt: '2026-11-05T10:00:00.000Z' },
+    ]
+    expect(recentAchievements(list, records).map((item) => item.id)).toEqual(['a'])
+  })
+
+  it('returns nothing without records or when every record was seen', () => {
+    const list = [make('a', true)]
+    expect(recentAchievements(list, [])).toEqual([])
+    expect(recentAchievements(list, [{ id: 'a', seenAt: '2026-11-05T10:00:00.000Z' }])).toEqual([])
+  })
+
+  it('ignores locked achievements even if a record exists', () => {
+    const list = [make('c', false)]
+    expect(recentAchievements(list, [{ id: 'c', seenAt: null }])).toEqual([])
   })
 })

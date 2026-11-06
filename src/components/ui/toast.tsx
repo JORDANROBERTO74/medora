@@ -12,9 +12,9 @@ import {
 } from 'react'
 import type { ReactNode } from 'react'
 import { createPortal } from 'react-dom'
-import { AlertCircle, CheckCircle2, Info, X } from 'lucide-react'
+import { AlertCircle, CheckCircle2, Info, Trophy, X } from 'lucide-react'
 
-export type ToastVariant = 'success' | 'error' | 'info'
+export type ToastVariant = 'success' | 'error' | 'info' | 'achievement'
 
 export type ToastOptions = {
   description?: string
@@ -33,6 +33,7 @@ type ToastApi = {
   success: (title: string, options?: ToastOptions) => string
   error: (title: string, options?: ToastOptions) => string
   info: (title: string, options?: ToastOptions) => string
+  achievement: (title: string, options?: ToastOptions) => string
   dismiss: (id: string) => void
 }
 
@@ -57,6 +58,7 @@ const NOOP_TOAST: ToastApi = {
   success: () => '',
   error: () => '',
   info: () => '',
+  achievement: () => '',
   dismiss: () => {},
 }
 
@@ -120,6 +122,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
       success: (title, options) => push('success', title, options),
       error: (title, options) => push('error', title, options),
       info: (title, options) => push('info', title, options),
+      achievement: (title, options) => push('achievement', title, options),
       dismiss,
     }),
     [push, dismiss]
@@ -167,6 +170,11 @@ function ToastCard({ toast, onDismiss }: { toast: ToastItem; onDismiss: () => vo
       iconClass: 'bg-orange-50 text-[#FF5216]',
       role: 'status',
     },
+    achievement: {
+      Icon: Trophy,
+      iconClass: 'bg-orange-50 text-[#FF5216]',
+      role: 'status',
+    },
   }[toast.variant]
   const Icon = config.Icon
 
@@ -182,9 +190,11 @@ function ToastCard({ toast, onDismiss }: { toast: ToastItem; onDismiss: () => vo
         <Icon className="size-4" aria-hidden="true" />
       </div>
       <div className="min-w-0 flex-1">
-        <p className="text-sm font-black text-slate-900">{toast.title}</p>
+        <p className="truncate text-sm font-black text-slate-900">{toast.title}</p>
         {toast.description ? (
-          <p className="mt-0.5 text-xs font-medium leading-5 text-slate-500">{toast.description}</p>
+          <p className="mt-0.5 line-clamp-2 text-xs font-medium leading-5 text-slate-500">
+            {toast.description}
+          </p>
         ) : null}
       </div>
       <button

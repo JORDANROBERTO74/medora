@@ -255,9 +255,9 @@ export function UserDataProvider({
         ],
       }))
       if (pending.length === 1) {
-        toast.success('¡Logro desbloqueado!', { description: pending[0].name })
+        toast.achievement('¡Logro desbloqueado!', { description: pending[0].name })
       } else {
-        toast.success(`${pending.length} logros desbloqueados`, {
+        toast.achievement(`${pending.length} logros desbloqueados`, {
           description: pending.map((item) => item.name).join(', '),
         })
       }

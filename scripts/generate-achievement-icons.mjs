@@ -20,6 +20,8 @@ const ICONS = [
   'military-medal',
   'pencil',
   'memo',
+  'crown',
+  'trophy',
   '1st-place-medal',
 ]
 

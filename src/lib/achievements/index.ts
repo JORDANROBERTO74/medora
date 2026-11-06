@@ -1,4 +1,7 @@
 export { computeAchievements, achievementCounts } from './catalog'
+export { recentAchievements } from './recent'
+export { LEVELS, levelFor } from './levels'
+export type { Level, LevelState } from './levels'
 export { GROUP_LABELS, TIER_LABELS } from './types'
 export type {
   Achievement,
