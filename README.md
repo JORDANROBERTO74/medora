@@ -8,6 +8,8 @@ Built solo with Next.js 16, React 19 and Supabase: cookie-based auth, Postgres r
 
 **Status:** actively developed solo project in open beta, free while Premium stays unbuilt. There is no payment flow, no mobile app and no social layer yet, and the UI is Spanish only. Medora is study material, not medical advice.
 
+![Medora dashboard: a six-day streak, 12% of the reading library completed, and the next reading card](docs/screenshots/dashboard.png)
+
 ## The study loop
 
 - **Read.** 95 main chapters, 147 summaries and 17 review chapters across internal medicine, surgery, gynecology and pediatrics, with figures.
